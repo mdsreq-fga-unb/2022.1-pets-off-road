@@ -1,6 +1,7 @@
 # 2022.1 - Pets Off Road
 
-Repositório voltado para documentação do projeto Pets Off Road, desenvolvido pelos membros do Grupo Requisitados das disciplinas Métodos de Desenvolvimento de Software e Requisitos de Software. O site do github pages desse projeto pode ser acessado por <a href="https://MattSilverio.github.io/2022.1-pets-off-road/">aqui.</a>
+Repositório voltado para documentação do projeto Pets Off Road, desenvolvido pelos membros do Grupo Requisitados das disciplinas Métodos de Desenvolvimento de Software e Requisitos de Software. O site do github pages desse projeto pode ser acessado por <a href="https://mdsreq-fga-unb.github.io/2022.1-pets-off-road/ 
+">aqui.</a>
 
 # Integrantes
 | Nome | Matrícula | Email | Matéria |
