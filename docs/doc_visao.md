@@ -1,28 +1,48 @@
 # Visão do Produto e Projeto
 
 
+
+
 ## Histórico de Versão
 
 | Data       | Versão | Descrição              | Autor(es)                         |
 | ---------- | ------ | ---------------------- | --------------------------------- |
 | 23/06/2022 | 0.1    | Criação do documento   | Pedro Helias                      |
 | 25/06/2022 | 0.2    | Visão geral do projeto | Gabriel Marcolino e Rhuan Marques |
+| 28/06/2022 | 0.3    | Visão geral do produto | Pedro Helias e Jefferson |
+
+<div align="justify">
 
 ## Sumário
 
 ## 1. Visão Geral do Produto
+
+A <i>Pets Off Road</i> é uma organização fundamentada e gerida em grupos de <i>Whatsapp</i> que visa, principalmente, auxiliar animais desamparados, que estão em situação de rua, sofrem maus tratos ou foram abandonados. A organização deixa claro que não é um abrigo para animais, mas sim uma causa composta por colaboradores que conseguem auxiliar o projeto da forma como podem, seja carona, lar temporário, entre outros. Cada colaborador se estabelece em um grupo o qual consegue auxiliar no projeto relacionado. É citado os grupos de Castração de animais de Rua, Auxílio a Zoonose do Valparaíso, Projeto de Resgate, o que sempre está precisando de novos colaboradores e mais recentemente o Grupo Teen que trabalha na construção de casinhas para animais de rua. A <i>Pets Off Road</i> possui páginas em redes sociais, onde muito dos trabalhos de comunicação são realizados, além de ser uma ponte entre quem pode ajudar e o projeto.
+- O produto proposto se trata de uma solução WEB (um website) que visa criar uma estrutura mais robusta e virtualizada de alguns serviços que a <i>Pets Off Road</i> presta atualmente, ou seja, evoluir os meios de gerência e acessibilidade para os projetos, de forma a adaptar o que já é feito atualmente, seja com cadastros virtuais, listagem de componentes, até a criação de uma “ponte” entre a Pets Off Road e o usuário/colaborador.
+- O produto possui origem acadêmica voltado a uma causa admirável, além de que se busca propor uma solução baseada no que já se configura na questão de gerência e fluxo de serviço. Em outras palavras, busca-se respeitar o que já existe e adaptar em uma solução mais dinâmica e robusta. 
+- Os usuários alvo são: Pessoas dispostas a adotar animais, realizar doações(remédio, pix) e/ou colaborar com a <i>Pets Off Road</i>. O cliente é a criadora da <i>Pets Off Road</i>.
+- Atualmente, as operações realizadas são feitas via <i>Instagram</i>. A princípio, apenas essa plataforma consegue suprir o alcance do projeto, porém não supre as necessidades gerenciais e de controle. A cliente relata que possui bastante dificuldade para controlar e filtrar candidatos a voluntariado e/ou tutores de animais, além de que a gestão de dados também não é simplificada. Portanto, o produto visa a resolução dessas problemáticas expostas.
+
+
 ### 1.1. Declaração de Posição do Produto
 
-| Para                |     |
+| Para                |  <i>Usuários em comum</i>   |
 | ------------------- | --- |
-| Quem                |     |
-| O (nome do produto) |     |
-| Que                 |     |
-| Ao contrário        |     |
-| Nosso produto       |     |
+| Quem                |  Desejam realizar doações, adoção de animais e/ou voluntariado   |
+| O <i>Pets Off Road</i> | É um projeto em vias de migração para um Website    |
+| Que                 |   Disponibiliza informações para doações, formulários de cadastro para voluntários/tutores, histórico de cuidado com o animal, entre outros  |
+| Ao contrário        |  De procurar por informação em diversos posts da página oficial do projeto no <i>Instagram/i>, onde a cliente fica à mercê da orgarnização do APP    |
+| Nosso produto       |   Condensará boa parte das atividades e informações que não estão presentes ou acessíveis no <i>Instagram</i>, ou são improváveis de serem executadas por lá, como gerência de informação, gestão e filtragem de voluntários, entre outros  |
 
 ### 1.2. Objetivos do Produto
 ### 1.3. Tecnologias a Serem Utilizadas
+
+Os desenvolvedores da Pets Off Road decidiram usar algumas tecnologias que já estão familiarizados, consequentemente, o tempo que terão para se dedicarem a escalada do projeto será maior. São elas:
+
+- <b>Front End</b>: Javascript, React e Styled Components;
+- <b>Back End</b>: Javascript e NodeJS;
+- <b>Banco de Dados</b>: MySQL.
+
 
 ## 2. Visão Geral do Projeto
 ### 2.1. Organização do Projeto
@@ -112,13 +132,16 @@ Para o gerenciamento de riscos devem ser realizadas tarefas como:
 
 | Atividade | Método | Ferramenta | Entrega |
 | --------- | ------ | ---------- | ------- |
-|           |        |            |         |
+|     Elucidação das ideias e análise do problema|  Brainstorm|   Miro e Meet|   -   |
+|    Entender as necessidades do cliente |  Brainstorm e Reunião|   Miro e Meet|  -   |
+|     Definição da proposta de Requisitos |  Reunião|   Meet|   -   |
+  
 
 ### 4.2. Análise de Requisitos
 
 | Atividade | Método | Ferramenta | Entrega |
 | --------- | ------ | ---------- | ------- |
-|           |        |            |         |
+|Definir o website com o cliente |      Maturação dos pontos levantados anteriormente a reunião com a cliente, desenvolvimento de proposta de projeto juntamente do cliente.  |       Miro e Meet|    -     |
 
 ### 4.3. Documentação de Requisitos
 
