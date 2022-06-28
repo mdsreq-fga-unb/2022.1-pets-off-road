@@ -31,7 +31,7 @@ A <i>Pets Off Road</i> é uma organização fundamentada e gerida em grupos de <
 | Quem                |  Desejam realizar doações, adoção de animais e/ou voluntariado   |
 | O <i>Pets Off Road</i> | É um projeto em vias de migração para um Website    |
 | Que                 |   Disponibiliza informações para doações, formulários de cadastro para voluntários/tutores, histórico de cuidado com o animal, entre outros  |
-| Ao contrário        |  De procurar por informação em diversos posts da página oficial do projeto no <i>Instagram/i>, onde a cliente fica à mercê da orgarnização do APP    |
+| Ao contrário        |  De procurar por informação em diversos posts da página oficial do projeto no <i>Instagram</i>, onde a cliente fica à mercê da orgarnização do APP    |
 | Nosso produto       |   Condensará boa parte das atividades e informações que não estão presentes ou acessíveis no <i>Instagram</i>, ou são improváveis de serem executadas por lá, como gerência de informação, gestão e filtragem de voluntários, entre outros  |
 
 ### 1.2. Objetivos do Produto
