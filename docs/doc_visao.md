@@ -1,8 +1,4 @@
 # Visão do Produto e Projeto
-
-
-
-
 ## Histórico de Versão
 
 | Data       | Versão | Descrição              | Autor(es)                         |
@@ -14,7 +10,6 @@
 <div align="justify">
 
 ## Sumário
-
 ## 1. Visão Geral do Produto
 
 A <i>Pets Off Road</i> é uma organização fundamentada e gerida em grupos de <i>Whatsapp</i> que visa, principalmente, auxiliar animais desamparados, que estão em situação de rua, sofrem maus tratos ou foram abandonados. A organização deixa claro que não é um abrigo para animais, mas sim uma causa composta por colaboradores que conseguem auxiliar o projeto da forma como podem, seja carona, lar temporário, entre outros. Cada colaborador se estabelece em um grupo o qual consegue auxiliar no projeto relacionado. É citado os grupos de Castração de animais de Rua, Auxílio a Zoonose do Valparaíso, Projeto de Resgate, o que sempre está precisando de novos colaboradores e mais recentemente o Grupo Teen que trabalha na construção de casinhas para animais de rua. A <i>Pets Off Road</i> possui páginas em redes sociais, onde muito dos trabalhos de comunicação são realizados, além de ser uma ponte entre quem pode ajudar e o projeto.
@@ -22,7 +17,6 @@ A <i>Pets Off Road</i> é uma organização fundamentada e gerida em grupos de <
 - O produto possui origem acadêmica voltado a uma causa admirável, além de que se busca propor uma solução baseada no que já se configura na questão de gerência e fluxo de serviço. Em outras palavras, busca-se respeitar o que já existe e adaptar em uma solução mais dinâmica e robusta. 
 - Os usuários alvo são: Pessoas dispostas a adotar animais, realizar doações(remédio, pix) e/ou colaborar com a <i>Pets Off Road</i>. O cliente é a criadora da <i>Pets Off Road</i>.
 - Atualmente, as operações realizadas são feitas via <i>Instagram</i>. A princípio, apenas essa plataforma consegue suprir o alcance do projeto, porém não supre as necessidades gerenciais e de controle. A cliente relata que possui bastante dificuldade para controlar e filtrar candidatos a voluntariado e/ou tutores de animais, além de que a gestão de dados também não é simplificada. Portanto, o produto visa a resolução dessas problemáticas expostas.
-
 
 ### 1.1. Declaração de Posição do Produto
 
@@ -42,13 +36,10 @@ Os desenvolvedores da Pets Off Road decidiram usar algumas tecnologias que já e
 - <b>Front End</b>: Javascript, React e Styled Components;
 - <b>Back End</b>: Javascript e NodeJS;
 - <b>Banco de Dados</b>: MySQL.
-
-
 ## 2. Visão Geral do Projeto
 ### 2.1. Organização do Projeto
 
-
-|         Papel         |                                                                                           Atribuições                                                                                            | Pesponsável |                          Participantes                           |
+|         Papel   |                                                                                           Atribuições                                                                                            | Pesponsável |                         Participantes                           |
 | :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------: | :--------------------------------------------------------------: |
 |     Desenvolvedor     |                                                              Codificar o produto, codificar testes unitários, realizar refatoração                                                               |      -      | Renan Rodrigues, Shaine Aparecida, Jose Filipi, Matheus Phillipo |
 | Analista de Qualidade |                          Elaboração e implementação de modelos e ferramentas de controle de qualidade, com foco na adoção de políticas e técnicas de melhoria contínua.                          |      -      | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
