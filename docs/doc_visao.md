@@ -7,7 +7,7 @@
 | 25/06/2022 | 0.2    | Visão geral do projeto | Gabriel Marcolino e Rhuan Marques |
 | 28/06/2022 | 0.3    | Visão geral do produto | Pedro Helias e Jefferson |
 
-<div align="justify">
+
 
 ## Sumário
 ## 1. Visão Geral do Produto
@@ -39,8 +39,8 @@ Os desenvolvedores da Pets Off Road decidiram usar algumas tecnologias que já e
 ## 2. Visão Geral do Projeto
 ### 2.1. Organização do Projeto
 
-|         Papel   |                                                                                           Atribuições                                                                                            | Pesponsável |                         Participantes                           |
-| :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------: | :--------------------------------------------------------------: |
+|    Papel   | Atribuições | Pesponsável | Participantes   |
+| :--------: | :---------: | :---------: | :-------------: |
 |     Desenvolvedor     |                                                              Codificar o produto, codificar testes unitários, realizar refatoração                                                               |      -      | Renan Rodrigues, Shaine Aparecida, Jose Filipi, Matheus Phillipo |
 | Analista de Qualidade |                          Elaboração e implementação de modelos e ferramentas de controle de qualidade, com foco na adoção de políticas e técnicas de melhoria contínua.                          |      -      | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
 |     Product Owner     | Construir, aperfeiçoar e manter o Backlog, assegurar que o mesmo esteja visível, claro e transparente para todos, assim como o objetivo do produto, solicitar a implementação de funcionalidades |      -      | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
