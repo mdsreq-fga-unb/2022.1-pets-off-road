@@ -7,6 +7,7 @@
 | 25/06/2022 |  0.2   |        Visão geral do projeto        |        Gabriel Marcolino e Rhuan Marques        |
 | 28/06/2022 |  0.3   |        Visão geral do produto        |            Pedro Helias e Jefferson             |
 | 28/06/2022 |  0.4   | Processo de engenharia de requisitos | Gabriel Marcolino, Pedro Helias e Rhuan Marques |
+| 29/06/2022 |  0.5   | Tecnologias Utilizadas, Processo de desenvolvimento de software | Matheus, José, Renan, Shaíne |
 
 
 

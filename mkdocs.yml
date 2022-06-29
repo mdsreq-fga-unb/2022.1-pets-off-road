@@ -2,9 +2,7 @@ site_name: Pets Off Road
 
 nav:
 - Início: index.md
-- Projeto: projeto.md
 - Visão: doc_visao.md
-- Tecnologia: tecnologias.md
 - Comunicação: doc_Comunicacao.md
 
 theme: 
