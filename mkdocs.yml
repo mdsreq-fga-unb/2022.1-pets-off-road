@@ -5,6 +5,7 @@ nav:
 - Projeto: projeto.md
 - Visão: doc_visao.md
 - Tecnologia: tecnologias.md
+- Comunicação: doc_Comunicacao.md
 
 theme: 
   name: material
