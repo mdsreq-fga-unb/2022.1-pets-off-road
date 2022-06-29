@@ -35,22 +35,46 @@ A _Pets Off Road_ é uma organização fundamentada e gerida em grupos de _Whats
 | Nosso produto    | Condensará boa parte das atividades e informações que não estão presentes ou acessíveis no _Instagram_, ou são improváveis de serem executadas por lá, como gerência de informação, gestão e filtragem de voluntários, entre outros |
 
 ### 1.2. Objetivos do Produto
+
+O principal objetivo é facilitar algumas tarefas realizadas pela organização, Pets Off Road, no dia-a-dia, já que normalmente todas as tarefas são feitas através do whatsapp e Instagram, redes sociais não muito adequadas para as resoluções dos serviços realizados.
+
+Para ajudar na administração e gerenciamento das tarefas criaremos um website. Nele será possível que qualquer pessoa possa realizar seu cadastro, se tornar um voluntário e escolher quais grupos irá fazer parte, deixaremos disponíveis dados da organização para que doações possam ser feitas, também ficará disponível dados dos médicos parceiros e petshops que ajudam os animais quando precisam ser castrados e por fim será possível detalhar os eventos da Pets Off Road. E para a cliente, um backgroud onde será possível gerenciar e filtrar cadastros realizados por terceiros.
+
 ### 1.3. Tecnologias a Serem Utilizadas
 
 Os desenvolvedores da Pets Off Road decidiram usar algumas tecnologias que já estão familiarizados, consequentemente, o tempo que terão para se dedicarem a escalada do projeto será maior. São elas:
 
-* **Front End**: Javascript, React e Styled Components;
-* **Back End**: Javascript e NodeJS;
-* **Banco de Dados**: MySQL.
+* **Front End**: 
+    *  Typescript <br>
+    *  ReactJS <br>
+    *  Redux <br>
+    *  Next.JS <br>
+    *  TailwindCSS + Styled-Components <br>
+* **Back End**: 
+    *  Typescript <br> 
+    *  NodeJS <br>
+    *  NestJS <br>
+    *  Sequelize ou Prisma <br>
+* **Banco de Dados**: 
+    *  MySQL <br>
+
+* **Comunicação**
+    *  Meet <br>
+    *  Discord <br>
+    *  Whatsapp <br>
+
+* **Organizacional**
+    *  Github <br>
+    *  Miro <br>
 ## 2. Visão Geral do Projeto
 ### 2.1. Organização do Projeto
 
-|         Papel         |                                                                                           Atribuições                                                                                            | Pesponsável |                          Participantes                           |
+|         Papel         |                                                                                           Atribuições                                                                                            | Responsável |                          Participantes                           |
 | :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------: | :--------------------------------------------------------------: |
 |     Desenvolvedor     |                                                              Codificar o produto, codificar testes unitários, realizar refatoração                                                               |      -      | Renan Rodrigues, Shaine Aparecida, Jose Filipi, Matheus Phillipo |
 | Analista de Qualidade |                          Elaboração e implementação de modelos e ferramentas de controle de qualidade, com foco na adoção de políticas e técnicas de melhoria contínua.                          |      -      | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
-|     Product Owner     | Construir, aperfeiçoar e manter o Backlog, assegurar que o mesmo esteja visível, claro e transparente para todos, assim como o objetivo do produto, solicitar a implementação de funcionalidades |      -      | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
-|     Scrum Master      |                              Responsável por garantir que os rituais do Scrum sejam seguidos, age como um facilitador das dailys, sprint reviews e sprint planning                               |      -      | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
+|     Product Owner     | Construir, aperfeiçoar e manter o Backlog, assegurar que o mesmo esteja visível, claro e transparente para todos, assim como o objetivo do produto, solicitar a implementação de funcionalidades |      Pedro Helias      | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
+|     Scrum Master      |                              Responsável por garantir que os rituais do Scrum sejam seguidos, age como um facilitador das dailys, sprint reviews e sprint planning                               |      Rhuan Marques      | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
 
 ### 2.2. Planejamento das Fases e/ou Iterações do Projeto
 
@@ -155,7 +179,11 @@ Com base nos riscos do projeto foram estabelecidos os seguintes critérios de re
 
 | Atividade | Método | Ferramenta | Entrega |
 | --------- | ------ | ---------- | ------- |
-|           |        |            |         |
+|      Conferir se os requisitos estão corretos a partir da validação dos requisitos     | Conferir se os requisitos estão corretos a partir de validação baseada em teste de software. Verificar as regras de negócio       |    Testes de software e Meet           |   -   |
+|Revisar e conferir a conformidade do produto com os requisitos | Reunião de Review | Meet e Discord | - |
+
+
+
 
 ### 4.5. Gerenciamento de Requisitos
 
