@@ -12,36 +12,9 @@
 </div>
 
 <p align="center">
-   <!-- Adicionar imagem do projeto -->
+   <img width="300" src="./imagens/logo_pets_off_road.png" />
 </p>
 
-<br/>
-
-## 📄 Sobre o projeto
-    Escrever algo sobre o projeto (breve descrição do que consiste o produto)
-<br/>
-
-## 📦 Releases
- 
-
-
-<br>
-<br/>
-
-## 💻 Pré-requisitos
-
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
-
-<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-
-- Você instalou a versão mais recente de `<npm / v8.x+>`, `<Node/ v14 lts>` e `<MySQL / v8.x+>`
-
-<br/>
-
-## 💻 Como Utilizar
-
-
-<br/>
 
 ## 🤝 Colaboradores
 
