@@ -1,14 +1,14 @@
 # Visão do Produto e Projeto
 ## Histórico de Versão
 
-|    Data    | Versão |              Descrição               |                    Autor(es)                    |
-| :--------: | :----: | :----------------------------------: | :---------------------------------------------: |
-| 23/06/2022 |  0.1   |         Criação do documento         |                  Pedro Helias                   |
-| 25/06/2022 |  0.2   |        Visão geral do projeto        |        Gabriel Marcolino e Rhuan Marques        |
-| 28/06/2022 |  0.3   |        Visão geral do produto        |            Pedro Helias e Jefferson             |
-| 28/06/2022 |  0.4   | Processo de engenharia de requisitos | Gabriel Marcolino, Pedro Helias e Rhuan Marques |
-| 29/06/2022 |  0.5   | Tecnologias Utilizadas, Processo de desenvolvimento de software | Matheus, José, Renan, Shaíne |
-| 29/06/2022 |  0.6  | Processo de desenvolvimento de software | Matheus, José, Renan, Shaíne |
+|    Data    | Versão |                            Descrição                            |                    Autor(es)                    |
+| :--------: | :----: | :-------------------------------------------------------------: | :---------------------------------------------: |
+| 23/06/2022 |  0.1   |                      Criação do documento                       |                  Pedro Helias                   |
+| 25/06/2022 |  0.2   |                     Visão geral do projeto                      |        Gabriel Marcolino e Rhuan Marques        |
+| 28/06/2022 |  0.3   |                     Visão geral do produto                      |            Pedro Helias e Jefferson             |
+| 28/06/2022 |  0.4   |              Processo de engenharia de requisitos               | Gabriel Marcolino, Pedro Helias e Rhuan Marques |
+| 29/06/2022 |  0.5   | Tecnologias Utilizadas, Processo de desenvolvimento de software |          Matheus, José, Renan, Shaíne           |
+| 29/06/2022 |  0.6   |             Processo de desenvolvimento de software             |          Matheus, José, Renan, Shaíne           |
 
 
 
@@ -43,17 +43,16 @@ O principal objetivo é facilitar algumas tarefas realizadas pela organização,
 
 Para ajudar na administração e gerenciamento das tarefas criaremos um website. Nele será possível que qualquer pessoa possa realizar seu cadastro, se tornar um voluntário e escolher quais grupos irá fazer parte, deixaremos disponíveis dados da organização para que doações possam ser feitas, também ficará disponível dados dos médicos parceiros e petshops que ajudam os animais quando precisam ser castrados e por fim será possível detalhar os eventos da Pets Off Road. E para a cliente, um backgroud onde será possível gerenciar e filtrar cadastros realizados por terceiros.
 
-### 1.3. Tecnologias a Serem Utilizadas
 
 ### 1.3. Tecnologias a Serem Utilizadas
 
 Os desenvolvedores da Pets Off Road decidiram usar algumas tecnologias que já estão familiarizados, consequentemente, o tempo que terão para se dedicarem a escalada do projeto será maior. São elas:
 
-| Frontend    |         Backend         | Teste    | Prototipação  | Comunicação  | Organizacional |
-  | ------------ | ------------------- |  -------  | ---------| ---| ---|
-  | [ReactJs](https://reactjs.org/) (JavaScript Libary) | [NodeJS](https://nodejs.org) | [Jest](https://jestjs.io/pt-BR/) | [Figma](https://www.figma.com/) |  Discord | Github |
-  | [TypeScript](https://www.typescriptlang.org/)       | [MySQL](https://dev.mysql.com/doc/) |                                  |   | Meet | Miro |
-  | [Styled-Components](https://styled-components.com/) | [TypeScript](https://www.typescriptlang.org/)|                         |   | Whatsapp | |
+| Frontend                                            | Backend                                       | Teste                            | Prototipação                    | Comunicação | Organizacional |
+| --------------------------------------------------- | --------------------------------------------- | -------------------------------- | ------------------------------- | ----------- | -------------- |
+| [ReactJs](https://reactjs.org/) (JavaScript Libary) | [NodeJS](https://nodejs.org)                  | [Jest](https://jestjs.io/pt-BR/) | [Figma](https://www.figma.com/) | Discord     | Github         |
+| [TypeScript](https://www.typescriptlang.org/)       | [MySQL](https://dev.mysql.com/doc/)           |                                  |                                 | Meet        | Miro           |
+| [Styled-Components](https://styled-components.com/) | [TypeScript](https://www.typescriptlang.org/) |                                  |                                 | Whatsapp    |                |
 
 <p align="left"> 
   <img  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
@@ -68,12 +67,12 @@ Os desenvolvedores da Pets Off Road decidiram usar algumas tecnologias que já e
 ## 2. Visão Geral do Projeto
 ### 2.1. Organização do Projeto
 
-|         Papel         |                                                                                           Atribuições                                                                                            | Responsável |                          Participantes                           |
-| :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------: | :--------------------------------------------------------------: |
-|     Desenvolvedor     |                                                              Codificar o produto, codificar testes unitários, realizar refatoração                                                               |      Renan Rodrigues e Matheus Phillipo      | Renan Rodrigues, Shaine Aparecida, Jose Filipi, Matheus Phillipo |
-| Analista de Qualidade |                          Elaboração e implementação de modelos e ferramentas de controle de qualidade, com foco na adoção de políticas e técnicas de melhoria contínua.                          |      Gabriel Marcolino      | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
-|     Product Owner     | Construir, aperfeiçoar e manter o Backlog, assegurar que o mesmo esteja visível, claro e transparente para todos, assim como o objetivo do produto, solicitar a implementação de funcionalidades |      Pedro Helias      | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
-|     Scrum Master      |                              Responsável por garantir que os rituais do Scrum sejam seguidos, age como um facilitador das dailys, sprint reviews e sprint planning                               |      Rhuan Marques      | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
+|         Papel         |                                                                                           Atribuições                                                                                            |            Responsável             |                          Participantes                           |
+| :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------: | :--------------------------------------------------------------: |
+|     Desenvolvedor     |                                                              Codificar o produto, codificar testes unitários, realizar refatoração                                                               | Renan Rodrigues e Matheus Phillipo | Renan Rodrigues, Shaine Aparecida, Jose Filipi, Matheus Phillipo |
+| Analista de Qualidade |                          Elaboração e implementação de modelos e ferramentas de controle de qualidade, com foco na adoção de políticas e técnicas de melhoria contínua.                          |         Gabriel Marcolino          | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
+|     Product Owner     | Construir, aperfeiçoar e manter o Backlog, assegurar que o mesmo esteja visível, claro e transparente para todos, assim como o objetivo do produto, solicitar a implementação de funcionalidades |            Pedro Helias            | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
+|     Scrum Master      |                              Responsável por garantir que os rituais do Scrum sejam seguidos, age como um facilitador das dailys, sprint reviews e sprint planning                               |           Rhuan Marques            | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
 
 ### 2.2. Planejamento das Fases e/ou Iterações do Projeto
 
@@ -83,13 +82,12 @@ Os desenvolvedores da Pets Off Road decidiram usar algumas tecnologias que já e
 
 ### 2.3. Matriz de Comunicação 
 
-|                               Descrição                               |       Área/Envolvidos        |     Periodicidade     | Produtos Gerados |
-| :-------------------------------------------------------------------: | :--------------------------: | :-------------------: | :--------------: |
-|              Acompanhamento das Atividades em Andamento               |      Equipe do Projeto       |        Semanal        |        -         |
-| Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores |     Equipe de Requisitos     |       Quinzenal       |        -         |
-|                     Comunicar Situação do Projeto                     | Equipe do Projeto, Professor |        Semanal        |        -         |
-|                      Comunicação geral do grupo                       |      Equipe do Projeto       | Sempre que necessário |        -         |
-
+|                               Descrição                               |       Área/Envolvidos        |     Periodicidade     |                 Produtos Gerados                 |
+| :-------------------------------------------------------------------: | :--------------------------: | :-------------------: | :----------------------------------------------: |
+|              Acompanhamento das Atividades em Andamento               |      Equipe do Projeto       |        Semanal        | Ata da reunião, relatório da situação do projeto |
+| Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores |     Equipe de Requisitos     |       Quinzenal       | Ata da reunião, relatório da situação do projeto |
+|                     Comunicar Situação do Projeto                     | Equipe do Projeto, Professor |        Semanal        |               Feedback do projeto                |
+|                      Comunicação geral do grupo                       |      Equipe do Projeto       | Sempre que necessário |         Relatório da situação do projeto         |
 
 ### 2.4. Gerenciamento de Riscos
 
@@ -142,30 +140,31 @@ Com isso, optamos por uma abordagem ágil utilizando uma metodologia baseada em 
 
 ### 3.2. Análise/Design
 
-| Atividade | Método | Ferramenta | Entrega |
-| --------- | ------ | ---------- | ------- |
-|Produção de protótipos de média fidelidade | Utilização do Figma | Figma | Protótipo de média fidelidade |
-|Refinamento do projeto | Padrões de Codificação | Figma | Protótipo de média fidelidade |
-|--------------------- | ---------------------- | ------------------------- | --------------------------- |
+|                 Atividade                  |         Método         | Ferramenta |            Entrega            |
+| :----------------------------------------: | :--------------------: | :--------: | :---------------------------: |
+| Produção de protótipos de média fidelidade |  Utilização do Figma   |   Figma    | Protótipo de média fidelidade |
+|           Refinamento do projeto           | Padrões de Codificação |   Figma    | Protótipo de média fidelidade | --------------------------- |
 
 ### 3.3. Construção
 
-| Atividade | Método | Ferramenta | Entrega |
-| --------- | ------ | ---------- | ------- |
-| Desenvolvimento de Back-End | Abstração do Problema e Codificação | Node.js, Nest.Js e ESLint | Backend |
-| Desenvolvimento de Front-end| Abstração do problema e codificação| ReactJS, Styled-Components | Frontend |
-| Integração da solução | Versionamento de código   |    Git & Github     | Solução integrada  |
-| Implementação da solução | Hospedagem da solução | Firebase/ Heroku/ Netlify/ Vercel     |  Deploy      |
+|          Atividade           |               Método                |            Ferramenta             |      Entrega      |
+| :--------------------------: | :---------------------------------: | :-------------------------------: | :---------------: |
+| Desenvolvimento de Back-End  | Abstração do Problema e Codificação |     Node.js, Nest.Js e ESLint     |      Backend      |
+| Desenvolvimento de Front-end | Abstração do problema e codificação |    ReactJS, Styled-Components     |     Frontend      |
+|    Integração da solução     |       Versionamento de código       |           Git & Github            | Solução integrada |
+|   Implementação da solução   |        Hospedagem da solução        | Firebase/ Heroku/ Netlify/ Vercel |      Deploy       |
 
 ### 3.4  Teste
 
-| Atividade | Método | Ferramenta | Entrega |
-| --------- | ------ | ---------- | ------- |
-|  Criar casos de testes | Discussão para definir as especificações dos casos de testes| Discord e VS code | Especificações dos casos de testes||
-|  Produção de scripts testes |Codificação| Jest |  Script de Testes |
-| Validar a Solução | Codificação | VS code | Componentes testados |
+|         Atividade          |                            Método                            |    Ferramenta     |              Entrega               |
+| :------------------------: | :----------------------------------------------------------: | :---------------: | :--------------------------------: |
+|   Criar casos de testes    | Discussão para definir as especificações dos casos de testes | Discord e VS code | Especificações dos casos de testes |
+| Produção de scripts testes |                         Codificação                          |       Jest        |          Script de Testes          |
+|     Validar a Solução      |                         Codificação                          |      VS code      |        Componentes testados        |
 
 ## 4. Processo de Engenharia de Requisitos
+
+A equipe do projeto decidiu utilizar uma abordagem ágil para a Engenharia de Requisitos(ER), tendo em vista as necessidades do time e do cliente. Em uma abordagem aǵil as atividades específicas da ER não são especificadas/explicitas. Assim, no contexto ágil o responsável pela gerencia dos requisitos é o PO.  Além disso, a metodogia ágil conta com a criação do backlog do produto, em que será listado todos os requisitos. Como o desenvolvimento é dividido em *Sprints*, os requisitos não terão necessidade de serem detalhados logo no início do projeto, e sim quando forem movidos para o *Sprint Backlog*.
 
 ### 4.1. Elicitação de Requisitos
 
@@ -187,16 +186,18 @@ Com isso, optamos por uma abordagem ágil utilizando uma metodologia baseada em 
 
 ### 4.3. Documentação de Requisitos
 
-|       Atividade       |                       Método                       | Ferramenta  | Entrega |
-| :-------------------: | :------------------------------------------------: | :---------: | :-----: |
-| Construção do backlog | Escrita das histórias de usuário, épicos, features | Meet e Miro |    -    |
+|       Atividade       |        Método        | Ferramenta  |         Entrega         |
+| :-------------------: | :------------------: | :---------: | :---------------------: |
+| Construção do backlog | Histórias de usuário | Meet e Miro | Documento de requisitos |
+
+### 
 
 ### 4.4. Verificação e Validação de Requisitos
 
-| Atividade | Método | Ferramenta | Entrega |
-| --------- | ------ | ---------- | ------- |
-|      Conferir se os requisitos estão corretos a partir da validação dos requisitos     | Conferir se os requisitos estão corretos a partir de validação baseada em teste de software. Verificar as regras de negócio       |    Testes de software e Meet           |   -   |
-|Revisar e conferir a conformidade do produto com os requisitos | Reunião de Review | Meet e Discord | - |
+|                           Atividade                            |                                            Método                                            |   Ferramenta   | Entrega |
+| :------------------------------------------------------------: | :------------------------------------------------------------------------------------------: | :------------: | :-----: |
+|            Conferir se os requisitos estão corretos            | Conferir se os requisitos estão corretos a partir de validação baseada em teste de aceitação |      Meet      |    -    |
+| Revisar e conferir a conformidade do produto com os requisitos |                                      Reunião de Review                                       | Meet e Discord |    -    |
 
 
 
@@ -230,3 +231,8 @@ Com isso, optamos por uma abordagem ágil utilizando uma metodologia baseada em 
 #### 5.4.3. MDS-Requisitos
 
 ##  6. Referências Bibliográficas
+
+1. Sommerville, I., Engenharia de software. 9th ed., Pearson Addison Wesley, 2011
+2. Silveira, Bárbara; Werneck, Marcelo. A Engenharia de Requisitos nos métodos ágeis: uma revisão sistemática da literatura. 2017
+3. Ciclos de Vida do Software. Disponível em: https://www.devmedia.com.br/ciclos-de-vida-do-software/21099 Acesso em 29 jun. 2022
+4. Alves, Lucas; Metodologia Scrum: entenda as etapas e funções dentro da gestão de projetos ágeis; 19 nov. 2011 Disponível em: https://www.take.net/blog/chatbots/metodologia-scrum/ Acesso em 29 jun. 2022.
