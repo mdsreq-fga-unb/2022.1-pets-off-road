@@ -8,6 +8,8 @@
 | 28/06/2022 |  0.3   |        Visão geral do produto        |            Pedro Helias e Jefferson             |
 | 28/06/2022 |  0.4   | Processo de engenharia de requisitos | Gabriel Marcolino, Pedro Helias e Rhuan Marques |
 | 29/06/2022 |  0.5   | Tecnologias Utilizadas, Processo de desenvolvimento de software | Matheus, José, Renan, Shaíne |
+| 29/06/2022 |  0.6  | Processo de desenvolvimento de software | Matheus, José, Renan, Shaíne |
+
 
 
 
@@ -122,6 +124,16 @@ Com base nos riscos do projeto foram estabelecidos os seguintes critérios de re
 
 ## 3. Processo de Desenvolvimento de Software
 
+O ciclo de vida escolhido foi o evolutivo por alguns fatores levantados utilizando a tabela de seleção baseadas no status do time de desenvolvimento e participação do usuário. A equipe está tendo contato constante com o cliente, tendo possiblidade de receber feedbacks e realizar melhorias em tempo hábil. Além disso, a escolha do ciclo de vida foi impactada pelos seguintes itens:
+
+- Desenvolvedores com experiências distintas que não envolvem o escopo do projeto;
+- Time de desenvolvimento com nível Trainee - Junior e com disponibilidade para aprendizado autodidata;
+- O cliente não participa de todas as etapas do desenvolvimento;
+- Participação limitada do cliente;
+- Cliente não tem total domínio do problema;
+
+Com isso, optamos por uma abordagem ágil utilizando uma metodologia baseada em Scrum contendo práticas do XP, pois definimos anteriormente que o escopo de trabalho seria fracionado e cada parte desenvolvida em ciclos. Com etapas mais curtas e entregas mais frequentes, aliviaríamos a carga de trabalho e diminuindo os erros através de feedbacks constantes do cliente e do time de requisitos. Tornado-se um ambiente dinâmico e o aprendizado da equipe acelerado, impulsionando a produtividade em relação ao andamento do projeto.
+  
 ### 3.1. Requisitos
 
 | Atividade | Método | Ferramenta | Entrega |
@@ -133,7 +145,6 @@ Com base nos riscos do projeto foram estabelecidos os seguintes critérios de re
 | Atividade | Método | Ferramenta | Entrega |
 | --------- | ------ | ---------- | ------- |
 |Produção de protótipos de média fidelidade | Utilização do Figma | Figma | Protótipo de média fidelidade |
-|Prototipação da interface gráfica | ------------------- | Figma | Protótipo da interface gráfica |
 |Refinamento do projeto | Padrões de Codificação | Figma | Protótipo de média fidelidade |
 |--------------------- | ---------------------- | ------------------------- | --------------------------- |
 
@@ -142,8 +153,7 @@ Com base nos riscos do projeto foram estabelecidos os seguintes critérios de re
 | Atividade | Método | Ferramenta | Entrega |
 | --------- | ------ | ---------- | ------- |
 | Desenvolvimento de Back-End | Abstração do Problema e Codificação | Node.js, Nest.Js e ESLint | Backend |
-| Desenvolvimento de Front-end| Front-End | Abstração do problema e codificação | Front-end |
-| Desenvolvimento do banco de dados | Abstração do problema e codificação  |   MySQL     |  Banco de dados   |
+| Desenvolvimento de Front-end| Abstração do problema e codificação| ReactJS, Styled-Components | Frontend |
 | Integração da solução | Versionamento de código   |    Git & Github     | Solução integrada  |
 | Implementação da solução | Hospedagem da solução | Firebase/ Heroku/ Netlify/ Vercel     |  Deploy      |
 
@@ -151,9 +161,9 @@ Com base nos riscos do projeto foram estabelecidos os seguintes critérios de re
 
 | Atividade | Método | Ferramenta | Entrega |
 | --------- | ------ | ---------- | ------- |
-|  Criar casos de testes | ---------- | ---------- | ---------- |
-|  Produção de scripts testes | ---------- |  ---------- |   ---------- |
-| Validar a Solução | ---------- |  ---------- | ---------- |
+|  Criar casos de testes | Discussão para definir as especificações dos casos de testes| Discord e VS code | Especificações dos casos de testes||
+|  Produção de scripts testes |Codificação| Jest |  Script de Testes |
+| Validar a Solução | Codificação | VS code | Componentes testados |
 
 ## 4. Processo de Engenharia de Requisitos
 
