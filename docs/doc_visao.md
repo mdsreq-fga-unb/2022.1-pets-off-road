@@ -42,37 +42,33 @@ Para ajudar na administração e gerenciamento das tarefas criaremos um website.
 
 ### 1.3. Tecnologias a Serem Utilizadas
 
+### 1.3. Tecnologias a Serem Utilizadas
+
 Os desenvolvedores da Pets Off Road decidiram usar algumas tecnologias que já estão familiarizados, consequentemente, o tempo que terão para se dedicarem a escalada do projeto será maior. São elas:
 
-* **Front End**: 
-    *  Typescript <br>
-    *  ReactJS <br>
-    *  Redux <br>
-    *  Next.JS <br>
-    *  TailwindCSS + Styled-Components <br>
-* **Back End**: 
-    *  Typescript <br> 
-    *  NodeJS <br>
-    *  NestJS <br>
-    *  Sequelize ou Prisma <br>
-* **Banco de Dados**: 
-    *  MySQL <br>
+| Frontend    |         Backend         | Teste    | Prototipação  | Comunicação  | Organizacional |
+  | ------------ | ------------------- |  -------  | ---------| ---| ---|
+  | [ReactJs](https://reactjs.org/) (JavaScript Libary) | [NodeJS](https://nodejs.org) | [Jest](https://jestjs.io/pt-BR/) | [Figma](https://www.figma.com/) |  Discord | Github |
+  | [TypeScript](https://www.typescriptlang.org/)       | [MySQL](https://dev.mysql.com/doc/) |                                  |   | Meet | Miro |
+  | [Styled-Components](https://styled-components.com/) | [TypeScript](https://www.typescriptlang.org/)|                         |   | Whatsapp | |
 
-* **Comunicação**
-    *  Meet <br>
-    *  Discord <br>
-    *  Whatsapp <br>
+<p align="left"> 
+  <img  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg">
+  <img  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
+  <img  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
+  <img  height="30" width="40" src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png">
+  <img  height="30" width="40" src="https://nx.dev/documentation/shared/jest-logo.png">
+</p>
 
-* **Organizacional**
-    *  Github <br>
-    *  Miro <br>
 ## 2. Visão Geral do Projeto
 ### 2.1. Organização do Projeto
 
 |         Papel         |                                                                                           Atribuições                                                                                            | Responsável |                          Participantes                           |
 | :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------: | :--------------------------------------------------------------: |
-|     Desenvolvedor     |                                                              Codificar o produto, codificar testes unitários, realizar refatoração                                                               |      -      | Renan Rodrigues, Shaine Aparecida, Jose Filipi, Matheus Phillipo |
-| Analista de Qualidade |                          Elaboração e implementação de modelos e ferramentas de controle de qualidade, com foco na adoção de políticas e técnicas de melhoria contínua.                          |      -      | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
+|     Desenvolvedor     |                                                              Codificar o produto, codificar testes unitários, realizar refatoração                                                               |      Renan Rodrigues e Matheus Phillipo      | Renan Rodrigues, Shaine Aparecida, Jose Filipi, Matheus Phillipo |
+| Analista de Qualidade |                          Elaboração e implementação de modelos e ferramentas de controle de qualidade, com foco na adoção de políticas e técnicas de melhoria contínua.                          |      Gabriel Marcolino      | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
 |     Product Owner     | Construir, aperfeiçoar e manter o Backlog, assegurar que o mesmo esteja visível, claro e transparente para todos, assim como o objetivo do produto, solicitar a implementação de funcionalidades |      Pedro Helias      | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
 |     Scrum Master      |                              Responsável por garantir que os rituais do Scrum sejam seguidos, age como um facilitador das dailys, sprint reviews e sprint planning                               |      Rhuan Marques      | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
 
@@ -125,29 +121,38 @@ Com base nos riscos do projeto foram estabelecidos os seguintes critérios de re
 
 ## 3. Processo de Desenvolvimento de Software
 
-### 3.1. Atividade 1
+### 3.1. Requisitos
 
 | Atividade | Método | Ferramenta | Entrega |
 | --------- | ------ | ---------- | ------- |
 |           |        |            |         |
 
-### 3.2. Atividade 2
+### 3.2. Análise/Design
 
 | Atividade | Método | Ferramenta | Entrega |
 | --------- | ------ | ---------- | ------- |
-|           |        |            |         |
+|Produção de protótipos de média fidelidade | Utilização do Figma | Figma | Protótipo de média fidelidade |
+|Prototipação da interface gráfica | ------------------- | Figma | Protótipo da interface gráfica |
+|Refinamento do projeto | Padrões de Codificação | Figma | Protótipo de média fidelidade |
+|--------------------- | ---------------------- | ------------------------- | --------------------------- |
 
-### 3.3. Atividade 3
-
-| Atividade | Método | Ferramenta | Entrega |
-| --------- | ------ | ---------- | ------- |
-|           |        |            |         |
-
-### 3.'n'. Atividade 'n'
+### 3.3. Construção
 
 | Atividade | Método | Ferramenta | Entrega |
 | --------- | ------ | ---------- | ------- |
-|           |        |            |         |
+| Desenvolvimento de Back-End | Abstração do Problema e Codificação | Node.js, Nest.Js e ESLint | Backend |
+| Desenvolvimento de Front-end| Front-End | Abstração do problema e codificação | Front-end |
+| Desenvolvimento do banco de dados | Abstração do problema e codificação  |   MySQL     |  Banco de dados   |
+| Integração da solução | Versionamento de código   |    Git & Github     | Solução integrada  |
+| Implementação da solução | Hospedagem da solução | Firebase/ Heroku/ Netlify/ Vercel     |  Deploy      |
+
+### 3.4  Teste
+
+| Atividade | Método | Ferramenta | Entrega |
+| --------- | ------ | ---------- | ------- |
+|  Criar casos de testes | ---------- | ---------- | ---------- |
+|  Produção de scripts testes | ---------- |  ---------- |   ---------- |
+| Validar a Solução | ---------- |  ---------- | ---------- |
 
 ## 4. Processo de Engenharia de Requisitos
 
