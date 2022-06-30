@@ -144,4 +144,3 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 <br/>
 
-## 📜 Documentação
