@@ -24,24 +24,8 @@
 ## 📦 Releases
  
 
-## ⚙️ Tecnologias utilizadas
-
-As tecnologias foram determinadas de acordo com a necessidade das atividades a serem desenvolvidas.
-
-| Frontend                                            |                                                                                                                    Backend                                                                                                                    |
-| :-------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [ReactJs](https://reactjs.org/) (JavaScript Libary) |                                                                                    [NodeJS](https://nodejs.org)                                                                              |
-| [TypeScript](https://www.typescriptlang.org/)       | [MySQL](https://dev.mysql.com/doc/) |
 
 <br>
-<p align="left"> 
-  <img  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg">
-  <img  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
-<img  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
-</p>
-
 <br/>
 
 ## 💻 Pré-requisitos
@@ -73,173 +57,90 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 | Rhuan Marques Robias Dos Santos |	170021581 |	magicknight@hotmail.com.br | REQ |
 | Pedro Helias Carlos |	140158278 |	pedrohelias95@hotmail.com | REQ |
 
-<!-- <table>
+<table>
   <tr>
-      <th>Arquitetos</th>
-      <th>Devops</th>
-      <th>Product Owners</th>
-      <th>Scrum Masters</th>
-      <th colspan="3">Desenvolvedores</th>
+      <th colspan="2">Product Owners & Scrum Masters</th>
+      <th colspan="2">Developers & Testers</th>
   </tr> 
   <tr>
     <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/55704216?v=4" width="100px;" alt="Foto Magno"/><br>
-        <sub>
-          <b>Magno Luiz</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/83254747?v=4" width="100px;" alt="Foto do Ricardo"/><br>
-        <sub>
-          <b>Ricardo Loureiro</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/56366957?v=4" width="100px;" alt="Foto Gustave"/><br>
-        <sub>
-          <b>Gustave Persijn</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/66492055?s=60&v=4" width="100px;" alt="Foto Swamp"/><br>
-        <sub>
-          <b>Adrian Soares</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/58157221?v=4" width="100px;" alt="Foto do Augusto"/><br>
-        <sub>
-          <b>Augusto Camargo</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/52768341?v=4" width="100px;" alt="Foto Daniel"/><br>
-        <sub>
-          <b>Daniel Vinicius</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/52677538?v=4" width="100px;" alt="Foto Eduardo"/><br>
-        <sub>
-          <b>Eduardo Rodrigues</b>
-        </sub>
-      </a>
-    </td>
-   </tr>
-  <tr>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/30875663?v=4" width="100px;" alt="Gustave Persijn"/><br>
+      <a href="https://github.com/pedrohelias">
+        <img src="https://avatars.githubusercontent.com/u/30875663?v=4" width="100px;" style="border-radius:50%;"/><br>
         <sub>
           <b>Pedro Helias</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/51385738?v=4" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+      <a href="https://github.com/RhuanMr">
+        <img src="https://avatars.githubusercontent.com/u/52264393?v=4" width="100px;" style="border-radius:50%;"/><br>
         <sub>
-          <b>Eduardo Gurgel</b>
+          <b>Rhuan Marques</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/56873266?v=4" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+      <a href="https://github.com/MattSilverio">
+        <img src="https://avatars.githubusercontent.com/u/18178688?v=4" width="100px;" style="border-radius:50%;"/><br>
         <sub>
-          <b>Klyssmann Oliveira</b>
+          <b>Matheus Phillipo</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/87657291?v=4" width="100px;" alt="Foto do Steve Jobs"/><br>
+      <a href="https://github.com/ShaineOliveira">
+        <img src="https://avatars.githubusercontent.com/u/87617726?v=4" width="100px;" style="border-radius:50%;"/><br>
         <sub>
-          <b>Victor Cabral</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/87657942?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
-        <sub>
-          <b>Pedro Cassiano</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/69814362?v=4" width="100px;" alt="Foto do Steve Jobs"/><br>
-        <sub>
-          <b>João Durso</b>
+          <b>Shaíne Aparecida</b>
         </sub>
       </a>
     </td>
   </tr>
-    <tr>
-  <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/78509975?v=4" width="100px;" alt="Foto do Gabriel Luiz no GitHub"/><br>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/GabrielMR360">
+        <img src="https://avatars.githubusercontent.com/u/61991357?v=4" width="100px;" style="border-radius:50%;"/><br>
         <sub>
-          <b>Gabriel Luiz</b>
+          <b>Gabriel Marcolino</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/80918128?v=4" width="100px;" alt="Foto do  Thiago Vivan no GitHub"/><br>
+      <a href="https://github.com/Frans6">
+        <img src="https://avatars.githubusercontent.com/u/87673287?v=4" width="100px;" style="border-radius:50%;"/><br>
         <sub>
-          <b>Thiago Vivan</b>
+          <b>Jefferson Franca</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/78734372?v=4" width="100px;" alt="Foto do Pedro Caldeira no GithuB"/><br>
+      <a href="https://github.com/LacerdaRenan">
+        <img src="https://avatars.githubusercontent.com/u/88076318?v=4" width="100px;" style="border-radius:50%;"/><br>
         <sub>
-          <b>Pedro Caldeira</b>
+          <b>Renan Lacerda</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/71507198?v=4" width="100px;" alt="Foto do Pedro Henrique no GitHuB"/><br>
+      <a href="https://github.com/JoseFilipi">
+        <img src="https://avatars.githubusercontent.com/u/88348501?v=4" width="100px;" style="border-radius:50%;"/><br>
         <sub>
-          <b>Pedro Henrique</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/78519040?v=4" width="100px;" alt="Foto do Igor Thiago no GitHub"/><br>
-        <sub>
-          <b>Igor Thiago</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/81006095?v=4" width="100px;" alt="Foto do Bruno Oliveira no GitHub"/><br>
-        <sub>
-          <b>Bruno Oliveira</b>
+          <b>José Filipi</b>
         </sub>
       </a>
     </td>
   </tr>
-</table> -->
+  <tr>
+    <td align="center">
+      <a href="https://github.com/DanielCoimbra">
+        <img src="https://avatars.githubusercontent.com/u/49206670?v=4" width="100px;" style="border-radius:50%;"/><br>
+        <sub>
+          <b>Daniel Coimbra</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
