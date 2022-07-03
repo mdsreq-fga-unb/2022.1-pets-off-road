@@ -9,7 +9,7 @@
 | 28/06/2022 |  0.4   |              Processo de engenharia de requisitos               | Gabriel Marcolino, Pedro Helias e Rhuan Marques |
 | 29/06/2022 |  0.5   | Tecnologias Utilizadas, Processo de desenvolvimento de software |          Matheus, José, Renan, Shaíne           |
 | 29/06/2022 |  0.6   |             Processo de desenvolvimento de software             |          Matheus, José, Renan, Shaíne           |
-
+| 03/07/2022 |  1.0   |               Correções do documento - Requisitos               |                 Pedro e Gabriel                 |
 
 
 
@@ -32,7 +32,7 @@ A _Pets Off Road_ é uma organização fundamentada e gerida em grupos de _Whats
 | Para             | Usuários em comum                                                                                                                                                                                                                   |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Quem             | Deseja realizar doações, adoção de animais e/ou voluntariado                                                                                                                                                                        |
-| O _Pet Off Road_ | É um projeto em vias de migração para um Website                                                                                                                                                                                    |
+| A _Pet Off Road_ | É um projeto em vias de migração para um Website                                                                                                                                                                                    |
 | Que              | Disponibiliza informações para doações, formulários de cadastro para voluntários/tutores, histórico de cuidado com o animal, entre outros                                                                                           |
 | Ao Contrário     | De procurar por informação em diversos posts da página oficial do projeto no _Instagram_, onde a cliente fica à mercê da orgarnização do APP                                                                                        |
 | Nosso produto    | Condensará boa parte das atividades e informações que não estão presentes ou acessíveis no _Instagram_, ou são improváveis de serem executadas por lá, como gerência de informação, gestão e filtragem de voluntários, entre outros |
@@ -73,21 +73,33 @@ Os desenvolvedores da Pets Off Road decidiram usar algumas tecnologias que já e
 | Analista de Qualidade |                          Elaboração e implementação de modelos e ferramentas de controle de qualidade, com foco na adoção de políticas e técnicas de melhoria contínua.                          |         Gabriel Marcolino          | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
 |     Product Owner     | Construir, aperfeiçoar e manter o Backlog, assegurar que o mesmo esteja visível, claro e transparente para todos, assim como o objetivo do produto, solicitar a implementação de funcionalidades |            Pedro Helias            | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
 |     Scrum Master      |                              Responsável por garantir que os rituais do Scrum sejam seguidos, age como um facilitador das dailys, sprint reviews e sprint planning                               |           Rhuan Marques            | Jefferson Franca, Gabriel Marcolino, Rhuan Marques, Pedro Helias |
+|        Cliente        |                                              Administradora do projeto __Pets Off Road__ e responsável por validar os pontos de entrega do projeto                                               |      Marcela Carvalho Marques      |                     Marcela Carvalho Marques                     |
 
 ### 2.2. Planejamento das Fases e/ou Iterações do Projeto
 
-|  Sprint  |  Produto (Entrega)   | Data Início |  Data Fim  |
-| :------: | :------------------: | :---------: | :--------: |
-| Sprint 1 | Definição do Projeto | 21/06/2022  | 28/06/2022 |
+|  Sprint   |                    Produto (Entrega)                    | Data Início |  Data Fim  |
+| :-------: | :-----------------------------------------------------: | :---------: | :--------: |
+| Sprint 1  |                  Definição do Projeto                   | 21/06/2022  | 28/06/2022 |
+| Sprint 2  |               Levantamento de Requisitos                | 30/06/2022  | 07/07/2022 |
+| Sprint 3  | MVP1 + Desenvolvimento de Protótipo de Baixa Fidelidade | 08/07/2022  | 15/07/2022 |
+| Sprint 4  |                           --                            | 16/07/2022  | 23/07/2022 |
+| Sprint 5  |                           --                            | 25/07/2022  | 01/08/2022 |
+| Sprint 6  |                           --                            | 02/08/2022  | 09/08/2022 |
+| Sprint 7  |                           --                            | 10/08/2022  | 17/08/2022 |
+| Sprint 8  |                           --                            | 18/08/2022  | 25/08/2022 |
+| Sprint 9  |                           --                            | 26/08/2022  | 02/09/2022 |
+| Sprint 10 |                           --                            | 03/09/2022  | 10/09/2022 |
+| Sprint 11 |                           --                            | 12/09/2022  | 19/09/2022 |
 
 ### 2.3. Matriz de Comunicação 
 
-|                               Descrição                               |       Área/Envolvidos        |     Periodicidade     |                 Produtos Gerados                 |
-| :-------------------------------------------------------------------: | :--------------------------: | :-------------------: | :----------------------------------------------: |
-|              Acompanhamento das Atividades em Andamento               |      Equipe do Projeto       |        Semanal        | Ata da reunião, relatório da situação do projeto |
-| Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores |     Equipe de Requisitos     |       Quinzenal       | Ata da reunião, relatório da situação do projeto |
-|                     Comunicar Situação do Projeto                     | Equipe do Projeto, Professor |        Semanal        |               Feedback do projeto                |
-|                      Comunicação geral do grupo                       |      Equipe do Projeto       | Sempre que necessário |         Relatório da situação do projeto         |
+|                               Descrição                               |       Área/Envolvidos        |     Periodicidade     |           Produtos Gerados           |
+| :-------------------------------------------------------------------: | :--------------------------: | :-------------------: | :----------------------------------: |
+|              Acompanhamento das Atividades em Andamento               |      Equipe do Projeto       |        Semanal        |            Ata da reunião            |
+| Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores |     Equipe de Requisitos     |       Quinzenal       |            Ata da reunião            |
+|                     Comunicar Situação do Projeto                     | Equipe do Projeto, Professor |        Semanal        |         Feedback do projeto          |
+|                      Comunicação geral do grupo                       |      Equipe do Projeto       | Sempre que necessário |            Ata da reunião            |
+|                         Reunião com a cliente                         |     Equipe de Requisitos     |       Quinzenal       | Ata da reunião e feedback do projeto |
 
 ### 2.4. Gerenciamento de Riscos
 
@@ -103,13 +115,15 @@ Para o gerenciamento de riscos devem ser realizadas tarefas como:
 
 * Registrar os riscos no Painel de Controle do Projeto e no Plano do Projeto (Riscos iniciais).
 
-|                    Risco                    |                                                                      Descrição                                                                       | Probabilidade |                                       Ações de Mitigação                                        |
-| :-----------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------: | :---------------------------------------------------------------------------------------------: |
-|  Dificuldade no desenvolvimento do sitema   |                           Falta de experiência da equipe responsável com as tecnologias utilizadas, complexidade da tarefa                           |     Alta      |                Pareamento com uma pessoa mais experiente e buscar ajuda externa.                |
-| Algum membro da equipe trancar a disciplina |         As atividades da pessoa em questão terão que ser repassadas, dificultando o andamento do projeto e sobrecarga nos membros restantes          |     Baixa     |             Replanejamento das atividades e reatribuição para os membros restantes.             |
-|        Baixa produtividade da equipe        |                                   Falta de disponibilidade de tempo, membro da equipe adoecer, falta de motivação                                    |     Alta      | Replanejar as atividade e redistribuí-las para que o andamento do projeto não seja prejudicado. |
-|      Problema de comunicação da equipe      | Má interpretação das atividades, não atuação por efeitos externos(falta de internet, queda de energia, queda de algum meio de comunicação da equipe) |   Moderada    |                 Procurar outros meios de comunicação, reatribuir as atividades.                 |
-|              Mudança de escopo              |                            A escolha do tema não agrade os membros da equipe ou a proposta seja rejeitada pelo professor                             |     Baixa     |                Reordenação dos elementos existentes e criação de um novo escopo.                |
+|                    Risco                    |                                                                      Descrição                                                                       | Probabilidade |                                                   Ações de Mitigação                                                   |
+| :-----------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------: | :--------------------------------------------------------------------------------------------------------------------: |
+|  Dificuldade no desenvolvimento do sitema   |                           Falta de experiência da equipe responsável com as tecnologias utilizadas, complexidade da tarefa                           |     Alta      |                           Pareamento com uma pessoa mais experiente e buscar ajuda externa.                            |
+| Algum membro da equipe trancar a disciplina |         As atividades da pessoa em questão terão que ser repassadas, dificultando o andamento do projeto e sobrecarga nos membros restantes          |     Baixa     |                        Replanejamento das atividades e reatribuição para os membros restantes.                         |
+|        Baixa produtividade da equipe        |                                   Falta de disponibilidade de tempo, membro da equipe adoecer, falta de motivação                                    |     Alta      |            Replanejar as atividade e redistribuí-las para que o andamento do projeto não seja prejudicado.             |
+|      Problema de comunicação da equipe      | Má interpretação das atividades, não atuação por efeitos externos(falta de internet, queda de energia, queda de algum meio de comunicação da equipe) |   Moderada    |                            Procurar outros meios de comunicação, reatribuir as atividades.                             |
+|              Mudança de escopo              |                            A escolha do tema não agrade os membros da equipe ou a proposta seja rejeitada pelo professor                             |     Baixa     |                           Reordenação dos elementos existentes e criação de um novo escopo.                            |
+|     A cliente sai ou desiste do projeto     |               Como a Marcela é a unica cliente e principal responsável pelo projeto isso iria impossibilitar a continuação do projeto                |     Alto      | Mudança do escopo do projeto ou expandir o projeto para que atenda os mesmos problemas de outras organizações/projetos |
+|             Cliente fica doente             |                                 A cliente fica doente dificultando a comunicação e a partifipação dela nas reuniões                                  |   Moderado    |                                          Replanejar as atividades ou adia-las                                          |
 
 ### 2.5. Critérios de Replanejamento
 
@@ -132,20 +146,14 @@ O ciclo de vida escolhido foi o evolutivo por alguns fatores levantados utilizan
 
 Com isso, optamos por uma abordagem ágil utilizando uma metodologia baseada em Scrum contendo práticas do XP, pois definimos anteriormente que o escopo de trabalho seria fracionado e cada parte desenvolvida em ciclos. Com etapas mais curtas e entregas mais frequentes, aliviaríamos a carga de trabalho e diminuindo os erros através de feedbacks constantes do cliente e do time de requisitos. Tornado-se um ambiente dinâmico e o aprendizado da equipe acelerado, impulsionando a produtividade em relação ao andamento do projeto.
   
-### 3.1. Requisitos
-
-| Atividade | Método | Ferramenta | Entrega |
-| --------- | ------ | ---------- | ------- |
-|           |        |            |         |
-
-### 3.2. Análise/Design
+### 3.1. Análise/Design
 
 |                 Atividade                  |         Método         | Ferramenta |            Entrega            |
 | :----------------------------------------: | :--------------------: | :--------: | :---------------------------: |
 | Produção de protótipos de média fidelidade |  Utilização do Figma   |   Figma    | Protótipo de média fidelidade |
 |           Refinamento do projeto           | Padrões de Codificação |   Figma    | Protótipo de média fidelidade | --------------------------- |
 
-### 3.3. Construção
+### 3.2. Construção
 
 |          Atividade           |               Método                |            Ferramenta             |      Entrega      |
 | :--------------------------: | :---------------------------------: | :-------------------------------: | :---------------: |
@@ -154,7 +162,7 @@ Com isso, optamos por uma abordagem ágil utilizando uma metodologia baseada em 
 |    Integração da solução     |       Versionamento de código       |           Git & Github            | Solução integrada |
 |   Implementação da solução   |        Hospedagem da solução        | Firebase/ Heroku/ Netlify/ Vercel |      Deploy       |
 
-### 3.4  Teste
+### 3.3.  Teste
 
 |         Atividade          |                            Método                            |    Ferramenta     |              Entrega               |
 | :------------------------: | :----------------------------------------------------------: | :---------------: | :--------------------------------: |
@@ -166,53 +174,65 @@ Com isso, optamos por uma abordagem ágil utilizando uma metodologia baseada em 
 
 A equipe do projeto decidiu utilizar uma abordagem ágil para a Engenharia de Requisitos(ER), tendo em vista as necessidades do time e do cliente. Em uma abordagem aǵil as atividades específicas da ER não são especificadas/explicitas. Assim, no contexto ágil o responsável pela gerencia dos requisitos é o PO.  Além disso, a metodogia ágil conta com a criação do backlog do produto, em que será listado todos os requisitos. Como o desenvolvimento é dividido em *Sprints*, os requisitos não terão necessidade de serem detalhados logo no início do projeto, e sim quando forem movidos para o *Sprint Backlog*.
 
+<img src="https://github.com/mdsreq-fga-unb/2022.1-pets-off-road/blob/correcao_doc_req/docs/imagens/relacao_scrum_requisitos.png?raw=true" style="width: 500px;"/>
+
+
+![Relação Scrup x Requisitos](https://github.com/mdsreq-fga-unb/2022.1-pets-off-road/blob/correcao_doc_req/docs/imagens/relacao_scrum_requisitos.png?raw=true
+)
+
 ### 4.1. Elicitação de Requisitos
 
-|                  Atividade                  |        Método        | Ferramenta  | Entrega |
-| :-----------------------------------------: | :------------------: | :---------: | :-----: |
-| Elucidação das ideias e análise do problema |      Brainstorm      | Miro e Meet |    -    |
-|     Entender as necessidades do cliente     | Brainstorm e Reunião | Miro e Meet |    -    |
-|     Definição da proposta de Requisitos     |       Reunião        |    Meet     |    -    |
+FAZER ISSO
+
+|               Atividade               |                                                                    Descrição                                                                    |        Método        | Ferramenta  |            Entrega             |
+| :-----------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :------------------: | :---------: | :----------------------------: |
+| Elucidar ideias e analisar o problema | Reunião com a equipe de requisitos com o objetivo de retirar a maior quantidade de "funcionalidades" do diagrama de projetos da _Pets Off Road_ |      Brainstorm      | Miro e Meet |           imagens 1            |
+|  Entender as necessidades do cliente  |            Reunião com a cliente para validação dos pontos previamente levantados na atividade anterior, e abertura de novos pontos             | Brainstorm e Reunião | Miro e Meet |            imagem 2            |
+|    Definir proposta de Requisitos     |                  Reunião após contato com a cliente, para solidificar a proposta de requisitos apresentada na primeira entrega                  |       Reunião        |    Meet     | Fechamento da primeiro entrega |
 
 
   
 
 ### 4.2. Análise de Requisitos
 
-|            Atividade            |                                                                Método                                                                |   Ferramenta   | Entrega |
-| :-----------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :------------: | :-----: |
-| Definir o website com o cliente | Maturação dos pontos levantados anteriormente a reunião com a cliente, desenvolvimento de proposta de projeto juntamente do cliente. |  Miro e Meet   |    -    |
-|     Refinamento do backlog      |                                                               Reuniões                                                               | Meet e Discord |    -    |
+|            Atividade            |                                                                Método                                                                | Ferramenta  |          Entrega          |
+| :-----------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :---------: | :-----------------------: |
+| Definir o website com o cliente | Maturação dos pontos levantados anteriormente a reunião com a cliente, desenvolvimento de proposta de projeto juntamente do cliente. | Miro e Meet | Mural com funcionalidades |
+
 
 ### 4.3. Documentação de Requisitos
 
-|       Atividade       |        Método        | Ferramenta  |         Entrega         |
-| :-------------------: | :------------------: | :---------: | :---------------------: |
-| Construção do backlog | Histórias de usuário | Meet e Miro | Documento de requisitos |
+|                      Atividade                      |                      Método                      | Ferramenta  |           Entrega           |
+| :-------------------------------------------------: | :----------------------------------------------: | :---------: | :-------------------------: |
+| Definição de Requisitos Funcionais e Não Funcionais | Técnicas de Registro e Organização de Requisitos | Meet e Miro | Especificação de Requisitos |
 
 ### 
 
 ### 4.4. Verificação e Validação de Requisitos
 
-|                           Atividade                            |                                            Método                                            |   Ferramenta   | Entrega |
-| :------------------------------------------------------------: | :------------------------------------------------------------------------------------------: | :------------: | :-----: |
-|            Conferir se os requisitos estão corretos            | Conferir se os requisitos estão corretos a partir de validação baseada em teste de aceitação |      Meet      |    -    |
-| Revisar e conferir a conformidade do produto com os requisitos |                                      Reunião de Review                                       | Meet e Discord |    -    |
+|                Atividade                 |                                                                                                   Método                                                                                                    | Ferramenta |                                                       Responsáveis                                                       |                   Entrega                   |
+| :--------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------: | :----------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------: |
+| Conferir se os requisitos estão corretos | Conferir se os requisitos estão corretos a partir de validação baseada em teste de aceitação. Os critérios são: validação por parte da cliente e coerência com os testes técnicos realizados posteriormente |    Meet    | Equipe de projetos: responsável por realizar testes técnicos; Cliente: Responsável por validar os requisitos levantados. | Integralização de funcionalidades aprovadas |
+
 
 
 
 
 ### 4.5. Gerenciamento de Requisitos
 
-|         Atividade         |              Método               |     Ferramenta      | Entrega |
-| :-----------------------: | :-------------------------------: | :-----------------: | :-----: |
-| Acompanhamento do backlog | Reunião de planejamento da sprint | Meet e Github Pages |    -    |
+|                Atividade                |  Método  |   Ferramenta   |           Entrega           |
+| :-------------------------------------: | :------: | :------------: | :-------------------------: |
+| Acompanhamento e Refinamento do backlog | Reuniões | Meet e Discord | detalhamento dos requisitos |
 
 ## 5. Lições Aprendidas
 
 ### 5.1. Unidade 1
 #### 5.1.1. MDS 
+
 #### 5.1.2. Requisitos
+Aprendemenos que um bom produto requer um contato recorrente com o cliente, além da verificação e manutenabilidade dos requisitos definidos para o projeto. 
+Apesar dos conhecimentos obtidos, a construção do documento de Engenharia de Requisitos foi complexa e necessitou de revisões e reformulações.
+Também tivemos dificuldade na comunicação pela indisponibilidade de tempo relacionadas ao trabalho, cursos e/ou outras disciplinas, porém resolvido posteriormente.
 #### 5.1.3. MDS-Requisitos
 
 ### 5.2. Unidade 2
