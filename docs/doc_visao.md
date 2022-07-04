@@ -175,8 +175,8 @@ Com isso, optamos por uma abordagem ágil utilizando uma metodologia baseada em 
 A equipe do projeto decidiu utilizar uma abordagem ágil para a Engenharia de Requisitos(ER), tendo em vista as necessidades do time e do cliente. Em uma abordagem aǵil as atividades específicas da ER não são especificadas/explicitas. Assim, no contexto ágil o responsável pela gerencia dos requisitos é o PO.  Além disso, a metodogia ágil conta com a criação do backlog do produto, em que será listado todos os requisitos. Como o desenvolvimento é dividido em *Sprints*, os requisitos não terão necessidade de serem detalhados logo no início do projeto, e sim quando forem movidos para o *Sprint Backlog*.
 
 
-![Relação Scrup x Requisitos](https://github.com/mdsreq-fga-unb/2022.1-pets-off-road/blob/correcao_doc_req/docs/imagens/relacao_scrum_requisitos.png?raw=true
-)
+![Fases do Scrum](imagens/fases_do_scrum.png)
+<center>![Relação Scrup x Requisitos](imagens/relacao_scrum_requisitos.png)</center>
 
 ### 4.1. Elicitação de Requisitos
 
@@ -252,5 +252,6 @@ Também tivemos dificuldade na comunicação pela indisponibilidade de tempo rel
 
 1. Sommerville, I., Engenharia de software. 9th ed., Pearson Addison Wesley, 2011
 2. Silveira, Bárbara; Werneck, Marcelo. A Engenharia de Requisitos nos métodos ágeis: uma revisão sistemática da literatura. 2017
-3. Ciclos de Vida do Software. Disponível em: https://www.devmedia.com.br/ciclos-de-vida-do-software/21099 Acesso em 29 jun. 2022
-4. Alves, Lucas; Metodologia Scrum: entenda as etapas e funções dentro da gestão de projetos ágeis; 19 nov. 2011 Disponível em: https://www.take.net/blog/chatbots/metodologia-scrum/ Acesso em 29 jun. 2022.
+3. Ciclos de Vida do Software. Disponível em: <https://www.devmedia.com.br/ciclos-de-vida-do-software/21099> Acesso em 29 jun. 2022
+4. Alves, Lucas; Metodologia Scrum: entenda as etapas e funções dentro da gestão de projetos ágeis; 19 nov. 2011 Disponível em: <https://www.take.net/blog/chatbots/metodologia-scrum/> Acesso em 29 jun. 2022.
+5. Paixão, Marina; Metodologia Scrum: tudo o que você precisa para não atrasar seus projetos; 06 jul. 2021 Disponível em: <https://www.witix.com.br/blog-postagens/9/metodologia-scrum-tudo-o-que-voce-precisa-para-nao-atrasar-seus-projetos> Acesso em 03 jun. 2022.
