@@ -180,12 +180,17 @@ A equipe do projeto decidiu utilizar uma abordagem ágil para a Engenharia de Re
 
 ### 4.1. Elicitação de Requisitos
 
+|                 Levantamento de possíveis Funcionalidades                  |                        Reunião após a validação com a cliente                         |
+| :------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
+| ![Levantamento de possíveis Funcionalidades](imagens/reuniao_diagrama.png) | ![Reunião após a validação coma cliente](imagens/diagrama_pos_validacao_cliente.png) |
+
+
 FAZER ISSO
 
 |               Atividade               |                                                                    Descrição                                                                    |        Método        | Ferramenta  |            Entrega             |
 | :-----------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :------------------: | :---------: | :----------------------------: |
-| Elucidar ideias e analisar o problema | Reunião com a equipe de requisitos com o objetivo de retirar a maior quantidade de "funcionalidades" do diagrama de projetos da _Pets Off Road_ |      Brainstorm      | Miro e Meet |           imagens 1            |
-|  Entender as necessidades do cliente  |            Reunião com a cliente para validação dos pontos previamente levantados na atividade anterior, e abertura de novos pontos             | Brainstorm e Reunião | Miro e Meet |            imagem 2            |
+| Elucidar ideias e analisar o problema | Reunião com a equipe de requisitos com o objetivo de retirar a maior quantidade de "funcionalidades" do diagrama de projetos da _Pets Off Road_ |      Brainstorm      | Miro e Meet |   Possíveis funcionalidades    |
+|  Entender as necessidades do cliente  |            Reunião com a cliente para validação dos pontos previamente levantados na atividade anterior, e abertura de novos pontos             | Brainstorm e Reunião | Miro e Meet |    Necessidades da cliente     |
 |    Definir proposta de Requisitos     |                  Reunião após contato com a cliente, para solidificar a proposta de requisitos apresentada na primeira entrega                  |       Reunião        |    Meet     | Fechamento da primeiro entrega |
 
 
@@ -220,7 +225,7 @@ FAZER ISSO
 
 |                Atividade                |  Método  |   Ferramenta   |           Entrega           |
 | :-------------------------------------: | :------: | :------------: | :-------------------------: |
-| Acompanhamento e Refinamento do backlog | Reuniões | Meet e Discord | detalhamento dos requisitos |
+| Acompanhamento e Refinamento do backlog | Reuniões | Meet e Discord | Detalhamento dos requisitos |
 
 ## 5. Lições Aprendidas
 
