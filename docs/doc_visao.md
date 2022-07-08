@@ -230,11 +230,15 @@ A equipe do projeto decidiu utilizar uma abordagem ágil para a Engenharia de Re
 
 ### 5.1. Unidade 1
 #### 5.1.1. MDS 
+Tivemos inicialmente dificuldades para determinar a melhor abordagem de desenvolvimento de software. Apesar disso, através dos feedbacks fornecido pelo professor e das apresentações adjacentes foi possível compreender diversas temáticas da disciplina relacionadas a unidade 1. 
+Quanto a questão técnica, foi possível aprender sobre a ferramenta Mkdocs para a elaboração do GitPages e mais sobre versionamento de código com Git.
+Também tivemos dificuldades de comunicação no início por conflitos de horários, mas por termos adotarmos reuniões diárias foi possível manter uma linha de trabalho constante entre todos os integrantes.
 
 #### 5.1.2. Requisitos
-Aprendemenos que um bom produto requer um contato recorrente com o cliente, além da verificação e manutenabilidade dos requisitos definidos para o projeto. 
+Aprendemos que um bom produto requer um contato recorrente com o cliente, além da verificação e manutenabilidade dos requisitos definidos para o projeto. 
 Apesar dos conhecimentos obtidos, a construção do documento de Engenharia de Requisitos foi complexa e necessitou de revisões e reformulações.
 Também tivemos dificuldade na comunicação pela indisponibilidade de tempo relacionadas ao trabalho, cursos e/ou outras disciplinas, porém resolvido posteriormente.
+
 #### 5.1.3. MDS-Requisitos
 O principal problema foi com a comunicação, problema este acertado posteriormente. É complicado alinhar um time em si, que foi requisitos, por conta do tempo, então igual difícil foi alinhar os horários das duas disciplinas. Muitos componentes dos dois times trabalham. Porém, encontramos horários em comum e esse problema foi solucionado.
 ### 5.2. Unidade 2
