@@ -1,5 +1,6 @@
 # Como contribuir? 
 
+* Caso seja um colaborador externo, dê um fork no projeto.
 * Para contribuir no projeto é recomendado abrir as issues existentes para entender o que o projeto precisa.
 * Caso seu problema ainda não tenha sido documentado, crie uma nova issue para o problema. É recomendável priorizar as existentes.
 
