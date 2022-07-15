@@ -5,6 +5,8 @@ nav:
 - Visão: doc_visao.md
 - Comunicação: doc_Comunicacao.md
 - Apresentações: apresentacoes.md
+- Políticas do Repositório: 
+    - Como contribuir: contributing.md
 
 theme: 
   name: material
