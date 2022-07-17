@@ -8,16 +8,18 @@
 
 # Políticas de branches
 
+Nossas branches vão seguir o modelo do Git FLow, para uma melhor organização das atividades.
+
 ## main
 
 A main é a nossa branch de produção, nela vai estar a versão estável do projeto.
 
-## develop
-A develop é a branch de desenvolvimento, é nela que onde vai ser enviado os trabalhos feitos nas branches de features, ou seja, ela possui as funcionalidades que ainda não foram publicadas e que posteriormente vão ser associadas com a **main**. É a branch onde fica o código próximo do deploy.
+## development
+A development é a branch de desenvolvimento, é nela que onde vai ser enviado os trabalhos feitos nas branches de features, ou seja, ela possui as funcionalidades que ainda não foram publicadas e que posteriormente vão ser associadas com a **main**. É a branch onde fica o código próximo do deploy.
 
 ## branches de features
 
-As branches de features são criadas a partir da **develop**, e servem para o desenvolvimento de features presentes nas issues do repositório. Após a conclusão da feature, ela deve ser enviada para **develop** através de um pull request.
+As branches de features são criadas a partir da **development**, e servem para o desenvolvimento de features presentes nas issues do repositório. Após a conclusão da feature, ela deve ser enviada para **development** através de um pull request.
 
 Padrão para o nome das branches de features: XX_nome_da_issue, onde XX é o número da issue seguido pelo seu nome.
 
@@ -34,7 +36,7 @@ Caso esteja utilizando a técnica pair programming deve-se especificar todos os 
 
 1 - Após o comando git add para adicionar as alterações, execute o comando git commit.
 
-2 - Logo após o comando anterior abrirá um editor de texto. Na primeira linha digite a mensagem do commit, depois pule duas linhas e adicione a co-autoria.
+2 - Logo após o comando anterior abrirá um editor de texto. Na primeira linha digite a mensagem do commit, depois pule duas linhas e adicione a co-autoria, com a tag seguida do nome e o email entre <>.
 
 3 - Depois disso é só salvar o commit.
 
