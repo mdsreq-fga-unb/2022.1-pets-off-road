@@ -11,7 +11,8 @@
 | 29/06/2022 |  0.6   |                   Processo de desenvolvimento de software                    |          Matheus, José, Renan, Shaíne           |
 | 03/07/2022 |  1.0   |                     Correções do documento - Requisitos                      |                 Pedro e Gabriel                 |
 | 17/07/2022 |  1.1   | Atualização do processo de engenharia de requisitos e planejamento das fases |          Gabriel Marcolino e Jefferson          |
-| 18/07/2022 |  1.0   |               Correções do documento - MDS                                   |                 Matheus, Shaíne e José                 |
+| 18/07/2022 |  1.2   |                         Correções do documento - MDS                         |             Matheus, Shaíne e José              |
+| 19/07/2022 |  1.2   |                      Correções do produto - Requisitos                       |                  Pedro Helias                   |
 
 
 
@@ -19,13 +20,13 @@
 ## Sumário
 ## 1. Visão Geral do Produto
 
-A _Pets Off Road_ é uma organização fundamentada e gerida em grupos de _Whatsapp_ que visa, principalmente, auxiliar animais desamparados, que estão em situação de rua, sofrem maus tratos ou foram abandonados. A organização deixa claro que não é um abrigo para animais, mas sim uma causa composta por colaboradores que conseguem auxiliar o projeto da forma como podem, seja carona, lar temporário, entre outros. Cada colaborador se estabelece em um grupo o qual consegue auxiliar no projeto relacionado. É citado os grupos de Castração de animais de Rua, Auxílio a Zoonose do Valparaíso, Projeto de Resgate, o que sempre está precisando de novos colaboradores e mais recentemente o Grupo Teen que trabalha na construção de casinhas para animais de rua. A _Pets Off Road_ possui páginas em redes sociais, onde muito dos trabalhos de comunicação são realizados, além de ser uma ponte entre quem pode ajudar e o projeto.
+A _Pets Off Road_ é uma organização fundamentada e gerida em grupos de _Whatsapp_ que visa, principalmente, auxiliar animais desamparados, que estão em situação de rua, sofrem maus tratos ou foram abandonados. A organização deixa claro que não é um abrigo para animais, mas sim uma causa composta por colaboradores que conseguem auxiliar o projeto da forma como podem, seja carona, lar temporário, entre outros. Cada colaborador se estabelece em um grupo o qual consegue auxiliar no projeto relacionado. É citado os grupos de Castração de animais de Rua, Auxílio a Zoonose do Valparaíso, Projeto de Resgate, o que sempre está precisando de novos colaboradores e mais recentemente o Grupo Teen que trabalha na construção de casinhas para animais de rua. A _Pets Off Road_ possui páginas em redes sociais, onde muito dos trabalhos de comunicação são realizados, além de ser uma ponte entre quem pode ajudar e o projeto. 
 
-* O produto proposto se trata de uma solução WEB (um website) que visa criar uma estrutura mais robusta e virtualizada de alguns serviços que a _Pets Off Road_ presta atualmente, ou seja, evoluir os meios de gerência e acessibilidade para os projetos, de forma a adaptar o que já é feito atualmente, seja com cadastros virtuais, listagem de componentes, até a criação de uma “ponte” entre a Pets Off Road e o usuário/colaborador.
+* O produto proposto se trata de uma solução WEB (um website) que formará uma rede social entre diferentes organizações/projetos voltados para a causa dos animais abandonados ou vítimas de maus tratos, com o intuito de encaminha-los para possíveis tutores, realizar essa "ponte" entre pessoas que gostariam de adotar e animais precisando de tutores; medica-los, e/ou promover castrações para quem não pode arcar com os custos. Como uma rede social, opções de interação como criação de postagens para informar e interagir com usuários com baixos privilégios(usuário comum) e contatos com as organizações serão possíveis. Acreditamos que esse produto terá maior praticidade sobre o que já é utilizado por muitos desses projetos. Como primeiro cliente, o projeto foi construído utilizando o escopo de alguns serviços que a _Pets Off Road_ presta atualmente. Por conta disso, foi modelado um sistema que visa criar uma estrutura mais robusta e virtualizada de alguns serviços da _Pets Off Road_, ou seja, evoluir os meios de gerência e acessibilidade para os projetos, de forma a adaptar o que já é feito atualmente, seja com cadastros virtuais, listagem de componentes, até a criação de uma “ponte” entre a _Pets Off Road_ e outras organizações, e o usuário/colaborador. 
 
 * O produto possui origem acadêmica voltado a uma causa admirável, além de que se busca propor uma solução baseada no que já se configura na questão de gerência e fluxo de serviço. Em outras palavras, busca-se respeitar o que já existe e adaptar em uma solução mais dinâmica e robusta.
 
-* Os usuários alvo são: Pessoas dispostas a adotar animais, realizar doações(remédio, pix) e/ou colaborar com a _Pets Off Road_. O cliente é a criadora da _Pets Off Road_.
+* Os usuários alvo são: Pessoas dispostas a adotar animais, realizar doações(remédio, pix) e/ou colaborar com a _Pets Off Road_ e outras organizações. O cliente é a criadora da _Pets Off Road_ e possíveis outras organizações.
 
 * Atualmente, as operações realizadas são feitas via _Instagram_. A princípio, apenas essa plataforma consegue suprir o alcance do projeto, porém não supre as necessidades gerenciais e de controle. A cliente relata que possui bastante dificuldade para controlar e filtrar candidatos a voluntariado e/ou tutores de animais, além de que a gestão de dados também não é simplificada. Portanto, o produto visa a resolução dessas problemáticas expostas.
 
@@ -34,16 +35,16 @@ A _Pets Off Road_ é uma organização fundamentada e gerida em grupos de _Whats
 | Para             | Usuários em comum                                                                                                                                                                                                                   |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Quem             | Deseja realizar doações, adoção de animais e/ou voluntariado                                                                                                                                                                        |
-| A _Pet Off Road_ | É um projeto em vias de migração para um Website                                                                                                                                                                                    |
+| _Nome a decidir_ | É um projeto em vias de migração para um Website que manifesta uma rede social                                                                                                                                                      |
 | Que              | Disponibiliza informações para doações, formulários de cadastro para voluntários/tutores, histórico de cuidado com o animal, entre outros                                                                                           |
-| Ao Contrário     | De procurar por informação em diversos posts da página oficial do projeto no _Instagram_, onde a cliente fica à mercê da orgarnização do APP                                                                                        |
+| Ao Contrário     | De procurar por informação em diversos posts da página oficial do projeto no _Instagram_, onde o cliente fica à mercê da orgarnização do APP                                                                                        |
 | Nosso produto    | Condensará boa parte das atividades e informações que não estão presentes ou acessíveis no _Instagram_, ou são improváveis de serem executadas por lá, como gerência de informação, gestão e filtragem de voluntários, entre outros |
 
 ### 1.2. Objetivos do Produto
 
 O principal objetivo é facilitar algumas tarefas realizadas pela organização, Pets Off Road, no dia-a-dia, já que normalmente todas as tarefas são feitas através do whatsapp e Instagram, redes sociais não muito adequadas para as resoluções dos serviços realizados.
 
-Para ajudar na administração e gerenciamento das tarefas criaremos um website. Nele será possível que qualquer pessoa possa realizar seu cadastro, se tornar um voluntário e escolher quais grupos irá fazer parte, deixaremos disponíveis dados da organização para que doações possam ser feitas, também ficará disponível dados dos médicos parceiros e petshops que ajudam os animais quando precisam ser castrados e por fim será possível detalhar os eventos da Pets Off Road. E para a cliente, um backgroud onde será possível gerenciar e filtrar cadastros realizados por terceiros.
+Para ajudar na administração e gerenciamento das tarefas criaremos um website. Nele será possível que qualquer pessoa possa realizar seu cadastro, se tornar um voluntário e escolher quais grupos irá fazer parte, deixaremos disponíveis dados da organização para que doações possam ser feitas. Também será possível detalhar os eventos das Organizações cadastradas por meio de postagens. E para a cliente, um backgroud onde será possível gerenciar e filtrar cadastros realizados por terceiros, além de um pequeno controle de finanças com possibilidades de adição de entrada e saída de capital.
 
 
 ### 1.3. Tecnologias a Serem Utilizadas
@@ -157,14 +158,14 @@ Com isso, optamos por uma abordagem dirigida a plano, utilizando uma metodologia
 Os ciclos de desenvolvimento serão feitos no ordenamento do quadro abaixo:
 
 
-| Disciplina |Atividade| Método | Ferramenta | Responsável | Entrega |
-|----|----|----|----|----|----|
-|Analise/Design| Definir a arquitetura | Design Orientado a função | Figma | MDS |Documento|
-|Analise/Design| Prototipação de Baixa Fidelidade | Metáforas e Modelos Conceituais | Figma | Shaíne e Matheus |Protótipo de páginas|
-|Construção| Modelagem Banco de Dados | Modelagem de dados | Lucidchart | José Filipi e Renan |Diagrama UML DB|
-|Construção| Programação backend | Codificação | VScode | José Filipi, Renan Rodrigues, Shaíne Oliveira |Código|
-|Construção| Programação Frontend | Codificação | VScode | Matheus Phillipo e Shaíne Oliveira |Código|
-|Teste| Criar cenários de teste para verificar se os critérios de aceitação foram atendidos e corrigir possíveis falhas | Testes unitários | Jest | Renan e Matheus |Testes unitários|
+| Disciplina     | Atividade                                                                                                       | Método                          | Ferramenta | Responsável                                   | Entrega              |
+| -------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------- | ---------- | --------------------------------------------- | -------------------- |
+| Analise/Design | Definir a arquitetura                                                                                           | Design Orientado a função       | Figma      | MDS                                           | Documento            |
+| Analise/Design | Prototipação de Baixa Fidelidade                                                                                | Metáforas e Modelos Conceituais | Figma      | Shaíne e Matheus                              | Protótipo de páginas |
+| Construção     | Modelagem Banco de Dados                                                                                        | Modelagem de dados              | Lucidchart | José Filipi e Renan                           | Diagrama UML DB      |
+| Construção     | Programação backend                                                                                             | Codificação                     | VScode     | José Filipi, Renan Rodrigues, Shaíne Oliveira | Código               |
+| Construção     | Programação Frontend                                                                                            | Codificação                     | VScode     | Matheus Phillipo e Shaíne Oliveira            | Código               |
+| Teste          | Criar cenários de teste para verificar se os critérios de aceitação foram atendidos e corrigir possíveis falhas | Testes unitários                | Jest       | Renan e Matheus                               | Testes unitários     |
 
 
 ## 4. Processo de Engenharia de Requisitos
