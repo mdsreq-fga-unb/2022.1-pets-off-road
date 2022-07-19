@@ -1,16 +1,16 @@
 # Visão do Produto e Projeto
 ## Histórico de Versão
 
-|    Data    | Versão |                            Descrição                            |                    Autor(es)                    |
-| :--------: | :----: | :-------------------------------------------------------------: | :---------------------------------------------: |
-| 23/06/2022 |  0.1   |                      Criação do documento                       |                  Pedro Helias                   |
-| 25/06/2022 |  0.2   |                     Visão geral do projeto                      |        Gabriel Marcolino e Rhuan Marques        |
-| 28/06/2022 |  0.3   |                     Visão geral do produto                      |            Pedro Helias e Jefferson             |
-| 28/06/2022 |  0.4   |              Processo de engenharia de requisitos               | Gabriel Marcolino, Pedro Helias e Rhuan Marques |
-| 29/06/2022 |  0.5   | Tecnologias Utilizadas, Processo de desenvolvimento de software |          Matheus, José, Renan, Shaíne           |
-| 29/06/2022 |  0.6   |             Processo de desenvolvimento de software             |          Matheus, José, Renan, Shaíne           |
-| 03/07/2022 |  1.0   |               Correções do documento - Requisitos               |                 Pedro e Gabriel                 |
-
+|    Data    | Versão |                                  Descrição                                   |                    Autor(es)                    |
+| :--------: | :----: | :--------------------------------------------------------------------------: | :---------------------------------------------: |
+| 23/06/2022 |  0.1   |                             Criação do documento                             |                  Pedro Helias                   |
+| 25/06/2022 |  0.2   |                            Visão geral do projeto                            |        Gabriel Marcolino e Rhuan Marques        |
+| 28/06/2022 |  0.3   |                            Visão geral do produto                            |            Pedro Helias e Jefferson             |
+| 28/06/2022 |  0.4   |                     Processo de engenharia de requisitos                     | Gabriel Marcolino, Pedro Helias e Rhuan Marques |
+| 29/06/2022 |  0.5   |       Tecnologias Utilizadas, Processo de desenvolvimento de software        |          Matheus, José, Renan, Shaíne           |
+| 29/06/2022 |  0.6   |                   Processo de desenvolvimento de software                    |          Matheus, José, Renan, Shaíne           |
+| 03/07/2022 |  1.0   |                     Correções do documento - Requisitos                      |                 Pedro e Gabriel                 |
+| 17/07/2022 |  1.1   | Atualização do processo de engenharia de requisitos e planejamento das fases |          Gabriel Marcolino e Jefferson          |
 
 
 
@@ -77,29 +77,33 @@ Os desenvolvedores da Pets Off Road decidiram usar algumas tecnologias que já e
 
 ### 2.2. Planejamento das Fases e/ou Iterações do Projeto
 
-|  Sprint   |                    Produto (Entrega)                    | Data Início |  Data Fim  |
-| :-------: | :-----------------------------------------------------: | :---------: | :--------: |
-| Sprint 1  |                  Definição do Projeto                   | 21/06/2022  | 28/06/2022 |
-| Sprint 2  |               Levantamento de Requisitos                | 30/06/2022  | 07/07/2022 |
-| Sprint 3  | MVP1 + Desenvolvimento de Protótipo de Baixa Fidelidade | 08/07/2022  | 15/07/2022 |
-| Sprint 4  |                           --                            | 16/07/2022  | 23/07/2022 |
-| Sprint 5  |                           --                            | 25/07/2022  | 01/08/2022 |
-| Sprint 6  |                           --                            | 02/08/2022  | 09/08/2022 |
-| Sprint 7  |                           --                            | 10/08/2022  | 17/08/2022 |
-| Sprint 8  |                           --                            | 18/08/2022  | 25/08/2022 |
-| Sprint 9  |                           --                            | 26/08/2022  | 02/09/2022 |
-| Sprint 10 |                           --                            | 03/09/2022  | 10/09/2022 |
-| Sprint 11 |                           --                            | 12/09/2022  | 19/09/2022 |
+|  Sprint   |                         Produto (Entrega)                         | Data Início |  Data Fim  |
+| :-------: | :---------------------------------------------------------------: | :---------: | :--------: |
+| Sprint 1  |             Formação da equipe e Definição do Projeto             | 20/06/2022  | 26/06/2022 |
+| Sprint 2  | Visão do produto e projeto e processo de engenharia de requisitos | 27/06/2022  | 03/07/2022 |
+| Sprint 3  |             Atualização da visão do produto e projeto             | 04/07/2022  | 10/07/2022 |
+| Sprint 4  |       Levantamento de Requisitos, Canvas MVP, WorkShop(MDS)       | 11/07/2022  | 17/07/2022 |
+| Sprint 5  |        Backlog , Atualização da Visão do Produto e Projeto        | 18/07/2022  | 24/07/2022 |
+| Sprint 6  |     Implementação das funcionalidades, Refinamento do Backlog     | 25/07/2022  | 31/07/2022 |
+| Sprint 7  |                           Implementação                           | 01/08/2022  | 07/08/2022 |
+| Sprint 8  |                           Implementação                           | 08/08/2022  | 14/08/2022 |
+| Sprint 9  |                                PBB                                | 15/08/2022  | 21/08/2022 |
+| Sprint 10 |                           Implementação                           | 22/08/2022  | 28/08/2022 |
+| Sprint 11 |                           Implementação                           | 29/08/2022  | 04/09/2022 |
+| Sprint 12 |                           Implementação                           | 05/09/2022  | 11/09/2022 |
+| Sprint 13 |                           Implementação                           | 12/09/2022  | 18/09/2022 |
+
+
 
 ### 2.3. Matriz de Comunicação 
 
-|                               Descrição                               |       Área/Envolvidos        |     Periodicidade     |           Produtos Gerados           |
-| :-------------------------------------------------------------------: | :--------------------------: | :-------------------: | :----------------------------------: |
-|              Acompanhamento das Atividades em Andamento               |      Equipe do Projeto       |        Semanal        |            Ata da reunião            |
-| Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores |     Equipe de Requisitos     |       Quinzenal       |            Ata da reunião            |
-|                     Comunicar Situação do Projeto                     | Equipe do Projeto, Professor |        Semanal        |         Feedback do projeto          |
-|                      Comunicação geral do grupo                       |      Equipe do Projeto       | Sempre que necessário |            Ata da reunião            |
-|                         Reunião com a cliente                         |     Equipe de Requisitos     |       Quinzenal       | Ata da reunião e feedback do projeto |
+|                               Descrição                               |       Área/Envolvidos        |     Periodicidade     |            Produtos Gerados             |
+| :-------------------------------------------------------------------: | :--------------------------: | :-------------------: | :-------------------------------------: |
+|              Acompanhamento das Atividades em Andamento               |      Equipe do Projeto       |        Semanal        |            Resumo da reunião            |
+| Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores |     Equipe de Requisitos     |       Quinzenal       |            Resumo da reunião            |
+|                     Comunicar Situação do Projeto                     | Equipe do Projeto, Professor |        Semanal        |           Feedback do projeto           |
+|                      Comunicação geral do grupo                       |      Equipe do Projeto       | Sempre que necessário |            Resumo da reunião            |
+|                         Reunião com a cliente                         |     Equipe de Requisitos     |       Quinzenal       | Resumo da reunião e feedback do projeto |
 
 ### 2.4. Gerenciamento de Riscos
 
@@ -133,6 +137,7 @@ Com base nos riscos do projeto foram estabelecidos os seguintes critérios de re
 * Algum membro da equipe sair;
 * Algum membro ficar doente;
 * Atrasos no cronograma do projeto;
+* Mundança no escopo do projeto.
 
 ## 3. Processo de Desenvolvimento de Software
 
@@ -172,18 +177,12 @@ Com isso, optamos por uma abordagem ágil utilizando uma metodologia baseada em 
 
 ## 4. Processo de Engenharia de Requisitos
 
-A equipe do projeto decidiu utilizar uma abordagem ágil para a Engenharia de Requisitos(ER), tendo em vista as necessidades do time e do cliente. Em uma abordagem aǵil as atividades específicas da ER não são especificadas/explicitas. Assim, no contexto ágil o responsável pela gerencia dos requisitos é o PO.  Além disso, a metodogia ágil conta com a criação do backlog do produto, em que será listado todos os requisitos. Como o desenvolvimento é dividido em *Sprints*, os requisitos não terão necessidade de serem detalhados logo no início do projeto, e sim quando forem movidos para o *Sprint Backlog*.
+A equipe do projeto decidiu utilizar uma abordagem ágil para a Engenharia de Requisitos(ER), tendo em vista as necessidades do time e do cliente. Em uma abordagem aǵil as atividades específicas da ER não são especificadas/explicitas. Assim, no contexto ágil o responsável pela gerência dos requisitos é o PO.  Além disso, a metodogia ágil conta com a criação do backlog do produto, em que será listado todos os requisitos e atividades a serem realizadas. Como o desenvolvimento é dividido em *Sprints*, os requisitos não terão necessidade de serem detalhados logo no início do projeto, e sim quando forem movidos para o *Sprint Backlog*.
 
 
 ![Fases do Scrum](imagens/fases_do_scrum.png)
-<center>![Relação Scrup x Requisitos](imagens/relacao_scrum_requisitos.png)</center>
 
 ### 4.1. Elicitação de Requisitos
-
-|                 Levantamento de possíveis Funcionalidades                  |                        Reunião após a validação com a cliente                        |
-| :------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
-| ![Levantamento de possíveis Funcionalidades](imagens/reuniao_diagrama.png) | ![Reunião após a validação coma cliente](imagens/diagrama_pos_validacao_cliente.png) |
-
 
 
 |               Atividade               |                                                                    Descrição                                                                    |        Método        | Ferramenta  |            Entrega             |
@@ -197,9 +196,11 @@ A equipe do projeto decidiu utilizar uma abordagem ágil para a Engenharia de Re
 
 ### 4.2. Análise de Requisitos
 
-|            Atividade            |                                                                Método                                                                | Ferramenta  |          Entrega          |
-| :-----------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :---------: | :-----------------------: |
-| Definir o website com o cliente | Maturação dos pontos levantados anteriormente a reunião com a cliente, desenvolvimento de proposta de projeto juntamente do cliente. | Miro e Meet | Mural com funcionalidades |
+|          Atividade           |   Método   |   Ferramenta   |         Entrega          |
+| :--------------------------: | :--------: | :------------: | :----------------------: |
+|    Reconhecer o problema     | Brainstorm | Meet e Discord | Definição dos requisitos |
+|    Revisão dos requisitos    | Brainstorm |    Discord     | Definição dos requisitos |
+| Especificação dos requisitos |  Reunião   |    Discord     | Definição dos requisitos |
 
 
 ### 4.3. Documentação de Requisitos
@@ -212,12 +213,9 @@ A equipe do projeto decidiu utilizar uma abordagem ágil para a Engenharia de Re
 
 ### 4.4. Verificação e Validação de Requisitos
 
-|                Atividade                 |                                                                                                   Método                                                                                                    | Ferramenta |                                                       Responsáveis                                                       |                   Entrega                   |
-| :--------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------: | :----------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------: |
-| Conferir se os requisitos estão corretos | Conferir se os requisitos estão corretos a partir de validação baseada em teste de aceitação. Os critérios são: validação por parte da cliente e coerência com os testes técnicos realizados posteriormente |    Meet    | Equipe de projetos: responsável por realizar testes técnicos; Cliente: Responsável por validar os requisitos levantados. | Integralização de funcionalidades aprovadas |
-
-
-
+|                Atividade                 |                   Método                    | Ferramenta |          Responsáveis          |                   Entrega                   |
+| :--------------------------------------: | :-----------------------------------------: | :--------: | :----------------------------: | :-----------------------------------------: |
+| Conferir se os requisitos estão corretos | Validação por parte do cliente com a equipe |    Meet    | Equipe de requisitos e cliente | Integralização de funcionalidades aprovadas |
 
 
 ### 4.5. Gerenciamento de Requisitos
