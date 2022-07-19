@@ -10,6 +10,7 @@
 | 29/06/2022 |  0.5   | Tecnologias Utilizadas, Processo de desenvolvimento de software |          Matheus, José, Renan, Shaíne           |
 | 29/06/2022 |  0.6   |             Processo de desenvolvimento de software             |          Matheus, José, Renan, Shaíne           |
 | 03/07/2022 |  1.0   |               Correções do documento - Requisitos               |                 Pedro e Gabriel                 |
+| 18/07/2022 |  1.0   |               Correções do documento - MDS           |                 Matheus, Shaíne e José                 |
 
 
 
