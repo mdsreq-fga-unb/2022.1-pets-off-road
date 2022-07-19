@@ -5,6 +5,7 @@ nav:
 - Visão: doc_visao.md
 - Comunicação: doc_Comunicacao.md
 - Apresentações: apresentacoes.md
+- Workshop: workshop.md
 
 theme: 
   name: material

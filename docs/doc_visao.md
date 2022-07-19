@@ -11,6 +11,8 @@
 | 29/06/2022 |  0.6   |                   Processo de desenvolvimento de software                    |          Matheus, José, Renan, Shaíne           |
 | 03/07/2022 |  1.0   |                     Correções do documento - Requisitos                      |                 Pedro e Gabriel                 |
 | 17/07/2022 |  1.1   | Atualização do processo de engenharia de requisitos e planejamento das fases |          Gabriel Marcolino e Jefferson          |
+| 18/07/2022 |  1.0   |               Correções do documento - MDS                                   |                 Matheus, Shaíne e José                 |
+
 
 
 
@@ -141,39 +143,29 @@ Com base nos riscos do projeto foram estabelecidos os seguintes critérios de re
 
 ## 3. Processo de Desenvolvimento de Software
 
-O ciclo de vida escolhido foi o evolutivo por alguns fatores levantados utilizando a tabela de seleção baseadas no status do time de desenvolvimento e participação do usuário. A equipe está tendo contato constante com o cliente, tendo possiblidade de receber feedbacks e realizar melhorias em tempo hábil. Além disso, a escolha do ciclo de vida foi impactada pelos seguintes itens:
+O ciclo de vida escolhido foi o iterativo e incremental, pois a equipe decidiu por dividir os requisitos e funcionalidades em módulos. Cada um deles é avaliado e classificado com um nível de prioridades. Sendo assim, o time pode planejar etapas com foco nos módulos prioritários.
 
-- Desenvolvedores com experiências distintas que não envolvem o escopo do projeto;
-- Time de desenvolvimento com nível Trainee - Junior e com disponibilidade para aprendizado autodidata;
-- O cliente não participa de todas as etapas do desenvolvimento;
-- Participação limitada do cliente;
-- Cliente não tem total domínio do problema;
+Ao término de cada etapa, o cliente receberá uma amostra do software com as funcionalidades já criadas, permitindo que os recursos mais importantes sejam testados rapidamente no ambiente de produção. Ou seja, a euipe terá mais meios para coletar dados sobre o uso da aplicação e o que pode ser feito para otimizá-la.
 
-Com isso, optamos por uma abordagem ágil utilizando uma metodologia baseada em Scrum contendo práticas do XP, pois definimos anteriormente que o escopo de trabalho seria fracionado e cada parte desenvolvida em ciclos. Com etapas mais curtas e entregas mais frequentes, aliviaríamos a carga de trabalho e diminuindo os erros através de feedbacks constantes do cliente e do time de requisitos. Tornado-se um ambiente dinâmico e o aprendizado da equipe acelerado, impulsionando a produtividade em relação ao andamento do projeto.
+As chances de o cliente ter elevada satisfação também são maiores. Afinal, ele poderá entregar um feedback contínuo sobre os recursos e as suas expectativas. Portanto, a equipe pode criar maior alinhamento com o usuário e as suas demandas.
+
+Com isso, optamos por uma abordagem dirigida a plano, utilizando uma metodologia baseada no Processo Unificado contendo práticas do XP (Planejamento, Design Simples, Testes, Programação em Pares, Integração Contínua e Padronização de Código) e uso do quadro Kanban, pois definimos anteriormente que o escopo de trabalho seria fracionado e cada parte desenvolvida em ciclos. Com etapas mais curtas e entregas mais frequentes, aliviando assim a carga de trabalho e diminuindo os erros através de feedbacks constantes do cliente e do time de requisitos. Tornado-se um ambiente dinâmico e impulsionando a produtividade em relação ao andamento do projeto.
+
   
-### 3.1. Análise/Design
+### 3.1. Processos e Procedimentos
 
-|                 Atividade                  |         Método         | Ferramenta |            Entrega            |
-| :----------------------------------------: | :--------------------: | :--------: | :---------------------------: |
-| Produção de protótipos de média fidelidade |  Utilização do Figma   |   Figma    | Protótipo de média fidelidade |
-|           Refinamento do projeto           | Padrões de Codificação |   Figma    | Protótipo de média fidelidade | --------------------------- |
+Os ciclos de desenvolvimento serão feitos no ordenamento do quadro abaixo:
 
-### 3.2. Construção
 
-|          Atividade           |               Método                |            Ferramenta             |      Entrega      |
-| :--------------------------: | :---------------------------------: | :-------------------------------: | :---------------: |
-| Desenvolvimento de Back-End  | Abstração do Problema e Codificação |     Node.js, Nest.Js e ESLint     |      Backend      |
-| Desenvolvimento de Front-end | Abstração do problema e codificação |    ReactJS, Styled-Components     |     Frontend      |
-|    Integração da solução     |       Versionamento de código       |           Git & Github            | Solução integrada |
-|   Implementação da solução   |        Hospedagem da solução        | Firebase/ Heroku/ Netlify/ Vercel |      Deploy       |
+| Disciplina |Atividade| Método | Ferramenta | Responsável | Entrega |
+|----|----|----|----|----|----|
+|Analise/Design| Definir a arquitetura | Design Orientado a função | Figma | MDS |Documento|
+|Analise/Design| Prototipação de Baixa Fidelidade | Metáforas e Modelos Conceituais | Figma | Shaíne e Matheus |Protótipo de páginas|
+|Construção| Modelagem Banco de Dados | Modelagem de dados | Lucidchart | José Filipi e Renan |Diagrama UML DB|
+|Construção| Programação backend | Codificação | VScode | José Filipi, Renan Rodrigues, Shaíne Oliveira |Código|
+|Construção| Programação Frontend | Codificação | VScode | Matheus Phillipo e Shaíne Oliveira |Código|
+|Teste| Criar cenários de teste para verificar se os critérios de aceitação foram atendidos e corrigir possíveis falhas | Testes unitários | Jest | Renan e Matheus |Testes unitários|
 
-### 3.3.  Teste
-
-|         Atividade          |                            Método                            |    Ferramenta     |              Entrega               |
-| :------------------------: | :----------------------------------------------------------: | :---------------: | :--------------------------------: |
-|   Criar casos de testes    | Discussão para definir as especificações dos casos de testes | Discord e VS code | Especificações dos casos de testes |
-| Produção de scripts testes |                         Codificação                          |       Jest        |          Script de Testes          |
-|     Validar a Solução      |                         Codificação                          |      VS code      |        Componentes testados        |
 
 ## 4. Processo de Engenharia de Requisitos
 
