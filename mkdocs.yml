@@ -7,6 +7,7 @@ nav:
 - Apresentações: apresentacoes.md
 - Políticas do Repositório: 
     - Como contribuir: contributing.md
+- Workshop: workshop.md
 
 theme: 
   name: material
