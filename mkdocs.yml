@@ -8,6 +8,9 @@ nav:
 - Políticas do Repositório: 
     - Como contribuir: contributing.md
 - Workshop: workshop.md
+- Canvas MVP: canvas.md
+- Kanban: kanban.md
+- SAFe - Backlog: backlog.md
 
 theme: 
   name: material
