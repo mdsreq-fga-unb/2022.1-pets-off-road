@@ -235,6 +235,8 @@ O principal problema foi com a comunicação, problema este acertado posteriorme
 ### 5.2. Unidade 2
 #### 5.2.1. MDS 
 #### 5.2.2. Requisitos
+O principal aprendizado foi a utilização de um Canvas MVP para construção e adaptação de um projeto. Vimos que, após a criação de personas e identificação de suas jornadas, e em seguida detectar as funcionalidades, deixa o projeto mais coerente e voltado para o usuário, já que o mesmo está sendo utilizado como referência para construção do projeto. Isso ajudou a tirar um pouco o projeto da campo das ideias e trazer algo mais realista e possivelmente mais útil ao usuário final. 
+A construção do MVP ajudou também a entender o que deve ser priorizado na construção do sistema.
 #### 5.2.3. MDS-Requisitos
 
 ### 5.3. Unidade 3
