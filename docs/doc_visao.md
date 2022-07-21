@@ -239,6 +239,8 @@ O principal aprendizado foi a utilização de um Canvas MVP para construção e 
 A construção do MVP ajudou também a entender o que deve ser priorizado na construção do sistema.
 #### 5.2.3. MDS-Requisitos
 
+Como um bom aprendizado para o time está na melhor organização e elaboração das Issues, e foi possível verificar crescimento nesse planejamento, dado o fato que os prazos foram cumpridos. Em comparação a Unidade 1, temos bem mais contato e a comunicação está melhorada. Ansiosos para inicar a fase de desenvolvimento, agora que os Requisitos foram especificados e ocorreram workshops para melhor desenvolvimento das skills técnicas do time. 
+
 ### 5.3. Unidade 3
 #### 5.3.1. MDS 
 #### 5.3.2. Requisitos
