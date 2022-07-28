@@ -10,7 +10,8 @@ nav:
 - Políticas do Repositório: 
     - Como contribuir: contributing.md
 - Workshop: workshop.md
-- Requisitos e Canvas MVP: canvas.md
+- Requisitos: requisitos.md
+- Canvas MVP: canvas.md
 - Kanban: kanban.md
 - SAFe - Backlog: backlog.md
 
