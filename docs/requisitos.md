@@ -3,31 +3,52 @@
 ## Histórico de Versão
 
 
-|    Data    | Versão |      Descrição       |            Autor(es)             |
-| :--------: | :----: | :------------------: | :------------------------------: |
-| 27/07/2022 |  0.1   | Criação do documento | Pedro Helias e Gabriel Marcolino |
+|    Data    | Versão |             Descrição              |            Autor(es)             |
+| :--------: | :----: | :--------------------------------: | :------------------------------: |
+| 27/07/2022 |  0.1   |        Criação do documento        | Pedro Helias e Gabriel Marcolino |
+| 28/08/2022 |  0.2   | Associado os requisitos ao backlog | Gabriel Marcolino e Pedro Helias |
 
-Em uma sessão de Brainstorming, foram levantadas algumas ideias a respeito do que estaria presente no site, seja como funcionalidade, seja como regras específicas, diretrizes, métricas, entre outros. Após esse passo, as ideias foram filtradas e novamente avaliadas, e por fim reestruturadas. Com esses novos pontos, definimos então os Requisitos Funcionais e Não Funcionais. Entende-se como requisitos funcionais tudo o que o sistema vai fazer, como possíveis funcionalidades; e Não Funcionais como diretrizes a se seguir, ou regras específicas. Abaixo encontra-se os requisitos definidos:
+Em uma sessão de Brainstorming, foram levantadas algumas ideias a respeito do que estaria presente no site, seja como funcionalidade, seja como regras específicas, diretrizes, métricas, entre outros. Após esse passo, as ideias foram filtradas e novamente avaliadas, e por fim reestruturadas. Com esses novos pontos, definimos então os Requisitos Funcionais e Não Funcionais. Entende-se como requisitos funcionais tudo o que o sistema vai fazer, como possíveis funcionalidades; e Não Funcionais como diretrizes a se seguir, ou regras específicas. Abaixo encontra-se os requisitos definidos, divididos em funcionalidade referentes ao backlog:
 
 # Requisitos Funcionais
 
-* RF-01: Cadastrar organizações
-* RF-02: Criar publicações da organização
-* RF-03: Pesquisar por outras organizações
-* RF-04: Realizar login de usuário
-* RF-05: Filtrar a lista de organizações de acordo com as perferências do usuário
-* RF-06: Gerar histórico de informações do animal
-* RF-07: Excluir organização
-* RF-08: Cadastrar usuário(voluntário, parceiros)
-* RF-09: Editar informações da organização
-* RF-10: Notificar no site e via e-mail(opcional), interesse do usuário em algum serviço/produto
+**Acesso/login a plataforma**
+
+* RF-01: Realizar login de usuário
+
+**Gerenciamento de conta**
+
+* RF-02: Cadastrar organizações
+* RF-03: Editar informações da organização
+* RF-04: Editar informações do usuário
+* RF-05: Excluir organização
+* RF-06: Cadastrar usuário(voluntário, parceiros)
+* RF-07: Remover usuário da organização
+
+**Logística**
+
+* RF-08: Adicionar entrada e saída de capital
+* RF-09: Categorizar as publicações utilizando filtros
+* RF-10: Visualizar entrada e saída de capital
 * RF-11: Ver a quantidade de visitas na página das organizações
+
+**Gerenciamento de cadastro de animais**
+
 * RF-12: Cadastrar dados para candidatura a adoção de animais
-* RF-13: Categorizar as publicações utilizando filtros
-* RF-14: Visualizar entrada e saída de capital
-* RF-15: Adicionar entrada e saída de capital.
-* RF-16: Disponibilizar forma das organizações receberem doações
-* RF-17: Editar informações do usuário
+* RF-13: Editar situação cadastral do animal
+* RF-14: Gerar histórico de informações do animal
+
+**Interação entre usuário**
+
+* RF-15: Filtrar a lista de organizações de acordo com as perferências do usuário
+* RF-16: Criar publicações da organização
+* RF-17: Pesquisar por outras organizações
+* RF-18: Disponibilizar forma das organizações receberem doações
+
+**Notificação de situação**
+
+* RF-19: Notificar no site e via e-mail(opcional), interesse do usuário em algum serviço/produto
+* RF-20: Notificar usuário sobre o processo de adoção do animal
 
 # Requisitos Não Funcionais
 
