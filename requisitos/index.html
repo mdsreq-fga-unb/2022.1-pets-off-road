@@ -13,7 +13,7 @@
     
     
       
-        <title>Como contribuir - Pets Off Road</title>
+        <title>Requisitos - Pets Off Road</title>
       
     
     
@@ -60,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#como-contribuir" class="md-skip">
+        <a href="#requisitos-funcionais-e-nao-funcionais" class="md-skip">
           Skip to content
         </a>
       
@@ -93,7 +93,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Como contribuir
+              Requisitos
             
           </span>
         </div>
@@ -284,14 +284,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
       
       
       
@@ -312,21 +310,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../contributing/" class="md-nav__link">
         Como contribuir
       </a>
-      
     </li>
   
 
@@ -359,11 +347,52 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../requisitos/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Requisitos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Requisitos
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    Histórico de Versão
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -433,6 +462,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    Histórico de Versão
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -445,33 +489,89 @@
                 
 
 
-<h1 id="como-contribuir">Como contribuir?</h1>
+<h1 id="requisitos-funcionais-e-nao-funcionais">Requisitos Funcionais e Não Funcionais</h1>
+<h2 id="historico-de-versao">Histórico de Versão</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Data</th>
+<th align="center">Versão</th>
+<th align="center">Descrição</th>
+<th align="center">Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">27/07/2022</td>
+<td align="center">0.1</td>
+<td align="center">Criação do documento</td>
+<td align="center">Pedro Helias e Gabriel Marcolino</td>
+</tr>
+<tr>
+<td align="center">28/08/2022</td>
+<td align="center">0.2</td>
+<td align="center">Associado os requisitos ao backlog</td>
+<td align="center">Gabriel Marcolino e Pedro Helias</td>
+</tr>
+</tbody>
+</table>
+<p>Em uma sessão de Brainstorming, foram levantadas algumas ideias a respeito do que estaria presente no site, seja como funcionalidade, seja como regras específicas, diretrizes, métricas, entre outros. Após esse passo, as ideias foram filtradas e novamente avaliadas, e por fim reestruturadas. Com esses novos pontos, definimos então os Requisitos Funcionais e Não Funcionais. Entende-se como requisitos funcionais tudo o que o sistema vai fazer, como possíveis funcionalidades; e Não Funcionais como diretrizes a se seguir, ou regras específicas. Abaixo encontra-se os requisitos definidos, divididos em funcionalidade referentes ao backlog:</p>
+<h1 id="requisitos-funcionais">Requisitos Funcionais</h1>
+<p><strong>Acesso/login a plataforma</strong></p>
 <ul>
-<li>Caso seja um colaborador externo, dê um fork no projeto.</li>
-<li>Para contribuir no projeto é recomendado abrir as issues existentes para entender o que o projeto precisa.</li>
-<li>Caso seu problema ainda não tenha sido documentado, crie uma nova issue para o problema. É recomendável priorizar as existentes.</li>
-<li>A criação de branches deve seguir a política de branches.</li>
-<li>O desenvolvimento deve seguir nossa política de commits.</li>
+<li>RF-01: Realizar login de usuário</li>
 </ul>
-<h1 id="politicas-de-branches">Políticas de branches</h1>
-<p>Nossas branches vão seguir o modelo do Git FLow, para uma melhor organização das atividades.</p>
-<h2 id="main">main</h2>
-<p>A main é a nossa branch de produção, nela vai estar a versão estável do projeto.</p>
-<h2 id="development">development</h2>
-<p>A development é a branch de desenvolvimento, é nela que onde vai ser enviado os trabalhos feitos nas branches de features, ou seja, ela possui as funcionalidades que ainda não foram publicadas e que posteriormente vão ser associadas com a <strong>main</strong>. É a branch onde fica o código próximo do deploy.</p>
-<h2 id="branches-de-features">branches de features</h2>
-<p>As branches de features são criadas a partir da <strong>development</strong>, e servem para o desenvolvimento de features presentes nas issues do repositório. Após a conclusão da feature, ela deve ser enviada para <strong>development</strong> através de um pull request.</p>
-<p>Padrão para o nome das branches de features: XX_nome_da_issue, onde XX é o número da issue seguido pelo seu nome.</p>
-<h2 id="branches-de-hotfix">branches de hotfix</h2>
-<p>As branches de hotfix são criadas a partir da <strong>main</strong> para resolver de forma rápida algum bug ou pequenos erros em produção. Ela deve seguir o seguinde padrão: hotfix_nome_do_bug.</p>
-<h1 id="politicas-de-commit">Políticas de commit</h1>
-<p>Os commits devem descrever de forma simples e clara o que foi feito. E devem ser escritos em português para compreensão de todos.</p>
-<h2 id="commit-com-varios-autores">Commit com vários autores</h2>
-<p>Caso esteja utilizando a técnica pair programming deve-se especificar todos os autores envolvidos. Para isso é necessário utilizar a tag Co-authored-by, seguindo os passos a baixo:</p>
-<p>1 - Após o comando git add para adicionar as alterações, execute o comando git commit.</p>
-<p>2 - Logo após o comando anterior abrirá um editor de texto. Na primeira linha digite a mensagem do commit, depois pule duas linhas e adicione a co-autoria, com a tag seguida do nome e o email entre &lt;&gt;.</p>
-<p>3 - Depois disso é só salvar o commit.</p>
-<p>Caso tenha ficado com dúvidas com os passos, veja a documentação do GitHub sobre <a href="https://docs.github.com/pt/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors">commits com mais de um autor</a>.</p>
+<p><strong>Gerenciamento de conta</strong></p>
+<ul>
+<li>RF-02: Cadastrar organizações</li>
+<li>RF-03: Editar informações da organização</li>
+<li>RF-04: Editar informações do usuário</li>
+<li>RF-05: Excluir organização</li>
+<li>RF-06: Cadastrar usuário(voluntário, parceiros)</li>
+<li>RF-07: Remover usuário da organização</li>
+</ul>
+<p><strong>Logística</strong></p>
+<ul>
+<li>RF-08: Adicionar entrada e saída de capital</li>
+<li>RF-09: Categorizar as publicações utilizando filtros</li>
+<li>RF-10: Visualizar entrada e saída de capital</li>
+<li>RF-11: Ver a quantidade de visitas na página das organizações</li>
+</ul>
+<p><strong>Gerenciamento de cadastro de animais</strong></p>
+<ul>
+<li>RF-12: Cadastrar dados para candidatura a adoção de animais</li>
+<li>RF-13: Editar situação cadastral do animal</li>
+<li>RF-14: Gerar histórico de informações do animal</li>
+</ul>
+<p><strong>Interação entre usuário</strong></p>
+<ul>
+<li>RF-15: Filtrar a lista de organizações de acordo com as perferências do usuário</li>
+<li>RF-16: Criar publicações da organização</li>
+<li>RF-17: Pesquisar por outras organizações</li>
+<li>RF-18: Disponibilizar forma das organizações receberem doações</li>
+</ul>
+<p><strong>Notificação de situação</strong></p>
+<ul>
+<li>RF-19: Notificar no site e via e-mail(opcional), interesse do usuário em algum serviço/produto</li>
+<li>RF-20: Notificar usuário sobre o processo de adoção do animal</li>
+</ul>
+<h1 id="requisitos-nao-funcionais">Requisitos Não Funcionais</h1>
+<ul>
+<li>RNF-01: O sistema deve se adequar a cultura interna do projeto</li>
+<li>RNF-02: O sistema deve criar níveis de permissão(adm e usuário normal)</li>
+<li>RNF-03: O sistema deve conter templates padrões de páginas</li>
+<li>RNF-04: O sistema deve enviar um código de confirmação via email ao criar uma nova conta</li>
+<li>RNF-05: O sistema deve ser desenvolvido na linguagem TypeScript, e Frameworks React, NodeJS</li>
+<li>RNF-06: O sistema deve garantir a privacidade dos dados dos usuários</li>
+<li>RNF-07: O sistema deve receber feedbacks dos usuários sobre a situação do animal adotado</li>
+<li>RNF-08: O sistema deve funcionar nos diferentes browsers</li>
+<li>RNF-09: O sistema deve ser responsivo</li>
+<li>RNF-10: O sistema deve ser simples de ser utilizado(usabilidade)</li>
+<li>RNF-11: O sistema deve ser compatível aos princípios de usabilidade/heurística.</li>
+<li>RNF-12: O sistema deve ser testável</li>
+<li>RNF-13: O sistema deve possuir uma página de contato para casos de resgate e possíveis dúvidas</li>
+<li>RNF-14: O sistema deve possuir um template para criar posts</li>
+</ul>
 
               
             </article>
@@ -487,7 +587,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../apresentacoes/unidade_02/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Unidade 2" rel="prev">
+        <a href="../workshop/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Workshop" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -496,20 +596,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Unidade 2
+              Workshop
             </div>
           </div>
         </a>
       
       
         
-        <a href="../workshop/" class="md-footer__link md-footer__link--next" aria-label="Next: Workshop" rel="next">
+        <a href="../canvas/" class="md-footer__link md-footer__link--next" aria-label="Next: Canvas MVP" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Workshop
+              Canvas MVP
             </div>
           </div>
           <div class="md-footer__button md-icon">
