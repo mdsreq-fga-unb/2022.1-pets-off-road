@@ -13,6 +13,7 @@
 | 17/07/2022 |  1.1   | Atualização do processo de engenharia de requisitos e planejamento das fases |          Gabriel Marcolino e Jefferson          |
 | 18/07/2022 |  1.2   |                         Correções do documento - MDS                         |             Matheus, Shaíne e José              |
 | 19/07/2022 |  1.2   |                      Correções do produto - Requisitos                       |                  Pedro Helias                   |
+| 28/07/2022 |  1.3   |             Atualização do processo de engenharia de requisitos              |        Gabriel Marcolino e Pedro Helias         |
 
 
 
@@ -177,6 +178,7 @@ A equipe do projeto decidiu utilizar uma abordagem ágil para a Engenharia de Re
 
 ### 4.1. Elicitação de Requisitos
 
+A elicitação ocorrerá na reunião de planejamento.
 
 |               Atividade               |                                                                    Descrição                                                                    |        Método        | Ferramenta  |            Entrega             |
 | :-----------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :------------------: | :---------: | :----------------------------: |
@@ -189,6 +191,8 @@ A equipe do projeto decidiu utilizar uma abordagem ágil para a Engenharia de Re
 
 ### 4.2. Análise de Requisitos
 
+A análise de requisitos pode ocorrer em qualquer etapa do projeto, algumas equipes preferem fazer no início da sprint, já outras preferem fazer ao fim da sprint. Nosso time vai realizar a análise ao fim da retrospectiva, pois o conteúdo estara previamente discutido.
+
 |          Atividade           |   Método   |   Ferramenta   |         Entrega          |
 | :--------------------------: | :--------: | :------------: | :----------------------: |
 |    Reconhecer o problema     | Brainstorm | Meet e Discord | Definição dos requisitos |
@@ -198,6 +202,8 @@ A equipe do projeto decidiu utilizar uma abordagem ágil para a Engenharia de Re
 
 ### 4.3. Documentação de Requisitos
 
+A documentação de requisitos será no ciclo de reuniões com a equipe.
+
 |                      Atividade                      |                      Método                      | Ferramenta  |           Entrega           |
 | :-------------------------------------------------: | :----------------------------------------------: | :---------: | :-------------------------: |
 | Definição de Requisitos Funcionais e Não Funcionais | Técnicas de Registro e Organização de Requisitos | Meet e Miro | Especificação de Requisitos |
@@ -206,12 +212,16 @@ A equipe do projeto decidiu utilizar uma abordagem ágil para a Engenharia de Re
 
 ### 4.4. Verificação e Validação de Requisitos
 
+A verificação e validação ocorrerá na review.
+
 |                Atividade                 |                   Método                    | Ferramenta |          Responsáveis          |                   Entrega                   |
 | :--------------------------------------: | :-----------------------------------------: | :--------: | :----------------------------: | :-----------------------------------------: |
 | Conferir se os requisitos estão corretos | Validação por parte do cliente com a equipe |    Meet    | Equipe de requisitos e cliente | Integralização de funcionalidades aprovadas |
 
 
 ### 4.5. Gerenciamento de Requisitos
+
+O gerenciamento de requisitos ocorrerá durante o desenvolvimento.
 
 |                Atividade                |  Método  |   Ferramenta   |           Entrega           |
 | :-------------------------------------: | :------: | :------------: | :-------------------------: |
