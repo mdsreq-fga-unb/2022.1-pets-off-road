@@ -16,7 +16,7 @@ Temos então como Épicos e Funcionalidades:
 ![epicos e funcionalidades](imagens/epicos.png)
 
 Já como as histórias do usuário associadas a suas funcionalidades, temos:
-![historias](imagens/historias.png)
+![historias](imagens/historia.png)
 
 
 O documento foi construído numa planilha de Excel virtual, presente no link abaixo. Recomenda-se que, para uma melhor visualização do backlog, acesse o link.
