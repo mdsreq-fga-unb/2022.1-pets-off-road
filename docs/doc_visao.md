@@ -180,11 +180,11 @@ A equipe do projeto decidiu utilizar uma abordagem ágil para a Engenharia de Re
 
 A elicitação ocorrerá na reunião de planejamento.
 
-|               Atividade               |                                                                    Descrição                                                                    |        Método        | Ferramenta  |            Entrega             |
-| :-----------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :------------------: | :---------: | :----------------------------: |
-| Elucidar ideias e analisar o problema | Reunião com a equipe de requisitos com o objetivo de retirar a maior quantidade de "funcionalidades" do diagrama de projetos da _Pets Off Road_ |      Brainstorm      | Miro e Meet |   Possíveis funcionalidades    |
-|  Entender as necessidades do cliente  |            Reunião com a cliente para validação dos pontos previamente levantados na atividade anterior, e abertura de novos pontos             | Brainstorm e Reunião | Miro e Meet |    Necessidades da cliente     |
-|    Definir proposta de Requisitos     |                  Reunião após contato com a cliente, para solidificar a proposta de requisitos apresentada na primeira entrega                  |       Reunião        |    Meet     | Fechamento da primeiro entrega |
+|               Atividade               |                                                                    Descrição                                                                    |        Método        | Ferramenta  |     Responsáveis     |            Entrega             |
+| :-----------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :------------------: | :---------: | :------------------: | :----------------------------: |
+| Elucidar ideias e analisar o problema | Reunião com a equipe de requisitos com o objetivo de retirar a maior quantidade de "funcionalidades" do diagrama de projetos da _Pets Off Road_ |      Brainstorm      | Miro e Meet | Equipe de requisitos |   Possíveis funcionalidades    |
+|  Entender as necessidades do cliente  |            Reunião com a cliente para validação dos pontos previamente levantados na atividade anterior, e abertura de novos pontos             | Brainstorm e Reunião | Miro e Meet | Equipe de requisitos |    Necessidades da cliente     |
+|    Definir proposta de Requisitos     |                  Reunião após contato com a cliente, para solidificar a proposta de requisitos apresentada na primeira entrega                  |       Reunião        |    Meet     | Equipe de requisitos | Fechamento da primeiro entrega |
 
 
   
@@ -193,20 +193,20 @@ A elicitação ocorrerá na reunião de planejamento.
 
 A análise de requisitos pode ocorrer em qualquer etapa do projeto, algumas equipes preferem fazer no início da sprint, já outras preferem fazer ao fim da sprint. Nosso time vai realizar a análise ao fim da retrospectiva, pois o conteúdo estara previamente discutido.
 
-|          Atividade           |   Método   |   Ferramenta   |         Entrega          |
-| :--------------------------: | :--------: | :------------: | :----------------------: |
-|    Reconhecer o problema     | Brainstorm | Meet e Discord | Definição dos requisitos |
-|    Revisão dos requisitos    | Brainstorm |    Discord     | Definição dos requisitos |
-| Especificação dos requisitos |  Reunião   |    Discord     | Definição dos requisitos |
+|          Atividade           |   Método   |   Ferramenta   |     Responsáveis     |         Entrega          |
+| :--------------------------: | :--------: | :------------: | :------------------: | :----------------------: |
+|    Reconhecer o problema     | Brainstorm | Meet e Discord | Equipe de requisitos |          Método          |
+|    Revisão dos requisitos    | Brainstorm |    Discord     | Equipe de requisitos | Definição dos requisitos |
+| Especificação dos requisitos |  Reunião   |    Discord     | Equipe de requisitos | Definição dos requisitos |
 
 
 ### 4.3. Documentação de Requisitos
 
 A documentação de requisitos será no ciclo de reuniões com a equipe.
 
-|                      Atividade                      |                      Método                      | Ferramenta  |           Entrega           |
-| :-------------------------------------------------: | :----------------------------------------------: | :---------: | :-------------------------: |
-| Definição de Requisitos Funcionais e Não Funcionais | Técnicas de Registro e Organização de Requisitos | Meet e Miro | Especificação de Requisitos |
+|                      Atividade                      |                      Método                      | Ferramenta  |     Responsáveis     |           Entrega           |
+| :-------------------------------------------------: | :----------------------------------------------: | :---------: | :------------------: | :-------------------------: |
+| Definição de Requisitos Funcionais e Não Funcionais | Técnicas de Registro e Organização de Requisitos | Meet e Miro | Equipe de requisitos | Especificação de Requisitos |
 
 ### 
 
@@ -223,9 +223,9 @@ A verificação e validação ocorrerá na review.
 
 O gerenciamento de requisitos ocorrerá durante o desenvolvimento.
 
-|                Atividade                |  Método  |   Ferramenta   |           Entrega           |
-| :-------------------------------------: | :------: | :------------: | :-------------------------: |
-| Acompanhamento e Refinamento do backlog | Reuniões | Meet e Discord | Detalhamento dos requisitos |
+|                Atividade                |  Método  |   Ferramenta   |     Responsáveis     |           Entrega           |
+| :-------------------------------------: | :------: | :------------: | :------------------: | :-------------------------: |
+| Acompanhamento e Refinamento do backlog | Reuniões | Meet e Discord | Equipe de requisitos | Detalhamento dos requisitos |
 
 ## 5. Lições Aprendidas
 
