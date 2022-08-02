@@ -6,7 +6,8 @@
 |    Data    | Versão |             Descrição              |            Autor(es)             |
 | :--------: | :----: | :--------------------------------: | :------------------------------: |
 | 27/07/2022 |  0.1   |        Criação do documento        | Pedro Helias e Gabriel Marcolino |
-| 28/08/2022 |  0.2   | Associado os requisitos ao backlog | Gabriel Marcolino e Pedro Helias |
+| 28/07/2022 |  0.2   | Associado os requisitos ao backlog | Gabriel Marcolino e Pedro Helias |
+| 01/08/2022 |  0.3   |    Adicionando mais requisitos     | Gabriel Marcolino e Pedro Helias |
 
 Em uma sessão de Brainstorming, foram levantadas algumas ideias a respeito do que estaria presente no site, seja como funcionalidade, seja como regras específicas, diretrizes, métricas, entre outros. Após esse passo, as ideias foram filtradas e novamente avaliadas, e por fim reestruturadas. Com esses novos pontos, definimos então os Requisitos Funcionais e Não Funcionais. Entende-se como requisitos funcionais tudo o que o sistema vai fazer, como possíveis funcionalidades; e Não Funcionais como diretrizes a se seguir, ou regras específicas. Abaixo encontra-se os requisitos definidos, divididos em funcionalidade referentes ao backlog:
 
@@ -37,18 +38,20 @@ Em uma sessão de Brainstorming, foram levantadas algumas ideias a respeito do q
 * RF-12: Cadastrar dados para candidatura a adoção de animais
 * RF-13: Editar situação cadastral do animal
 * RF-14: Gerar histórico de informações do animal
+* RF-15: Exibir quais animais estão disponíveis para a adoção(por tipo)
+* RF-16: Exibir quais animais foram adotados
 
 **Interação entre usuário**
 
-* RF-15: Filtrar a lista de organizações de acordo com as perferências do usuário
-* RF-16: Criar publicações da organização
-* RF-17: Pesquisar por outras organizações
-* RF-18: Disponibilizar forma das organizações receberem doações
+* RF-17: Filtrar a lista de organizações de acordo com as perferências do usuário
+* RF-18: Criar publicações da organização
+* RF-19: Pesquisar por outras organizações
+* RF-20: Disponibilizar forma das organizações receberem doações
 
 **Notificação de situação**
 
-* RF-19: Notificar no site e via e-mail(opcional), interesse do usuário em algum serviço/produto
-* RF-20: Notificar usuário sobre o processo de adoção do animal
+* RF-21: Notificar no site e via e-mail(opcional), interesse do usuário em algum serviço/produto
+* RF-22: Notificar usuário sobre o processo de adoção do animal
 
 # Requisitos Não Funcionais
 
