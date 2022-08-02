@@ -1,19 +1,20 @@
 # Visão do Produto e Projeto
 ## Histórico de Versão
 
-|    Data    | Versão |                                  Descrição                                   |                    Autor(es)                    |
-| :--------: | :----: | :--------------------------------------------------------------------------: | :---------------------------------------------: |
-| 23/06/2022 |  0.1   |                             Criação do documento                             |                  Pedro Helias                   |
-| 25/06/2022 |  0.2   |                            Visão geral do projeto                            |        Gabriel Marcolino e Rhuan Marques        |
-| 28/06/2022 |  0.3   |                            Visão geral do produto                            |            Pedro Helias e Jefferson             |
-| 28/06/2022 |  0.4   |                     Processo de engenharia de requisitos                     | Gabriel Marcolino, Pedro Helias e Rhuan Marques |
-| 29/06/2022 |  0.5   |       Tecnologias Utilizadas, Processo de desenvolvimento de software        |          Matheus, José, Renan, Shaíne           |
-| 29/06/2022 |  0.6   |                   Processo de desenvolvimento de software                    |          Matheus, José, Renan, Shaíne           |
-| 03/07/2022 |  1.0   |                     Correções do documento - Requisitos                      |                 Pedro e Gabriel                 |
-| 17/07/2022 |  1.1   | Atualização do processo de engenharia de requisitos e planejamento das fases |          Gabriel Marcolino e Jefferson          |
-| 18/07/2022 |  1.2   |                         Correções do documento - MDS                         |             Matheus, Shaíne e José              |
-| 19/07/2022 |  1.2   |                      Correções do produto - Requisitos                       |                  Pedro Helias                   |
-| 28/07/2022 |  1.3   |             Atualização do processo de engenharia de requisitos              |        Gabriel Marcolino e Pedro Helias         |
+|    Data    | Versão |                                  Descrição                                   |                    Autor(es)                     |
+| :--------: | :----: | :--------------------------------------------------------------------------: | :----------------------------------------------: |
+| 23/06/2022 |  0.1   |                             Criação do documento                             |                   Pedro Helias                   |
+| 25/06/2022 |  0.2   |                            Visão geral do projeto                            |        Gabriel Marcolino e Rhuan Marques         |
+| 28/06/2022 |  0.3   |                            Visão geral do produto                            |             Pedro Helias e Jefferson             |
+| 28/06/2022 |  0.4   |                     Processo de engenharia de requisitos                     | Gabriel Marcolino, Pedro Helias e Rhuan Marques  |
+| 29/06/2022 |  0.5   |       Tecnologias Utilizadas, Processo de desenvolvimento de software        |           Matheus, José, Renan, Shaíne           |
+| 29/06/2022 |  0.6   |                   Processo de desenvolvimento de software                    |           Matheus, José, Renan, Shaíne           |
+| 03/07/2022 |  1.0   |                     Correções do documento - Requisitos                      |                 Pedro e Gabriel                  |
+| 17/07/2022 |  1.1   | Atualização do processo de engenharia de requisitos e planejamento das fases |          Gabriel Marcolino e Jefferson           |
+| 18/07/2022 |  1.2   |                         Correções do documento - MDS                         |              Matheus, Shaíne e José              |
+| 19/07/2022 |  1.2   |                      Correções do produto - Requisitos                       |                   Pedro Helias                   |
+| 28/07/2022 |  1.3   |             Atualização do processo de engenharia de requisitos              |         Gabriel Marcolino e Pedro Helias         |
+| 01/08/2022 |  1.4   |      Atualização do processo de desenvolvimento e planejamento de fases      | Gabriel Marcolino, Pedro Helias, Matheus, Shaíne |
 
 
 
@@ -81,21 +82,21 @@ Os desenvolvedores da Pets Off Road decidiram usar algumas tecnologias que já e
 
 ### 2.2. Planejamento das Fases e/ou Iterações do Projeto
 
-|  Sprint   |                         Produto (Entrega)                         | Data Início |  Data Fim  |
-| :-------: | :---------------------------------------------------------------: | :---------: | :--------: |
-| Sprint 1  |             Formação da equipe e Definição do Projeto             | 20/06/2022  | 26/06/2022 |
+|  Sprint   |                      Produto (Entrega)                       | Data Início |  Data Fim  |
+| :-------: | :----------------------------------------------------------: | :---------: | :--------: |
+| Sprint 1  |          Formação da equipe e Definição do Projeto           | 20/06/2022  | 26/06/2022 |
 | Sprint 2  | Visão do produto e projeto e processo de engenharia de requisitos | 27/06/2022  | 03/07/2022 |
-| Sprint 3  |             Atualização da visão do produto e projeto             | 04/07/2022  | 10/07/2022 |
-| Sprint 4  |       Levantamento de Requisitos, Canvas MVP, WorkShop(MDS)       | 11/07/2022  | 17/07/2022 |
-| Sprint 5  |        Backlog , Atualização da Visão do Produto e Projeto        | 18/07/2022  | 24/07/2022 |
-| Sprint 6  |     Implementação das funcionalidades, Refinamento do Backlog     | 25/07/2022  | 31/07/2022 |
-| Sprint 7  |                           Implementação                           | 01/08/2022  | 07/08/2022 |
-| Sprint 8  |                           Implementação                           | 08/08/2022  | 14/08/2022 |
-| Sprint 9  |                                PBB                                | 15/08/2022  | 21/08/2022 |
-| Sprint 10 |                           Implementação                           | 22/08/2022  | 28/08/2022 |
-| Sprint 11 |                           Implementação                           | 29/08/2022  | 04/09/2022 |
-| Sprint 12 |                           Implementação                           | 05/09/2022  | 11/09/2022 |
-| Sprint 13 |                           Implementação                           | 12/09/2022  | 18/09/2022 |
+| Sprint 3  |          Atualização da visão do produto e projeto           | 04/07/2022  | 10/07/2022 |
+| Sprint 4  |    Levantamento de Requisitos, Canvas MVP, WorkShop(MDS)     | 11/07/2022  | 17/07/2022 |
+| Sprint 5  |     Backlog , Atualização da Visão do Produto e Projeto      | 18/07/2022  | 24/07/2022 |
+| Sprint 6  |  Atualização do documento de visão, Refinamento do Backlog   | 25/07/2022  | 30/07/2022 |
+| Sprint 7  | Atualização do MVP e documento de visão, classes iniciais do projeto, protótipo de alta fidelidade, documento de arquitetura, PBB | 31/07/2022  | 06/08/2022 |
+| Sprint 8  |              User Story Mapping, US6, US1, US22              | 07/08/2022  | 13/08/2022 |
+| Sprint 9  |                             MVP1                             | 14/08/2022  | 20/08/2022 |
+| Sprint 10 |                        Implementação                         | 21/08/2022  | 27/08/2022 |
+| Sprint 11 |                        Implementação                         | 28/08/2022  | 03/09/2022 |
+| Sprint 12 |                        Implementação                         | 04/09/2022  | 10/09/2022 |
+| Sprint 13 |                             MVP2                             | 11/09/2022  | 17/09/2022 |
 
 
 
@@ -147,11 +148,11 @@ Com base nos riscos do projeto foram estabelecidos os seguintes critérios de re
 
 O ciclo de vida escolhido foi o iterativo e incremental, pois a equipe decidiu por dividir os requisitos e funcionalidades em módulos. Cada um deles é avaliado e classificado com um nível de prioridades. Sendo assim, o time pode planejar etapas com foco nos módulos prioritários.
 
-Ao término de cada etapa, o cliente receberá uma amostra do software com as funcionalidades já criadas, permitindo que os recursos mais importantes sejam testados rapidamente no ambiente de produção. Ou seja, a euipe terá mais meios para coletar dados sobre o uso da aplicação e o que pode ser feito para otimizá-la.
+Ao término de cada etapa, o cliente receberá uma amostra do software com as funcionalidades já criadas, permitindo que os recursos mais importantes sejam testados rapidamente no ambiente de produção. Ou seja, a equipe terá mais meios para coletar dados sobre o uso da aplicação e o que pode ser feito para otimizá-la.
 
 As chances de o cliente ter elevada satisfação também são maiores. Afinal, ele poderá entregar um feedback contínuo sobre os recursos e as suas expectativas. Portanto, a equipe pode criar maior alinhamento com o usuário e as suas demandas.
 
-Com isso, optamos por uma abordagem dirigida a plano, utilizando uma metodologia baseada no Processo Unificado contendo práticas do XP (Planejamento, Design Simples, Testes, Programação em Pares, Integração Contínua e Padronização de Código) e uso do quadro Kanban, pois definimos anteriormente que o escopo de trabalho seria fracionado e cada parte desenvolvida em ciclos. Com etapas mais curtas e entregas mais frequentes, aliviando assim a carga de trabalho e diminuindo os erros através de feedbacks constantes do cliente e do time de requisitos. Tornado-se um ambiente dinâmico e impulsionando a produtividade em relação ao andamento do projeto.
+Com isso, optamos por uma abordagem ágil, utilizando uma metodologia baseada no XP (Planejamento, Design Simples, Testes, Programação em Pares, Integração Contínua e Padronização de Código) e uso do quadro Kanban, pois definimos anteriormente que o escopo de trabalho seria fracionado e cada parte desenvolvida em ciclos. Com etapas mais curtas e entregas mais frequentes, aliviando assim a carga de trabalho e diminuindo os erros através de feedbacks constantes do cliente e do time de requisitos. Tornado-se um ambiente dinâmico e impulsionando a produtividade em relação ao andamento do projeto.
 
   
 ### 3.1. Processos e Procedimentos
