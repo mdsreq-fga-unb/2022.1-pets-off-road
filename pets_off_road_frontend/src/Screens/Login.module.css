@@ -1,0 +1,29 @@
+.containerLogin{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+    
+}
+
+.containerLogin header{
+    margin-top: 1rem;
+    margin-left: 4rem;
+    color: var(--red-primary);
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 78px;
+}
+
+.containerForm{
+    display: flex;
+    grid-column: 1;
+    flex-direction: column;
+
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+
+.containerGridPhotos{
+    grid-column: 2;
+}

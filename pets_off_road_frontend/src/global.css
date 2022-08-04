@@ -1,0 +1,20 @@
+:root{
+    --bg-color: #f5f5f5;
+    --red-primary: #f54a48;
+    --text-color: #3c3c3c;
+    --subtext-color: #a2a2a2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--bg-color);
+}
+
+a{
+    text-decoration: none;
+}
