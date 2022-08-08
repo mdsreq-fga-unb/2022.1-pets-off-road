@@ -5,7 +5,7 @@ const migrationFolder = __dirname + '/src/repositories/migrations';
 const dbSettings = {
   client: 'mysql2',
   connection: {
-    host: 'db',
+    host: 'localhost',
     port: '3306',
     database: 'PETS-OF-ROAD-DB',
     user: 'root',
