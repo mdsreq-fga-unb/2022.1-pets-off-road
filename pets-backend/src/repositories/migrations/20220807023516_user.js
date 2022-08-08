@@ -3,15 +3,14 @@
  * @returns { Promise<void> }
  */
 exports.up = function(knex) {
-    return knex.schema.createTableIfNotExists('USUARIO', table => {
+    return knex.schema.createTable('USUARIO', table => {
         table.integer('cpf').primary();
-        table.string('nome', 255).notNullable();
-        table.string('email', 100).notNullable();
-        table.enum('uf', ['AP', 'AC', 'AM', 'RO', 'RR', 'PA','TO', 'MA', 'PE', 'AL', 'SE', 'PI', 'CE', 'BA', 'RN', 'PB', 'GO', 'MT', 'MS', 'DF', 'SP', 'RJ', 'ES', 'MG', 'PR', 'SC', 'RS']).notNullable();
-        table.string('endereco', 255).notNullable();
+        table.string('nome', 100).notNullable();
+        table.string('email', 100);
         table.integer('telefone').notNullable();
-        table.string('senha').notNullable();
-        table.boolean('nivel-acesso').defaultTo(false);
+        table.string('senha', 20).notNullable();
+        table.boolean('nivelAcesso').defaultTo(false);
+        table.string('criadoEm', 30).notNullable();
     })
 };
 

@@ -1,8 +1,8 @@
 import knex from "knex";
 export default knex({
-    client: 'mysql',
+    client: 'mysql2',
     connection: {
-      host: 'localhost',
+      host: 'db',
       port: 3306,
       database: 'PETS-OF-ROAD-DB',
       user: 'root',
