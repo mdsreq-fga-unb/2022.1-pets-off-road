@@ -12,3 +12,6 @@ get http://localhost:3030/user/:cpf
 
 #### busca por todos os usuarios cadastrados
 get http://localhost:3030/user
+
+#### login
+post http://localhost:3030/user/login
