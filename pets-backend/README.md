@@ -1,7 +1,7 @@
 # Backend PETS
 ## Inicializar na sua máquina:
 ```
-docker-compose up --build
+make up
 ```
 ## API'S Prontas:
 ### Usuario
