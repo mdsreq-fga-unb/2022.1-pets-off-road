@@ -1,11 +1,9 @@
-import { IsNumber } from "class-validator";
-
 export interface User {
-    cpf: number;
-    nome: string;
-    email: string;
-    telefone: number;
-    senha: string;
-    nivelAcesso?: boolean;
-    criadoEm: string;
+  cpf: number;
+  nome: string;
+  email: string;
+  telefone: number;
+  senha: string;
+  nivelAcesso?: boolean;
+  criadoEm: string;
 }
