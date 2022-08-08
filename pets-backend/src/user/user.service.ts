@@ -1,16 +1,16 @@
 import { Injectable } from '@nestjs/common';
 import { CreateUserDto } from './dto/create-user.dto';
 import { User } from './entities/user.entity';
-import repo from './repository/userRepo'
+import repo from './repository/userRepo';
 
 @Injectable()
 export class UserService {
-  async create(createUser: CreateUserDto): Promise<User>{
-    const criadoEm = (new Date()).toISOString();
+  async create(createUser: CreateUserDto): Promise<User> {
+    const criadoEm = new Date().toISOString();
     const novoUsuario: User = {
       ...createUser,
-      criadoEm: criadoEm
-    }
+      criadoEm: criadoEm,
+    };
     return await repo.createUser(novoUsuario);
   }
 
