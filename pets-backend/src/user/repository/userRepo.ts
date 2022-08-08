@@ -1,4 +1,5 @@
 import connection from '../../repositories/userDatabaseConnection';
+import { UserLogin } from '../dto/user-login.dto';
 import { User } from '../entities/user.entity';
 class UserDatabase {
   public async createUser(user: User): Promise<User> {
@@ -16,6 +17,9 @@ class UserDatabase {
     for (const user of users) {
       return user;
     }
+  }
+  public async findByEmailAndPassword(loginData: UserLogin): Promise<User[]>{
+    return await connection.select('*').from('USUARIO').where({email:loginData.email, senha: loginData.senha})
   }
 }
 

@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { CreateUserDto } from './dto/create-user.dto';
+import { UserLogin } from './dto/user-login.dto';
 import { User } from './entities/user.entity';
 import repo from './repository/userRepo';
 
@@ -12,6 +13,10 @@ export class UserService {
       criadoEm: criadoEm,
     };
     return await repo.createUser(novoUsuario);
+  }
+
+  async login(loginData: UserLogin){
+    return await repo.findByEmailAndPassword(loginData);
   }
 
   async findAll(): Promise<User[]> {
