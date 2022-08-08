@@ -1,4 +1,5 @@
 up: build
+	npm install knex -g
 	npm run migrate
 
 build:
