@@ -12,8 +12,10 @@ nav:
 - Workshop: workshop.md
 - Requisitos: requisitos.md
 - Canvas MVP: canvas.md
+- MVP: MVPs.md
 - Kanban: kanban.md
 - SAFe - Backlog: backlog.md
+- PBB: PBB.md
 
 theme: 
   name: material

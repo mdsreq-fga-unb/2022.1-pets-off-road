@@ -269,3 +269,5 @@ Como um bom aprendizado para o time está na melhor organização e elaboração
 3. Ciclos de Vida do Software. Disponível em: <https://www.devmedia.com.br/ciclos-de-vida-do-software/21099> Acesso em 29 jun. 2022
 4. Alves, Lucas; Metodologia Scrum: entenda as etapas e funções dentro da gestão de projetos ágeis; 19 nov. 2011 Disponível em: <https://www.take.net/blog/chatbots/metodologia-scrum/> Acesso em 29 jun. 2022.
 5. Paixão, Marina; Metodologia Scrum: tudo o que você precisa para não atrasar seus projetos; 06 jul. 2021 Disponível em: <https://www.witix.com.br/blog-postagens/9/metodologia-scrum-tudo-o-que-voce-precisa-para-nao-atrasar-seus-projetos> Acesso em 03 jun. 2022.
+6. Tulio, Marco; Engenharia de Software Moderna: Princípios e Práticas para Desenvolvimento de Software com Produtividade. Disponível em <https://engsoftmoderna.info/> Acesso em 02 ago. 2022.
+
