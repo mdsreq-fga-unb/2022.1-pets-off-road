@@ -31,19 +31,15 @@
 3. **Metas e Restrições da Arquiteura**
 
 - 3.1 Metas
-- 3.2 Restrições Tecnológicas
+- 3.2 Direcionamento Tecnológico
 
-4. **Visão de Casos de Uso**
+4. **Visão Lógica**
 
-- 4.1. Realização de Casos de Uso
-
-5. **Visão Lógica**
-
-- 5.1. Visão Geral
-- 5.2. Pacotes de Design Significativos do Ponto de Vista da Arquitetura
-- 5.3. Visão da Implantação
-- 5.3.1 Front-end
-- 5.3.2 Back-end
+- 4.1. Visão Geral
+- 4.2. Pacotes de Design Significativos do Ponto de Vista da Arquitetura
+- 4.3. Visão da Implantação
+- 4.3.1 Front-end
+- 4.3.2 Back-end
 
 ## 1. Introdução
 
@@ -52,7 +48,8 @@ O documento tem como objetivo fornecer uma visão geral da arquitetura abrangent
 
 
 ### 1.2 Escopo
- Neste documento tem todas as informações necessárias para a entrega do produto. Ele contém informações essenciais sobre o projeto, como descrição, objetivos, entregas, atividades com foco na condução do projeto, facilitando o gerenciamento.
+ Neste documento tem as principais informações em relação ao desenvolvimento do produto. Incialmente é feita a descrição da divisão geral do projeto (introdução, representação e metas arquiteturais). Além disso, o documento contém informações essenciais sobre o projeto,
+ como descrição de conceitos utilizados ao longo do desenvolvimento, objetivos, explicação das atividades com foco na condução do projeto e por fim, descreve um planejamento de metas.
 
 
 
@@ -78,17 +75,15 @@ O documento tem como objetivo fornecer uma visão geral da arquitetura abrangent
 | Introdução                        | Descreve informações sobre a finalidade e a organização do documento.                                    |
 | Representação arquitetural        | Representa a arquitetura geral do software.   |
 | Metas e restrições da Arquitetura | Demonstra os requisitos e objetivos do software.               |
-| Visão de casos de uso             | Demonstração dos casos de uso da aplicação.                                                              |
 | Visão lógica                      | Descreve as partes significativas relacionadas ao ponto de vista da arquitetura e a modelagem de design. |
+
 
 ## 2. Representação Arquitetural
 
 ### 2.1 Diagrama de Relações
 
 
-![Diagrama de Relações](imagens/Diagrama_de_relacoes.png)
-
-
+<img width="460" height="300" src="https://github.com/mdsreq-fga-unb/2022.1-pets-off-road/blob/38_arquitetura/docs/imagens/Diagrama_de_relacoes.png?raw=true">
 
 
 ### 2.2 Representação dos Serviços
@@ -144,17 +139,16 @@ Jest utiliza de "matchers" (combinadores) para realizar os testes. Existem diver
 ### 3.1 Metas
 
 
-### 3.2 Restrições Tecnológicas
+### 3.2 Direcionamento Tecnológico
 <ul>
 <li><b>TypeScript</b>: Linguagem de programação a ser utilizada no BackEnd da aplicação.</li>
-<li><b>Nest</b>: Framework utilizada no BackEnd da aplicação, responsável pelas conexões com o banco e pelas regras de negócio</li>
+<li><b>Nest.JS</b>: Framework Node.js utilizada no BackEnd da aplicação, responsável pelas conexões com o banco e pelas regras de negócio</li>
 <li><b>MySQL</b>: Sistema responsável pelo armazenamento e gerência dos dados apresentados à aplicação.</li>
 <li><b>JavaScript</b>: Linguagem de programação específica para desenvolvimento web FrontEnd, juntamente do React.Js</li>
-<li><b>React.js</b>: Framework específico para o FrontEnd da aplicação.</li>
+<li><b>React.js</b>: Framework de JavaScript específico para o FrontEnd da aplicação.</li>
 <li><b>Jest</b>: Plataforma utilizada para testes unitários.</li>
 
-<li><b>Styled-Components</b>:</li>
-<li><b>NodeJS</b>: </li>
+<li><b>NodeJS</b>: Frameworkd de JavaScript direcionado para o desenvolvimento do BackEnd. </li>
 
 </ul>
 
@@ -162,24 +156,23 @@ Jest utiliza de "matchers" (combinadores) para realizar os testes. Existem diver
 
 
 
-## 5. Visão Lógica
+## 4. Visão Lógica
 
-### 5.1. Visão Geral
-
-
-
-### 5.2. Pacotes de Design Significativos do Ponto de Vista da Arquitetura
+### 4.1. Visão Geral
 
 
+### 4.2. Pacotes de Design Significativos do Ponto de Vista da Arquitetura
 
-### 5.3 Visão da Implantação
 
-### 5.3.1 Front-end
+
+### 4.3 Visão da Implantação
+
+### 4.3.1 Front-end
 
 - Diagrama para o FrontEnd
 
 
 
-### 5.3.2 Back-end
+### 4.3.2 Back-end
 
 - Diagrama de Classes - BackEnd
