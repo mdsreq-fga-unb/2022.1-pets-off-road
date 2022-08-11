@@ -86,7 +86,9 @@ O documento tem como objetivo fornecer uma visão geral da arquitetura abrangent
 ### 2.1 Diagrama de Relações
 
 
-![Diagrama de Relações](imagens/Diagramas_de_relacoes.png)
+![Diagrama de Relações](imagens/Diagrama_de_relacoes.png)
+
+
 
 
 ### 2.2 Representação dos Serviços
