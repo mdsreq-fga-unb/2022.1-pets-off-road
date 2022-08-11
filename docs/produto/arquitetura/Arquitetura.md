@@ -3,6 +3,7 @@
 | Data       | Versão | Modificação                                                                                                  | Autor                                                                                                                                                                                   |
 | :--------- | :----- | :----------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 06/08/2022 | 0.1    | Abertura do documento de arquitetura                                                               | [@ShaineOliveira](https://github.com/ShaineOliveira)
+| 10/08/2022 | 0.2    | Novas adições no documento                                                               | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
                                                                                                                                                     
 ## Sumário
 
@@ -47,10 +48,11 @@
 ## 1. Introdução
 
 ### 1.1 Finalidade
-
+O documento tem como objetivo fornecer uma visão geral da arquitetura abrangente do software do projeto Pets-off-road com foco na compreensão de como o sistema deve ser organizado e estruturado e assim, analisar os componentes tecnológicos para a integrar a solução.
 
 
 ### 1.2 Escopo
+ Neste documento tem todas as informações necessárias para a entrega do produto. Ele contém informações essenciais sobre o projeto, como descrição, objetivos, entregas, atividades com foco na condução do projeto, facilitando o gerenciamento.
 
 
 
@@ -83,6 +85,8 @@
 
 ### 2.1 Diagrama de Relações
 
+
+![Diagrama de Relações](imagens/Diagramas_de_relacoes.png)
 
 
 ### 2.2 Representação dos Serviços
@@ -139,14 +143,21 @@ Jest utiliza de "matchers" (combinadores) para realizar os testes. Existem diver
 
 
 ### 3.2 Restrições Tecnológicas
+<ul>
+<li><b>TypeScript</b>: Linguagem de programação a ser utilizada no BackEnd da aplicação.</li>
+<li><b>Nest</b>: Framework utilizada no BackEnd da aplicação, responsável pelas conexões com o banco e pelas regras de negócio</li>
+<li><b>MySQL</b>: Sistema responsável pelo armazenamento e gerência dos dados apresentados à aplicação.</li>
+<li><b>JavaScript</b>: Linguagem de programação específica para desenvolvimento web FrontEnd, juntamente do React.Js</li>
+<li><b>React.js</b>: Framework específico para o FrontEnd da aplicação.</li>
+<li><b>Jest</b>: Plataforma utilizada para testes unitários.</li>
+
+<li><b>Styled-Components</b>:</li>
+<li><b>NodeJS</b>: </li>
+
+</ul>
 
 
 
-## 4. Visão de Casos de Uso
-
-
-
-### 4.1. Realização de Casos de Uso
 
 
 ## 5. Visão Lógica
@@ -170,4 +181,3 @@ Jest utiliza de "matchers" (combinadores) para realizar os testes. Existem diver
 ### 5.3.2 Back-end
 
 - Diagrama de Classes - BackEnd
-
