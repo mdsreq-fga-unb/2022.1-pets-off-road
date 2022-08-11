@@ -15,6 +15,7 @@
 | 19/07/2022 |  1.2   |                      Correções do produto - Requisitos                       |                   Pedro Helias                   |
 | 28/07/2022 |  1.3   |             Atualização do processo de engenharia de requisitos              |         Gabriel Marcolino e Pedro Helias         |
 | 01/08/2022 |  1.4   |      Atualização do processo de desenvolvimento e planejamento de fases      | Gabriel Marcolino, Pedro Helias, Matheus, Shaíne |
+| 10/08/2022 |  1.5   |                    Alteração processo de desenvolvimento                     |                   Pedro Helias                   |
 
 
 
@@ -82,21 +83,21 @@ Os desenvolvedores da Pets Off Road decidiram usar algumas tecnologias que já e
 
 ### 2.2. Planejamento das Fases e/ou Iterações do Projeto
 
-|  Sprint   |                      Produto (Entrega)                       | Data Início |  Data Fim  |
-| :-------: | :----------------------------------------------------------: | :---------: | :--------: |
-| Sprint 1  |          Formação da equipe e Definição do Projeto           | 20/06/2022  | 26/06/2022 |
-| Sprint 2  | Visão do produto e projeto e processo de engenharia de requisitos | 27/06/2022  | 03/07/2022 |
-| Sprint 3  |          Atualização da visão do produto e projeto           | 04/07/2022  | 10/07/2022 |
-| Sprint 4  |    Levantamento de Requisitos, Canvas MVP, WorkShop(MDS)     | 11/07/2022  | 17/07/2022 |
-| Sprint 5  |     Backlog , Atualização da Visão do Produto e Projeto      | 18/07/2022  | 24/07/2022 |
-| Sprint 6  |  Atualização do documento de visão, Refinamento do Backlog   | 25/07/2022  | 30/07/2022 |
+|  Sprint   |                                                         Produto (Entrega)                                                         | Data Início |  Data Fim  |
+| :-------: | :-------------------------------------------------------------------------------------------------------------------------------: | :---------: | :--------: |
+| Sprint 1  |                                             Formação da equipe e Definição do Projeto                                             | 20/06/2022  | 26/06/2022 |
+| Sprint 2  |                                 Visão do produto e projeto e processo de engenharia de requisitos                                 | 27/06/2022  | 03/07/2022 |
+| Sprint 3  |                                             Atualização da visão do produto e projeto                                             | 04/07/2022  | 10/07/2022 |
+| Sprint 4  |                                       Levantamento de Requisitos, Canvas MVP, WorkShop(MDS)                                       | 11/07/2022  | 17/07/2022 |
+| Sprint 5  |                                        Backlog , Atualização da Visão do Produto e Projeto                                        | 18/07/2022  | 24/07/2022 |
+| Sprint 6  |                                     Atualização do documento de visão, Refinamento do Backlog                                     | 25/07/2022  | 30/07/2022 |
 | Sprint 7  | Atualização do MVP e documento de visão, classes iniciais do projeto, protótipo de alta fidelidade, documento de arquitetura, PBB | 31/07/2022  | 06/08/2022 |
-| Sprint 8  |              User Story Mapping, US6, US1, US22              | 07/08/2022  | 13/08/2022 |
-| Sprint 9  |                             MVP1                             | 14/08/2022  | 20/08/2022 |
-| Sprint 10 |                        Implementação                         | 21/08/2022  | 27/08/2022 |
-| Sprint 11 |                        Implementação                         | 28/08/2022  | 03/09/2022 |
-| Sprint 12 |                        Implementação                         | 04/09/2022  | 10/09/2022 |
-| Sprint 13 |                             MVP2                             | 11/09/2022  | 17/09/2022 |
+| Sprint 8  |                                                User Story Mapping, US6, US1, US22                                                 | 07/08/2022  | 13/08/2022 |
+| Sprint 9  |                                                               MVP1                                                                | 14/08/2022  | 20/08/2022 |
+| Sprint 10 |                                                           Implementação                                                           | 21/08/2022  | 27/08/2022 |
+| Sprint 11 |                                                           Implementação                                                           | 28/08/2022  | 03/09/2022 |
+| Sprint 12 |                                                           Implementação                                                           | 04/09/2022  | 10/09/2022 |
+| Sprint 13 |                                                               MVP2                                                                | 11/09/2022  | 17/09/2022 |
 
 
 
@@ -169,7 +170,22 @@ Os ciclos de desenvolvimento serão feitos no ordenamento do quadro abaixo:
 | Construção     | Programação Frontend                                                                                            | Codificação                     | VScode     | Matheus Phillipo e Shaíne Oliveira            | Código               |
 | Teste          | Criar cenários de teste para verificar se os critérios de aceitação foram atendidos e corrigir possíveis falhas | Testes unitários                | Jest       | Renan e Matheus                               | Testes unitários     |
 
+### 3.2. Atividades descritas e detalhadas  de acordo com a Sprint - MDS
 
+#### 3.2.1 Planejamento 
+#### 3.2.2 Desenvolvimento 
+
+- Realização das Issues propostas para MDS
+- Testes unitários
+
+#### 3.2.3 Revisão
+
+- Apresentação do que foi realizado pela equipe de MDS na Sprint
+- Validação das atividades realizadas juntamente de Requisitos
+- Revisão de avaliação do professor(caso ocorra)
+
+
+#### 3.2.4 Retrospectiva
 ## 4. Processo de Engenharia de Requisitos
 
 A equipe do projeto decidiu utilizar uma abordagem ágil para a Engenharia de Requisitos(ER), tendo em vista as necessidades do time e do cliente. Em uma abordagem aǵil as atividades específicas da ER não são especificadas/explicitas. Assim, no contexto ágil o responsável pela gerência dos requisitos é o PO.  Além disso, a metodogia ágil conta com a criação do backlog do produto, em que será listado todos os requisitos e atividades a serem realizadas. Como o desenvolvimento é dividido em *Sprints*, os requisitos não terão necessidade de serem detalhados logo no início do projeto, e sim quando forem movidos para o *Sprint Backlog*.
@@ -227,6 +243,37 @@ O gerenciamento de requisitos ocorrerá durante o desenvolvimento.
 |                Atividade                |  Método  |   Ferramenta   |     Responsáveis     |           Entrega           |
 | :-------------------------------------: | :------: | :------------: | :------------------: | :-------------------------: |
 | Acompanhamento e Refinamento do backlog | Reuniões | Meet e Discord | Equipe de requisitos | Detalhamento dos requisitos |
+
+
+### 4.6. Atividades descritas e detalhadas de acordo com a Sprint - Requisitos
+
+
+#### 4.6.1 Planejamento 
+- Abertura de sprint
+- Revisão de Backlog(histórias de usuário) e validação com a cliente(veriificar a possibilidade) 
+- Levantamento de débitos da Sprint anterior
+- Avaliação sobre como encaixar os débitos na sprint vigente
+- Definição e elaboração de issues para a sprint.
+- Avaliação dos pesos de cada issue.
+ 
+#### 4.6.2 Desenvolvimento 
+
+- Realização das issues levantadas para Requisitos 
+- Inspeção e acompanhamento das atividades propostas para a Sprint(com MDS)
+
+#### 4.6.3 Revisão
+
+- Apresentação do que foi realizado pela equipe de Requisitos na Sprint
+- Validação das atividades realizadas
+- Revisão de avaliação do professor(caso ocorra)
+
+#### 4.6.4 Retrospectiva 
+
+- Levantamento de Pontos positivos da Sprint
+- Levantamento de Pontos negativos da Sprint
+- Levantamento de Pontos de melhoria em relação a Sprint passada. 
+- Levantamento de "Healthcheck" durante a sprint vigente.
+- Avaliação do Scrum Master sobre a sprint
 
 ## 5. Lições Aprendidas
 

@@ -16,6 +16,22 @@ nav:
 - Kanban: kanban.md
 - SAFe - Backlog: backlog.md
 - PBB: PBB.md
+- Sprints: 
+    - Sprint 1:
+    - Sprint 2:
+    - Sprint 3:
+    - Sprint 4:
+    - Sprint 5:
+    - Sprint 6: sprints/sprint6.md
+    - Sprint 7: sprints/sprint7.md
+    - Sprint 8: sprints/sprint8.md
+    - Sprint 9:
+    - Sprint 10:
+    - Sprint 11:
+    - Sprint 12:
+    - Sprint 13:
+    
+    
 
 theme: 
   name: material
