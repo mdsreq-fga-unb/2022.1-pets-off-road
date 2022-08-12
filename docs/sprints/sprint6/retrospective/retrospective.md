@@ -29,7 +29,7 @@
 - Requisitos está conseguindo entregar as issues em tempo e no prazo. 
 - Pode ser feito um questionário para melhorar a retrospectiva.
 
-## Humor
+## Humor/Saúde
 
 - Matheus: Meio feliz e meio triste
 - Gabriel: Normal 

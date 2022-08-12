@@ -24,10 +24,12 @@ nav:
       # - Sprint 5:
       - Sprint 6:
           - Planning: sprints/sprint6/planning/planning.md
-          - Restrospective: sprints/sprint6/retrospective/retrospective.md
           - Review: sprints/sprint6/review/review.md
-      # sprints/sprint6.md
-      # - Sprint 7: sprints/sprint7.md
+          - Restrospective: sprints/sprint6/retrospective/retrospective.md
+      - Sprint 7:
+          - Planning: sprints/sprint7/planning/planning.md
+          - Review: sprints/sprint7/review/review.md
+          - Retrospective: sprints/sprint7/retrospective/retrospective.md
       # - Sprint 8: sprints/sprint8.md
       # - Sprint 9:
       # - Sprint 10:
