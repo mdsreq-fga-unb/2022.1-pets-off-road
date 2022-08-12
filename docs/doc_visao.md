@@ -173,11 +173,19 @@ Os ciclos de desenvolvimento serão feitos no ordenamento do quadro abaixo:
 ### 3.2. Atividades descritas e detalhadas  de acordo com a Sprint - MDS
 
 #### 3.2.1 Planejamento 
+
+- Avaliação do nível de dificuldade das issues
+- Divisão das tarefas
+- Definição de pares
+
 #### 3.2.2 Desenvolvimento 
 
 - Realização das Issues propostas para MDS
 - Testes unitários
-
+- Produção dos diagramas e documentação
+- Evolução dos diagramas
+- Refatoração de código
+- Prototipação
 #### 3.2.3 Revisão
 
 - Apresentação do que foi realizado pela equipe de MDS na Sprint
@@ -186,6 +194,10 @@ Os ciclos de desenvolvimento serão feitos no ordenamento do quadro abaixo:
 
 
 #### 3.2.4 Retrospectiva
+
+- Análise de desempenho da sprint
+- Feedback do desenvolvimento
+
 ## 4. Processo de Engenharia de Requisitos
 
 A equipe do projeto decidiu utilizar uma abordagem ágil para a Engenharia de Requisitos(ER), tendo em vista as necessidades do time e do cliente. Em uma abordagem aǵil as atividades específicas da ER não são especificadas/explicitas. Assim, no contexto ágil o responsável pela gerência dos requisitos é o PO.  Além disso, a metodogia ágil conta com a criação do backlog do produto, em que será listado todos os requisitos e atividades a serem realizadas. Como o desenvolvimento é dividido em *Sprints*, os requisitos não terão necessidade de serem detalhados logo no início do projeto, e sim quando forem movidos para o *Sprint Backlog*.
