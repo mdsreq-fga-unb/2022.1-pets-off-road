@@ -3,8 +3,10 @@
 | Data       | Versão | Modificação                                                                                                  | Autor                                                                                                                                                                                   |
 | :--------- | :----- | :----------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 06/08/2022 | 0.1    | Abertura do documento de arquitetura                                                               | [@ShaineOliveira](https://github.com/ShaineOliveira)
-| 10/08/2022 | 0.2    | Novas adições no documento                                                               | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
-                                                                                                                                                    
+| 10/08/2022 | 0.2    | Novas adições no documento                                                               | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi),
+| 12/08/2022 | 0.3    | Adição de metas                                                                | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
+                                  
+                                                                                                                                                   
 ## Sumário
 
 1.  **Introdução**
@@ -137,6 +139,15 @@ Jest utiliza de "matchers" (combinadores) para realizar os testes. Existem diver
 ## 3. Metas e Restrições da Arquitetura
 
 ### 3.1 Metas
+O sistema WEB a ser desenvolvido tem como metas a serem atingidas:
+
+<ul>
+<li> Melhorar o sistema de adoção de pets;</li>
+<li>Facilitar a divulgação de eventos relacionados a adoção e cuidados aos animais;</li>
+<li>Permitir o crescimento de projetos ligados as causas animais domésticos por meio de contato online;</li>
+<li>Permitir conexão de usuários defensores de causa animal e possíveis voluntários.</li>
+</ul>
+
 
 
 ### 3.2 Direcionamento Tecnológico
