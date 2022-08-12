@@ -13,7 +13,17 @@
 }
 
 body {
-  background: var(--bg-color);
+  background: #ffffff;
+}
+
+h1{
+  color: var(--text-color);
+  line-height: 120%;
+}
+
+p{
+  color: var(--subtext-color);
+  line-height: 120%;
 }
 
 a,
