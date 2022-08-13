@@ -11,12 +11,12 @@
 
 |               Issues               | Pontuação |     Concluído      |
 | :--------------------------------: | :-------: | :----------------: |
-|         Diagrama de banco          |     0     |                    |
-|    Atualiar protótipo front-end    |     0     | :white_check_mark: |
+|     Diagrama de banco de dados     |     0     |        :x:         |
+|   Atualizar protótipo front-end    |     0     | :white_check_mark: |
 |    Modelos de classes e produto    |     0     | :white_check_mark: |
 | Atualizar documento de arquiterura |     0     | :white_check_mark: |
-|   Atualizar docuemento de visão    |     0     |   :x: em atraso    |
+|   Atualizar docuemento de visão    |     0     |        :x:         |
 |           Atualizar PBB            |     0     | :white_check_mark: |
-|                US15                |    12     |   :x: em atraso    |
-|                US01                |    12     |   :x: em atraso    |
-|                US08                |     8     |   :x: em atraso    |
+|                US15                |    12     |        :x:         |
+|                US01                |    12     |        :x:         |
+|                US08                |     8     |        :x:         |
