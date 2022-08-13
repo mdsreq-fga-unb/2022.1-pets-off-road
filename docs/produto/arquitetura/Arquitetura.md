@@ -3,9 +3,10 @@
 | Data       | Versão | Modificação                                                                                                  | Autor                                                                                                                                                                                   |
 | :--------- | :----- | :----------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 06/08/2022 | 0.1    | Abertura do documento de arquitetura                                                               | [@ShaineOliveira](https://github.com/ShaineOliveira)
-| 10/08/2022 | 0.2    | Novas adições no documento                                                               | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi),
+| 10/08/2022 | 0.2    | Novas adições no documento                                                               | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
 | 12/08/2022 | 0.3    | Adição de metas                                                                | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
-                                  
+| 13/08/2022 | 0.4    | Adição parcial de visão lógica                                                                | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
+                          
                                                                                                                                                    
 ## Sumário
 
@@ -170,6 +171,7 @@ O sistema WEB a ser desenvolvido tem como metas a serem atingidas:
 ## 4. Visão Lógica
 
 ### 4.1. Visão Geral
+Uma página WEB estrutura-se em uma arquitetura de objetos determinados no modelo da aplicação, que interagem entre si, facilitando o acesso e possíveis manutenções. A aplicação se inicia com a tela de Login que irá buscar os dados de cadastro do usuário. Além disso, é possível executar um cadastro de acordo com o objetivo do utilizador da rede (projeto ou um voluntário). Após acesso permitido, é feito um direcionamento adequado a cada modelo de usuário, no caso de projetos opções relacionadas ao gerenciamento de finanças, animais e membros. Como voluntário, o usuário tem acesso aos projetos disponíveis e ações de adoção. Em "Minha página", ambos modelos de usuários possuem acesso as suas informações cadastradas, além da possibilidade de alterá-las (de acordo com o campo). Por fim, qualquer utilizador possui um *feed* onde é possível visualizar e criar *posts*.
 
 
 ### 4.2. Pacotes de Design Significativos do Ponto de Vista da Arquitetura
