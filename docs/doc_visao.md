@@ -16,6 +16,7 @@
 | 28/07/2022 |  1.3   |             Atualização do processo de engenharia de requisitos              |         Gabriel Marcolino e Pedro Helias         |
 | 01/08/2022 |  1.4   |      Atualização do processo de desenvolvimento e planejamento de fases      | Gabriel Marcolino, Pedro Helias, Matheus, Shaíne |
 | 10/08/2022 |  1.5   |                    Alteração processo de desenvolvimento                     |                   Pedro Helias                   |
+| 13/08/2022 |  1.6   |                            Correções no documento                            |                   Pedro Helias                   |
 
 
 
@@ -147,13 +148,10 @@ Com base nos riscos do projeto foram estabelecidos os seguintes critérios de re
 
 ## 3. Processo de Desenvolvimento de Software
 
-O ciclo de vida escolhido foi o iterativo e incremental, pois a equipe decidiu por dividir os requisitos e funcionalidades em módulos. Cada um deles é avaliado e classificado com um nível de prioridades. Sendo assim, o time pode planejar etapas com foco nos módulos prioritários.
+O ciclo de vida escolhido foi o incremental, pois adotaremos ciclos curtos e iterativos de desenvolvimento. Escolhemos uma abordagem ágil para o projeto, utilizando a metodologia Scrum com algumas propriedades do XP. Para tal, serão utilizados os artefatos: Backlog do Produto e Backlog da Sprint. Como ritos de um processo ágil, utilizaremos: Sprint, Planejamento(Planning), Revisão(Review), Retrosprectiva(Retrospective) e Desenvolvimento(Development). Com relação ao XP, utilizaremos Programação em Pares(Pair Programming), Planning Poker e Clean Code. 
 
-Ao término de cada etapa, o cliente receberá uma amostra do software com as funcionalidades já criadas, permitindo que os recursos mais importantes sejam testados rapidamente no ambiente de produção. Ou seja, a equipe terá mais meios para coletar dados sobre o uso da aplicação e o que pode ser feito para otimizá-la.
+Foi introduzido, também, o quadro Kanban para gerencimento interno de tarefas e execuções do time. Sua utilização será essencial para alinhar a equipe com relação ao que está sendo executado no momento, o que já foi executado e o que se planeja executar. A ferramenta vai fazer o acompanhamento do Backlog, das histórias de usuário e Issues. 
 
-As chances de o cliente ter elevada satisfação também são maiores. Afinal, ele poderá entregar um feedback contínuo sobre os recursos e as suas expectativas. Portanto, a equipe pode criar maior alinhamento com o usuário e as suas demandas.
-
-Com isso, optamos por uma abordagem ágil, utilizando uma metodologia baseada no XP (Planejamento, Design Simples, Testes, Programação em Pares, Integração Contínua e Padronização de Código) e uso do quadro Kanban, pois definimos anteriormente que o escopo de trabalho seria fracionado e cada parte desenvolvida em ciclos. Com etapas mais curtas e entregas mais frequentes, aliviando assim a carga de trabalho e diminuindo os erros através de feedbacks constantes do cliente e do time de requisitos. Tornado-se um ambiente dinâmico e impulsionando a produtividade em relação ao andamento do projeto.
 
   
 ### 3.1. Processos e Procedimentos
@@ -174,33 +172,71 @@ Os ciclos de desenvolvimento serão feitos no ordenamento do quadro abaixo:
 
 #### 3.2.1 Planejamento 
 
-- Avaliação do nível de dificuldade das issues
-- Divisão das tarefas
-- Definição de pares
+| Atividade                                    | Método         | Ferramenta         | Entrega               |
+| -------------------------------------------- | -------------- | ------------------ | --------------------- |
+| Avaliação do nível de dificuldade das issues | Planning Poker | planingpokeronline | Pontos de Dificuldade |
+
+| Atividade          | Método                        | Ferramenta             | Entrega                                                |
+| ------------------ | ----------------------------- | ---------------------- | ------------------------------------------------------ |
+| Divisão de Tarefas | Atividade debatida em reunião | Google Meet ou Discord | Issues planejadas e atribuídas aos componentes do time |
+
+| Atividade          | Método                        | Ferramenta             | Entrega                                |
+| ------------------ | ----------------------------- | ---------------------- | -------------------------------------- |
+| Definição de pares | Atividade debatida em reunião | Google Meet ou Discord | Pares formados para o Pair Programming |
+
 
 #### 3.2.2 Desenvolvimento 
 
-- Realização das Issues propostas para MDS
-- Testes unitários
-- Produção dos diagramas e documentação
-- Evolução dos diagramas
-- Refatoração de código
-- Prototipação
+
+| Atividade                                | Método                                               | Ferramenta             | Entrega                         |
+| ---------------------------------------- | ---------------------------------------------------- | ---------------------- | ------------------------------- |
+| Realização das Issues propostas para MDS | Atividade realizada em pares definidos anteriormente | Google Meet ou Discord | Issues e problemas solucionados |
+
+| Atividade        | Método                                                                                       | Ferramenta | Entrega                     |
+| ---------------- | -------------------------------------------------------------------------------------------- | ---------- | --------------------------- |
+| Testes unitários | Utilização dos critérios de aceitação descritos por Requisitos para as histórias das sprints | Jest       | Validação da funcionalidade |
+
+| Atividade                             | Método                                                             | Ferramenta | Entrega                                                        |
+| ------------------------------------- | ------------------------------------------------------------------ | ---------- | -------------------------------------------------------------- |
+| Produção dos diagramas e documentação | Descrição gráfica das componentes lógicas e estruturais do projeto | Figma      | Documentação diagramada e simplificada para fácil visualização |
+
+| Atividade              | Método                                                                           | Ferramenta | Entrega                            |
+| ---------------------- | -------------------------------------------------------------------------------- | ---------- | ---------------------------------- |
+| Evolução dos diagramas | Atualização da diagramação lógica a todo momento que o projeto sofre atualização | Figma      | Documentação diagramada atualizada |
+
+| Atividade             | Método                                                         | Ferramenta | Entrega                    |
+| --------------------- | -------------------------------------------------------------- | ---------- | -------------------------- |
+| Refatoração de código | Avaliação em pares de códigos reprovados em teste ou evoluídos | VScode     | Códigos funcionais e úteis |
+
+
 #### 3.2.3 Revisão
 
-- Apresentação do que foi realizado pela equipe de MDS na Sprint
-- Validação das atividades realizadas juntamente de Requisitos
-- Revisão de avaliação do professor(caso ocorra)
+| Atividade                                                      | Método                         | Ferramenta      | Entrega                                                        |
+| -------------------------------------------------------------- | ------------------------------ | --------------- | -------------------------------------------------------------- |
+| Apresentação do que foi realizado pela equipe de MDS na Sprint | Apresentação durante a reunião | Meet ou Discord | Maior clareza sobre as ativides desenvolvidas antes de validar |
 
+| Atividade                                                    | Método                                | Ferramenta      | Entrega                                                        |
+| ------------------------------------------------------------ | ------------------------------------- | --------------- | -------------------------------------------------------------- |
+| Validação das atividades realizadas juntamente de Requisitos | Atividade realizada durante a reunião | Meet ou Discord | Validação das atividades desenvolvidas e verificação de testes |
+
+<i>Uma etapa de revisão baseada na avaliação do professor pode ocorrer em caso de pré avaliação ou ponto de controle</i>
 
 #### 3.2.4 Retrospectiva
 
-- Análise de desempenho da sprint
-- Feedback do desenvolvimento
+| Atividade                       | Método                                                            | Ferramenta      | Entrega                                                                                                                    |
+| ------------------------------- | ----------------------------------------------------------------- | --------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Análise de desempenho da sprint | Atividade realizada durante a reunião com o ScrumMaster da equipe | Meet ou Discord | Descrição detalhada de pontos positivos, negativos e de melhoria da Sprint, além de Descrição da saúde dos membros do time |
+
+| Atividade                   | Método                                | Ferramenta      | Entrega                                                                                                                                     |
+| --------------------------- | ------------------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Feedback do desenvolvimento | Atividade realizada durante a reunião | Meet ou Discord | Feedback envolvendo uma análise dos membros em relação a experiência de programação em pares, utilização de clean code, entre outros pontos |
+
+
+- 
 
 ## 4. Processo de Engenharia de Requisitos
 
-A equipe do projeto decidiu utilizar uma abordagem ágil para a Engenharia de Requisitos(ER), tendo em vista as necessidades do time e do cliente. Em uma abordagem aǵil as atividades específicas da ER não são especificadas/explicitas. Assim, no contexto ágil o responsável pela gerência dos requisitos é o PO.  Além disso, a metodogia ágil conta com a criação do backlog do produto, em que será listado todos os requisitos e atividades a serem realizadas. Como o desenvolvimento é dividido em *Sprints*, os requisitos não terão necessidade de serem detalhados logo no início do projeto, e sim quando forem movidos para o *Sprint Backlog*.
+A equipe do projeto decidiu utilizar uma abordagem ágil para a Engenharia de Requisitos(ER), tendo em vista as necessidades do time e do cliente, as limitações de recurso e tempo, além da maior flexibilidade para definir os requisitos . Em uma abordagem aǵil as atividades específicas da ER não são especificadas/explicitas.  Além disso, a metodogia ágil conta com a criação do backlog do produto, em que será listado todos os requisitos e atividades a serem realizadas. Como o desenvolvimento é dividido em *Sprints*, os requisitos não terão necessidade de serem detalhados logo no início do projeto, e sim quando forem movidos para o *Sprint Backlog*.
 
 
 ![Fases do Scrum](imagens/fases_do_scrum.png)
