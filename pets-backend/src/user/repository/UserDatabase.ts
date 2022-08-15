@@ -1,4 +1,4 @@
-import connection from '../../repositories/userDatabaseConnection';
+import connection from '../../repositories/DatabaseConnection';
 import { CreateUserDto } from '../dto/create-user.dto';
 import { UserLogin } from '../dto/user-login.dto';
 import { User } from '../entities/user.entity';
