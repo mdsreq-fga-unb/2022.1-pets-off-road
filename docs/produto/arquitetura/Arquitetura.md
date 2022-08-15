@@ -6,6 +6,7 @@
 | 10/08/2022 | 0.2    | Novas adições no documento                                                               | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
 | 12/08/2022 | 0.3    | Adição de metas                                                                | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
 | 13/08/2022 | 0.4    | Adição parcial de visão lógica                                                                | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
+| 14/08/2022 | 0.5    | Adição do diagrama do FrontEnd                                                               | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
                           
                                                                                                                                                    
 ## Sumário
@@ -34,7 +35,7 @@
 3. **Metas e Restrições da Arquiteura**
 
 - 3.1 Metas
-- 3.2 Direcionamento Tecnológico
+- 3.2 Restrições Tecnológicas
 
 4. **Visão Lógica**
 
@@ -151,7 +152,7 @@ O sistema WEB a ser desenvolvido tem como metas a serem atingidas:
 
 
 
-### 3.2 Direcionamento Tecnológico
+### 3.2 Restrições Tecnológicas
 <ul>
 <li><b>TypeScript</b>: Linguagem de programação a ser utilizada no BackEnd da aplicação.</li>
 <li><b>Nest.JS</b>: Framework Node.js utilizada no BackEnd da aplicação, responsável pelas conexões com o banco e pelas regras de negócio</li>
@@ -183,6 +184,9 @@ Uma página WEB estrutura-se em uma arquitetura de objetos determinados no model
 ### 4.3.1 Front-end
 
 - Diagrama para o FrontEnd
+
+<img width="460" height="300" src="https://github.com/mdsreq-fga-unb/2022.1-pets-off-road/blob/38_arquitetura/docs/imagens/Diagrama_do_front.png?raw=true">
+
 
 
 
