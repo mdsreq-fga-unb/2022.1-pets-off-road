@@ -1,19 +1,21 @@
 import { Injectable } from '@nestjs/common';
 import { CreateProjectDto } from './dto/create-project.dto';
 import { UpdateProjectDto } from './dto/update-project.dto';
+import { ProjectDatabase } from './repository/ProjectDatabase';
 
 @Injectable()
 export class ProjectService {
-  create(createProjectDto: CreateProjectDto) {
-    return 
+  constructor(private ProjectRepository: ProjectDatabase){}
+  async create(createProjectDto: CreateProjectDto) {
+    return await this.ProjectRepository.createProject(createProjectDto);
   }
 
-  findAll() {
-    return `This action returns all project`;
+  async findAll() {
+    return await this.ProjectRepository.findAllProjects();
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} project`;
+  async findOne(id: number) {
+    return await this.ProjectRepository.findProjectById(id);
   }
 
   update(id: number, updateProjectDto: UpdateProjectDto) {
