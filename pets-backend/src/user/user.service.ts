@@ -2,28 +2,25 @@ import { Injectable } from '@nestjs/common';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UserLogin } from './dto/user-login.dto';
 import { User } from './entities/user.entity';
-import repo from './repository/userRepo';
-
+import { UserDatabase } from './repository/UserDatabase';
 @Injectable()
 export class UserService {
+
+  constructor(private userRepositorio: UserDatabase){}
+
   async create(createUser: CreateUserDto): Promise<User> {
-    const criadoEm = new Date().toISOString();
-    const novoUsuario: User = {
-      ...createUser,
-      criadoEm: criadoEm,
-    };
-    return await repo.createUser(novoUsuario);
+    return await this.userRepositorio.createUser(createUser);
   }
 
   async login(loginData: UserLogin){
-    return await repo.findByEmailAndPassword(loginData);
+    return await this.userRepositorio.findByEmailAndPassword(loginData);
   }
 
   async findAll(): Promise<User[]> {
-    return await repo.findAll();
+    return await this.userRepositorio.findAll();
   }
 
   findOne(cpf: number) {
-    return repo.findOne(cpf);
+    return this.userRepositorio.findOne(cpf);
   }
 }

@@ -7,9 +7,9 @@ const dbSettings = {
   connection: {
     host: 'localhost',
     port: '3306',
-    database: 'PETS-OF-ROAD-DB',
+    database: 'PETS_OF_ROAD_DB',
     user: 'root',
-    password: 'senhaprovisoria'
+    password: '123456789'
   },
   migrations: {
     directory: migrationFolder

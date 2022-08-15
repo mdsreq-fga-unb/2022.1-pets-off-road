@@ -19,8 +19,8 @@ services:
     ports:
       - '3306:3306'
     environment:
-      MYSQL_DATABASE: PETS-OF-ROAD-DB
-      MYSQL_ROOT_PASSWORD: senhaprovisoria
+      MYSQL_DATABASE: PETS_OF_ROAD_DB
+      MYSQL_ROOT_PASSWORD: 123456789
 
   adminer:
     image: adminer
