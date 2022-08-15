@@ -7,14 +7,9 @@ import { UserDatabase } from './repository/UserDatabase';
 export class UserService {
 
   constructor(private userRepositorio: UserDatabase){}
-  
+
   async create(createUser: CreateUserDto): Promise<User> {
-    const criadoEm = new Date().toISOString();
-    const novoUsuario: User = {
-      ...createUser,
-      criadoEm: criadoEm,
-    };
-    return await this.userRepositorio.createUser(novoUsuario);
+    return await this.userRepositorio.createUser(createUser);
   }
 
   async login(loginData: UserLogin){
