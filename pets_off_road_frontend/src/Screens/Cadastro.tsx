@@ -18,8 +18,7 @@ export function Cadastro(){
         <div className={styles.screen}>
             <div className={styles.welcomeBox}>
                 <Link to="/"><ArrowCircleLeft/></Link>
-                <img src={Logo} alt="Logo da Petshub" />
-                <p>Lorem ipsum dolor sit oris nisi ut aliquip ex ea commodo consequat.</p>
+                <img className={styles.logo} src={Logo} alt="Logo da Petshub" />
             </div>
 
             <div className={styles.registrationBox}>
@@ -30,10 +29,10 @@ export function Cadastro(){
 
                 {profileType === null && 
 
-                <div className={styles.chooseProfile} onClick={() => setProfileType('projeto')}>
-                    <button className={styles.profileProject}><HouseLine size={28}/> Sou Projeto</button>
+                <div className={styles.chooseProfile} >
+                    <button className={styles.profileProject} onClick={() => setProfileType('projeto')}><HouseLine size={28}/> Sou Projeto</button>
 
-                    <button className={styles.profileVolunteer} onClick={() => setProfileType('volunteer')}><Users size={28}/> Voluntário</button>
+                    <button className={styles.profileVolunteer} onClick={() => setProfileType('voluntario')}><Users size={28}/> Voluntário</button>
                 </div>
                 
                 ||
@@ -42,13 +41,19 @@ export function Cadastro(){
                 
                 <ArrowCircleLeft onClick={() => setProfileType(null)}/>
 
-                    <label>Nome</label>
-                    <input type="text" placeholder="Ex: João Da Silva"/>
+                    <label>Nome do Projeto</label>
+                    <input type="text" placeholder="Ex: Nome-do-Projeto"/>
 
                     <label>Endereço de email</label>
                     <input type="email" placeholder="@mail.com.br"/>
 
-                    <label>CPF</label>
+                    <label>UF</label>
+                    <input type="text" placeholder="Ex: DF"/>
+
+                    <label>Cidade</label>
+                    <input type="text" placeholder="Ex: Brasília"/>
+
+                    <label>CPF/CNPJ</label>
                     <input type="text" placeholder="XXX.XXX.XXX-XX"/>
 
                     <label>Telefone</label>
@@ -62,7 +67,7 @@ export function Cadastro(){
                 
                 || 
                 
-                profileType === 'volountario' && <form className={styles.formCadastro}>
+                profileType === "voluntario" && <form className={styles.formCadastro}>
                 
                 <ArrowCircleLeft onClick={() => setProfileType(null)}/>
 
@@ -71,6 +76,15 @@ export function Cadastro(){
 
                 <label>Endereço de email</label>
                 <input type="email" placeholder="@mail.com.br"/>
+
+                <label>UF</label>
+                <input type="text" placeholder="Ex: DF"/>
+
+                <label>Cidade</label>
+                <input type="text" placeholder="Ex: Brasília"/>
+
+                <label>Endereço</label>
+                <input type="text" placeholder="Ex: Quadra 2"/>
 
                 <label>CPF</label>
                 <input type="text" placeholder="XXX.XXX.XXX-XX"/>

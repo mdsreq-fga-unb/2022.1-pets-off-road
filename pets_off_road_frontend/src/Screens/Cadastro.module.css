@@ -5,36 +5,32 @@
 }
 
 .welcomeBox{
-    background: var(--red-primary);
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   background: var(--red-primary);
+   display: flex;
+   flex-direction: column;
 
-    gap: .8rem;
+   align-items: center;
+   justify-content: center;
 }
 
 .welcomeBox a{
     position: absolute;
     top: 1rem;
-    left: 2rem;
+    left: 1rem;
 }
 
 .welcomeBox:first-of-type svg{
-    color: white;
-    width: 3rem;
-    height: 3rem;
+    color: #ffffff;
+    width: 2rem;
+    height: 2rem;
 }
 
-.welcomeBox p{
-    position: relative;
-
-    top: -5rem;
-    font-weight: 600;
-    width: 75%;
-    text-align: justify;
-    color: white;
+.logo{
+    width: 12rem;
+    position: absolute;
+    top: 3rem;
 }
+
 
 .welcomeMessage{
     margin-top: 1.2rem;
@@ -92,7 +88,7 @@
     width: 30rem;
     margin: 0 auto;
     justify-content: center;
-    gap: 10px;
+    gap: .8rem;
 }
 
 .formCadastro:first-of-type svg{
@@ -127,5 +123,6 @@
     font-weight: 600;
     font-size: 14px;
     margin-top: .5rem;
+    margin-bottom: .5rem;
     cursor: pointer;
 }
