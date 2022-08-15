@@ -3,7 +3,11 @@ export interface User {
   nome: string;
   email: string;
   telefone: number;
+  uf: string;
+  cidade: string;
+  endereco: string
   senha: string;
-  nivelAcesso?: boolean;
-  criadoEm: string;
+  nivel_acesso: boolean;
+  criado_em: string;
+  modificado_em: string;
 }

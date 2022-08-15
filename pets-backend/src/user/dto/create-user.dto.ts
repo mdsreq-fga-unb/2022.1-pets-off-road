@@ -15,6 +15,15 @@ export class CreateUserDto {
 
   @IsDefined()
   senha: string;
+
+  @IsDefined()
+  uf: string;
+
+  @IsDefined()
+  cidade: string
+
+  @IsDefined()
+  endereco: string
   
   nivelAcesso?: boolean;
 }
