@@ -1,5 +1,6 @@
 import connection from '../../repositories/DatabaseConnection';
 import { CreateProjectDto } from '../dto/create-project.dto';
+import { UpdateProjectDto } from '../dto/update-project.dto';
 import { Project } from '../entities/project.entity';
 
 export class ProjectDatabase {
@@ -18,5 +19,21 @@ export class ProjectDatabase {
         for(let project of projects){
             return project
         }
+    }
+
+    public async update(project: UpdateProjectDto, id:number){
+        return await connection
+            .table(this.table_name)
+            .update({
+                cpf: project.cpf,
+                nome: project.nome,
+                email: project.email,
+                telefone: project.telefone,
+                senha: project.senha,
+                uf: project.uf,
+                cidade: project.cidade,
+                endereco: project.endereco
+            })
+            .where({id: id})
     }
 }
