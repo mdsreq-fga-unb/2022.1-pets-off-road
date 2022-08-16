@@ -14,6 +14,7 @@
             cidade           VARCHAR(50)            NOT NULL,
             senha            VARCHAR(250)           NOT NULL,
             criado_em        DATETIME               NOT NULL    DEFAULT   CURRENT_TIMESTAMP,
+            numero_membros   INT                    NOT NULL    DEFAULT   0,
             modificado_em    DATETIME               NOT NULL    DEFAULT   CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
             CONSTRAINT PROJECT_PK PRIMARY KEY (id),
             CONSTRAINT USER_PROJECT_FK FOREIGN KEY(cpf) REFERENCES user(cpf))
