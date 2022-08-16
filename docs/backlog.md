@@ -26,7 +26,11 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :-------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** acessar a plataforma usando a conta criada **para** começar a usar o site |
 |                 **Pontos** | -                                                                                                               |
-| **Critérios de aceitação** | -                                                                                                               |
+| **Critérios de aceitação** | - Campos obrigatórios precisam estar preenchidos para envio de login                                            |
+|                            | - Validar autenticação de usuário | 
+|                            | - Autenticar e redirecionar o usuário  | 
+
+ 
  
 #### US02
 
@@ -34,7 +38,9 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :--------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** voluntário **quero** acessar a plataforma usando a conta criada **para** começar a usar o site |
 |                 **Pontos** | -                                                                                                          |
-| **Critérios de aceitação** | -                                                                                                          |
+| **Critérios de aceitação** | - Campos obrigatórios precisam estar preenchidos para envio de login                                            |
+|                            | - Validar autenticação de usuário | 
+|                            | - Autenticar e redirecionar o usuário  |                                                                                                       |
 
 
 #### US03
@@ -43,7 +49,9 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :---------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** acessar a plataforma usando a conta criada **para** começar a usar o site |
 |                 **Pontos** | -                                                                                                     |
-| **Critérios de aceitação** | -                                                                                                     |
+| **Critérios de aceitação** | - Campos obrigatórios precisam estar preenchidos para envio de login                                            |
+|                            | - Validar autenticação de usuário | 
+|                            | - Autenticar e redirecionar o usuário  |                                                                                                     |
 
 ### **FT02 - Gerenciamento de conta**
 
