@@ -1,23 +1,48 @@
 site_name: Pets Off Road
 
 nav:
-- Início: index.md
-- Visão: doc_visao.md
-- Comunicação: doc_Comunicacao.md
-- Apresentações: 
-    - Unidade 1: apresentacoes/unidade_01.md
-    - Unidade 2: apresentacoes/unidade_02.md
-- Políticas do Repositório: 
-    - Como contribuir: contributing.md
-- Workshop: workshop.md
-- Requisitos: requisitos.md
-- Canvas MVP: canvas.md
-- MVP: MVPs.md
-- Kanban: kanban.md
-- Backlog - SAFe: backlog.md
-- PBB: PBB.md
 
-theme: 
+  - Início: index.md
+  - Visão: doc_visao.md
+  - Comunicação: doc_Comunicacao.md
+  - Apresentações:
+      - Unidade 1: apresentacoes/unidade_01.md
+      - Unidade 2: apresentacoes/unidade_02.md
+  - Políticas do Repositório:
+      - Como contribuir: contributing.md
+  - Workshop: workshop.md
+  - Requisitos: requisitos.md
+  - Canvas MVP: canvas.md
+  - MVP: MVPs.md
+  - Kanban: kanban.md
+  - SAFe - Backlog: backlog.md
+  - PBB: PBB.md
+  - Sprints:
+      # - Sprint 1:
+      # - Sprint 2:
+      # - Sprint 3:
+      # - Sprint 4:
+      # - Sprint 5:
+      - Sprint 6:
+          - Planning: sprints/sprint6/planning/planning.md
+          - Review: sprints/sprint6/review/review.md
+          - Restrospective: sprints/sprint6/retrospective/retrospective.md
+      - Sprint 7:
+          - Planning: sprints/sprint7/planning/planning.md
+          - Review: sprints/sprint7/review/review.md
+          - Retrospective: sprints/sprint7/retrospective/retrospective.md
+      - Sprint 8:
+          - Planning: sprints/sprint8/planning/planning.md
+          - Review: sprints/sprint8/review/review.md
+          - Retrospective: sprints/sprint8/retrospective/retrospective.md
+      # - Sprint 9:
+      # - Sprint 10:
+      # - Sprint 11:
+      # - Sprint 12:
+      # - Sprint 13:
+
+
+theme:
   name: material
 
 markdown_extensions:
