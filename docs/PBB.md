@@ -6,5 +6,5 @@
 | 09/08/2022 |  0.1   | Criação do documento | Pedro Helias, Rhuan, Gabriel Marcolino, Jefferson |
 
 
-<iframe src="https://miro.com/app/live-embed/uXjVPfoVw3E=/?moveToViewport=-9226,-24712,21043,10668&embedId=345108015032" scrolling="no" allowfullscreen width="768" height="432" frameborder="0"></iframe>
+O PBB foi realizado neste <a href="https://miro.com/app/board/uXjVPfoVw3E=/?share_link_id=983245079708">quadro</a>. Recomenda-se que para maior visualização acesse o quadro.
 
