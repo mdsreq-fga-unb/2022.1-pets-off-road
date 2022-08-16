@@ -1,0 +1,43 @@
+.screenForm{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.formCadastro{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+
+}
+
+.formCadastro input{
+    padding: 1px 2px;
+}
+
+.formCadastro div{
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+}
+
+.formCadastro button{
+    border-radius: 8px;
+    border: none;
+    padding: .8rem .8rem;
+    background: var(--red-primary);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
