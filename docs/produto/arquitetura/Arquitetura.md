@@ -7,6 +7,7 @@
 | 12/08/2022 | 0.3    | Adição de metas                                                                | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
 | 13/08/2022 | 0.4    | Adição parcial de visão lógica                                                                | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
 | 14/08/2022 | 0.5    | Adição do diagrama do FrontEnd                                                               | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
+| 16/08/2022 | 0.6    | Adição de diagramas                                                              | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
                           
                                                                                                                                                    
 ## Sumário
@@ -176,6 +177,8 @@ Uma página WEB estrutura-se em uma arquitetura de objetos determinados no model
 
 
 ### 4.2. Pacotes de Design Significativos do Ponto de Vista da Arquitetura
+O Diagrama abaixo mostra a estrutura padrão dos pacotes referentes ao BackEnd e sua divisão:
+<img width="460" height="300" src="https://github.com/mdsreq-fga-unb/2022.1-pets-off-road/blob/38_arquitetura/docs/imagens/Diagrama_backend.jpg?raw=true">
 
 
 
@@ -192,4 +195,7 @@ Uma página WEB estrutura-se em uma arquitetura de objetos determinados no model
 
 ### 4.3.2 Back-end
 
-- Diagrama de Classes - BackEnd
+- Diagrama de Classes 
+
+
+<img width="460" height="300" src="https://github.com/mdsreq-fga-unb/2022.1-pets-off-road/blob/38_arquitetura/docs/imagens/diagrama_de_classe.jpg?raw=true">
