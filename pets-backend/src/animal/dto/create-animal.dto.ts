@@ -4,7 +4,7 @@ export class CreateAnimalDto {
     nome: string;
     especie: string;  
     raca?: string;
-    idade: string;
+    idade: number;
     condicao_saude: boolean;   
     castrado: boolean;
     cirurgias?: string;

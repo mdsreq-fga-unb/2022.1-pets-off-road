@@ -11,7 +11,7 @@
             nome             VARCHAR(100)                               NOT NULL,
             especie          VARCHAR(50)                                NOT NULL,
             raca             VARCHAR(50),
-            idade            ENUM('FILHOTE','JOVEM','ADULTO','IDOSO')   NOT NULL,
+            idade            INT                                        NOT NULL,
             condicao_saude   BOOLEAN                                    NOT NULL,
             castrado         BOOLEAN                                    NOT NULL,
             cirurgias        TEXT,
