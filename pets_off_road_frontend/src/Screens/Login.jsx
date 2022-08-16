@@ -19,8 +19,8 @@ export function Login(){
     } = useContext(AuthContext);
 
     const handleSubmit = async (event) => {
-        await login(email,password);
         event.preventDefault();
+        await login(email,password);
       }
 
     return(
@@ -31,7 +31,7 @@ export function Login(){
                         <h1>PetsHub</h1>
                     </header>
 
-                    <form className={styles.formLogin} onSubmit={handleSubmit()}>
+                    <form className={styles.formLogin} onSubmit={handleSubmit}>
                         <header className={styles.headerForm}>
                             <h1>Bem-vindo à PetsHub</h1>
                             <p>Faça o login para acessar a sua conta</p>
