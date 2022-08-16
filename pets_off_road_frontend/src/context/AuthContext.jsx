@@ -21,11 +21,13 @@ export const AuthContext = createContext({});
 const AuthProvider  = ({ children }) => {
     const [user, setUser] = useState(null);
     const [typeUser, setTypeUser] = useState('');
+    const [signed, setSigned] = useState(false);
 
     async function login(email, password) {
         try {
             const response = await service.signIn(email,password)
             setUser(response);
+            setSigned(true)
         } catch (error) {
         console.error('Error:', error);
         }
@@ -48,7 +50,7 @@ const AuthProvider  = ({ children }) => {
             let navigate = useNavigate();
             navigate('/');
         } catch (error) {
-        console.error('Error:', error);
+            console.error('Error:', error);
         }
     }
 
@@ -66,13 +68,13 @@ const AuthProvider  = ({ children }) => {
 
 
     async function signOut() {
-        
+        setSigned(false)
     }
 
     return (
         <AuthContext.Provider
             value={{
-                signed: !!user,
+                signed,
                 user,
                 typeUser,
                 cadastro,

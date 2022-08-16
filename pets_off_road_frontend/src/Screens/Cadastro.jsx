@@ -9,35 +9,30 @@ import styles from './Cadastro.module.css'
 import Logo from '../assets/logo.svg'
 import {ArrowCircleLeft, HouseLine, Users} from 'phosphor-react'
 import { AuthContext } from '../context/AuthContext';
-
-
+import * as service from '../services/Auth'
+import axios from 'axios';
 
 export function Cadastro(){
     const {
         cadastro
     } = useContext(AuthContext);
     const [profileType, setProfileType] = useState(null);
-    const [cpf, setCpf] = useState('');
-    const [nome, setNome] = useState('');
-    const [email, setEmail] = useState('');
-    const [telefone, setTelefone] = useState('');
-    const [senha, setSenha] = useState('');
-    const [uf, setUf] = useState('');
-    const [cidade, setCidade] = useState('');
-    const [endereco, setEndereco] = useState('');
 
-    const handleSubmit = async () => {
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        const data = new FormData(e.currentTarget);
+        const url = "http://localhost:3030/user"
         const values = {
-            cpf: cpf,
-            nome: nome,
-            email: email,
-            telefone: telefone,
-            senha: senha,
-            uf: uf,
-            cidade: cidade,
-            endereco: endereco
+            cpf: data.get('cpf'),
+            nome: data.get('nome'),
+            email: data.get('email'),
+            telefone: data.get('tel'),
+            senha: data.get('senha'),
+            uf: data.get('uf'),
+            cidade: data.get('cidade'),
+            endereco: data.get('endereco')
         }
-        await cadastro(values)
+        return await axios.post(url, values)
     }
 
     return(
@@ -93,33 +88,33 @@ export function Cadastro(){
                 
                 || 
                 
-                profileType === "voluntario" && <form onSubmit={handleSubmit()} className={styles.formCadastro}>
+                profileType === "voluntario" && <form onSubmit={handleSubmit} className={styles.formCadastro}>
                 
                 <ArrowCircleLeft onClick={() => setProfileType(null)}/>
 
                 <label>Nome</label>
-                <input onChange={(e) => setNome(e)} type="text" placeholder="Ex: João Da Silva"/>
+                <input name='nome' type="text" placeholder="Ex: João Da Silva"/>
 
                 <label>Endereço de email</label>
-                <input type="email" placeholder="@mail.com.br" onChange={(e) => setEmail(e)}/>
+                <input name='email' type="email" placeholder="@mail.com.br"/>
 
                 <label>UF</label>
-                <input type="text" placeholder="Ex: DF" onChange={(e) => setUF(e)}/>
+                <input name='uf' type="text" placeholder="Ex: DF" />
 
                 <label>Cidade</label>
-                <input type="text" placeholder="Ex: Brasília" onChange={(e) => setCidade(e)}/>
+                <input name='cidade' type="text" placeholder="Ex: Brasília" />
 
                 <label>Endereço</label>
-                <input type="text" placeholder="Ex: Quadra 2" onChange={(e) => setEndereco(e)}/>
+                <input name='endereco' type="text" placeholder="Ex: Quadra 2" />
 
                 <label>CPF</label>
-                <input type="text" placeholder="XXX.XXX.XXX-XX" onChange={(e) => setCpf(e)}/>
+                <input name='cpf' type="text" placeholder="XXX.XXX.XXX-XX" />
 
                 <label>Telefone</label>
-                <input type="tel" placeholder="(DDD) XXXXX-XXXX" onChange={(e) => setTelefone(e)}/>
+                <input name='tel' type="tel" placeholder="(DDD) XXXXX-XXXX" />
 
                 <label>Senha</label>
-                <input type="password" placeholder="Mínimo 8 caracteres" onChange={(e) => setSenha(e)}/>
+                <input name='senha' type="password" placeholder="Mínimo 8 caracteres"/>
 
                 <button type="submit">Cadastrar</button>
             </form>

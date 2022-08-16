@@ -6,12 +6,17 @@ import Dogs from '../assets/doguinhos3.svg'
 import Hands from '../assets/hands.svg'
 
 import {Header} from '../components/Header'
+import { AuthContext } from '../context/AuthContext'
+import { useContext } from 'react'
 
 export function HomeScreen({typeUser, userName}){
+    const {
+        signOut
+    } = useContext (AuthContext);
 
     return (
         <>
-            <Header />
+            <Header signOut={signOut}/>
 
 
             <main className={styles.main}>

@@ -1,3 +1,4 @@
+import axios from 'axios';
 import { host } from '../Contants'
 
 export const getUser = async () => {
@@ -38,19 +39,21 @@ export const signUp = async (value) => {
     const url = host + 'user'
     try{
         const settings = { 
-            method: 'POST',         
+            method: 'POST',
+            mode: 'no-cors',         
             headers: new Headers({       'Content-Type': 'application/json'     }),
-            body: JSON.stringify({
+            body: {
                 cpf: value.cpf,
-                nome: value.name,
+                nome: value.nome,
                 email: value.email,
-                telefone: value.phone,
-                senha: value.password,
+                telefone: value.telefone,
+                senha: value.senha,
                 uf: value.uf,
-                cidade: value.city,
-                endereco: value.address
-            }),
+                cidade: value.cidade,
+                endereco: value.endereco
+            },
         }
+        console.log(body)
         const fetchResponse = await fetch(url, settings);
         const data = await fetchResponse.json()
         return data
