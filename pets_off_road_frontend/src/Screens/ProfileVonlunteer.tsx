@@ -52,6 +52,9 @@ export function ProfileVonlunteer(){
                             <button className={styles.activeButton}>
                                 <span className={styles.activeButtonText}>Feed</span>
                             </button>
+                            <button className={styles.activeButton}>
+                                <Link to='/animal-form'><span className={styles.activeButtonText}>Adicionar Animal</span></Link>
+                            </button>
                         </div>
                         <img className={styles.iconHeader} src={DogIcon} />
                     </div>

@@ -55,19 +55,21 @@
 .containerButons{
     display: flex;
     flex-direction: row;
-    width: 45%;
+    width: 70%;
     justify-content: space-between;
+    gap: 1rem;
 }
 
 .activeButton{
     background-color: #F54A48;
     border-radius: 5px;
-    width: 150px;
-    height: 35px;
+    width: 14rem;
+    height: 2rem;
     display: flex;
     align-items: center;
     border: none;
     justify-content: center;
+    cursor: pointer;
 }
 
 .activeButtonText{
