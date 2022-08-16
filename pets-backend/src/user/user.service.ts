@@ -9,6 +9,8 @@ export class UserService {
   constructor(private userRepositorio: UserDatabase){}
 
   async create(createUser: CreateUserDto): Promise<User> {
+    //const newdata = jso(createUser)
+    //console.log({...createUser, cpf: +createUser.cpf})
     return await this.userRepositorio.createUser(createUser);
   }
 
