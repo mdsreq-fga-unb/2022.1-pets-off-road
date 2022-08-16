@@ -276,23 +276,31 @@ Também tivemos dificuldade na comunicação pela indisponibilidade de tempo rel
 
 #### 5.1.3. MDS-Requisitos
 O principal problema foi com a comunicação, problema este acertado posteriormente. É complicado alinhar um time em si, que foi requisitos, por conta do tempo, então igual difícil foi alinhar os horários das duas disciplinas. Muitos componentes dos dois times trabalham. Porém, encontramos horários em comum e esse problema foi solucionado.
+
 ### 5.2. Unidade 2
 #### 5.2.1. MDS 
+Tivemos problemas na comunicação dos avisos dados no moodle pelo professor e fez com que perdêssemos o prazo estipulado. Vimos que para uma eficiência de entregas precisávamos melhorar os nossos meios de comunicação com a matéria. Esta unidade foi proveitosa para nivelarmos o conhecimento de alguns integrantes e também conhecer outras tecnologias e práticas voltadas para testes, desenvolvimento e versionamento de código.
+
 #### 5.2.2. Requisitos
 O principal aprendizado foi a utilização de um Canvas MVP para construção e adaptação de um projeto. Vimos que, após a criação de personas e identificação de suas jornadas, e em seguida detectar as funcionalidades, deixa o projeto mais coerente e voltado para o usuário, já que o mesmo está sendo utilizado como referência para construção do projeto. Isso ajudou a tirar um pouco o projeto da campo das ideias e trazer algo mais realista e possivelmente mais útil ao usuário final. 
 A construção do MVP ajudou também a entender o que deve ser priorizado na construção do sistema.
-#### 5.2.3. MDS-Requisitos
 
+#### 5.2.3. MDS-Requisitos
 Como um bom aprendizado para o time está na melhor organização e elaboração das Issues, e foi possível verificar crescimento nesse planejamento, dado o fato que os prazos foram cumpridos. Em comparação a Unidade 1, temos bem mais contato e a comunicação está melhorada. Ansiosos para inicar a fase de desenvolvimento, agora que os Requisitos foram especificados e ocorreram workshops para melhor desenvolvimento das skills técnicas do time. 
 
 ### 5.3. Unidade 3
 #### 5.3.1. MDS 
+O know-how da elaboração de um documento de arquitetura de software; Trabalho e desenvolvimento de soft-skills; Adoção de programação em pares; Importância de um planejamento adequado e bem feito antes da codificação.
+
 #### 5.3.2. Requisitos
+
 
 Para essa unidade, ocorreram diversas atualizações de documentação que foram alteradas ou recomendações de correção consideradas pelo professor e, somando as tarefas respectivas da Unidade, a unidade ficou bastante pesada. Apesar disso, o trabalho de reestruturação e correção da documentação foi realizado. 
 Ajustes na forma de gerenciar o projeto também foram feitos, visando adequar algumas práticas que não estavam de acordo com o ágil. Apesar de muitas dúvidas(muitas delas sanadas), a equipe vem administrado bem o projeto, de forma ágil
 
+
 #### 5.3.3. MDS-Requisitos
+Equipe foi mais unida e tentamos conciliar os nossos desencontros com algumas reuniões de emergência para alinhamento das tarefas. Deu para sentir uma equipe mais madura e unida.
 
 Ocorrência de Ajuste de metodologia ágil. Todos os membros do time entendem a importância do Backlog, sabem verificar e trabalham com as ferramentas escolhidas para trazer agilidade. Há maior atenção com os registros no kanban. Programação em pares funcionando relativamente bem, já com particiação de Requisitos nos códigos. Algumas práticas como Clean Code e os testes em si precisam realizados e isso é um acontecimento para ser executado na próxima unidade.
 
