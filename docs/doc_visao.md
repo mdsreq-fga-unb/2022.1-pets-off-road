@@ -93,8 +93,8 @@ Os desenvolvedores da Pets Off Road decidiram usar algumas tecnologias que já e
 | Sprint 5  |                                        Backlog , Atualização da Visão do Produto e Projeto                                        | 18/07/2022  | 24/07/2022 |
 | Sprint 6  |                                     Atualização do documento de visão, Refinamento do Backlog                                     | 25/07/2022  | 30/07/2022 |
 | Sprint 7  | Atualização do MVP e documento de visão, classes iniciais do projeto, protótipo de alta fidelidade, documento de arquitetura, PBB | 31/07/2022  | 06/08/2022 |
-| Sprint 8  |                                                User Story Mapping, US6, US1, US22                                                 | 07/08/2022  | 13/08/2022 |
-| Sprint 9  |                                                               MVP1                                                                | 14/08/2022  | 20/08/2022 |
+| Sprint 8  |                                                Correção e finalização PBB, US08, US01, US11                                                 | 07/08/2022  | 13/08/2022 |
+| Sprint 9  |                                                              US14, US16, User Story Mapping,    Correções de documentos                                                   | 14/08/2022  | 20/08/2022 |
 | Sprint 10 |                                                           Implementação                                                           | 21/08/2022  | 27/08/2022 |
 | Sprint 11 |                                                           Implementação                                                           | 28/08/2022  | 03/09/2022 |
 | Sprint 12 |                                                           Implementação                                                           | 04/09/2022  | 10/09/2022 |
@@ -156,56 +156,57 @@ Foi introduzido, também, o quadro Kanban para gerencimento interno de tarefas e
   
 ### 3.1. Processos e Procedimentos
 
-Os ciclos de desenvolvimento serão feitos no ordenamento do quadro abaixo:
+#### 3.1.1 Planejamento 
+
+| Atividade                                    | Método                                | Ferramenta             | Entrega                                                | Responsável |
+| -------------------------------------------- | ------------------------------------- | ---------------------- | ------------------------------------------------------ | ----------- |
+| Abertura da Sprint                           | Reunião semanal com a equipe completa | Meet ou Discord        | Planning da sprint                                     | Requisitos  |
+| Revisão de Backlog e validação com a cliente (caso seja possível - verificar disponibilidade)| Reunião semanal com a equipe |  Meet ou Discord + Documentação de Backlog |          Histórias validads para a sprint | Requisitos  |  
+|       Levantamento de débitos da Sprint anterior | Revisão de Débitos em equipe | Meet ou Discord | Adição de pontos não concluídos anteriormente no projeto | Requisitos   |
+|Definição e elaboração de issues para a sprint| Reuniaõ com a equipe | Meet ou Discord | Issues do projeto | MDS e Requisitos
+| Avaliação do nível de dificuldade das issues | Planning Poker                        | planingpokeronline     | Pontos de Dificuldade                                  | MDS  e Requisitos      |
+| Divisão de Tarefas                           | Atividade debatida em reunião         | Google Meet ou Discord | Issues planejadas e atribuídas aos componentes do time | MDS         |
+| Definição de pares                           | Atividade debatida em reunião         | Google Meet ou Discord | Pares formados para o Pair Programming                 | MDS         |
 
 
-| Disciplina     | Atividade                                                                                                       | Método                          | Ferramenta | Responsável                                   | Entrega              |
-| -------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------- | ---------- | --------------------------------------------- | -------------------- |
-| Analise/Design | Definir a arquitetura                                                                                           | Design Orientado a função       | Figma      | MDS                                           | Documento            |
-| Analise/Design | Prototipação de Baixa Fidelidade                                                                                | Metáforas e Modelos Conceituais | Figma      | Shaíne e Matheus                              | Protótipo de páginas |
-| Construção     | Modelagem Banco de Dados                                                                                        | Modelagem de dados              | Lucidchart | José Filipi e Renan                           | Diagrama UML DB      |
-| Construção     | Programação backend                                                                                             | Codificação                     | VScode     | José Filipi, Renan Rodrigues, Shaíne Oliveira | Código               |
-| Construção     | Programação Frontend                                                                                            | Codificação                     | VScode     | Matheus Phillipo e Shaíne Oliveira            | Código               |
-| Teste          | Criar cenários de teste para verificar se os critérios de aceitação foram atendidos e corrigir possíveis falhas | Testes unitários                | Jest       | Renan e Matheus                               | Testes unitários     |
-
-### 3.2. Atividades descritas e detalhadas  de acordo com a Sprint - MDS
-
-#### 3.2.1 Planejamento 
-
-| Atividade                                    | Método         | Ferramenta         | Entrega               |
-| -------------------------------------------- | -------------- | ------------------ | --------------------- |
-| Avaliação do nível de dificuldade das issues | Planning Poker | planingpokeronline | Pontos de Dificuldade |
-| Divisão de Tarefas | Atividade debatida em reunião | Google Meet ou Discord | Issues planejadas e atribuídas aos componentes do time |
-| Definição de pares | Atividade debatida em reunião | Google Meet ou Discord | Pares formados para o Pair Programming |
 
 
-#### 3.2.2 Desenvolvimento 
 
 
-| Atividade                                | Método                                               | Ferramenta             | Entrega                         |
-| ---------------------------------------- | ---------------------------------------------------- | ---------------------- | ------------------------------- |
-| Realização das Issues propostas para MDS | Atividade realizada em pares definidos anteriormente | Google Meet ou Discord | Issues e problemas solucionados |
-| Testes unitários | Utilização dos critérios de aceitação descritos por Requisitos para as histórias das sprints | Jest       | Validação da funcionalidade |
-| Produção dos diagramas e documentação | Descrição gráfica das componentes lógicas e estruturais do projeto | Figma      | Documentação diagramada e simplificada para fácil visualização |
-| Evolução dos diagramas | Atualização da diagramação lógica a todo momento que o projeto sofre atualização | Figma      | Documentação diagramada atualizada |
-| Refatoração de código | Avaliação em pares de códigos reprovados em teste ou evoluídos | VScode     | Códigos funcionais e úteis |
+#### 3.1.2 Desenvolvimento 
 
 
-#### 3.2.3 Revisão
+| Atividade                                | Método                                                                                       | Ferramenta             | Entrega                                                        | Responsável | 
+| ---------------------------------------- | -------------------------------------------------------------------------------------------- | ---------------------- | -------------------------------------------------------------- | ------------- |
+| Realização das Issues propostas | Atividade realizada em pares definidos anteriormente                                         | Google Meet ou Discord | Issues e problemas solucionados                                | MDS e Requisitos|
+| Testes unitários                         | Utilização dos critérios de aceitação descritos por Requisitos para as histórias das sprints | Jest                   | Validação da funcionalidade                                    | 
+| Produção dos diagramas e documentação    | Descrição gráfica das componentes lógicas e estruturais do projeto                           | Figma                  | Documentação diagramada e simplificada para fácil visualização | MDS |
+| Evolução dos diagramas                   | Atualização da diagramação lógica a todo momento que o projeto sofre atualização             | Figma                  | Documentação diagramada atualizada                             | MDS
+| Refatoração de código                    | Avaliação em pares de códigos reprovados em teste ou evoluídos                               | VScode                 | Códigos funcionais e úteis                                     | MDS e Requisitos
+Inspeção e acompanhamento das atividades | Avaliação em acompanhamento das reuniões de desenvolvimento ou do material produzido | VScode + Meet ou Discord + documentação | Inspeção e garantia de conclusão, conceito de pronto | Requisitos  
 
-| Atividade                                                      | Método                         | Ferramenta      | Entrega                                                        |
-| -------------------------------------------------------------- | ------------------------------ | --------------- | -------------------------------------------------------------- |
-| Apresentação do que foi realizado pela equipe de MDS na Sprint | Apresentação durante a reunião | Meet ou Discord | Maior clareza sobre as ativides desenvolvidas antes de validar |
-| Validação das atividades realizadas juntamente de Requisitos | Atividade realizada durante a reunião | Meet ou Discord | Validação das atividades desenvolvidas e verificação de testes |
+#### 3.1.3 Revisão
+
+| Atividade                                                      | Método                                | Ferramenta      | Entrega                                                        | Responsável
+| -------------------------------------------------------------- | ------------------------------------- | --------------- | -------------------------------------------------------------- | ----------- |
+| Apresentação do que foi realizado pela equipe de MDS e Requisitos na Sprint | Apresentação durante a reunião        | Meet ou Discord | Maior clareza sobre as ativides desenvolvidas antes de validar | MDS e Requisitos |
+| Validação das atividades realizadas| Atividade realizada durante a reunião | Meet ou Discord | Validação das atividades desenvolvidas e verificação de testes | MDS e Requisitos
 
 <i>Uma etapa de revisão baseada na avaliação do professor pode ocorrer em caso de pré avaliação ou ponto de controle</i>
 
-#### 3.2.4 Retrospectiva
 
-| Atividade                       | Método                                                            | Ferramenta      | Entrega                                                                                                                    |
-| ------------------------------- | ----------------------------------------------------------------- | --------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Análise de desempenho da sprint | Atividade realizada durante a reunião com o ScrumMaster da equipe | Meet ou Discord | Descrição detalhada de pontos positivos, negativos e de melhoria da Sprint, além de Descrição da saúde dos membros do time |
-| Feedback do desenvolvimento | Atividade realizada durante a reunião | Meet ou Discord | Feedback envolvendo uma análise dos membros em relação a experiência de programação em pares, utilização de clean code, entre outros pontos |
+#### 3.1.4 Retrospectiva
+
+| Atividade                       | Método                                                            | Ferramenta      | Entrega                                                                                                                                     | Responsável
+| ------------------------------- | ----------------------------------------------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| Análise de desempenho da sprint | Atividade realizada durante a reunião com o ScrumMaster da equipe | Meet ou Discord | Descrição detalhada de pontos positivos, negativos e de melhoria da Sprint, além de Descrição da saúde dos membros do time                  | MDs e Requisitos
+| Feedback do desenvolvimento     | Atividade realizada durante a reunião                             | Meet ou Discord | Feedback envolvendo uma análise dos membros em relação a experiência de programação em pares, utilização de clean code, entre outros pontos | MDS
+Levantamento de Pontos positivos da Sprint | Atividade realizada durante a reunião | Meet ou Discord | Descrição de pontos positivos que podem ser perpetuados | MDS e Requisitos |
+Levantamento de Pontos negativos da Sprint | Atividade realizada durante a reunião | Meet ou Discord | Descrição de pontos negativos que precisam ser revistos e mitigados | MDS e Requisitos |
+Levantamento de Pontos de melhoria em relação a Sprint passada | Atividade realizada durante a reunião | Meet ou Discord | Descrição de pontos de crescimento que precisam ser anunciados| MDS e Requisitos |
+Levantamento de "Healthcheck" durante a sprint vigente | Atividade realizada durante a reunião | Meet ou Discord | Descrição de saúde física e mental do time| MDS e Requisitos |
+Avaliação do Scrum Master sobre a sprint| Atividade realizada durante a reunião | Meet ou Discord | Descrição resumida e específica sobre s pontos altos e baixos da sprint sob ponto de vista do Scrum Master| Requisitos |
+
 
 
 ## 4. Processo de Engenharia de Requisitos
@@ -217,31 +218,27 @@ A equipe do projeto decidiu utilizar uma abordagem ágil para a Engenharia de Re
 
 ### 4.1. Elicitação de Requisitos
 
-A elicitação ocorrerá na reunião de planejamento.
-
 |               Atividade               |                                                                    Descrição                                                                    |        Método        | Ferramenta  |     Responsáveis     |            Entrega             |
 | :-----------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :------------------: | :---------: | :------------------: | :----------------------------: |
 | Elucidar ideias e analisar o problema | Reunião com a equipe de requisitos com o objetivo de retirar a maior quantidade de "funcionalidades" do diagrama de projetos da _Pets Off Road_ |      Brainstorm      | Miro e Meet | Equipe de requisitos |   Possíveis funcionalidades    |
 |  Entender as necessidades do cliente  |            Reunião com a cliente para validação dos pontos previamente levantados na atividade anterior, e abertura de novos pontos             | Brainstorm e Reunião | Miro e Meet | Equipe de requisitos |    Necessidades da cliente     |
-|    Definir proposta de Requisitos     |                  Reunião após contato com a cliente, para solidificar a proposta de requisitos apresentada na primeira entrega                  |       Reunião        |    Meet     | Equipe de requisitos | Fechamento da primeiro entrega |
+
 
 
   
 
 ### 4.2. Análise de Requisitos
 
-A análise de requisitos pode ocorrer em qualquer etapa do projeto, algumas equipes preferem fazer no início da sprint, já outras preferem fazer ao fim da sprint. Nosso time vai realizar a análise ao fim da retrospectiva, pois o conteúdo estara previamente discutido.
+A análise de requisitos pode ocorrer em qualquer etapa do projeto, algumas equipes preferem fazer no início da sprint, já outras preferem fazer ao fim da sprint. 
 
 |          Atividade           |   Método   |   Ferramenta   |     Responsáveis     |         Entrega          |
 | :--------------------------: | :--------: | :------------: | :------------------: | :----------------------: |
-|    Reconhecer o problema     | Brainstorm | Meet e Discord | Equipe de requisitos |          Método          |
-|    Revisão dos requisitos    | Brainstorm |    Discord     | Equipe de requisitos | Definição dos requisitos |
-| Especificação dos requisitos |  Reunião   |    Discord     | Equipe de requisitos | Definição dos requisitos |
+|    Reconhecer o problema     | Brainstorm com o time e cliente| Meet ou Discord | Requisitos |          Método          |
+|    Revisão dos requisitos    | Brainstorm |    Meet ou Discord     | Requisitos | Definição dos requisitos |
+| Especificação dos requisitos |  Reunião   |    Meet ou Discord     | Requisitos | Definição dos requisitos |
 
 
 ### 4.3. Documentação de Requisitos
-
-A documentação de requisitos será no ciclo de reuniões com a equipe.
 
 |                      Atividade                      |                      Método                      | Ferramenta  |     Responsáveis     |           Entrega           |
 | :-------------------------------------------------: | :----------------------------------------------: | :---------: | :------------------: | :-------------------------: |
@@ -251,51 +248,18 @@ A documentação de requisitos será no ciclo de reuniões com a equipe.
 
 ### 4.4. Verificação e Validação de Requisitos
 
-A verificação e validação ocorrerá na review.
-
 |                Atividade                 |                   Método                    | Ferramenta |          Responsáveis          |                   Entrega                   |
 | :--------------------------------------: | :-----------------------------------------: | :--------: | :----------------------------: | :-----------------------------------------: |
-| Conferir se os requisitos estão corretos | Validação por parte do cliente com a equipe |    Meet    | Equipe de requisitos e cliente | Integralização de funcionalidades aprovadas |
+| Conferir se os requisitos estão corretos | Validação com o cliente com a equipe |    Meet    | Equipe de requisitos e cliente | Integralização de funcionalidades aprovadas |
 
 
 ### 4.5. Gerenciamento de Requisitos
-
-O gerenciamento de requisitos ocorrerá durante o desenvolvimento.
 
 |                Atividade                |  Método  |   Ferramenta   |     Responsáveis     |           Entrega           |
 | :-------------------------------------: | :------: | :------------: | :------------------: | :-------------------------: |
 | Acompanhamento e Refinamento do backlog | Reuniões | Meet e Discord | Equipe de requisitos | Detalhamento dos requisitos |
 
 
-### 4.6. Atividades descritas e detalhadas de acordo com a Sprint - Requisitos
-
-
-#### 4.6.1 Planejamento 
-- Abertura de sprint
-- Revisão de Backlog(histórias de usuário) e validação com a cliente(veriificar a possibilidade) 
-- Levantamento de débitos da Sprint anterior
-- Avaliação sobre como encaixar os débitos na sprint vigente
-- Definição e elaboração de issues para a sprint.
-- Avaliação dos pesos de cada issue.
- 
-#### 4.6.2 Desenvolvimento 
-
-- Realização das issues levantadas para Requisitos 
-- Inspeção e acompanhamento das atividades propostas para a Sprint(com MDS)
-
-#### 4.6.3 Revisão
-
-- Apresentação do que foi realizado pela equipe de Requisitos na Sprint
-- Validação das atividades realizadas
-- Revisão de avaliação do professor(caso ocorra)
-
-#### 4.6.4 Retrospectiva 
-
-- Levantamento de Pontos positivos da Sprint
-- Levantamento de Pontos negativos da Sprint
-- Levantamento de Pontos de melhoria em relação a Sprint passada. 
-- Levantamento de "Healthcheck" durante a sprint vigente.
-- Avaliação do Scrum Master sobre a sprint
 
 ## 5. Lições Aprendidas
 
@@ -324,7 +288,13 @@ Como um bom aprendizado para o time está na melhor organização e elaboração
 ### 5.3. Unidade 3
 #### 5.3.1. MDS 
 #### 5.3.2. Requisitos
+
+Para essa unidade, ocorreram diversas atualizações de documentação que foram alteradas ou recomendações de correção consideradas pelo professor e, somando as tarefas respectivas da Unidade, a unidade ficou bastante pesada. Apesar disso, o trabalho de reestruturação e correção da documentação foi realizado. 
+Ajustes na forma de gerenciar o projeto também foram feitos, visando adequar algumas práticas que não estavam de acordo com o ágil. Apesar de muitas dúvidas(muitas delas sanadas), a equipe vem administrado bem o projeto, de forma ágil
+
 #### 5.3.3. MDS-Requisitos
+
+Ocorrência de Ajuste de metodologia ágil. Todos os membros do time entendem a importância do Backlog, sabem verificar e trabalham com as ferramentas escolhidas para trazer agilidade. Há maior atenção com os registros no kanban. Programação em pares funcionando relativamente bem, já com particiação de Requisitos nos códigos. Algumas práticas como Clean Code e os testes em si precisam realizados e isso é um acontecimento para ser executado na próxima unidade.
 
 ### 5.4. Unidade 4
 #### 5.4.1. MDS 
