@@ -108,7 +108,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US11
 
-|                       US12 | Categorizar publicação                                                                                      |
+|                       US11 | Categorizar publicação                                                                                      |
 | -------------------------: | :---------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** categorizar as publicações **para** associar a uma métrica de minha preferência |
 |                 **Pontos** | -                                                                                                           |
@@ -117,7 +117,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US12
 
-|                       US13 | Categorizar publicação                                                                                           |
+|                       US12 | Categorizar publicação                                                                                           |
 | -------------------------: | :--------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** voluntário **quero** categorizar as publicações **para** associar a uma métrica de minha preferência |
 |                 **Pontos** | -                                                                                                                |
@@ -129,7 +129,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US13
 
-|                       US14 | Realizar cadastro do animal                                                                                              |
+|                       US13 | Realizar cadastro do animal                                                                                              |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** realizar o cadastro do animal **para** facilitar a busca dos usuários para adoções |
 |                 **Pontos** | 0                                                                                                                        |
@@ -137,7 +137,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US14
 
-|                       US15 | Gerar histórico do animal                                                                                          |
+|                       US14 | Gerar histórico do animal                                                                                          |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** gerar histórico do animal **para** facilitar processos documentais de adoção |
 |                 **Pontos** |                                                                                                                    |
@@ -145,7 +145,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US15
 
-|                       US16 | Exibir animais disponíveis para adoção                                                                                   |
+|                       US15 | Exibir animais disponíveis para adoção                                                                                   |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** quero ver quais animais estão disponíveis para adoção **para** ter mais liberdade de escolha |
 |                 **Pontos** | -                                                                                                                        |
@@ -153,7 +153,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US16
 
-|                       US17 | Filtrar os tipos de animais/raça                                                                      |
+|                       US16 | Filtrar os tipos de animais/raça                                                                      |
 | -------------------------: | :---------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** filtrar os tipos de animais/raças **para** escolher um animal para adoção |
 |                 **Pontos** | -                                                                                                     |
@@ -161,7 +161,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US17
 
-|                       US18 | Verificar animais adotados                                                                                                |
+|                       US17 | Verificar animais adotados                                                                                                |
 | -------------------------: | :--------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** ver quais animais foram adotados **para** ter entendimento sobre o histórico adotado |
 |                 **Pontos** | -                                                                                                                |
@@ -169,7 +169,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US18
 
-|                       US19 | Realizar a edição de informações do animal                                                                                                        |
+|                       US18 | Realizar a edição de informações do animal                                                                                                        |
 | -------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------ |
 |              **Descrição** | **Eu como** dono do projeto **quero** realizar edição de informações do animal **para** ter maior controle sobre os animais vinculados ao projeto |
 |                 **Pontos** | -                                                                                                                                                 |
@@ -179,7 +179,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US19
 
-|                       US20 | Filtrar a pesquisa de projetos por preferências pessoais                                                                             |
+|                       US19 | Filtrar a pesquisa de projetos por preferências pessoais                                                                             |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** voluntário **quero** filtrar a pesquisa de projetos por referências pessoais **para** ter maior simplicidade no processo |
 |                 **Pontos** | -                                                                                                                                    |
@@ -188,7 +188,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US20
 
-|                       US21 | Realizar cadastro para adoção do animal                                                             |
+|                       US20 | Realizar cadastro para adoção do animal                                                             |
 | -------------------------: | :-------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** realizar cadastro do animal **para** ter maior simplicidade no processo |
 |                 **Pontos** | -                                                                                                   |
@@ -196,7 +196,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US21
 
-|                       US22 | Realizar publicação de post                                                                                                 |
+|                       US21 | Realizar publicação de post                                                                                                 |
 | -------------------------: | :-------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** realizar a publicação de um post **para** facilitar a busca dos usuários para adoções |
 |                 **Pontos** | 0                                                                                                                           |
@@ -204,7 +204,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US22
 
-|                       US23 | Cadastrar dados para candidatura a adoção |
+|                       US22 | Cadastrar dados para candidatura a adoção |
 | -------------------------: | :---------------------------------------- |
 |              **Descrição** | **Eu como**  **quero** **para**           |
 |                 **Pontos** | -                                         |
@@ -212,7 +212,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US23
 
-|                       US24 | Adicionar usuário em um projeto                                                         |
+|                       US23 | Adicionar usuário em um projeto                                                         |
 | -------------------------: | :-------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** adicionar um voluntário **para** compor o projeto |
 |                 **Pontos** | -                                                                                       |
@@ -220,7 +220,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US24
 
-|                       US25 | Realizar pesquisa de um projeto                                                                       |
+|                       US24 | Realizar pesquisa de um projeto                                                                       |
 | -------------------------: | :---------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** voluntário **quero** realizar a pesquisa de um projeto **para** ajudar causas importantes |
 |                 **Pontos** | -                                                                                                     |
@@ -228,7 +228,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US25
 
-|                       US26 | Pesquisar por projetos                                                                                    |
+|                       US25 | Pesquisar por projetos                                                                                    |
 | -------------------------: | :-------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** pesquisar por outros projetos **para** buscar o mesmo serviço ou oportunidade |
 |                 **Pontos** | -                                                                                                         |
@@ -236,7 +236,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US26
 
-|                       US27 | Realizar pesquisa de documentos                                                                                    |
+|                       US26 | Realizar pesquisa de documentos                                                                                    |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** realizar a pesquisa de documento **para** utilizar dados armazenados no site |
 |                 **Pontos** | -                                                                                                                  |
@@ -244,7 +244,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US27
 
-|                       US28 |  Avaliar candidatura de voluntário                                                                                                                                    |
+|                       US27 |  Avaliar candidatura de voluntário                                                                                                                                    |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** quero receber dados cadastrados de um candidato a vonluntário **para** avaliar sua candidatura |
 |                 **Pontos** | -                                                                                                                                    |
@@ -254,7 +254,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US28
 
-|                       US29 | Receber Notificação                                                                                                                                                             |
+|                       US28 | Receber Notificação                                                                                                                                                             |
 | -------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 |              **Descrição** | **Eu como** dono do projeto **quero** receber notificações via email **para** centralizar os dados gerados pelo projeto(alertas, propostas de voluntários, propostas de adoção) |
 |                 **Pontos** | -                                                                                                                                                                               |
@@ -262,7 +262,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US29
 
-|                       US30 | Receber Notificação                                                                                                                             |
+|                       US29 | Receber Notificação                                                                                                                             |
 | -------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** voluntário **quero** receber notificações do processo de voluntariado **para** me manter informado sobre a atualizações no processo |
 |                 **Pontos** | -                                                                                                                                               |
@@ -270,7 +270,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US30
 
-|                       US31 | Receber Notificação                                                                                                                |
+|                       US30 | Receber Notificação                                                                                                                |
 | -------------------------: | :--------------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** receber notificações do processo de adoção **para** me manter informado sobre atualizações no processo |
 |                 **Pontos** | -                                                                                                                                  |
