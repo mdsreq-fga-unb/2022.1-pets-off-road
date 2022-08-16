@@ -81,23 +81,31 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 #### US08
 
-|                       US08 | Cadastrar um projeto                                                                                                       |
+|                       US08 | Editar informações do projeto                                                                                    |
+| -------------------------: | :--------------------------------------------------------------------------------------------------------------- |
+|              **Descrição** | **Eu como** dono do projeto **quero** editar as informações do projeto **para** manter as infomaçẽos ataulizadas |
+|                 **Pontos** | -                                                                                                                |
+| **Critérios de aceitação** | -                                                                                                                |
+
+#### US09
+
+|                       US09 | Cadastrar um projeto                                                                                                       |
 | -------------------------: | :------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** realizar o cadastro de um projeto para ter mais controle de gerenciamento e recursos |
 |                 **Pontos** | -                                                                                                                          |
 | **Critérios de aceitação** | - Só será realizado o cadastro caso o usuário possua 18 anos ou mais.                                                      |
 
-#### US09
+#### US10
 
-|                       US09 | Remover voluntário da organização                                                                      |
+|                       US10 | Remover voluntário da organização                                                                      |
 | -------------------------: | :----------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** retirar um voluntário **para** corrigir a composição do  projeto |
 |                 **Pontos** |                                                                                                        |
 | **Critérios de aceitação** |                                                                                                        |
 
-#### US10
+#### US11
 
-|                       US10 | Realizar cadastro de um projeto                                                                                            |
+|                       US11 | Realizar cadastro de um projeto                                                                                            |
 | -------------------------: | :------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** realizar o cadastro de um projeto para ter mais controle de gerenciamento e recursos |
 |                 **Pontos** | 0                                                                                                                          |
@@ -105,18 +113,18 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 ### **FT03 - Logística**
 
-#### US11
+#### US12
 
-|                       US11 | Categorizar piblicação                                                                                      |
+|                       US12 | Categorizar piblicação                                                                                      |
 | -------------------------: | :---------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** categorizar as publicações **para** associar a uma métrica de minha preferência |
 |                 **Pontos** | -                                                                                                           |
 | **Critérios de aceitação** | -                                                                                                           |
 
 
-#### US12
+#### US13
 
-|                       US12 | Categorizar piblicação                                                                                           |
+|                       US13 | Categorizar piblicação                                                                                           |
 | -------------------------: | :--------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** voluntário **quero** categorizar as publicações **para** associar a uma métrica de minha preferência |
 |                 **Pontos** | -                                                                                                                |
@@ -126,49 +134,49 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 ### **FT04 - Gerenciamento de cadastro de animais**
 
-#### US13
+#### US14
 
-|                       US13 | Realizar cadastro do animal                                                                                              |
+|                       US14 | Realizar cadastro do animal                                                                                              |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** realizar o cadastro do animal **para** facilitar a busca dos usuários para adoções |
 |                 **Pontos** | 0                                                                                                                        |
 | **Critérios de aceitação** | - Exibir uma mensagem após a finalização do cadastro                                                                     |
 
-#### US14
+#### US15
 
-|                       US14 | Gerar histórico do animal                                                                                          |
+|                       US15 | Gerar histórico do animal                                                                                          |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** gerar histórico do animal **para** facilitar processos documentais de adoção |
 |                 **Pontos** |                                                                                                                    |
 | **Critérios de aceitação** |                                                                                                                    |
 
-#### US15
+#### US16
 
-|                       US15 | Exibir animais disponíveis para adoção                                                                                   |
+|                       US16 | Exibir animais disponíveis para adoção                                                                                   |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** quero ver quais animais estão disponíveis para adoção **para** ter mais liberdade de escolha |
 |                 **Pontos** | -                                                                                                                        |
 | **Critérios de aceitação** | -                                                                                                                        |
 
-#### US16
+#### US17
 
-|                       US16 | Filtrar os tipos de animais/raça                                                                      |
+|                       US17 | Filtrar os tipos de animais/raça                                                                      |
 | -------------------------: | :---------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** filtrar os tipos de animais/raças **para** escolher um animal para adoção |
 |                 **Pontos** | -                                                                                                     |
 | **Critérios de aceitação** | -                                                                                                     |
 
-#### US17
+#### US18
 
-|                       US17 |                                                                                                                  |
+|                       US18 |                                                                                                                  |
 | -------------------------: | :--------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** ver quais animais foram adotados **para** ter entendimento sobre o histórico adotado |
 |                 **Pontos** | -                                                                                                                |
 | **Critérios de aceitação** | -                                                                                                                |
 
-#### US18
+#### US19
 
-|                       US18 | Realizar a edição de informações do animal                                                                                                        |
+|                       US19 | Realizar a edição de informações do animal                                                                                                        |
 | -------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------ |
 |              **Descrição** | **Eu como** dono do projeto **quero** realizar edição de informações do animal **para** ter maior controle sobre os animais vinculados ao projeto |
 |                 **Pontos** | -                                                                                                                                                 |
@@ -176,74 +184,74 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
   
 ### **FT05 - Interação entre usuário**
 
-#### US19
+#### US20
 
-|                       US19 | Filtrar a pesquisa de projetos por preferências pessoais                                                                             |
+|                       US20 | Filtrar a pesquisa de projetos por preferências pessoais                                                                             |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** voluntário **quero** filtrar a pesquisa de projetos por referências pessoais **para** ter maior simplicidade no processo |
 |                 **Pontos** | -                                                                                                                                    |
 | **Critérios de aceitação** | -                                                                                                                                    |
 
 
-#### US20
+#### US21
 
-|                       US20 | Realizar cadastro para adoção do animal                                                             |
+|                       US21 | Realizar cadastro para adoção do animal                                                             |
 | -------------------------: | :-------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** realizar cadastro do animal **para** ter maior simplicidade no processo |
 |                 **Pontos** | -                                                                                                   |
 | **Critérios de aceitação** | -                                                                                                   |
 
-#### US21
+#### US22
 
-|                       US21 | Realizar publicação de post                                                                                                 |
+|                       US22 | Realizar publicação de post                                                                                                 |
 | -------------------------: | :-------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** realizar a publicação de um post **para** facilitar a busca dos usuários para adoções |
 |                 **Pontos** | 0                                                                                                                           |
 | **Critérios de aceitação** |                                                                                                                             |
 
-#### US22
+#### US23
 
-|                       US22 | Cadastrar dados para candidatura a adoção |
+|                       US23 | Cadastrar dados para candidatura a adoção |
 | -------------------------: | :---------------------------------------- |
 |              **Descrição** | **Eu como**  **quero** **para**           |
 |                 **Pontos** | -                                         |
 | **Critérios de aceitação** | -                                         |
 
-#### US23
+#### US24
 
-|                       US23 | Adicionar usuário em um projeto                                                         |
+|                       US24 | Adicionar usuário em um projeto                                                         |
 | -------------------------: | :-------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** adicionar um voluntário **para** compor o projeto |
 |                 **Pontos** | -                                                                                       |
 | **Critérios de aceitação** | -                                                                                       |
 
-#### US24
+#### US25
 
-|                       US24 | Realizar pesquisa de um projeto                                                                       |
+|                       US25 | Realizar pesquisa de um projeto                                                                       |
 | -------------------------: | :---------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** voluntário **quero** realizar a pesquisa de um projeto **para** ajudar causas importantes |
 |                 **Pontos** | -                                                                                                     |
 | **Critérios de aceitação** | -                                                                                                     |
 
-#### US25
+#### US26
 
-|                       US25 | Pesquisar por projetos                                                                                    |
+|                       US26 | Pesquisar por projetos                                                                                    |
 | -------------------------: | :-------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** pesquisar por outros projetos **para** buscar o mesmo serviço ou oportunidade |
 |                 **Pontos** | -                                                                                                         |
 | **Critérios de aceitação** | -                                                                                                         |
 
-#### US26
+#### US27
 
-|                       US26 | Realizar pesquisa de documentos                                                                                    |
+|                       US27 | Realizar pesquisa de documentos                                                                                    |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** realizar a pesquisa de documento **para** utilizar dados armazenados no site |
 |                 **Pontos** | -                                                                                                                  |
 | **Critérios de aceitação** | -                                                                                                                  |
 
-#### US27
+#### US28
 
-|                       US27 |                                                                                                                                      |
+|                       US28 |                                                                                                                                      |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** quero receber dados cadastrados de um candidato a vonluntário **para** avaliar sua candidatura |
 |                 **Pontos** | -                                                                                                                                    |
@@ -251,25 +259,25 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 ### **FT06 - Notificação de situação**				
 
-#### US28
+#### US29
 
-|                       US28 | Receber Notificação                                                                                                                                                             |
+|                       US29 | Receber Notificação                                                                                                                                                             |
 | -------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 |              **Descrição** | **Eu como** dono do projeto **quero** receber notificações via email **para** centralizar os dados gerados pelo projeto(alertas, propostas de voluntários, propostas de adoção) |
 |                 **Pontos** | -                                                                                                                                                                               |
 | **Critérios de aceitação** | -                                                                                                                                                                               |
 
-#### US29
+#### US30
 
-|                       US29 | Receber Notificação                                                                                                                             |
+|                       US30 | Receber Notificação                                                                                                                             |
 | -------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** voluntário **quero** receber notificações do processo de voluntariado **para** me manter informado sobre a atualizações no processo |
 |                 **Pontos** | -                                                                                                                                               |
 | **Critérios de aceitação** | -                                                                                                                                               |
 
-#### US30
+#### US31
 
-|                       US30 | Receber Notificação                                                                                                                |
+|                       US31 | Receber Notificação                                                                                                                |
 | -------------------------: | :--------------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** receber notificações do processo de adoção **para** me manter informado sobre atualizações no processo |
 |                 **Pontos** | -                                                                                                                                  |
