@@ -175,13 +175,7 @@ Os ciclos de desenvolvimento serão feitos no ordenamento do quadro abaixo:
 | Atividade                                    | Método         | Ferramenta         | Entrega               |
 | -------------------------------------------- | -------------- | ------------------ | --------------------- |
 | Avaliação do nível de dificuldade das issues | Planning Poker | planingpokeronline | Pontos de Dificuldade |
-
-| Atividade          | Método                        | Ferramenta             | Entrega                                                |
-| ------------------ | ----------------------------- | ---------------------- | ------------------------------------------------------ |
 | Divisão de Tarefas | Atividade debatida em reunião | Google Meet ou Discord | Issues planejadas e atribuídas aos componentes do time |
-
-| Atividade          | Método                        | Ferramenta             | Entrega                                |
-| ------------------ | ----------------------------- | ---------------------- | -------------------------------------- |
 | Definição de pares | Atividade debatida em reunião | Google Meet ou Discord | Pares formados para o Pair Programming |
 
 
@@ -191,21 +185,9 @@ Os ciclos de desenvolvimento serão feitos no ordenamento do quadro abaixo:
 | Atividade                                | Método                                               | Ferramenta             | Entrega                         |
 | ---------------------------------------- | ---------------------------------------------------- | ---------------------- | ------------------------------- |
 | Realização das Issues propostas para MDS | Atividade realizada em pares definidos anteriormente | Google Meet ou Discord | Issues e problemas solucionados |
-
-| Atividade        | Método                                                                                       | Ferramenta | Entrega                     |
-| ---------------- | -------------------------------------------------------------------------------------------- | ---------- | --------------------------- |
 | Testes unitários | Utilização dos critérios de aceitação descritos por Requisitos para as histórias das sprints | Jest       | Validação da funcionalidade |
-
-| Atividade                             | Método                                                             | Ferramenta | Entrega                                                        |
-| ------------------------------------- | ------------------------------------------------------------------ | ---------- | -------------------------------------------------------------- |
 | Produção dos diagramas e documentação | Descrição gráfica das componentes lógicas e estruturais do projeto | Figma      | Documentação diagramada e simplificada para fácil visualização |
-
-| Atividade              | Método                                                                           | Ferramenta | Entrega                            |
-| ---------------------- | -------------------------------------------------------------------------------- | ---------- | ---------------------------------- |
 | Evolução dos diagramas | Atualização da diagramação lógica a todo momento que o projeto sofre atualização | Figma      | Documentação diagramada atualizada |
-
-| Atividade             | Método                                                         | Ferramenta | Entrega                    |
-| --------------------- | -------------------------------------------------------------- | ---------- | -------------------------- |
 | Refatoração de código | Avaliação em pares de códigos reprovados em teste ou evoluídos | VScode     | Códigos funcionais e úteis |
 
 
@@ -214,9 +196,6 @@ Os ciclos de desenvolvimento serão feitos no ordenamento do quadro abaixo:
 | Atividade                                                      | Método                         | Ferramenta      | Entrega                                                        |
 | -------------------------------------------------------------- | ------------------------------ | --------------- | -------------------------------------------------------------- |
 | Apresentação do que foi realizado pela equipe de MDS na Sprint | Apresentação durante a reunião | Meet ou Discord | Maior clareza sobre as ativides desenvolvidas antes de validar |
-
-| Atividade                                                    | Método                                | Ferramenta      | Entrega                                                        |
-| ------------------------------------------------------------ | ------------------------------------- | --------------- | -------------------------------------------------------------- |
 | Validação das atividades realizadas juntamente de Requisitos | Atividade realizada durante a reunião | Meet ou Discord | Validação das atividades desenvolvidas e verificação de testes |
 
 <i>Uma etapa de revisão baseada na avaliação do professor pode ocorrer em caso de pré avaliação ou ponto de controle</i>
@@ -226,13 +205,8 @@ Os ciclos de desenvolvimento serão feitos no ordenamento do quadro abaixo:
 | Atividade                       | Método                                                            | Ferramenta      | Entrega                                                                                                                    |
 | ------------------------------- | ----------------------------------------------------------------- | --------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | Análise de desempenho da sprint | Atividade realizada durante a reunião com o ScrumMaster da equipe | Meet ou Discord | Descrição detalhada de pontos positivos, negativos e de melhoria da Sprint, além de Descrição da saúde dos membros do time |
-
-| Atividade                   | Método                                | Ferramenta      | Entrega                                                                                                                                     |
-| --------------------------- | ------------------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | Feedback do desenvolvimento | Atividade realizada durante a reunião | Meet ou Discord | Feedback envolvendo uma análise dos membros em relação a experiência de programação em pares, utilização de clean code, entre outros pontos |
 
-
-- 
 
 ## 4. Processo de Engenharia de Requisitos
 
