@@ -16,9 +16,9 @@ Body
     "email": "string",
     "telefone": 1,
     "senha": "string",
-	"uf":"DF",
-	"cidade": "string",
-	"endereco": "string"
+    "uf":"DF",
+    "cidade": "string",
+    "endereco": "string"
 
     Opcional
     "nivel_acesso": boolean,
@@ -51,8 +51,8 @@ Body:
     "email": "string",
     "telefone": 1,
     "senha": "string",
-	"uf":"DF",
-	"cidade": "string",
+    "uf":"DF",
+    "cidade": "string",
 }
 ```
 #### Busca de Projeto por id
@@ -77,16 +77,18 @@ Get http://localhost:3030/project
 #### CADASTRO DE ANIMAL
 Post http://localhost:3030/animal
 Body:
+```
 {
-        "cpf_dono": null, // opcional
-		"project_id": 1,
-		"nome": "string",
-		"especie": "string",
-		"raca": "string",
-		"idade": 5,
-		"condicao_saude": boolean,
-		"castrado": boolean,
-		"cirurgias": null, // opcional
+	"cpf_dono": null, // opcional
+	"project_id": 1,
+	"nome": "string",
+	"especie": "string",
+	"raca": "string",
+	"idade": 5,
+	"condicao_saude": boolean,
+	"castrado": boolean,
+	"cirurgias": null, // opcional
 }
+``
 #### BUSCA DE TODOS OS ANIMAIS CADASTRADOS
 Get http://localhost:3030/animal
