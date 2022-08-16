@@ -4,7 +4,8 @@ import { AppRoutes } from './App.routes';
 import { Rts } from './Auth.routes';
 
 function Routes() {
-  const {signed} = useContext(AuthContext);
+  // const {signed} = useContext(AuthContext);
+  const signed = true;
 
 //   if (loading) {
 //     return (

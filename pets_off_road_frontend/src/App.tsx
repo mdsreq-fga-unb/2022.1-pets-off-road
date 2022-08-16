@@ -1,5 +1,5 @@
-import { Rts } from './Routes/Auth.routes'
 import Authprovider from './context/AuthContext'
+import Routes from './Routes'
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Authprovider>
-        <Rts />
+        <Routes />
       </Authprovider>
     </div>
   )

@@ -1,6 +1,5 @@
 
 import { Route, Routes } from "react-router-dom";
-import { AnimalForm } from "../Screens/AnimalForm";
 import { Cadastro } from "../Screens/Cadastro";
 import { HomeScreen } from "../Screens/HomeScreen";
 import { Login } from "../Screens/Login";
