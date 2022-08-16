@@ -102,29 +102,22 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 |              **Descrição** | **Eu como** dono do projeto **quero** retirar um voluntário **para** corrigir a composição do  projeto |
 |                 **Pontos** |                                                                                                        |
 | **Critérios de aceitação** |                                                                                                        |
-
-#### US11
-
-|                       US11 | Realizar cadastro de um projeto                                                                                            |
-| -------------------------: | :------------------------------------------------------------------------------------------------------------------------- |
-|              **Descrição** | **Eu como** dono do projeto **quero** realizar o cadastro de um projeto para ter mais controle de gerenciamento e recursos |
-|                 **Pontos** | 0                                                                                                                          |
-| **Critérios de aceitação** | - Só será realizado o cadastro caso o usuário possua 18 anos ou mais.                                                      |
+                                      
 
 ### **FT03 - Logística**
 
-#### US12
+#### US11
 
-|                       US12 | Categorizar piblicação                                                                                      |
+|                       US12 | Categorizar publicação                                                                                      |
 | -------------------------: | :---------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** categorizar as publicações **para** associar a uma métrica de minha preferência |
 |                 **Pontos** | -                                                                                                           |
 | **Critérios de aceitação** | -                                                                                                           |
 
 
-#### US13
+#### US12
 
-|                       US13 | Categorizar piblicação                                                                                           |
+|                       US13 | Categorizar publicação                                                                                           |
 | -------------------------: | :--------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** voluntário **quero** categorizar as publicações **para** associar a uma métrica de minha preferência |
 |                 **Pontos** | -                                                                                                                |
@@ -134,7 +127,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 ### **FT04 - Gerenciamento de cadastro de animais**
 
-#### US14
+#### US13
 
 |                       US14 | Realizar cadastro do animal                                                                                              |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------------- |
@@ -142,7 +135,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 |                 **Pontos** | 0                                                                                                                        |
 | **Critérios de aceitação** | - Exibir uma mensagem após a finalização do cadastro                                                                     |
 
-#### US15
+#### US14
 
 |                       US15 | Gerar histórico do animal                                                                                          |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------- |
@@ -150,7 +143,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 |                 **Pontos** |                                                                                                                    |
 | **Critérios de aceitação** |                                                                                                                    |
 
-#### US16
+#### US15
 
 |                       US16 | Exibir animais disponíveis para adoção                                                                                   |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------------- |
@@ -158,7 +151,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 |                 **Pontos** | -                                                                                                                        |
 | **Critérios de aceitação** | -                                                                                                                        |
 
-#### US17
+#### US16
 
 |                       US17 | Filtrar os tipos de animais/raça                                                                      |
 | -------------------------: | :---------------------------------------------------------------------------------------------------- |
@@ -166,15 +159,15 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 |                 **Pontos** | -                                                                                                     |
 | **Critérios de aceitação** | -                                                                                                     |
 
-#### US18
+#### US17
 
-|                       US18 |                                                                                                                  |
+|                       US18 | Verificar animais adotados                                                                                                |
 | -------------------------: | :--------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** ver quais animais foram adotados **para** ter entendimento sobre o histórico adotado |
 |                 **Pontos** | -                                                                                                                |
 | **Critérios de aceitação** | -                                                                                                                |
 
-#### US19
+#### US18
 
 |                       US19 | Realizar a edição de informações do animal                                                                                                        |
 | -------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -184,7 +177,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
   
 ### **FT05 - Interação entre usuário**
 
-#### US20
+#### US19
 
 |                       US20 | Filtrar a pesquisa de projetos por preferências pessoais                                                                             |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------------------------- |
@@ -193,7 +186,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | **Critérios de aceitação** | -                                                                                                                                    |
 
 
-#### US21
+#### US20
 
 |                       US21 | Realizar cadastro para adoção do animal                                                             |
 | -------------------------: | :-------------------------------------------------------------------------------------------------- |
@@ -201,7 +194,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 |                 **Pontos** | -                                                                                                   |
 | **Critérios de aceitação** | -                                                                                                   |
 
-#### US22
+#### US21
 
 |                       US22 | Realizar publicação de post                                                                                                 |
 | -------------------------: | :-------------------------------------------------------------------------------------------------------------------------- |
@@ -209,7 +202,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 |                 **Pontos** | 0                                                                                                                           |
 | **Critérios de aceitação** |                                                                                                                             |
 
-#### US23
+#### US22
 
 |                       US23 | Cadastrar dados para candidatura a adoção |
 | -------------------------: | :---------------------------------------- |
@@ -217,7 +210,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 |                 **Pontos** | -                                         |
 | **Critérios de aceitação** | -                                         |
 
-#### US24
+#### US23
 
 |                       US24 | Adicionar usuário em um projeto                                                         |
 | -------------------------: | :-------------------------------------------------------------------------------------- |
@@ -225,7 +218,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 |                 **Pontos** | -                                                                                       |
 | **Critérios de aceitação** | -                                                                                       |
 
-#### US25
+#### US24
 
 |                       US25 | Realizar pesquisa de um projeto                                                                       |
 | -------------------------: | :---------------------------------------------------------------------------------------------------- |
@@ -233,7 +226,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 |                 **Pontos** | -                                                                                                     |
 | **Critérios de aceitação** | -                                                                                                     |
 
-#### US26
+#### US25
 
 |                       US26 | Pesquisar por projetos                                                                                    |
 | -------------------------: | :-------------------------------------------------------------------------------------------------------- |
@@ -241,7 +234,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 |                 **Pontos** | -                                                                                                         |
 | **Critérios de aceitação** | -                                                                                                         |
 
-#### US27
+#### US26
 
 |                       US27 | Realizar pesquisa de documentos                                                                                    |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------- |
@@ -249,9 +242,9 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 |                 **Pontos** | -                                                                                                                  |
 | **Critérios de aceitação** | -                                                                                                                  |
 
-#### US28
+#### US27
 
-|                       US28 |                                                                                                                                      |
+|                       US28 |  Avaliar candidatura de voluntário                                                                                                                                    |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** quero receber dados cadastrados de um candidato a vonluntário **para** avaliar sua candidatura |
 |                 **Pontos** | -                                                                                                                                    |
@@ -259,7 +252,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 
 ### **FT06 - Notificação de situação**				
 
-#### US29
+#### US28
 
 |                       US29 | Receber Notificação                                                                                                                                                             |
 | -------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -267,7 +260,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 |                 **Pontos** | -                                                                                                                                                                               |
 | **Critérios de aceitação** | -                                                                                                                                                                               |
 
-#### US30
+#### US29
 
 |                       US30 | Receber Notificação                                                                                                                             |
 | -------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -275,7 +268,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 |                 **Pontos** | -                                                                                                                                               |
 | **Critérios de aceitação** | -                                                                                                                                               |
 
-#### US31
+#### US30
 
 |                       US31 | Receber Notificação                                                                                                                |
 | -------------------------: | :--------------------------------------------------------------------------------------------------------------------------------- |
