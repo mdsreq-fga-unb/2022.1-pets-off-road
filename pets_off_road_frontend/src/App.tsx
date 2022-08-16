@@ -1,13 +1,14 @@
-import { Rts } from './Routes/Routes'
-import { Cadastro } from './Screens/Cadastro'
-import { Login } from './Screens/Login'
+import { Rts } from './Routes/Auth.routes'
+import Authprovider from './context/AuthContext'
 
 
 function App() {
   
   return (
     <div>
-      <Rts />
+      <Authprovider>
+        <Rts />
+      </Authprovider>
     </div>
   )
 }
