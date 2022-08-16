@@ -257,7 +257,7 @@ Como um bom aprendizado para o time está na melhor organização e elaboração
 
 ### 5.3. Unidade 3
 #### 5.3.1. MDS 
-O know-how da elaboração de um documento de arquitetura de software; Trabalho e desenvolvimento de soft-skills; Adoção de programação em pares e Crescimento como equipe(Aprendemos a saber ouvir e aprender com o parceiro de equipe)
+O know-how da elaboração de um documento de arquitetura de software; Trabalho e desenvolvimento de soft-skills; Adoção de programação em pares; Importância de um planejamento adequado e bem feito antes da codificação.
 
 #### 5.3.2. Requisitos
 
