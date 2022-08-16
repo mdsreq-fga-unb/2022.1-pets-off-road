@@ -18,6 +18,10 @@ nav:
   - SAFe - Backlog: backlog.md
   - PBB: PBB.md
   - User Story Mapping: map.md
+  - Arquitetura:
+    - Produto: produto/arquitetura/Arquitetura.md
+    - Reporte: Reporte.md
+    - Interface: interface.md
   - Sprints:
       # - Sprint 1:
       # - Sprint 2:
