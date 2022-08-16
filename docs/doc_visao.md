@@ -95,9 +95,9 @@ Os desenvolvedores da Pets Off Road decidiram usar algumas tecnologias que já e
 | Sprint 7  | Atualização do MVP e documento de visão, classes iniciais do projeto, protótipo de alta fidelidade, documento de arquitetura, PBB | 31/07/2022  | 06/08/2022 |
 | Sprint 8  |                                                Correção e finalização PBB, US09, US01, US08                                                 | 07/08/2022  | 13/08/2022 |
 | Sprint 9  |                                                              US14, US16, User Story Mapping,    Correções de documentos                                                   | 14/08/2022  | 20/08/2022 |
-| Sprint 10 |                                                           Implementação                                                           | 21/08/2022  | 27/08/2022 |
-| Sprint 11 |                                                           Implementação                                                           | 28/08/2022  | 03/09/2022 |
-| Sprint 12 |                                                           Implementação                                                           | 04/09/2022  | 10/09/2022 |
+| Sprint 10 |                                                           US25, US18,                                                          | 21/08/2022  | 27/08/2022 |
+| Sprint 11 |                                                           US07, US23,                                                         | 28/08/2022  | 03/09/2022 |
+| Sprint 12 |                                                           US14, US04, US21                                                           | 04/09/2022  | 10/09/2022 |
 | Sprint 13 |                                                               MVP2                                                                | 11/09/2022  | 17/09/2022 |
 
 
