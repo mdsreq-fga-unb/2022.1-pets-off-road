@@ -3,25 +3,18 @@
 ## Histórico de Versão
 
 
-|    Data    | Versão |               Descrição                |            Autor(es)             |
-| :--------: | :----: | :------------------------------------: | :------------------------------: |
-| 18/07/2022 |  0.1   |          Criação do documento          |   Pedro Helias, Rhuan, Daniel    |
-| 18/07/2022 |  0.2   |   Alteração nas histórias de usuário   |      Pedro Helias. Gabriel       |
-| 13/08/2022 |  0.3   |          Organizando backlog           | Pedro Helias e Gabriel Marcolino |
-| 15/08/2022 |  0.4   | Adicionando US's e organizando backlog |        Gabriel Marcolino         |
+|    Data    | Versão |                          Descrição                          |            Autor(es)             |
+| :--------: | :----: | :---------------------------------------------------------: | :------------------------------: |
+| 18/07/2022 |  0.1   |                    Criação do documento                     |   Pedro Helias, Rhuan, Daniel    |
+| 18/07/2022 |  0.2   |             Alteração nas histórias de usuário              |      Pedro Helias. Gabriel       |
+| 13/08/2022 |  0.3   |                     Organizando backlog                     | Pedro Helias e Gabriel Marcolino |
+| 15/08/2022 |  0.4   |           Adicionando US's e organizando backlog            |        Gabriel Marcolino         |
+| 16/08/2022 |  0.5   | Removendo algumas US's e adicionando critérios de aceitação |        Gabriel Marcolino         |
 
 
 ## Backlog do Produto
 
-A partir do levantamento do requisitos, foi construída uma estrutura com a organização proposta pela SAFe para definir o Backlog do Produto. 
-
-Temos então como Épicos e Funcionalidades:
-![epicos e funcionalidades](imagens/epicos.png)
-
-Já como as histórias do usuário associadas a suas funcionalidades, temos:
-![historias](imagens/historia.png)
-
-Abaixo o documento é descrito para melhor visualização:
+A partir do levantamento do requisitos, foi construída uma estrutura com a organização proposta pela SAFe que é separa por tema, épicos, features e histórias de usuário para definir o Backlog do Produto. Abaixo o documento é descrito para melhor visualização:
 
 ## **Épico-01: Sessão do Usuário**
 
@@ -114,86 +107,68 @@ Abaixo o documento é descrito para melhor visualização:
 
 #### US11
 
-|                       US11 |                                                                                                                                                                               |
-| -------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|              **Descrição** | **Eu como** dono do projeto **quero** adicionar dados financeiros sobre meu projeto no sistema **para** administrar gastos e entender as métricas financeiras de planejamento |
-|                 **Pontos** | -                                                                                                                                                                             |
-| **Critérios de aceitação** | -                                                                                                                                                                             |
-
-#### US12
-
-|                       US12 |                                                                                                             |
+|                       US11 | Categorizar piblicação                                                                                      |
 | -------------------------: | :---------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** categorizar as publicações **para** associar a uma métrica de minha preferência |
 |                 **Pontos** | -                                                                                                           |
 | **Critérios de aceitação** | -                                                                                                           |
 
 
-#### US13
+#### US12
 
-|                       US13 |                                                                                                                  |
+|                       US12 | Categorizar piblicação                                                                                           |
 | -------------------------: | :--------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** voluntário **quero** categorizar as publicações **para** associar a uma métrica de minha preferência |
 |                 **Pontos** | -                                                                                                                |
 | **Critérios de aceitação** | -                                                                                                                |
 
-
-#### US14
-
-|                       US14 |                                                                                                                                                                          |
-| -------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|              **Descrição** | **Eu como** dono do projeto **quero** receber atualizações sobre métricas de interação do usuário com a página da projeto **para** identificar situações e oportunidades |
-|                 **Pontos** | -                                                                                                                                                                        |
-| **Critérios de aceitação** | -                                                                                                                                                                        |
-
-
 ## **Épico-02: Interatividade com o sistema**
 
 ### **FT04 - Gerenciamento de cadastro de animais**
 
-#### US15
+#### US13
 
-|                       US15 | Realizar cadastro do animal                                                                                              |
+|                       US13 | Realizar cadastro do animal                                                                                              |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** realizar o cadastro do animal **para** facilitar a busca dos usuários para adoções |
 |                 **Pontos** | 0                                                                                                                        |
 | **Critérios de aceitação** | - Exibir uma mensagem após a finalização do cadastro                                                                     |
 
-#### US16
+#### US14
 
-|                       US16 | Gerar histórico do animal                                                                                          |
+|                       US14 | Gerar histórico do animal                                                                                          |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** gerar histórico do animal **para** facilitar processos documentais de adoção |
 |                 **Pontos** |                                                                                                                    |
 | **Critérios de aceitação** |                                                                                                                    |
 
-#### US17
+#### US15
 
-|                       US17 | Exibir animais disponíveis para adoção                                                                                   |
+|                       US15 | Exibir animais disponíveis para adoção                                                                                   |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** quero ver quais animais estão disponíveis para adoção **para** ter mais liberdade de escolha |
 |                 **Pontos** | -                                                                                                                        |
 | **Critérios de aceitação** | -                                                                                                                        |
 
-#### US18
+#### US16
 
-|                       US18 | Filtrar os tipos de animais/raça                                                                      |
+|                       US16 | Filtrar os tipos de animais/raça                                                                      |
 | -------------------------: | :---------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** filtrar os tipos de animais/raças **para** escolher um animal para adoção |
 |                 **Pontos** | -                                                                                                     |
 | **Critérios de aceitação** | -                                                                                                     |
 
-#### US19
+#### US17
 
-|                       US19 |                                                                                                                  |
+|                       US17 |                                                                                                                  |
 | -------------------------: | :--------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** ver quais animais foram adotados **para** ter entendimento sobre o histórico adotado |
 |                 **Pontos** | -                                                                                                                |
 | **Critérios de aceitação** | -                                                                                                                |
 
-#### US20
+#### US18
 
-|                       US20 | Realizar a edição de informações do animal                                                                                                        |
+|                       US18 | Realizar a edição de informações do animal                                                                                                        |
 | -------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------ |
 |              **Descrição** | **Eu como** dono do projeto **quero** realizar edição de informações do animal **para** ter maior controle sobre os animais vinculados ao projeto |
 |                 **Pontos** | -                                                                                                                                                 |
@@ -201,106 +176,74 @@ Abaixo o documento é descrito para melhor visualização:
   
 ### **FT05 - Interação entre usuário**
 
-#### US21
+#### US19
 
-|                       US21 | Filtrar a pesquisa de projetos por preferências pessoais                                                                             |
+|                       US19 | Filtrar a pesquisa de projetos por preferências pessoais                                                                             |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** voluntário **quero** filtrar a pesquisa de projetos por referências pessoais **para** ter maior simplicidade no processo |
 |                 **Pontos** | -                                                                                                                                    |
 | **Critérios de aceitação** | -                                                                                                                                    |
 
 
-#### US22
+#### US20
 
-|                       US22 | Realizar cadastro para adoção do animal                                                             |
+|                       US20 | Realizar cadastro para adoção do animal                                                             |
 | -------------------------: | :-------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** realizar cadastro do animal **para** ter maior simplicidade no processo |
 |                 **Pontos** | -                                                                                                   |
 | **Critérios de aceitação** | -                                                                                                   |
 
-#### US23
+#### US21
 
-|                       US23 | Realizar publicação de post                                                                                                 |
+|                       US21 | Realizar publicação de post                                                                                                 |
 | -------------------------: | :-------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** realizar a publicação de um post **para** facilitar a busca dos usuários para adoções |
 |                 **Pontos** | 0                                                                                                                           |
 | **Critérios de aceitação** |                                                                                                                             |
 
-#### US24
+#### US22
 
-|                       US24 | Cadastrar dados para candidatura a adoção |
+|                       US22 | Cadastrar dados para candidatura a adoção |
 | -------------------------: | :---------------------------------------- |
 |              **Descrição** | **Eu como**  **quero** **para**           |
 |                 **Pontos** | -                                         |
 | **Critérios de aceitação** | -                                         |
 
-#### US25
+#### US23
 
-|                       US25 | Adicionar usuário em um projeto                                                         |
+|                       US23 | Adicionar usuário em um projeto                                                         |
 | -------------------------: | :-------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** adicionar um voluntário **para** compor o projeto |
 |                 **Pontos** | -                                                                                       |
 | **Critérios de aceitação** | -                                                                                       |
 
-#### US26
+#### US24
 
-|                       US26 |                                                                                                                                                                             |
-| -------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|              **Descrição** | **Eu como** voluntário **quero** ter acesso a dados de contato do projeto **para** me comunicar com eles e informar sobre animais abandonados ou em situação de maus tratos |
-|                 **Pontos** | -                                                                                                                                                                           |
-| **Critérios de aceitação** | -                                                                                                                                                                           |
-
-#### US27
-
-|                       US27 |                                                                                                                                                             |
-| -------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|              **Descrição** | **Eu como** tutor **quero** ter acesso a dados do projeto **para** me comunicar com eles e informar sobre animais abandonados ou em situação de maus tratos |
-|                 **Pontos** | -                                                                                                                                                           |
-| **Critérios de aceitação** | -                                                                                                                                                           |
-
-#### US28
-
-|                       US28 |                                                                            |
-| -------------------------: | :------------------------------------------------------------------------- |
-|              **Descrição** | **Eu como** voluntário **quero** fazer doações **para** ajudar os projetos |
-|                 **Pontos** | -                                                                          |
-| **Critérios de aceitação** | -                                                                          |
-
-#### US29
-
-|                       US29 |                                                                       |
-| -------------------------: | :-------------------------------------------------------------------- |
-|              **Descrição** | **Eu como** tutor **quero** fazer doações **para** ajudar os projetos |
-|                 **Pontos** | -                                                                     |
-| **Critérios de aceitação** | -                                                                     |
-
-#### US30
-
-|                       US30 | Realizar pesquisa de um projeto                                                                       |
+|                       US24 | Realizar pesquisa de um projeto                                                                       |
 | -------------------------: | :---------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** voluntário **quero** realizar a pesquisa de um projeto **para** ajudar causas importantes |
 |                 **Pontos** | -                                                                                                     |
 | **Critérios de aceitação** | -                                                                                                     |
 
-#### US31
+#### US25
 
-|                       US31 |                                                                                                           |
+|                       US25 | Pesquisar por projetos                                                                                    |
 | -------------------------: | :-------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** pesquisar por outros projetos **para** buscar o mesmo serviço ou oportunidade |
 |                 **Pontos** | -                                                                                                         |
 | **Critérios de aceitação** | -                                                                                                         |
 
-#### US32
+#### US26
 
-|                       US32 | Realizar pesquisa de documentos                                                                                    |
+|                       US26 | Realizar pesquisa de documentos                                                                                    |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** realizar a pesquisa de documento **para** utilizar dados armazenados no site |
 |                 **Pontos** | -                                                                                                                  |
 | **Critérios de aceitação** | -                                                                                                                  |
 
-#### US33
+#### US27
 
-|                       US33 |                                                                                                                                      |
+|                       US27 |                                                                                                                                      |
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** quero receber dados cadastrados de um candidato a vonluntário **para** avaliar sua candidatura |
 |                 **Pontos** | -                                                                                                                                    |
@@ -308,32 +251,32 @@ Abaixo o documento é descrito para melhor visualização:
 
 ### **FT06 - Notificação de situação**				
 
-#### US34
+#### US28
 
-|                       US34 |                                                                                                                                                                                 |
+|                       US28 | Receber Notificação                                                                                                                                                             |
 | -------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 |              **Descrição** | **Eu como** dono do projeto **quero** receber notificações via email **para** centralizar os dados gerados pelo projeto(alertas, propostas de voluntários, propostas de adoção) |
 |                 **Pontos** | -                                                                                                                                                                               |
 | **Critérios de aceitação** | -                                                                                                                                                                               |
 
-#### US35
+#### US29
 
-|                       US35 |                                                                                                                                                 |
+|                       US29 | Receber Notificação                                                                                                                             |
 | -------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** voluntário **quero** receber notificações do processo de voluntariado **para** me manter informado sobre a atualizações no processo |
 |                 **Pontos** | -                                                                                                                                               |
 | **Critérios de aceitação** | -                                                                                                                                               |
 
-#### US36
+#### US30
 
-|                       US36 |                                                                                                                                    |
+|                       US30 | Receber Notificação                                                                                                                |
 | -------------------------: | :--------------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** receber notificações do processo de adoção **para** me manter informado sobre atualizações no processo |
 |                 **Pontos** | -                                                                                                                                  |
 | **Critérios de aceitação** | -                                                                                                                                  |
-  												
+<!--   												
 O documento foi construído numa planilha de Excel virtual, presente no link abaixo. 
 
-<a href="https://docs.google.com/spreadsheets/d/1EftTSPJfwSpOPxZRh9l8VIjlzVJ5hROlLfbYlBwVJSs/edit?usp=sharing">Backlog</a>  
+<a href="https://docs.google.com/spreadsheets/d/1EftTSPJfwSpOPxZRh9l8VIjlzVJ5hROlLfbYlBwVJSs/edit?usp=sharing">Backlog</a>   -->
   
 
