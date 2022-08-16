@@ -1,3 +1,4 @@
+import { useContext, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Bingo from '../assets/bingo.svg'
 import Caramelo from '../assets/caramelo.svg'
@@ -6,10 +7,21 @@ import Doguinhos2 from '../assets/doguinhos2.svg'
 import Golden from '../assets/golden.svg'
 import Loki from '../assets/loki.svg'
 import Thor from '../assets/thor.svg'
+import { AuthContext } from '../context/AuthContext'
 
 import styles from './Login.module.css'
 
 export function Login(){
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const {
+        login
+    } = useContext(AuthContext);
+
+    const handleSubmit = async (event) => {
+        await login(email,password);
+        event.preventDefault();
+      }
 
     return(
         <div>
@@ -19,7 +31,7 @@ export function Login(){
                         <h1>PetsHub</h1>
                     </header>
 
-                    <form className={styles.formLogin}>
+                    <form className={styles.formLogin} onSubmit={handleSubmit()}>
                         <header className={styles.headerForm}>
                             <h1>Bem-vindo à PetsHub</h1>
                             <p>Faça o login para acessar a sua conta</p>
@@ -28,12 +40,12 @@ export function Login(){
                     
                         <div>
                             <p>Endereço de email</p>
-                            <input type="email"  placeholder="nome@mail.com"/>
+                            <input type="email"  placeholder="nome@mail.com" onChange={ e => setEmail(e) }/>
                         </div>
 
                         <div>
                             <p>Senha</p>
-                            <input type="password" placeholder="senha"/>
+                            <input type="password" placeholder="senha" onChange={ e => setPassword(e) }/>
                         </div>
                         
                         <div className={styles.containerCheckPassword}>

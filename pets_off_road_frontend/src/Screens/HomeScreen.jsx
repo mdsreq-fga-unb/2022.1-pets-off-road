@@ -7,12 +7,7 @@ import Hands from '../assets/hands.svg'
 
 import {Header} from '../components/Header'
 
-interface Props{
-    typeUser?: string;
-    userName?: string;
-}
-
-export function HomeScreen({typeUser, userName}:Props){
+export function HomeScreen({typeUser, userName}){
 
     return (
         <>

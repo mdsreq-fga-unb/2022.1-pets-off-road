@@ -12,13 +12,8 @@ import PetsLogo from '../assets/PetsLogo.png'
 import DogIcon from '../assets/dogg.png'
 import { Plus, GearSix} from 'phosphor-react'
 
-interface Props{
-    typeUser?: string;
-    userName?: string;
-}
-
 export function ProfileVonlunteer(){
-    const [profileType, setProfileType] = useState<string | null>(null);
+    const [profileType, setProfileType] = useState(null);
 
     return(
         <>
