@@ -22,6 +22,9 @@ nav:
     - Produto: produto/arquitetura/Arquitetura.md
     - Reporte: Reporte.md
     - Interface: interface.md
+  - Casos de Uso:
+    - Diagrama de Casos de Uso: diagramaCasosdeUso.md
+    - Especificação de Casos de Uso: atividadeExtra.md
   - Sprints:
       # - Sprint 1:
       # - Sprint 2:
