@@ -8,6 +8,7 @@
 | 13/08/2022 | 0.4    | Adição parcial de visão lógica                                                                | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
 | 14/08/2022 | 0.5    | Adição do diagrama do FrontEnd                                                               | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
 | 16/08/2022 | 0.6    | Adição de diagramas                                                              | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
+| 23/08/2022 | 0.7    | Inclusão do modelo arquitetural                                                              | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
                           
                                                                                                                                                    
 ## Sumário
@@ -171,6 +172,16 @@ O sistema WEB a ser desenvolvido tem como metas a serem atingidas:
 
 
 ## 4. Visão Lógica
+O projeto foi desenvolvido baseado no modelo de arquitetura MVC que divide a aplicação em três partes: View (interface do usuário), model (manipulação de dados) e controller (controle de fluxo de dados).
+O diagrama exemplifica este modelo arquitetural:
+
+
+
+
+
+
+
+<img width="460" height="300" src="https://github.com/mdsreq-fga-unb/2022.1-pets-off-road/blob/38_arquitetura/docs/imagens/mvc.jpg?raw=true">
 
 ### 4.1. Visão Geral
 Uma página WEB estrutura-se em uma arquitetura de objetos determinados no modelo da aplicação, que interagem entre si, facilitando o acesso e possíveis manutenções. A aplicação se inicia com a tela de Login que irá buscar os dados de cadastro do usuário. Além disso, é possível executar um cadastro de acordo com o objetivo do utilizador da rede (projeto ou um voluntário). Após acesso permitido, é feito um direcionamento adequado a cada modelo de usuário, no caso de projetos opções relacionadas ao gerenciamento de finanças, animais e membros. Como voluntário, o usuário tem acesso aos projetos disponíveis e ações de adoção. Em "Minha página", ambos modelos de usuários possuem acesso as suas informações cadastradas, além da possibilidade de alterá-las (de acordo com o campo). Por fim, qualquer utilizador possui um *feed* onde é possível visualizar e criar *posts*.
