@@ -18,6 +18,7 @@ nav:
   - SAFe - Backlog: backlog.md
   - PBB: PBB.md
   - User Story Mapping: map.md
+  - Estrategias de Teste: testes.md
   - Arquitetura:
     - Produto: produto/arquitetura/Arquitetura.md
     - Reporte: Reporte.md
