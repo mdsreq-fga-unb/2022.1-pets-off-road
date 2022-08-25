@@ -3,9 +3,10 @@
 ## Histórico de Versão
 
 
-|    Data    | Versão |                          Descrição                          |            Autor(es)             |
-| :--------: | :----: | :---------------------------------------------------------: | :------------------------------: |
-| 24/08/2022 |  0.1   |                    Criação do documento                     |   Pedro Helias    |
+|    Data    | Versão |           Descrição           |            Autor(es)             |
+| :--------: | :----: | :---------------------------: | :------------------------------: |
+| 24/08/2022 |  0.1   |     Criação do documento      |           Pedro Helias           |
+| 25/08/2022 |  0.2   | Adicionando mais casos de uso | Gabriel Marcolino e Pedro Helias |
 
 Neste documento serão apresentadas especificações singulares sobre os casos de uso levantados pelo time.
 
@@ -102,7 +103,7 @@ FE02 - Caso o usuário não selecione filtros, o sistema não pode prosseguir na
 
 ### 2.6. Regras de Negócio 
 
-RN01 - É necessário ao menos um campo de filtros selecionado para realizar a filtragem dos dados exibidos. 
+RN01 - É necessário ao menos um campo de filtros selecionado para realizar a filtragem dos dados exibidos(sexo, temperamento, porte do animal, raça, idade, entre outros). 
 
 ### 2.7. Pós condição
 
@@ -160,3 +161,89 @@ RN01 - É necessário ao menos um campo de filtros selecionado para realizar a f
 ### 3.8. Ponto de Extensão
 
 Este Caso de Usuário finaliza as extensões deste fluxo e segue apenas em sequências diretas de casos de uso, para enfim finalizar a adoção do animal. 
+
+## 4. Pesquisar por Projetos
+
+### 4.1 Breve Descrcição
+
+Este caso de uso cita a busca de projetos, respeitando os seus tipos e filtros específico(sresgate, castração, adoção, tipos de animal, entre outros).
+
+### 4.2 Atores 
+
+#### 4.2.1. Dono do projeto
+
+A quem se destina boa parte das funcionalidades de gestão dentro do sistema. Possui acesso quase irrestrito as funcionalidades do sistema.
+
+#### 4.2.2. Voluntário
+
+A quem se destina algumas funcionalidades específicas dentro do domínio de um projeto. 
+
+#### 4.2.3. Tutor
+
+A quem se destina as funcionalidades básicas que o sistema provê, limitando-se ao nível de permissão do Tutor.
+
+### 4.3. Condições Prévias
+
+O usuário tenha realizado acesso na plataforma.
+
+### 4.4. Fluxo Básico de Eventos
+
+- 4.4.1 Este caso se inicia quando o usuário acessa a plataforma
+- 4.4.2. O usuário insere o login.
+- 4.4.3. Em seguida, o usuário busca a página que possibilita a pesquisa de projetos.
+- 4.4.4. O sistema vai exibir os projetos existentes na plataforma.
+
+### 4.5. Fluxo Exceção
+
+FE01 - O usuário não obtém acesso a esse ponto do sistema caso não tenha passado pela autenticação de acesso a plataforma.
+
+### 4.6. Regras de Negócio
+
+RN01 - É necessário ao menos um campo de filtro selecionado para realizar a pesquisa(resgate, castração, adoção, tipos de animal, entre outros).
+
+### 4.7. Pós condição
+
+### 4.8. Ponto de Extensão
+
+Este Caso de Usuário se origina a partir da extensão acessar a plataforma.
+
+## 5. Pesquisar por Documentos
+
+### 5.1 Breve Descrcição
+
+### 5.2 Atores 
+
+#### 5.2.1. Dono do projeto
+
+A quem se destina boa parte das funcionalidades de gestão dentro do sistema. Possui acesso quase irrestrito as funcionalidades do sistema.
+
+#### 5.2.2. Voluntário
+
+A quem se destina algumas funcionalidades específicas dentro do domínio de um projeto. 
+
+### 5.3. Condições Prévias
+
+O usuário tenha realizado acesso na plataforma e entrado na página do projeto.
+
+### 5.4. Fluxo Básico de Eventos
+
+- 4.4.1. Este caso se inicia quando o usuário acessa a plataforma
+- 4.4.2. O usuário insere o login.
+- 4.4.3. Em seguida, o usuário busca a página do projeto.
+- 4.4.4. Realiza uma pesquisa de documento.
+
+### 5.5. Fluxo Exceção
+
+FE01 - O usuário não obtém acesso a esse ponto do sistema caso não tenha passado pela autenticação de acesso a plataforma.
+
+FE02 - O usuário não obtem acesso a esse ponto do sistema caso o usuário não seja voluntário ou dono do projeto.
+
+### 5.6. Regras de Negócio
+
+RN01 - Ao menos uma campo selecionado na busca(data, animal, usuário, entre outros).
+
+### 5.7. Pós condição
+
+### 5.8. Ponto de Extensão
+
+O caso de uso divide a mesma inclusão que "Gerenciar Cadastro de Animal".
