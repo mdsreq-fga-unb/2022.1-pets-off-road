@@ -1,0 +1,2123 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.8">
+    
+    
+      
+        <title>Especificação de Casos de Uso - Pets Off Road</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.1d29e8d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#especificacao-de-caso-de-uso" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Pets Off Road" class="md-header__button md-logo" aria-label="Pets Off Road" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Pets Off Road
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Especificação de Casos de Uso
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Pets Off Road" class="md-nav__button md-logo" aria-label="Pets Off Road" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Pets Off Road
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Início
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../doc_visao/" class="md-nav__link">
+        Visão
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../doc_Comunicacao/" class="md-nav__link">
+        Comunicação
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Apresentações
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Apresentações" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Apresentações
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apresentacoes/unidade_01/" class="md-nav__link">
+        Unidade 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apresentacoes/unidade_02/" class="md-nav__link">
+        Unidade 2
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Políticas do Repositório
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Políticas do Repositório" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Políticas do Repositório
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/" class="md-nav__link">
+        Como contribuir
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../workshop/" class="md-nav__link">
+        Workshop
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../requisitos/" class="md-nav__link">
+        Requisitos
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../canvas/" class="md-nav__link">
+        Canvas MVP
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MVPs/" class="md-nav__link">
+        MVP
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kanban/" class="md-nav__link">
+        Kanban
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog/" class="md-nav__link">
+        SAFe - Backlog
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PBB/" class="md-nav__link">
+        PBB
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../map/" class="md-nav__link">
+        User Story Mapping
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_14" type="checkbox" id="__nav_14" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_14">
+          Arquitetura
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Arquitetura" data-md-level="1">
+        <label class="md-nav__title" for="__nav_14">
+          <span class="md-nav__icon md-icon"></span>
+          Arquitetura
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../produto/arquitetura/Arquitetura/" class="md-nav__link">
+        Produto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Reporte/" class="md-nav__link">
+        Reporte
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../interface/" class="md-nav__link">
+        Interface
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_15" type="checkbox" id="__nav_15" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_15">
+          Casos de Uso
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Casos de Uso" data-md-level="1">
+        <label class="md-nav__title" for="__nav_15">
+          <span class="md-nav__icon md-icon"></span>
+          Casos de Uso
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../diagramaCasosdeUso/" class="md-nav__link">
+        Diagrama de Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Especificação de Casos de Uso
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Especificação de Casos de Uso
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    Histórico de Versão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-acessar-a-plataforma" class="md-nav__link">
+    1. Acessar a Plataforma
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Acessar a Plataforma">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-breve-descricao" class="md-nav__link">
+    1.1 Breve Descrição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-atores" class="md-nav__link">
+    1.2 Atores
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2 Atores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121-dono-do-projeto" class="md-nav__link">
+    1.2.1 Dono do projeto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122-voluntario" class="md-nav__link">
+    1.2.2. Voluntário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#123-tutor" class="md-nav__link">
+    1.2.3. Tutor
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-condicoes-previas" class="md-nav__link">
+    1.3. Condições Prévias
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-fluxo-basico-de-eventos" class="md-nav__link">
+    1.4. Fluxo Básico de Eventos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-fluxo-excecao" class="md-nav__link">
+    1.5. Fluxo Exceção
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-regras-de-negocio" class="md-nav__link">
+    1.6. Regras de Negócio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-pos-condicao" class="md-nav__link">
+    1.7. Pós Condição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-ponto-de-extensao" class="md-nav__link">
+    1.8 Ponto de Extensão
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-filtrar-informacoes-basicas-sobre-os-animais-em-referencia-a-adocao" class="md-nav__link">
+    2. Filtrar informações básicas sobre os animais, em referência a adoção
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Filtrar informações básicas sobre os animais, em referência a adoção">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-breve-descricao" class="md-nav__link">
+    2.1. Breve Descrição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-atores" class="md-nav__link">
+    2.2 Atores
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2 Atores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#221-dono-do-projeto" class="md-nav__link">
+    2.2.1 Dono do projeto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#222-voluntario" class="md-nav__link">
+    2.2.2. Voluntário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#223-tutor" class="md-nav__link">
+    2.2.3. Tutor
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-condicoes-previas" class="md-nav__link">
+    2.3. Condições Prévias
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-fluxo-basico-de-eventos" class="md-nav__link">
+    2.4. Fluxo Básico de Eventos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-fluxo-excecao" class="md-nav__link">
+    2.5. Fluxo Exceção
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-regras-de-negocio" class="md-nav__link">
+    2.6. Regras de Negócio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-pos-condicao" class="md-nav__link">
+    2.7. Pós condição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28-ponto-de-extensao" class="md-nav__link">
+    2.8. Ponto de Extensão
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-visualizar-animais-disponiveis-para-adocao" class="md-nav__link">
+    3. Visualizar Animais Disponíveis para Adoção.
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Visualizar Animais Disponíveis para Adoção.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-breve-descricao" class="md-nav__link">
+    3.1. Breve Descrição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-atores" class="md-nav__link">
+    3.2 Atores
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 Atores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#321-dono-do-projeto" class="md-nav__link">
+    3.2.1 Dono do projeto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#322-voluntario" class="md-nav__link">
+    3.2.2. Voluntário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#323-tutor" class="md-nav__link">
+    3.2.3. Tutor
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-condicoes-previas" class="md-nav__link">
+    3.3. Condições Prévias
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-fluxo-basico-de-eventos" class="md-nav__link">
+    3.4. Fluxo Básico de Eventos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-fluxo-excecao" class="md-nav__link">
+    3.5. Fluxo Exceção
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#36-regras-de-negocio" class="md-nav__link">
+    3.6. Regras de Negócio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#37-pos-condicao" class="md-nav__link">
+    3.7. Pós condição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#38-ponto-de-extensao" class="md-nav__link">
+    3.8. Ponto de Extensão
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-pesquisar-por-projetos" class="md-nav__link">
+    4. Pesquisar por Projetos
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Pesquisar por Projetos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-breve-descrcicao" class="md-nav__link">
+    4.1 Breve Descrcição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-atores" class="md-nav__link">
+    4.2 Atores
+  </a>
+  
+    <nav class="md-nav" aria-label="4.2 Atores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#421-dono-do-projeto" class="md-nav__link">
+    4.2.1. Dono do projeto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#422-voluntario" class="md-nav__link">
+    4.2.2. Voluntário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#423-tutor" class="md-nav__link">
+    4.2.3. Tutor
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-condicoes-previas" class="md-nav__link">
+    4.3. Condições Prévias
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-fluxo-basico-de-eventos" class="md-nav__link">
+    4.4. Fluxo Básico de Eventos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-fluxo-excecao" class="md-nav__link">
+    4.5. Fluxo Exceção
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#46-regras-de-negocio" class="md-nav__link">
+    4.6. Regras de Negócio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#47-pos-condicao" class="md-nav__link">
+    4.7. Pós condição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#48-ponto-de-extensao" class="md-nav__link">
+    4.8. Ponto de Extensão
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-pesquisar-por-documentos" class="md-nav__link">
+    5. Pesquisar por Documentos
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Pesquisar por Documentos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-breve-descrcicao" class="md-nav__link">
+    5.1 Breve Descrcição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-atores" class="md-nav__link">
+    5.2 Atores
+  </a>
+  
+    <nav class="md-nav" aria-label="5.2 Atores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#521-dono-do-projeto" class="md-nav__link">
+    5.2.1. Dono do projeto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#522-voluntario" class="md-nav__link">
+    5.2.2. Voluntário
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-condicoes-previas" class="md-nav__link">
+    5.3. Condições Prévias
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-fluxo-basico-de-eventos" class="md-nav__link">
+    5.4. Fluxo Básico de Eventos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55-fluxo-excecao" class="md-nav__link">
+    5.5. Fluxo Exceção
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#56-regras-de-negocio" class="md-nav__link">
+    5.6. Regras de Negócio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#57-pos-condicao" class="md-nav__link">
+    5.7. Pós condição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#58-ponto-de-extensao" class="md-nav__link">
+    5.8. Ponto de Extensão
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_16" type="checkbox" id="__nav_16" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_16">
+          Sprints
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprints" data-md-level="1">
+        <label class="md-nav__title" for="__nav_16">
+          <span class="md-nav__icon md-icon"></span>
+          Sprints
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_16_1" type="checkbox" id="__nav_16_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_16_1">
+          Sprint 6
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 6" data-md-level="2">
+        <label class="md-nav__title" for="__nav_16_1">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 6
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint6/planning/planning/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint6/review/review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint6/retrospective/retrospective/" class="md-nav__link">
+        Restrospective
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_16_2" type="checkbox" id="__nav_16_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_16_2">
+          Sprint 7
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 7" data-md-level="2">
+        <label class="md-nav__title" for="__nav_16_2">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 7
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint7/planning/planning/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint7/review/review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint7/retrospective/retrospective/" class="md-nav__link">
+        Retrospective
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_16_3" type="checkbox" id="__nav_16_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_16_3">
+          Sprint 8
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint 8" data-md-level="2">
+        <label class="md-nav__title" for="__nav_16_3">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint 8
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint8/planning/planning/" class="md-nav__link">
+        Planning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint8/review/review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint8/retrospective/retrospective/" class="md-nav__link">
+        Retrospective
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    Histórico de Versão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-acessar-a-plataforma" class="md-nav__link">
+    1. Acessar a Plataforma
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Acessar a Plataforma">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-breve-descricao" class="md-nav__link">
+    1.1 Breve Descrição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-atores" class="md-nav__link">
+    1.2 Atores
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2 Atores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121-dono-do-projeto" class="md-nav__link">
+    1.2.1 Dono do projeto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122-voluntario" class="md-nav__link">
+    1.2.2. Voluntário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#123-tutor" class="md-nav__link">
+    1.2.3. Tutor
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-condicoes-previas" class="md-nav__link">
+    1.3. Condições Prévias
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-fluxo-basico-de-eventos" class="md-nav__link">
+    1.4. Fluxo Básico de Eventos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-fluxo-excecao" class="md-nav__link">
+    1.5. Fluxo Exceção
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-regras-de-negocio" class="md-nav__link">
+    1.6. Regras de Negócio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-pos-condicao" class="md-nav__link">
+    1.7. Pós Condição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-ponto-de-extensao" class="md-nav__link">
+    1.8 Ponto de Extensão
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-filtrar-informacoes-basicas-sobre-os-animais-em-referencia-a-adocao" class="md-nav__link">
+    2. Filtrar informações básicas sobre os animais, em referência a adoção
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Filtrar informações básicas sobre os animais, em referência a adoção">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-breve-descricao" class="md-nav__link">
+    2.1. Breve Descrição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-atores" class="md-nav__link">
+    2.2 Atores
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2 Atores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#221-dono-do-projeto" class="md-nav__link">
+    2.2.1 Dono do projeto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#222-voluntario" class="md-nav__link">
+    2.2.2. Voluntário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#223-tutor" class="md-nav__link">
+    2.2.3. Tutor
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-condicoes-previas" class="md-nav__link">
+    2.3. Condições Prévias
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-fluxo-basico-de-eventos" class="md-nav__link">
+    2.4. Fluxo Básico de Eventos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-fluxo-excecao" class="md-nav__link">
+    2.5. Fluxo Exceção
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-regras-de-negocio" class="md-nav__link">
+    2.6. Regras de Negócio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-pos-condicao" class="md-nav__link">
+    2.7. Pós condição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28-ponto-de-extensao" class="md-nav__link">
+    2.8. Ponto de Extensão
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-visualizar-animais-disponiveis-para-adocao" class="md-nav__link">
+    3. Visualizar Animais Disponíveis para Adoção.
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Visualizar Animais Disponíveis para Adoção.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-breve-descricao" class="md-nav__link">
+    3.1. Breve Descrição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-atores" class="md-nav__link">
+    3.2 Atores
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 Atores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#321-dono-do-projeto" class="md-nav__link">
+    3.2.1 Dono do projeto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#322-voluntario" class="md-nav__link">
+    3.2.2. Voluntário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#323-tutor" class="md-nav__link">
+    3.2.3. Tutor
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-condicoes-previas" class="md-nav__link">
+    3.3. Condições Prévias
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-fluxo-basico-de-eventos" class="md-nav__link">
+    3.4. Fluxo Básico de Eventos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-fluxo-excecao" class="md-nav__link">
+    3.5. Fluxo Exceção
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#36-regras-de-negocio" class="md-nav__link">
+    3.6. Regras de Negócio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#37-pos-condicao" class="md-nav__link">
+    3.7. Pós condição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#38-ponto-de-extensao" class="md-nav__link">
+    3.8. Ponto de Extensão
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-pesquisar-por-projetos" class="md-nav__link">
+    4. Pesquisar por Projetos
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Pesquisar por Projetos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-breve-descrcicao" class="md-nav__link">
+    4.1 Breve Descrcição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-atores" class="md-nav__link">
+    4.2 Atores
+  </a>
+  
+    <nav class="md-nav" aria-label="4.2 Atores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#421-dono-do-projeto" class="md-nav__link">
+    4.2.1. Dono do projeto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#422-voluntario" class="md-nav__link">
+    4.2.2. Voluntário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#423-tutor" class="md-nav__link">
+    4.2.3. Tutor
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-condicoes-previas" class="md-nav__link">
+    4.3. Condições Prévias
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-fluxo-basico-de-eventos" class="md-nav__link">
+    4.4. Fluxo Básico de Eventos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-fluxo-excecao" class="md-nav__link">
+    4.5. Fluxo Exceção
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#46-regras-de-negocio" class="md-nav__link">
+    4.6. Regras de Negócio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#47-pos-condicao" class="md-nav__link">
+    4.7. Pós condição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#48-ponto-de-extensao" class="md-nav__link">
+    4.8. Ponto de Extensão
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-pesquisar-por-documentos" class="md-nav__link">
+    5. Pesquisar por Documentos
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Pesquisar por Documentos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-breve-descrcicao" class="md-nav__link">
+    5.1 Breve Descrcição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-atores" class="md-nav__link">
+    5.2 Atores
+  </a>
+  
+    <nav class="md-nav" aria-label="5.2 Atores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#521-dono-do-projeto" class="md-nav__link">
+    5.2.1. Dono do projeto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#522-voluntario" class="md-nav__link">
+    5.2.2. Voluntário
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-condicoes-previas" class="md-nav__link">
+    5.3. Condições Prévias
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-fluxo-basico-de-eventos" class="md-nav__link">
+    5.4. Fluxo Básico de Eventos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55-fluxo-excecao" class="md-nav__link">
+    5.5. Fluxo Exceção
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#56-regras-de-negocio" class="md-nav__link">
+    5.6. Regras de Negócio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#57-pos-condicao" class="md-nav__link">
+    5.7. Pós condição
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#58-ponto-de-extensao" class="md-nav__link">
+    5.8. Ponto de Extensão
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="especificacao-de-caso-de-uso">Especificação de Caso de Uso</h1>
+<h2 id="historico-de-versao">Histórico de Versão</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Data</th>
+<th align="center">Versão</th>
+<th align="center">Descrição</th>
+<th align="center">Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">24/08/2022</td>
+<td align="center">0.1</td>
+<td align="center">Criação do documento</td>
+<td align="center">Pedro Helias</td>
+</tr>
+<tr>
+<td align="center">25/08/2022</td>
+<td align="center">0.2</td>
+<td align="center">Adicionando mais casos de uso</td>
+<td align="center">Gabriel Marcolino e Pedro Helias</td>
+</tr>
+</tbody>
+</table>
+<p>Neste documento serão apresentadas especificações singulares sobre os casos de uso levantados pelo time.</p>
+<h2 id="1-acessar-a-plataforma">1. Acessar a Plataforma</h2>
+<h3 id="11-breve-descricao">1.1 Breve Descrição</h3>
+<p>Este caso de uso engloba o fluxo de atividades relativas a logar na plataforma e realizar as diversas atividades internas relacionadas ao nível do usuário que acessou, sendo comum a todos os Atores. Há restrições mais a frente em outros fluxos relacionados ao nível de permissão do usuário, sendo atividades mais críticas e específicas, como Gerenciar um Projeto, destinadas ao Dono do projeto. </p>
+<h3 id="12-atores">1.2 Atores</h3>
+<h4 id="121-dono-do-projeto">1.2.1 Dono do projeto</h4>
+<p>A quem se destina boa parte das funcionalidades de gestão dentro do sistema. Possui acesso quase irrestrito as funcionalidades do sistema</p>
+<h4 id="122-voluntario">1.2.2. Voluntário</h4>
+<p>A quem se destina algumas funcionalidades específicas dentro do domínio de um projeto. </p>
+<h4 id="123-tutor">1.2.3. Tutor</h4>
+<p>A quem se destina as funcionalidades básicas que o sistema provê, limitando-se ao nível de permissão do Tutor. </p>
+<h3 id="13-condicoes-previas">1.3. Condições Prévias</h3>
+<p>O usuário cadastrou credenciais no sistema.</p>
+<h3 id="14-fluxo-basico-de-eventos">1.4. Fluxo Básico de Eventos</h3>
+<ul>
+<li>1.4.1 Este caso se inicia quando o usuário deseja acessar o site com sua conta.</li>
+<li>1.4.2. O usuário insere o login.</li>
+<li>1.4.3. Em seguida, insere a senha.</li>
+<li>1.4.4. O sistema vai confererir se, de fato, login e senha correspondem ao registrado no banco de dados. Caso positivo, vai liberar acesso ao sistema para o usuário. Caso contrário, retorna a tela de login e senha informando que não foi possível o acesso ao sistema. </li>
+</ul>
+<h3 id="15-fluxo-excecao">1.5. Fluxo Exceção</h3>
+<p>FE01 - O usuário tenta entrar no sistema com login e senha incorretos ou inexistentes. Neste caso, o sistema retorna ao ponto de inserção desses dados e informa que não foi possível acessar o sistema.</p>
+<h3 id="16-regras-de-negocio">1.6. Regras de Negócio</h3>
+<p>RN01 - É necessário utilizar login e senha existentes na base de dados, para correto acesso ao sistema.</p>
+<p>RN02 - É necessário cadastrar um usuário para conseguir login e senha desse respectivo usuário, caso ele não possua acesso ao sistema. </p>
+<h3 id="17-pos-condicao">1.7. Pós Condição</h3>
+<p>Não se aplica </p>
+<h3 id="18-ponto-de-extensao">1.8 Ponto de Extensão</h3>
+<p>Esse caso de uso origina 3 extensões de caso de uso: 
+- Filtrar informações básicas sobre os animais, em referência a adoção.
+- Pesquisar por projetos.
+- Gerenciar Informações pessoais de usuário.</p>
+<h2 id="2-filtrar-informacoes-basicas-sobre-os-animais-em-referencia-a-adocao">2. Filtrar informações básicas sobre os animais, em referência a adoção</h2>
+<h3 id="21-breve-descricao">2.1. Breve Descrição</h3>
+<p>Este caso de uso se trata to ato de filtrar informações a respeito dos animais alocados em projetos, diretamente pensada para quem vai realizar a adoção de um animal. Neste caso de uso, o usuário poderá filtrar entre animais disponíveis, animais já adotados, raça, porte, sexo, entre outros. Por fim, este caso de uso engloba um fluxo que se finaliza em adoção do animal. </p>
+<h3 id="22-atores">2.2 Atores</h3>
+<h4 id="221-dono-do-projeto">2.2.1 Dono do projeto</h4>
+<p>A quem se destina boa parte das funcionalidades de gestão dentro do sistema. Possui acesso quase irrestrito as funcionalidades do sistema</p>
+<h4 id="222-voluntario">2.2.2. Voluntário</h4>
+<p>A quem se destina algumas funcionalidades específicas dentro do domínio de um projeto. </p>
+<h4 id="223-tutor">2.2.3. Tutor</h4>
+<p>A quem se destina as funcionalidades básicas que o sistema provê, limitando-se ao nível de permissão do Tutor. </p>
+<h3 id="23-condicoes-previas">2.3. Condições Prévias</h3>
+<p>O usuário tenha realizado acesso na plataforma</p>
+<h3 id="24-fluxo-basico-de-eventos">2.4. Fluxo Básico de Eventos</h3>
+<ul>
+<li>2.4.1 Este caso se inicia quando o usuário acessa a plataforma</li>
+<li>2.4.2. O usuário insere o login.</li>
+<li>2.4.3. Em seguida, o usuário busca a página que possibilita a adoção de animais.</li>
+<li>2.4.4. O sistema vai exibir os animais alocados em projetos ou em um projeto específico.</li>
+<li>2.4.5. Neste ponto o usuário poderá selecionar os filtros presentes na plataforma.  </li>
+</ul>
+<h3 id="25-fluxo-excecao">2.5. Fluxo Exceção</h3>
+<p>FE01 - O usuário não obtém acesso a esse ponto do sistema caso naõ tenha passado pela autenticação de acesso a plataforma.</p>
+<p>FE02 - Caso o usuário não selecione filtros, o sistema não pode prosseguir na filtragem de dados.</p>
+<h3 id="26-regras-de-negocio">2.6. Regras de Negócio</h3>
+<p>RN01 - É necessário ao menos um campo de filtros selecionado para realizar a filtragem dos dados exibidos(sexo, temperamento, porte do animal, raça, idade, entre outros). </p>
+<h3 id="27-pos-condicao">2.7. Pós condição</h3>
+<h3 id="28-ponto-de-extensao">2.8. Ponto de Extensão</h3>
+<p>Este Caso de Usuário origina a extensão de dois próximos casos de uso: 
+- Visualizar animais disponíveis para adoção
+- Visualizar animais adotados</p>
+<h2 id="3-visualizar-animais-disponiveis-para-adocao">3. Visualizar Animais Disponíveis para Adoção.</h2>
+<h3 id="31-breve-descricao">3.1. Breve Descrição</h3>
+<p>Este Caso de Uso é originado a partir da seleção de filtragem escolhida pelo usuário. Neste caso há a exibição de animais disponíveis para adoção. Este caso de uso engloba o fluxo final que resulta em adoção do animal. </p>
+<h3 id="32-atores">3.2 Atores</h3>
+<h4 id="321-dono-do-projeto">3.2.1 Dono do projeto</h4>
+<p>A quem se destina boa parte das funcionalidades de gestão dentro do sistema. Possui acesso quase irrestrito as funcionalidades do sistema</p>
+<h4 id="322-voluntario">3.2.2. Voluntário</h4>
+<p>A quem se destina algumas funcionalidades específicas dentro do domínio de um projeto. </p>
+<h4 id="323-tutor">3.2.3. Tutor</h4>
+<p>A quem se destina as funcionalidades básicas que o sistema provê, limitando-se ao nível de permissão do Tutor. </p>
+<h3 id="33-condicoes-previas">3.3. Condições Prévias</h3>
+<p>O usuário cadastrou credenciais no sistema e procurou pelos animais cadastros em projetos. Por fim, filtrou pelos animais disponíveis para adoção.</p>
+<h3 id="34-fluxo-basico-de-eventos">3.4. Fluxo Básico de Eventos</h3>
+<ul>
+<li>3.4.1 Este caso se inicia quando o usuário acessa a plataforma</li>
+<li>3.4.2. O usuário insere o login.</li>
+<li>3.4.3. Em seguida, o usuário busca a página que possibilita a adoção de animais.</li>
+<li>3.4.4. O sistema vai exibir os animais alocados em projetos ou em um projeto específico.</li>
+<li>3.4.5. Neste ponto o usuário poderá selecionar os filtros presentes na plataforma.  </li>
+<li>3.4.6. Ao selecionar o filtro de animais disponíveis para adoção, o usuário vai encontrar todos animais com esse status. </li>
+</ul>
+<h3 id="35-fluxo-excecao">3.5. Fluxo Exceção</h3>
+<p>FE01 - O usuário não obtém acesso a esse ponto do sistema caso naõ tenha passado pela autenticação de acesso a plataforma.</p>
+<p>FE02 - Caso o usuário não selecione filtros, o sistema não pode prosseguir na filtragem de dados.</p>
+<h3 id="36-regras-de-negocio">3.6. Regras de Negócio</h3>
+<p>RN01 - É necessário ao menos um campo de filtros selecionado para realizar a filtragem dos dados exibidos. </p>
+<h3 id="37-pos-condicao">3.7. Pós condição</h3>
+<h3 id="38-ponto-de-extensao">3.8. Ponto de Extensão</h3>
+<p>Este Caso de Usuário finaliza as extensões deste fluxo e segue apenas em sequências diretas de casos de uso, para enfim finalizar a adoção do animal. </p>
+<h2 id="4-pesquisar-por-projetos">4. Pesquisar por Projetos</h2>
+<h3 id="41-breve-descrcicao">4.1 Breve Descrcição</h3>
+<p>Este caso de uso cita a busca de projetos, respeitando os seus tipos e filtros específico(sresgate, castração, adoção, tipos de animal, entre outros).</p>
+<h3 id="42-atores">4.2 Atores</h3>
+<h4 id="421-dono-do-projeto">4.2.1. Dono do projeto</h4>
+<p>A quem se destina boa parte das funcionalidades de gestão dentro do sistema. Possui acesso quase irrestrito as funcionalidades do sistema.</p>
+<h4 id="422-voluntario">4.2.2. Voluntário</h4>
+<p>A quem se destina algumas funcionalidades específicas dentro do domínio de um projeto. </p>
+<h4 id="423-tutor">4.2.3. Tutor</h4>
+<p>A quem se destina as funcionalidades básicas que o sistema provê, limitando-se ao nível de permissão do Tutor.</p>
+<h3 id="43-condicoes-previas">4.3. Condições Prévias</h3>
+<p>O usuário tenha realizado acesso na plataforma.</p>
+<h3 id="44-fluxo-basico-de-eventos">4.4. Fluxo Básico de Eventos</h3>
+<ul>
+<li>4.4.1 Este caso se inicia quando o usuário acessa a plataforma</li>
+<li>4.4.2. O usuário insere o login.</li>
+<li>4.4.3. Em seguida, o usuário busca a página que possibilita a pesquisa de projetos.</li>
+<li>4.4.4. O sistema vai exibir os projetos existentes na plataforma.</li>
+</ul>
+<h3 id="45-fluxo-excecao">4.5. Fluxo Exceção</h3>
+<p>FE01 - O usuário não obtém acesso a esse ponto do sistema caso não tenha passado pela autenticação de acesso a plataforma.</p>
+<h3 id="46-regras-de-negocio">4.6. Regras de Negócio</h3>
+<p>RN01 - É necessário ao menos um campo de filtro selecionado para realizar a pesquisa(resgate, castração, adoção, tipos de animal, entre outros).</p>
+<h3 id="47-pos-condicao">4.7. Pós condição</h3>
+<h3 id="48-ponto-de-extensao">4.8. Ponto de Extensão</h3>
+<p>Este Caso de Usuário se origina a partir da extensão acessar a plataforma.</p>
+<h2 id="5-pesquisar-por-documentos">5. Pesquisar por Documentos</h2>
+<h3 id="51-breve-descrcicao">5.1 Breve Descrcição</h3>
+<h3 id="52-atores">5.2 Atores</h3>
+<h4 id="521-dono-do-projeto">5.2.1. Dono do projeto</h4>
+<p>A quem se destina boa parte das funcionalidades de gestão dentro do sistema. Possui acesso quase irrestrito as funcionalidades do sistema.</p>
+<h4 id="522-voluntario">5.2.2. Voluntário</h4>
+<p>A quem se destina algumas funcionalidades específicas dentro do domínio de um projeto. </p>
+<h3 id="53-condicoes-previas">5.3. Condições Prévias</h3>
+<p>O usuário tenha realizado acesso na plataforma e entrado na página do projeto.</p>
+<h3 id="54-fluxo-basico-de-eventos">5.4. Fluxo Básico de Eventos</h3>
+<ul>
+<li>4.4.1. Este caso se inicia quando o usuário acessa a plataforma</li>
+<li>4.4.2. O usuário insere o login.</li>
+<li>4.4.3. Em seguida, o usuário busca a página do projeto.</li>
+<li>4.4.4. Realiza uma pesquisa de documento.</li>
+</ul>
+<h3 id="55-fluxo-excecao">5.5. Fluxo Exceção</h3>
+<p>FE01 - O usuário não obtém acesso a esse ponto do sistema caso não tenha passado pela autenticação de acesso a plataforma.</p>
+<p>FE02 - O usuário não obtem acesso a esse ponto do sistema caso o usuário não seja voluntário ou dono do projeto.</p>
+<h3 id="56-regras-de-negocio">5.6. Regras de Negócio</h3>
+<p>RN01 - Ao menos uma campo selecionado na busca(data, animal, usuário, entre outros).</p>
+<h3 id="57-pos-condicao">5.7. Pós condição</h3>
+<h3 id="58-ponto-de-extensao">5.8. Ponto de Extensão</h3>
+<p>O caso de uso divide a mesma inclusão que "Gerenciar Cadastro de Animal".</p>
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../diagramaCasosdeUso/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Diagrama de Casos de Uso" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Diagrama de Casos de Uso
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../sprints/sprint6/planning/planning/" class="md-footer__link md-footer__link--next" aria-label="Next: Planning" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Planning
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.0238f547.min.js"></script>
+      
+    
+  </body>
+</html>
