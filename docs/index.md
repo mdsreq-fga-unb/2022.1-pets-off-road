@@ -18,17 +18,17 @@
 
 ## 🤝 Colaboradores
 
-| Nome | Matrícula | Email | Matéria |
-|--------|------------|------------------------------------|------|
-| Jose Filipi Brito Souza |	202063346 |	202063346@aluno.unb.br | MDS |
-| Matheus Phillipo Silverio Silva |	150154348 |	matheusphillipo@gmail.com | MDS |
-| Renan Rodrigues Lacerda |	190048191 |	renanrodlacerda@gmail.com | MDS |
-| Shaine Aparecida Cardoso De Oliveira |	190134810 |	shaineoliveira77@hotmail.com | MDS |
-| Daniel Coimbra Dos Santos |	180113097 |	coimbrasantos.d@gmail.com | REQ |
-| Gabriel Marcolino Rodrigues |	190087501 |	gabrielmr356@hotmail.com | REQ |
-| Jefferson Franca Santos |	180102761 |	jefferson.frds@gmail.com | REQ |
-| Rhuan Marques Robias Dos Santos |	170021581 |	magicknight@hotmail.com.br | REQ |
-| Pedro Helias Carlos |	140158278 |	pedrohelias95@hotmail.com | REQ |
+| Nome                                 | Matrícula | Email                        | Matéria |
+| ------------------------------------ | --------- | ---------------------------- | ------- |
+| Jose Filipi Brito Souza              | 202063346 | 202063346@aluno.unb.br       | MDS     |
+| Matheus Phillipo Silverio Silva      | 150154348 | matheusphillipo@gmail.com    | MDS     |
+| Renan Rodrigues Lacerda              | 190048191 | renanrodlacerda@gmail.com    | MDS     |
+| Shaine Aparecida Cardoso De Oliveira | 190134810 | shaineoliveira77@hotmail.com | MDS     |
+| Daniel Coimbra Dos Santos            | 180113097 | coimbrasantos.d@gmail.com    | REQ     |
+| Gabriel Marcolino Rodrigues          | 190087501 | gabrielmr356@hotmail.com     | REQ     |
+| Jefferson Franca Santos              | 180102761 | jefferson.frds@gmail.com     | REQ     |
+| Rhuan Marques Robias Dos Santos      | 170021581 | magicknight@hotmail.com.br   | REQ     |
+| Pedro Helias Carlos                  | 140158278 | pedrohelias95@hotmail.com    | REQ     |
 
 <table>
   <tr>
