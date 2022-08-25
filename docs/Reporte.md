@@ -1,3 +1,15 @@
+## Histórico de versão
+
+| Data       | Versão | Modificação                                                                                                  | Autor                                                                                                                                                                                   |
+| :--------- | :----- | :----------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 15/08/2022 | 0.1    | Abertura do documento de reporte                                                               | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
+
+
+
+
+
+
+
 # Reportes
 
 ## Reporte sobre soft skills
