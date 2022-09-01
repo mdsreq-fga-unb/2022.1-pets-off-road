@@ -1,15 +1,29 @@
 import { Link } from 'react-router-dom'
 import { ArrowCircleLeft } from 'phosphor-react'
 import styles from './AnimalForm.module.css'
+import Logo from '../assets/logo.svg'
+
+import {Header} from '../components/Header'
 
 export function AnimalForm(){
 
 
     return(
-        <div className={styles.screenForm}>
-            <Link to='/profile'><ArrowCircleLeft className={styles.arrow} /></Link>
+        
 
-            <form className={styles.formCadastro}>
+     <div className={styles.screen}>
+         <div className={styles.welcomeBox}>
+         <Link to='/profile'><ArrowCircleLeft className={styles.arrow} /></Link>
+            <img className={styles.logo} src={Logo} alt="Logo da Petshub" />
+         </div> 
+         <div className={styles.registrationBox}>
+            <div className={styles.welcomeMessage}> 
+                    <h1>Bem-vindo, Tutor</h1>
+                    <p>Cadastra-se seu pet na nossa plataforma</p>
+             </div> 
+            <div className={styles.screenForm}>
+                <form className={styles.formCadastro}>
+
                 <div>
                     <label>CPF do Tutor</label>
                     <input type="text" name="cpf-tutor" placeholder="XXX.XXX.XXX-XX"/>
@@ -67,7 +81,9 @@ export function AnimalForm(){
                 </div>
 
                 <button type="submit">Cadastrar</button>
-            </form>  
+                </form>  
+                </div>
+            </div>
         </div>
     )
 }
