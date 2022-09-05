@@ -5,7 +5,7 @@ export interface User {
   telefone: number;
   uf: string;
   cidade: string;
-  endereco: string
+  endereco: string;
   senha: string;
   nivel_acesso: boolean;
   criado_em: string;

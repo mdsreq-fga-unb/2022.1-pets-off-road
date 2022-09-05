@@ -5,7 +5,7 @@ import { AnimalDatabase } from './repository/AnimalDatabase';
 
 @Injectable()
 export class AnimalService {
-  constructor(private AnimalRepository: AnimalDatabase){}
+  constructor(private AnimalRepository: AnimalDatabase) {}
   create(createAnimalDto: CreateAnimalDto) {
     return this.AnimalRepository.createAnimal(createAnimalDto);
   }

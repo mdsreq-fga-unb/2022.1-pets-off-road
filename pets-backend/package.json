@@ -27,6 +27,7 @@
     "@nestjs/mapped-types": "*",
     "@nestjs/platform-express": "^9.0.0",
     "class-validator": "^0.13.2",
+    "cpf-cnpj-validator": "^1.0.3",
     "knex": "^2.2.0",
     "mysql2": "^2.3.3",
     "reflect-metadata": "^0.1.13",

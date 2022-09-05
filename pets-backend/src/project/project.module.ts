@@ -5,6 +5,6 @@ import { ProjectDatabase } from './repository/ProjectDatabase';
 
 @Module({
   controllers: [ProjectController],
-  providers: [ProjectService, ProjectDatabase]
+  providers: [ProjectService, ProjectDatabase],
 })
 export class ProjectModule {}

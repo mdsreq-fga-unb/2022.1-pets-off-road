@@ -7,5 +7,5 @@ export default knex({
     database: 'PETS_OF_ROAD_DB',
     user: 'root',
     password: '123456789',
-  }
+  },
 });

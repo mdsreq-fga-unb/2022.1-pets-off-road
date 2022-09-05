@@ -5,7 +5,7 @@ import { ProjectDatabase } from './repository/ProjectDatabase';
 
 @Injectable()
 export class ProjectService {
-  constructor(private ProjectRepository: ProjectDatabase){}
+  constructor(private ProjectRepository: ProjectDatabase) {}
   async create(createProjectDto: CreateProjectDto) {
     return await this.ProjectRepository.createProject(createProjectDto);
   }
@@ -19,7 +19,7 @@ export class ProjectService {
   }
 
   async update(id: number, updateProjectDto: UpdateProjectDto) {
-    return await this.ProjectRepository.update(updateProjectDto, id); 
+    return await this.ProjectRepository.update(updateProjectDto, id);
   }
 
   remove(id: number) {

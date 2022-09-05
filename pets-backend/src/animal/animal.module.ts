@@ -5,6 +5,6 @@ import { AnimalDatabase } from './repository/AnimalDatabase';
 
 @Module({
   controllers: [AnimalController],
-  providers: [AnimalService, AnimalDatabase]
+  providers: [AnimalService, AnimalDatabase],
 })
 export class AnimalModule {}
