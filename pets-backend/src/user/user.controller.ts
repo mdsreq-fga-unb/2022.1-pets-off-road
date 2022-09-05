@@ -24,6 +24,6 @@ export class UserController {
 
   @Get(':cpf')
   findOne(@Param('cpf') id: string) {
-    return this.userService.findOne(+id);
+    return this.userService.findOne(id);
   }
 }

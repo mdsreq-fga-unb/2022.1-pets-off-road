@@ -3,4 +3,4 @@ up:
 down: 
 	docker-compose down --volumes
 migrate:
-	knex migrate:up
+	knex migrate:latest

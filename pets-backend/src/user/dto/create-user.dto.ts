@@ -1,8 +1,8 @@
-import { IsDefined} from "class-validator";
-
+import { IsDefined, IsEmail } from 'class-validator';
+import { eUF } from '../types/eUF';
 export class CreateUserDto {
   @IsDefined()
-  cpf: number;
+  cpf: string;
 
   @IsDefined()
   nome: string;
@@ -17,13 +17,13 @@ export class CreateUserDto {
   senha: string;
 
   @IsDefined()
-  uf: string;
+  uf: eUF;
 
   @IsDefined()
-  cidade: string
+  cidade: string;
 
   @IsDefined()
-  endereco: string
-  
+  endereco: string;
+
   nivelAcesso?: boolean;
 }
