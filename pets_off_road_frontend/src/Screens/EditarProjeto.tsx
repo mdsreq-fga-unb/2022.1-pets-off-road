@@ -39,6 +39,9 @@ export function EditarProjeto(){
                     <label>Cidade</label>
                     <input type="text" placeholder="Ex: Brasília"/>
 
+                    <label>CPF/CNPJ</label>
+                    <input type="text" placeholder="XXX.XXX.XXX-XX"/>
+
                     <label>Telefone</label>
                     <input type="telefone" placeholder="(DDD) XXXXX-XXXX"/>
 
