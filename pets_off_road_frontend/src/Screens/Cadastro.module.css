@@ -67,6 +67,7 @@
     justify-content: center;
     gap: 8px;
     width: 20rem;
+    max-height: 10rem;
     border: 1px solid #939393;
     border-radius: 8px;
     cursor: pointer;
@@ -80,6 +81,17 @@
 
 .chooseProfile button:hover{
     background: var(--red-primary);
+}
+
+.profileVolunteer{
+    display: flex;
+    flex-direction: column;
+}
+
+.profileVolunteer span{
+    color: black;
+    width: 20rem;
+    font-size: 12px;
 }
 
 .formCadastro{

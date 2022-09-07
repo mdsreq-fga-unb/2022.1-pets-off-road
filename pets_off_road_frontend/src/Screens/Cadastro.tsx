@@ -32,7 +32,12 @@ export function Cadastro(){
                 <div className={styles.chooseProfile} >
                     <button className={styles.profileProject} onClick={() => setProfileType('projeto')}><HouseLine size={28}/> Sou Projeto</button>
 
-                    <button className={styles.profileVolunteer} onClick={() => setProfileType('voluntario')}><Users size={28}/> Voluntário</button>
+                    <button className={styles.profileVolunteer} onClick={() => setProfileType('voluntario')}>
+                        <div>
+                            <Users size={28}/> Voluntário 
+                        </div>
+                        <span>Caso não possua cadastro na plataforma</span>
+                    </button>
                 </div>
                 
                 ||
