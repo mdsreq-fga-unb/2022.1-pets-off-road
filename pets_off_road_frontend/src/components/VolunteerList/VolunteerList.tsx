@@ -47,7 +47,7 @@ export function VolunteerList() {
       
         return (
         <main>
-                <h1>Meus Pets</h1>
+                <h1>Meus Voluntários</h1>
     
                 <div className={styles.div}>
                     <header className={styles.pages}>
