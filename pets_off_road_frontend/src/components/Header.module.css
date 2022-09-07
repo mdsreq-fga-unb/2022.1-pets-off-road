@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    width: 100vw;
+    height: 4rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+
+    background: #ffffff;
+    box-shadow: 0 .125rem 2rem rgba(169, 169, 169, 0.2);
+}
+
+.header h1{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 4rem;
+    letter-spacing: -.03em;
+
+    color: var(--red-primary);
+}
+
+.buttonExit {
+    display: flex;
+    gap: .625rem;
+    align-items: center;
+    padding: .625rem;
+    border: none;
+    border-radius: 8px;
+    background: var(--red-primary);
+    
+    color: #ffffff;
+    font-weight: 600;
+    font-size: .875rem;
+    line-height: 120%;
+    letter-spacing: -.03em;
+}

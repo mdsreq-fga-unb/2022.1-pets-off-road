@@ -1,0 +1,140 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 4rem);
+    background-color: #F0F0F0;
+}
+
+.sideBar{
+    margin-top: 1%;
+    border-radius: 0px 30px 0px 0px;
+    display: flex;
+    padding: 2%;
+    width: 25%;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    height: 100%;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.iconContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.className{
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profilePicture{
+    display: flex;
+    width: 80%;
+    align-self: flex-start;
+    border-radius: 100%;
+}
+
+.editButton{
+    background-color: transparent;
+    border: none;
+}
+
+.containerInfo{
+    display: flex;
+    margin-top: 20%;
+}
+
+.containerButons{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.activeButton{
+    background-color: #F54A48;
+    border-radius: 5px;
+    width: 14rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.activeButtonText{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.containerHeadermain{
+    width: 78vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.iconHeader{
+    width: 55px;
+    margin-right: 2%;
+    display: flex;
+    align-self: flex-end;
+}
+
+.publishContainer{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    border-radius: 30px 0px 0px 0px;
+    padding: 1%;
+    background-color: #FFFFFF;
+}
+
+.publishContent{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1%;
+}
+
+.headerPublish{
+    display: flex;
+    align-items: center;
+}
+
+.headerTitle{
+    margin-right: 2%;
+    font-size: 18px;
+}
+
+.inputPublish{
+    color: #CEC5C5;
+    font-size: 16px;
+    resize: none;
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+    height: 100%;
+    border: none;
+}
+
+.publishButton{
+    margin-top: auto;
+    background-color: #F54A48;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border: none;
+    justify-content: center;
+}
