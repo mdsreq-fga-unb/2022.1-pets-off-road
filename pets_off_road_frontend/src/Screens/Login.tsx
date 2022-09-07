@@ -12,7 +12,7 @@ import styles from './Login.module.css'
 export function Login(){
 
     return(
-        <div>
+        <div className={styles.screen}>
             <div className={styles.containerLogin}>
                 <div className={styles.containerForm}>
                     <header className={styles.header}>

@@ -1,6 +1,5 @@
 
 import { Route, Routes } from "react-router-dom";
-import { AnimalForm } from "../components/AnimalForm/AnimalForm";
 import { Cadastro } from "../Screens/Cadastro";
 import { HomeScreen } from "../Screens/HomeScreen";
 import { Login } from "../Screens/Login";
@@ -16,7 +15,6 @@ export function Rts() {
             <Route element={<Cadastro/> }  path="/cadastro" />
             <Route element={<HomeScreen />} path="/home" />
             <Route element={<ProfileVonlunteer />} path="/profile" />
-            <Route element={<AnimalForm />} path="/animal-form" />
        </Routes>
    )
 }
