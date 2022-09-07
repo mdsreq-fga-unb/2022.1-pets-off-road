@@ -58,8 +58,17 @@ td {
 }
 
 td:first-child{
-    width: 25%;
+    width: 20%;
     padding-left: 1.5rem;
+}
+
+td:nth-child(2){
+    width: 20%;
+}
+
+
+td:nth-child(3){
+    width: 20%;
 }
 
 td:last-child {
