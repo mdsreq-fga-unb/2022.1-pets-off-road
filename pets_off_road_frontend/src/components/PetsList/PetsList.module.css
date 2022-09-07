@@ -1,0 +1,67 @@
+main{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+main h1{
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+.div{
+    flex: 1;
+    overflow: auto;
+    margin-top: 2rem;
+}
+
+.pages{
+    background-color: white;
+}
+
+.div table{
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
+.div table th{
+    background-color: var(--bg-color);
+    padding: 1rem;
+    text-align: left;
+    color: var(--text-color);
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.div table th:first-child{
+    border-top-left-radius: 8px;
+    padding-left: 1.5rem;
+}
+
+.div table th:last-child{
+    border-top-right-radius: 8px;
+    padding-right: 1.5rem;
+}
+
+td {
+    background-color: white;
+    border-top: 2px solid var(--subtext-color);
+    padding: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+td:first-child{
+    width: 25%;
+    padding-left: 1.5rem;
+}
+
+td:last-child {
+    padding-right: 1.5rem;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
