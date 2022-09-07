@@ -25,21 +25,31 @@ export function ProfileVonlunteer(){
             <Header />
 
             <main className={styles.main}>
-                <div className={styles.sideBar}>
-                    <div className={styles.iconContainer}>
-                        <button className={styles.editButton}>
-                            <GearSix size={32} />
-                        </button>
-                    </div>
-                    <div className={styles.className}>
-                        <img className={styles.profilePicture} src={PetsLogo}/>
-                        <div className={styles.containerInfo}>
-                            <div>
-                                <span>Nome</span>
+                <div>
+                    <aside className={styles.sideBar}>
+                        <div className={styles.iconContainer}>
+                            <button className={styles.editButton}>
+                                <GearSix size={32} />
+                            </button>
+                        </div>
+                        <div className={styles.className}>
+                            <img className={styles.profilePicture} src={PetsLogo}/>
+                    
+                            <div className={styles.containerInfo}>
+                    
+                                <span className={styles.info}>Nome</span>
+                    
+                                <span className={styles.info}>Quantidade de Membros</span>
+                    
+                                <span className={styles.info}>Data de Início</span>
+                    
+                                <span className={styles.info}>Email</span>
+                    
                             </div>
                         </div>
-                    </div>
+                    </aside>
                 </div>
+                
                 <div className={styles.mainContainer}>
                     <div className={styles.containerHeadermain}>
                         <div className={styles.containerButtons}>

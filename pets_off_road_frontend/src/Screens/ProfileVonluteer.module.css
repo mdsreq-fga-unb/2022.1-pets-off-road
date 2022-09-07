@@ -1,19 +1,24 @@
 .main{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 20% 80%;
     height: 100vh;
     background-color: #F0F0F0;
 }
+
+
 
 .sideBar{
     margin-top: 1%;
     border-radius: 0px 30px 0px 0px;
     display: flex;
-    padding: 2%;
-    width: 25%;
+    padding: 10px;
+    width: 100%;
     background-color: #FFFFFF;
     flex-direction: column;
-    height: 100%;
+    height: fit-content;
+
+    position: sticky;
+    top: 15px;
 }
 
 .mainContainer{
@@ -45,11 +50,22 @@
 .editButton{
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
 .containerInfo{
     display: flex;
-    margin-top: 20%;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    width: 12rem;
+    margin-top: 2rem;
+}
+
+.info{
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 8px;
 }
 
 .containerButtons{
