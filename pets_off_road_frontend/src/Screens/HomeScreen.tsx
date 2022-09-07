@@ -5,7 +5,7 @@ import ProfileLogo from '../assets/profile-logo.svg'
 import Dogs from '../assets/doguinhos3.svg'
 import Hands from '../assets/hands.svg'
 
-import {Header} from '../components/Header'
+import {Header} from '../components/Header/Header'
 
 interface Props{
     typeUser?: string;

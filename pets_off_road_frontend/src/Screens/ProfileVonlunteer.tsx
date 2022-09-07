@@ -1,24 +1,24 @@
 //Hooks e funcionalidades
 import { useState } from 'react';
-import { Header } from '../components/Header';
+import { Header } from '../components/Header/Header';
 import {Link} from 'react-router-dom'
 
 //Estilos
 import styles from './ProfileVonluteer.module.css'
 
 //Imagens e Icones
-import Logo from '../assets/logo.svg'
+
 import PetsLogo from '../assets/PetsLogo.png'
 import DogIcon from '../assets/dogg.png'
 import { Plus, GearSix} from 'phosphor-react'
+import { Feed } from '../components/Feed/Feed';
+import { PetsList } from './../components/PetsList/PetsList';
+import { VolunteerList } from './../components/VolunteerList/VolunteerList';
+import { AnimalForm } from './../components/AnimalForm/AnimalForm';
 
-interface Props{
-    typeUser?: string;
-    userName?: string;
-}
 
 export function ProfileVonlunteer(){
-    const [profileType, setProfileType] = useState<string | null>(null);
+    const [component, setComponent] = useState<string>("feed");
 
     return(
         <>
@@ -42,35 +42,36 @@ export function ProfileVonlunteer(){
                 </div>
                 <div className={styles.mainContainer}>
                     <div className={styles.containerHeadermain}>
-                        <div className={styles.containerButons}>
-                            <button className={styles.activeButton}>
+                        <div className={styles.containerButtons}>
+                            
+                            <button className={styles.activeButton} onClick={() => setComponent("pets-list")}>
                                 <span className={styles.activeButtonText}>Meus Pets</span>
                             </button>
-                            <button className={styles.activeButton}>
+                            
+                            <button className={styles.activeButton} onClick={() => setComponent("volunteer-list")}>
                                 <span className={styles.activeButtonText}>Voluntários</span>
                             </button>
-                            <button className={styles.activeButton}>
+                            
+                            <button className={styles.activeButton} onClick={() => setComponent("feed")}>
                                 <span className={styles.activeButtonText}>Feed</span>
                             </button>
-                            <button className={styles.activeButton}>
-                                <Link to='/animal-form'><span className={styles.activeButtonText}>Adicionar Animal</span></Link>
+                            
+                            <button className={styles.activeButton} onClick={() => setComponent("animal-form")}>
+                                <span className={styles.activeButtonText}>Adicionar Animal</span>
                             </button>
+                            
+                            <div>
+                                <img className={styles.iconHeader} src={DogIcon} />
+                            </div>
                         </div>
-                        <img className={styles.iconHeader} src={DogIcon} />
                     </div>
                     <div className={styles.publishContainer}>
-                        <div className={styles.publishContent}>
-                            <div className={styles.headerPublish}>
-                                <span className={styles.headerTitle}>Faça sua publicação</span>
-                                <Plus size={20} />
-                            </div>
-                            <textarea className={styles.inputPublish}>
-                                Escreva aqui...
-                            </textarea>
-                        </div>
-                        <button className={styles.publishButton}>
-                            <span className={styles.activeButtonText}>Publicar</span>
-                        </button>
+                        {
+                            component === 'feed' && <Feed /> ||
+                            component === 'pets-list' && <PetsList /> ||
+                            component === 'volunteer-list' && <VolunteerList /> ||
+                            component === 'animal-form' && <AnimalForm /> 
+                        }
                     </div>
                 </div>
             </main>
