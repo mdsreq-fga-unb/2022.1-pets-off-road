@@ -1,3 +1,5 @@
+import { AnimalController } from "../animal.controller";
+
 export interface Animal {
   matricula: number;
   cpf_dono?: number;
