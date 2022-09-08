@@ -26,7 +26,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :-------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** acessar a plataforma usando a conta criada **para** começar a usar o site |
 |                 **Pontos** | -                                                                                                               |
-| **Critérios de aceitação** | - Campos obrigatórios precisam estar preenchidos para envio de login                                            |
+| **Critérios de aceitação** | - Campos obrigatórios precisam estar preenchidos para envio de login (cpf, nome, email, telefone, UF, Endereço, senha, nível de acesso)                                       |
 |                            | - Validar autenticação de usuário | 
 |                            | - Autenticar e redirecionar o usuário  | 
 
@@ -38,7 +38,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :--------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** voluntário **quero** acessar a plataforma usando a conta criada **para** começar a usar o site |
 |                 **Pontos** | -                                                                                                          |
-| **Critérios de aceitação** | - Campos obrigatórios precisam estar preenchidos para envio de login                                            |
+| **Critérios de aceitação** | - Campos obrigatórios precisam estar preenchidos para envio de login (cpf, nome, email, telefone, UF, Endereço, senha, nível de acesso)                                                   |
 |                            | - Validar autenticação de usuário | 
 |                            | - Autenticar e redirecionar o usuário  |                                                                                                       |
 
@@ -49,7 +49,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :---------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** acessar a plataforma usando a conta criada **para** começar a usar o site |
 |                 **Pontos** | -                                                                                                     |
-| **Critérios de aceitação** | - Campos obrigatórios precisam estar preenchidos para envio de login                                            |
+| **Critérios de aceitação** | - Campos obrigatórios precisam estar preenchidos para envio de login  (cpf, nome, email, telefone, UF, Endereço, senha, nível de acesso)                                                  |
 |                            | - Validar autenticação de usuário | 
 |                            | - Autenticar e redirecionar o usuário  |                                                                                                     |
 
@@ -61,7 +61,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :------------------------------------------------------------------------------------------------------ |
 |              **Descrição** | **Eu como** dono do projeto **quero** editar meus dados pessoais **para** atualizar meus dados recentes |
 |                 **Pontos** | -                                                                                                       |
-| **Critérios de aceitação** | -                                                                                                       |
+| **Critérios de aceitação** | - Campos obrigatórios precisam estar preenchidos para alteração  de dados (cpf, nome, email, telefone, UF, Endereço, senha, nível de acesso)                                                                                                         |
 
 #### US05
 
@@ -69,7 +69,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** voluntário **quero** editar meus dados pessoais **para** atualizar meus dados recentes |
 |                 **Pontos** | -                                                                                                  |
-| **Critérios de aceitação** | -                                                                                                  |
+| **Critérios de aceitação** | - Campos obrigatórios precisam estar preenchidos para alteração  de dados (cpf, nome, email, telefone, UF, Endereço, senha, nível de acesso)                                                                                                           |
 
 #### US06
 
@@ -77,7 +77,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :-------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** editar meus dados pessoais **para** atualizar meus dados recentes |
 |                 **Pontos** | -                                                                                             |
-| **Critérios de aceitação** | -                                                                                             |
+| **Critérios de aceitação** | - Campos obrigatórios precisam estar preenchidos para alteração  de dados (cpf, nome, email, telefone, UF, Endereço, senha, nível de acesso)                                                                                                      |
 
 #### US07
 
@@ -93,7 +93,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :--------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** editar as informações do projeto **para** manter as infomaçẽos ataulizadas |
 |                 **Pontos** | -                                                                                                                |
-| **Critérios de aceitação** | -                                                                                                                |
+| **Critérios de aceitação** | - Campos obrigatórios devem estar preenchidos(CPF, nome, email, telefone, uf, cidade, senha, numero_membros)                                                                                                              |
 
 #### US09
 
@@ -101,7 +101,8 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** realizar o cadastro de um projeto para ter mais controle de gerenciamento e recursos |
 |                 **Pontos** | -                                                                                                                          |
-| **Critérios de aceitação** | - Só será realizado o cadastro caso o usuário possua 18 anos ou mais.                                                      |
+| **Critérios de aceitação** | - Só será realizado o cadastro caso o usuário possua 18 anos ou mais.                                     
+- Campos obrigatórios devem estar preenchidos(nome, email, telefone, uf, cidade, senha, numero_membros)                              |
 
 #### US10
 
@@ -141,7 +142,9 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** realizar o cadastro do animal **para** facilitar a busca dos usuários para adoções |
 |                 **Pontos** | 0                                                                                                                        |
-| **Critérios de aceitação** | - Exibir uma mensagem após a finalização do cadastro                                                                     |
+| **Critérios de aceitação** | - Exibir uma mensagem após a finalização do cadastro  |
+|**Critérios de aceitação** | - Os campos obrigatórios devem estar preenchidos (matricula, project_id, nome, especie, raca, idade, condicao_saude, castrado )
+                                                                   |
 
 #### US14
 
@@ -149,7 +152,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** gerar histórico do animal **para** facilitar processos documentais de adoção |
 |                 **Pontos** |                                                                                                                    |
-| **Critérios de aceitação** |                                                                                                                    |
+| **Critérios de aceitação** |           -  Campos como "Quando resgatou" e se está "em tratamento" devem estar preenchidos e são obrigatórios                                                                                                        |
 
 #### US15
 
