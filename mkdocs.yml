@@ -44,10 +44,22 @@ nav:
           - Planning: sprints/sprint8/planning/planning.md
           - Review: sprints/sprint8/review/review.md
           - Retrospective: sprints/sprint8/retrospective/retrospective.md
-      # - Sprint 9:
-      # - Sprint 10:
-      # - Sprint 11:
-      # - Sprint 12:
+      - Sprint 9:
+          - Planning: sprints/sprint9/planning/planning.md 
+          - Review:  sprint/sprint9/review/review.md
+          - Retrospective: sprints/sprint9/retrospective/retrospective.md
+      - Sprint 10:
+          - Planning: sprints/sprint10/planning/planning.md
+          - Review: sprints/sprint10/review/review.md
+          - Retrospetive: sprints/sprint10/retrospective/retrospective.md
+      - Sprint 11:
+          - Planning: sprints/sprint11/planning/planning.md
+          - Review: sprints/sprint11/review/review.md 
+          - Retrospective: sprints/sprint11/retrospective/retrospective.md
+      - Sprint 12:
+          - Planning: sprints/sprint12/planning/planning.md
+         # - Review: 
+         # - Retrospective: 
       # - Sprint 13:
 
 
