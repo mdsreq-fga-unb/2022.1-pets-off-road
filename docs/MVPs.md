@@ -4,6 +4,7 @@
 | :--------: | :----: | :--------------------------------------: | :-----------------------------: |
 | 09/08/2022 |  0.1   |           Criação do documento           | Pedro Helias, Gabriel Marcolino |
 | 16/08/2022 |  0.2   | Adicionando histórias de usuário do MVP1 |        Gabriel Marcolino        |
+| 08/09/2022 |  0.3   | Adicionando histórias de usuário do MVP2 |        Gabriel Marcolino        |
 
 ## **MVP 1**
 
@@ -64,4 +65,44 @@ O MVP 1 será composto pelas seguintes funcionalidades.
 O MVP 2 será composto pelas seguintes funcionalidades.
 
 ![MVP](imagens/MVP2.png)
+
+### US18
+
+|          US18 | Realizar a edição de informações do animal                                                                                                        |
+| ------------: | :------------------------------------------------------------------------------------------------------------------------------------------------ |
+|     **Épico** | Interatividade com o sistema                                                                                                                      |
+|   **Feature** | Gerenciamento de cadastro de animais                                                                                                              |
+| **Descrição** | **Eu como** dono do projeto **quero** realizar edição de informações do animal **para** ter maior controle sobre os animais vinculados ao projeto |
+
+### US07
+
+|          US07 | Excluir projeto                                                                                  |
+| ------------: | :----------------------------------------------------------------------------------------------- |
+|     **Épico** | Sessão do Usuário                                                                                |
+|   **Feature** | Gerenciamento de conta                                                                           |
+| **Descrição** | **Eu como** dono do projeto **quero** excluir projeto **para** adequar ao estado atualdo projeto |
+
+### US22
+
+|          US22 | Cadastrar dados para candidatura a adoção |
+| ------------: | :---------------------------------------- |
+|     **Épico** | Interatividade com o sistema              |
+|   **Feature** | Interação entre usuário                   |
+| **Descrição** | **Eu como**  **quero** **para**           |
+
+### US14
+
+|          US14 | Gerar histórico do animal                                                                                          |
+| ------------: | :----------------------------------------------------------------------------------------------------------------- |
+|     **Épico** | Interatividade com o sistema                                                                                       |
+|   **Feature** | Gerenciamento de cadastro de animais                                                                               |
+| **Descrição** | **Eu como** dono do projeto **quero** gerar histórico do animal **para** facilitar processos documentais de adoção |
+
+### US06
+
+|          US06 | Editar dados pessoais                                                                         |
+| ------------: | :-------------------------------------------------------------------------------------------- |
+|     **Épico** | Acesso/Login a Plataforma                                                                     |
+|   **Feature** | Gerenciamento de conta                                                                        |
+| **Descrição** | **Eu como** tutor **quero** editar meus dados pessoais **para** atualizar meus dados recentes |
 
