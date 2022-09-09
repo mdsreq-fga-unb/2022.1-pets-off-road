@@ -17,8 +17,8 @@ export class VaccineController {
     return this.vaccineService.findAll();
   }
 
-  @Get()
-  findById(id: number) {
+  @Get('id')
+  findById(@Param('id') id: number) {
     return this.vaccineService.findOne(id);
   }
 

@@ -3,8 +3,9 @@ import { UserModule } from './user/user.module';
 import { ProjectModule } from './project/project.module';
 import { AnimalModule } from './animal/animal.module';
 import { VaccineModule } from './vaccine/vaccine.module';
+import { AnimalVaccineModule } from './animal_vaccine/animal_vaccine.module';
 
 @Module({
-  imports: [UserModule, ProjectModule, AnimalModule, VaccineModule],
+  imports: [UserModule, ProjectModule, AnimalModule, VaccineModule, AnimalVaccineModule],
 })
 export class AppModule {}
