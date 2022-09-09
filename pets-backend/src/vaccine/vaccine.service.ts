@@ -1,26 +1,24 @@
 import { Injectable } from '@nestjs/common';
 import { CreateVaccineDto } from './dto/create-vaccine.dto';
-import { UpdateVaccineDto } from './dto/update-vaccine.dto';
+import { Vaccine } from './entities/vaccine.entity';
+import { VaccineDatabase } from './repository/VaccineRepository';
 
 @Injectable()
 export class VaccineService {
-  create(createVaccineDto: CreateVaccineDto) {
-    return 'This action adds a new vaccine';
+  constructor(private vaccineRepo: VaccineDatabase ){}
+  public async create(createVaccineDto: CreateVaccineDto): Promise <Vaccine> {
+    return await this.vaccineRepo.CreateVaccine(createVaccineDto); 
   }
 
   findAll() {
-    return `This action returns all vaccine`;
+    return this.vaccineRepo.GetVaccines();
   }
 
   findOne(id: number) {
-    return `This action returns a #${id} vaccine`;
-  }
-
-  update(id: number, updateVaccineDto: UpdateVaccineDto) {
-    return `This action updates a #${id} vaccine`;
+    return this.vaccineRepo.GetVaccinesById(id);
   }
 
   remove(id: number) {
-    return `This action removes a #${id} vaccine`;
+    return this.vaccineRepo.deleteVaccine(id);
   }
 }

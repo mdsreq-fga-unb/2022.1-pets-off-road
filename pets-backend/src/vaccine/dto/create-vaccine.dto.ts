@@ -1,1 +1,3 @@
-export class CreateVaccineDto {}
+export class CreateVaccineDto {
+    nome_vacina: string;
+}
