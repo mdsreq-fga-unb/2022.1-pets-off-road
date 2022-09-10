@@ -45,7 +45,7 @@ nav:
                       - Retrospective: sprints/sprint8/retrospective/retrospective.md
               - Sprint 9:
                       - Planning: sprints/sprint9/planning/planning.md
-                      - Review: sprint/sprint9/review/review.md
+                      - Review: sprints/sprint9/review/review.md
                       - Retrospective: sprints/sprint9/retrospective/retrospective.md
               - Sprint 10:
                       - Planning: sprints/sprint10/planning/planning.md
@@ -57,8 +57,8 @@ nav:
                       - Retrospective: sprints/sprint11/retrospective/retrospective.md
               - Sprint 12:
                       - Planning: sprints/sprint12/planning/planning.md
-                      # - Review:
-                      # - Retrospective:
+                      - Review: sprints/sprint12/review/review.md
+                      - Retrospective: sprints/sprint12/retrospective/retrospective.md
               # - Sprint 13:
 
 theme:
