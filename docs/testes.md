@@ -1,13 +1,16 @@
-| Data | Versão | Descrição | Autor |
-|--------|-----------|---------------|---------|
-| 25/08/2022 | 0.1 | Criação do documento de testes | Shaíne, José|
+# Estratégia de Testes
+
+| Data       | Versão | Descrição                      | Autor             |
+| ---------- | ------ | ------------------------------ | ----------------- |
+| 25/08/2022 | 0.1    | Criação do documento de testes | Shaíne, José      |
+| 10/09/2022 | 0.2    | Corrigindo formatação          | Gabriel Marcolino |
 
 
-Estratégias de teste - PetsOffRoad
+## Estratégias de teste - PetsOffRoad
 
 1 – Tipos de teste que serão realizados:
 
-- Funcional: Avaliar a execução de cada funcionalidade, verificando se está alinhado ao que foi combinado com cliente e se atende aos requisitos solicitados.
+- Funcional: Avaliar a execução de cada funcionalidade, verificando se está alinhado ao que foi combinado com a cliente e se atende aos requisitos solicitados.
 - Usabilidade: Verificar a intuitividade e entendimento do sistema aos olhos do usuário.
 
 2 – Niveis de teste:
@@ -19,10 +22,9 @@ Estratégias de teste - PetsOffRoad
 3 - Técnicas de teste:
 
 - Manual: Serão produzidos casos de teste unitário pelos membros da equipe responsáveis pela fase de testagem ( equipe de requisitos), e cada funcionalidade produzida durante a sprint será testada antes de ser aprovada para o deploy.
-- Automático: Além da produção de testes manuais, através destes serão conduzidos testes unitários automatizados para o backend da aplicação por meio do uso da ferramenta JEST.
--
+- Automático: Além da produção de testes manuais, através destes serão conduzidos testes unitários automatizados para o backend da aplicação por meio do uso da ferramenta JEST.    
 
-### Plano de Teste
+## Plano de Teste
 
 - **Tipo** : Funcional.
 - **Nível** : Unitário.
