@@ -1,6 +1,7 @@
 //Hooks e funcionalidades
 import { useState } from 'react';
 import {Link} from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 //Estilos
 import styles from './Cadastro.module.css'
@@ -8,11 +9,54 @@ import styles from './Cadastro.module.css'
 //Imagens e Icones
 import Logo from '../assets/logo.svg'
 import {ArrowCircleLeft, HouseLine, Users} from 'phosphor-react'
+import axios from 'axios';
 
 
 
 export function Cadastro(){
     const [profileType, setProfileType] = useState<string | null>(null);
+
+    const navigate = useNavigate()
+
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault()
+        const data = new FormData(e.currentTarget);
+
+        const cadastro = {
+            cpf: data.get('cpf'),
+            nome: data.get('nome'),
+            email: data.get('email'),
+            telefone: data.get('telefone'),
+            senha: data.get('senha'),
+            uf: data.get('uf'),
+            cidade: data.get('cidade'),
+            endereco: data.get('endereco')
+        }
+        
+        await axios.post('http://localhost:3030/user', cadastro)
+            .then(() => {return navigate('/home') })
+            .catch(err=>{alert('dados invalidos')})
+      };
+
+      const handleSubmitProject = async (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault()
+        const data = new FormData(e.currentTarget);
+
+        const cadastroProjeto = {
+            cpf: data.get('cpf_projeto'),
+            nome: data.get('nome_projeto'),
+            email: data.get('email_projeto'),
+            telefone: data.get('telefone_projeto'),
+            senha: data.get('senha_projeto'),
+            uf: data.get('uf_projeto'),
+            cidade: data.get('cidade_projeto'),
+        }
+        
+        await axios.post('http://localhost:3030/project', cadastroProjeto)
+            .then(() => {return navigate('/home') })
+            .catch(err=>{alert('dados invalidos')})
+      };
+
 
     return(
         <div className={styles.screen}>
@@ -42,63 +86,63 @@ export function Cadastro(){
                 
                 ||
                 
-                profileType === "projeto" && <form className={styles.formCadastro}>
+                profileType === "projeto" && <form onSubmit={handleSubmitProject} className={styles.formCadastro}>
                 
                 <ArrowCircleLeft onClick={() => setProfileType(null)}/>
 
                     <label>Nome do Projeto</label>
-                    <input type="text" placeholder="Ex: Nome-do-Projeto"/>
+                    <input name='nome_projeto' required type="text" placeholder="Ex: Nome-do-Projeto"/>
 
                     <label>Endereço de email</label>
-                    <input type="email" placeholder="@mail.com.br"/>
+                    <input name='email_projeto' required type="email" placeholder="@mail.com.br"/>
 
                     <label>UF</label>
-                    <input type="text" placeholder="Ex: DF"/>
+                    <input name='uf_projeto' required type="text" placeholder="Ex: DF"/>
 
                     <label>Cidade</label>
-                    <input type="text" placeholder="Ex: Brasília"/>
+                    <input name='cidade_projeto' required type="text" placeholder="Ex: Brasília"/>
 
                     <label>CPF/CNPJ</label>
-                    <input type="text" placeholder="XXX.XXX.XXX-XX"/>
+                    <input name='cpf_projeto' required type="text" placeholder="Somente-Digitos"/>
 
                     <label>Telefone</label>
-                    <input type="tel" placeholder="(DDD) XXXXX-XXXX"/>
+                    <input name='telefone_projeto' required type="tel" placeholder="(DDD)XXXXX-XXXX"/>
 
                     <label>Senha</label>
-                    <input type="password" placeholder="Mínimo 8 caracteres" />
+                    <input name='senha_projeto' required type="password" placeholder="Mínimo 8 caracteres" />
 
                     <button type="submit">Cadastrar</button>
                 </form>  
                 
                 || 
                 
-                profileType === "voluntario" && <form className={styles.formCadastro}>
+                profileType === "voluntario" && <form onSubmit={handleSubmit} className={styles.formCadastro}>
                 
                 <ArrowCircleLeft onClick={() => setProfileType(null)}/>
 
                 <label>Nome</label>
-                <input type="text" placeholder="Ex: João Da Silva"/>
+                <input name='nome' required type="text" placeholder="Ex: João Da Silva"/>
 
                 <label>Endereço de email</label>
-                <input type="email" placeholder="@mail.com.br"/>
+                <input name='email' required type="email" placeholder="@mail.com.br"/>
 
                 <label>UF</label>
-                <input type="text" placeholder="Ex: DF"/>
+                <input name='uf' required type="text" placeholder="Ex: DF"/>
 
                 <label>Cidade</label>
-                <input type="text" placeholder="Ex: Brasília"/>
+                <input name='cidade' required type="text" placeholder="Ex: Brasília"/>
 
                 <label>Endereço</label>
-                <input type="text" placeholder="Ex: Quadra 2"/>
+                <input name='endereco' required type="text" placeholder="Ex: Quadra 2"/>
 
                 <label>CPF</label>
-                <input type="text" placeholder="XXX.XXX.XXX-XX"/>
+                <input name='cpf' required type="text" placeholder="XXX.XXX.XXX-XX"/>
 
                 <label>Telefone</label>
-                <input type="tel" placeholder="(DDD) XXXXX-XXXX"/>
+                <input name='telefone' required type="tel" placeholder="(DDD) XXXXX-XXXX"/>
 
                 <label>Senha</label>
-                <input type="password" placeholder="Mínimo 8 caracteres" />
+                <input name='senha' required type="password" placeholder="Mínimo 8 caracteres" />
 
                 <button type="submit">Cadastrar</button>
             </form>
