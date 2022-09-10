@@ -1,13 +1,16 @@
+# Documento de Arquitetura
+
 ## Histórico de versão
 
-| Data       | Versão | Modificação                                                                                                  | Autor                                                                                                                                                                                   |
-| :--------- | :----- | :----------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 06/08/2022 | 0.1    | Abertura do documento de arquitetura                                                               | [@ShaineOliveira](https://github.com/ShaineOliveira)
-| 10/08/2022 | 0.2    | Novas adições no documento                                                               | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
-| 12/08/2022 | 0.3    | Adição de metas                                                                | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
-| 13/08/2022 | 0.4    | Adição parcial de visão lógica                                                                | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
-| 14/08/2022 | 0.5    | Adição do diagrama do FrontEnd                                                               | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
-| 16/08/2022 | 0.6    | Adição de diagramas                                                              | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
+| Data       | Versão | Modificação                          | Autor                                                                                                 |
+| :--------- | :----- | :----------------------------------- | :---------------------------------------------------------------------------------------------------- |
+| 06/08/2022 | 0.1    | Abertura do documento de arquitetura | [@ShaineOliveira](https://github.com/ShaineOliveira)                                                  |
+| 10/08/2022 | 0.2    | Novas adições no documento           | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)   |
+| 12/08/2022 | 0.3    | Adição de metas                      | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)   |
+| 13/08/2022 | 0.4    | Adição parcial de visão lógica       | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)   |
+| 14/08/2022 | 0.5    | Adição do diagrama do FrontEnd       | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)   |
+| 16/08/2022 | 0.6    | Adição de diagramas                  | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)   |
+| 10/09/2022 | 0.7    | Corrindo formatação                  | [Gabriel Marcolino](https://github.com/GabrielMR360) e [Pedro Helias](https://github.com/pedrohelias) |
                           
                                                                                                                                                    
 ## Sumário
@@ -60,27 +63,27 @@ O documento tem como objetivo fornecer uma visão geral da arquitetura abrangent
 
 ### 1.3 Definições, Acrônimos e Abreviações
 
-| Abreviação | Significado                              |
-| ---------- | ---------------------------------------- |
-| MDS        | Métodos de Desenvolvimento de Software   |
-| REQ        | Requisitos             |
-| IDE        | Ambiente de desenvolvimento              |
-| API        | Application Programming Interface        |
-| REST       | Transferência Representacional de Estado |
-| WEB        | World Wide Web                           |
-| HTML       | HyperText Markup Language                |
-| CSS        | Cascading Style Sheets                   |
-| ID         | Identificador de Usuário                 |
-| PDF        | Portable Document Format                 |
+| Abreviação |               Significado                |
+| :--------: | :--------------------------------------: |
+|    MDS     |  Métodos de Desenvolvimento de Software  |
+|    REQ     |                Requisitos                |
+|    IDE     |       Ambiente de desenvolvimento        |
+|    API     |    Application Programming Interface     |
+|    REST    | Transferência Representacional de Estado |
+|    WEB     |              World Wide Web              |
+|    HTML    |        HyperText Markup Language         |
+|    CSS     |          Cascading Style Sheets          |
+|     ID     |         Identificador de Usuário         |
+|    PDF     |         Portable Document Format         |
 
 ### 1.4 Visão Geral
 
-| Tópico                            | Descrição                                                                                                |
-| --------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| Introdução                        | Descreve informações sobre a finalidade e a organização do documento.                                    |
-| Representação arquitetural        | Representa a arquitetura geral do software.   |
-| Metas e restrições da Arquitetura | Demonstra os requisitos e objetivos do software.               |
-| Visão lógica                      | Descreve as partes significativas relacionadas ao ponto de vista da arquitetura e a modelagem de design. |
+|              Tópico               |                                                Descrição                                                 |
+| :-------------------------------: | :------------------------------------------------------------------------------------------------------: |
+|            Introdução             |                  Descreve informações sobre a finalidade e a organização do documento.                   |
+|    Representação arquitetural     |                               Representa a arquitetura geral do software.                                |
+| Metas e restrições da Arquitetura |                             Demonstra os requisitos e objetivos do software.                             |
+|           Visão lógica            | Descreve as partes significativas relacionadas ao ponto de vista da arquitetura e a modelagem de design. |
 
 
 ## 2. Representação Arquitetural
@@ -144,27 +147,23 @@ Jest utiliza de "matchers" (combinadores) para realizar os testes. Existem diver
 ### 3.1 Metas
 O sistema WEB a ser desenvolvido tem como metas a serem atingidas:
 
-<ul>
-<li> Melhorar o sistema de adoção de pets;</li>
-<li>Facilitar a divulgação de eventos relacionados a adoção e cuidados aos animais;</li>
-<li>Permitir o crescimento de projetos ligados as causas animais domésticos por meio de contato online;</li>
-<li>Permitir conexão de usuários defensores de causa animal e possíveis voluntários.</li>
-</ul>
+
+* Melhorar o sistema de adoção de pets;
+* Facilitar a divulgação de eventos relacionados a adoção e cuidados aos animais;
+* Permitir o crescimento de projetos ligados as causas animais domésticos por meio de contato online;
+* Permitir conexão de usuários defensores de causa animal e possíveis voluntários.
 
 
 
 ### 3.2 Restrições Tecnológicas
-<ul>
-<li><b>TypeScript</b>: Linguagem de programação a ser utilizada no BackEnd da aplicação.</li>
-<li><b>Nest.JS</b>: Framework Node.js utilizada no BackEnd da aplicação, responsável pelas conexões com o banco e pelas regras de negócio</li>
-<li><b>MySQL</b>: Sistema responsável pelo armazenamento e gerência dos dados apresentados à aplicação.</li>
-<li><b>JavaScript</b>: Linguagem de programação específica para desenvolvimento web FrontEnd, juntamente do React.Js</li>
-<li><b>React.js</b>: Framework de JavaScript específico para o FrontEnd da aplicação.</li>
-<li><b>Jest</b>: Plataforma utilizada para testes unitários.</li>
 
-<li><b>NodeJS</b>: Frameworkd de JavaScript direcionado para o desenvolvimento do BackEnd. </li>
-
-</ul>
+* **TypeScript**: Linguagem de programação a ser utilizada no BackEnd da aplicação.
+* **Nest.JS**: Framework Node.js utilizada no BackEnd da aplicação, responsável pelas conexões com o banco e pelas regras de negócio
+* **MySQL**: Sistema responsável pelo armazenamento e gerência dos dados apresentados à aplicação.
+* **JavaScript**: Linguagem de programação específica para desenvolvimento web FrontEnd, juntamente do React.Js
+* **React.js**: Framework de JavaScript específico para o FrontEnd da aplicação.
+* **Jest**: Plataforma utilizada para testes unitários.
+* **NodeJS**: Frameworkd de JavaScript direcionado para o desenvolvimento do BackEnd. 
 
 
 
