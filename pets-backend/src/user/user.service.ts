@@ -25,9 +25,12 @@ export class UserService {
     return await this.userRepositorio.createUser(createUser);
   };
 
-  public login = async (loginData: UserLogin) => {
+  public login = async (loginData: UserLogin): Promise<User> => {
     this.validateEmail(loginData.email);
-    return await this.userRepositorio.findByEmailAndPassword(loginData);
+    const user = await this.userRepositorio.findByEmailAndPassword(loginData);
+    if (!user)
+      throw new BadRequestException('dados incorretos')
+    return user;
   };
 
   public findAll = async (): Promise<User[]> => {

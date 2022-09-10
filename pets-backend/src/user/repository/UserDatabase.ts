@@ -25,10 +25,10 @@ export class UserDatabase {
     }
   }
 
-  public async findByEmailAndPassword(loginData: UserLogin): Promise<User[]> {
-    return await connection
+  public async findByEmailAndPassword(loginData: UserLogin): Promise<User> {
+    return (await connection
       .select()
       .from(this.table_name)
-      .where({ email: loginData.email, senha: loginData.senha });
+      .where({ email: loginData.email, senha: loginData.senha }))[0];
   }
 }
