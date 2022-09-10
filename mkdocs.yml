@@ -1,71 +1,71 @@
 site_name: Pets Off Road
 
 nav:
-    - Início: index.md
-    - Visão: doc_visao.md
-    - Comunicação: doc_Comunicacao.md
-    - Apresentações:
-          - Unidade 1: apresentacoes/unidade_01.md
-          - Unidade 2: apresentacoes/unidade_02.md
-    - Políticas do Repositório:
-          - Como contribuir: contributing.md
-    - Workshop: workshop.md
-    - Requisitos: requisitos.md
-    - Canvas MVP: canvas.md
-    - MVP: MVPs.md
-    - Kanban: kanban.md
-    - SAFe - Backlog: backlog.md
-    - PBB: PBB.md
-    - User Story Mapping: map.md
-    - Estrategias de Teste: testes.md
-    - Arquitetura:
-          - Produto: produto/arquitetura/Arquitetura.md
-          - Reporte: Reporte.md
-          - Interface: interface.md
-    - Casos de Uso:
-          - Diagrama de Casos de Uso: diagramaCasosdeUso.md
-          - Especificação de Casos de Uso: atividadeExtra.md
-    - Sprints:
-          # - Sprint 1:
-          # - Sprint 2:
-          # - Sprint 3:
-          # - Sprint 4:
-          # - Sprint 5:
-          - Sprint 6:
-                - Planning: sprints/sprint6/planning/planning.md
-                - Review: sprints/sprint6/review/review.md
-                - Restrospective: sprints/sprint6/retrospective/retrospective.md
-          - Sprint 7:
-                - Planning: sprints/sprint7/planning/planning.md
-                - Review: sprints/sprint7/review/review.md
-                - Retrospective: sprints/sprint7/retrospective/retrospective.md
-          - Sprint 8:
-                - Planning: sprints/sprint8/planning/planning.md
-                - Review: sprints/sprint8/review/review.md
-                - Retrospective: sprints/sprint8/retrospective/retrospective.md
-          - Sprint 9:
-                - Planning: sprints/sprint9/planning/planning.md
-                - Review: sprint/sprint9/review/review.md
-                - Retrospective: sprints/sprint9/retrospective/retrospective.md
-          - Sprint 10:
-                - Planning: sprints/sprint10/planning/planning.md
-                - Review: sprints/sprint10/review/review.md
-                - Retrospetive: sprints/sprint10/retrospective/retrospective.md
-          - Sprint 11:
-                - Planning: sprints/sprint11/planning/planning.md
-                - Review: sprints/sprint11/review/review.md
-                - Retrospective: sprints/sprint11/retrospective/retrospective.md
-          - Sprint 12:
-                - Planning: sprints/sprint12/planning/planning.md
-                # - Review:
-                # - Retrospective:
-          # - Sprint 13:
+      - Início: index.md
+      - Visão: doc_visao.md
+      - Comunicação: doc_Comunicacao.md
+      - Apresentações:
+              - Unidade 1: apresentacoes/unidade_01.md
+              - Unidade 2: apresentacoes/unidade_02.md
+      - Políticas do Repositório:
+              - Como contribuir: contributing.md
+      - Workshop: workshop.md
+      - Requisitos: requisitos.md
+      - Canvas MVP: canvas.md
+      - MVP: MVPs.md
+      - Kanban: kanban.md
+      - SAFe - Backlog: backlog.md
+      - PBB: PBB.md
+      - User Story Mapping: map.md
+      - Estrategias de Teste: testes.md
+      - Arquitetura:
+              - Produto: produto/arquitetura/Arquitetura.md
+      - Reporte: Reporte.md
+      - Protótipo: interface.md
+      - Casos de Uso:
+              - Diagrama de Casos de Uso: diagramaCasosdeUso.md
+              - Especificação de Casos de Uso: atividadeExtra.md
+      - Sprints:
+              # - Sprint 1:
+              # - Sprint 2:
+              # - Sprint 3:
+              # - Sprint 4:
+              # - Sprint 5:
+              - Sprint 6:
+                      - Planning: sprints/sprint6/planning/planning.md
+                      - Review: sprints/sprint6/review/review.md
+                      - Restrospective: sprints/sprint6/retrospective/retrospective.md
+              - Sprint 7:
+                      - Planning: sprints/sprint7/planning/planning.md
+                      - Review: sprints/sprint7/review/review.md
+                      - Retrospective: sprints/sprint7/retrospective/retrospective.md
+              - Sprint 8:
+                      - Planning: sprints/sprint8/planning/planning.md
+                      - Review: sprints/sprint8/review/review.md
+                      - Retrospective: sprints/sprint8/retrospective/retrospective.md
+              - Sprint 9:
+                      - Planning: sprints/sprint9/planning/planning.md
+                      - Review: sprint/sprint9/review/review.md
+                      - Retrospective: sprints/sprint9/retrospective/retrospective.md
+              - Sprint 10:
+                      - Planning: sprints/sprint10/planning/planning.md
+                      - Review: sprints/sprint10/review/review.md
+                      - Retrospetive: sprints/sprint10/retrospective/retrospective.md
+              - Sprint 11:
+                      - Planning: sprints/sprint11/planning/planning.md
+                      - Review: sprints/sprint11/review/review.md
+                      - Retrospective: sprints/sprint11/retrospective/retrospective.md
+              - Sprint 12:
+                      - Planning: sprints/sprint12/planning/planning.md
+                      # - Review:
+                      # - Retrospective:
+              # - Sprint 13:
 
 theme:
-    name: material
+      name: material
 
 markdown_extensions:
-    - pymdownx.tasklist
-    - pymdownx.emoji
-    - pymdownx.mark
-    - pymdownx.tilde
+      - pymdownx.tasklist
+      - pymdownx.emoji
+      - pymdownx.mark
+      - pymdownx.tilde
