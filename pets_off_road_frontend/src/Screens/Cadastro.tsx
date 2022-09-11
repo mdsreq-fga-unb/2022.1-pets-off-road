@@ -11,8 +11,6 @@ import Logo from '../assets/logo.svg'
 import {ArrowCircleLeft, HouseLine, Users} from 'phosphor-react'
 import axios from 'axios';
 
-
-
 export function Cadastro(){
     const [profileType, setProfileType] = useState<string | null>(null);
 
@@ -53,7 +51,7 @@ export function Cadastro(){
         }
         
         await axios.post('http://localhost:3030/project', cadastroProjeto)
-            .then(() => {return navigate('/home') })
+            .then(() => {return navigate('/') })
             .catch(err=>{alert('dados invalidos')})
       };
 

@@ -25,7 +25,7 @@ export function Login(){
         }
         
         await axios.post('http://localhost:3030/user/login', login)
-            .then(() => {return navigate('/home') })
+            .then(() => {return navigate('/profile') })
             .catch(err=>{alert('dados invalidos')})
       };
 

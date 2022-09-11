@@ -1,6 +1,7 @@
 //Hooks e funcionalidades
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Header } from '../components/Header/Header';
+import {Link} from 'react-router-dom'
 
 //Estilos
 import styles from './ProfileVonluteer.module.css'
@@ -11,15 +12,29 @@ import PetsLogo from '../assets/PetsLogo.png'
 import DogIcon from '../assets/dogg.png'
 import { Plus, GearSix} from 'phosphor-react'
 import { Feed } from '../components/Feed/Feed';
-import { ProjectList } from '../components/ProjectList/ProjectList';
-import { ProjectForm } from '../components/ProjetoForm/ProjectForm.module.';
+import { PetsList } from './../components/PetsList/PetsList';
+import { VolunteerList } from './../components/VolunteerList/VolunteerList';
+import { AnimalForm } from './../components/AnimalForm/AnimalForm';
+import axios from 'axios';
 
-export function ProfileVonlunteer(){
+
+
+export function ProfileProject(){
     const [component, setComponent] = useState<string>("feed");
+
+    let[posts, setPosts]: any = useState({});
+    
+    useEffect(()=>{
+        axios.get('http://localhost:3030'+window.location.pathname)
+            .then((data)=>{setPosts(data.data)})
+            .catch(err=>{console.log(err)})
+    }, [])
+    
 
     return(
         <>
             <Header />
+
             <main className={styles.main}>
                 <div>
                     <aside className={styles.sideBar}>
@@ -33,13 +48,13 @@ export function ProfileVonlunteer(){
                     
                             <div className={styles.containerInfo}>
                     
-                                <span className={styles.info}>Nome: </span>
+                                <span className={styles.info}>Nome: {posts.nome} </span>
                     
-                                <span className={styles.info}>Email: </span>
+                                <span className={styles.info}>Quantidade de Membros: {posts.numero_membros} </span>
                     
-                                <span className={styles.info}>Estado: </span>
-                    
-                                <span className={styles.info}>Cidade</span>
+                                <span className={styles.info}>Email: {posts.email} </span>
+
+                                <span className={styles.info}>Telefone: {posts.telefone} </span>
                     
                             </div>
                         </div>
@@ -54,12 +69,16 @@ export function ProfileVonlunteer(){
                                 <span className={styles.activeButtonText}>Feed</span>
                             </button>
 
-                            <button className={styles.activeButton} onClick={() => setComponent("project-form")}>
-                                <span className={styles.activeButtonText}>Criar Projeto</span>
+                            <button className={styles.activeButton} onClick={() => setComponent("pets-list")}>
+                                <span className={styles.activeButtonText}>Animais Cadastrados</span>
                             </button>
-
-                            <button className={styles.activeButton} onClick={() => setComponent("project-list")}>
-                                <span className={styles.activeButtonText}>Meus Projetos</span>
+                            
+                            <button className={styles.activeButton} onClick={() => setComponent("volunteer-list")}>
+                                <span className={styles.activeButtonText}>Voluntários do Projeto</span>
+                            </button>
+                            
+                            <button className={styles.activeButton} onClick={() => setComponent("animal-form")}>
+                                <span className={styles.activeButtonText}>Cadastrar Animal</span>
                             </button>
                             
                             <div>
@@ -70,8 +89,9 @@ export function ProfileVonlunteer(){
                     <div className={styles.publishContainer}>
                         {
                             component === 'feed' && <Feed /> ||
-                            component === 'project-form' && <ProjectForm /> ||
-                            component === 'project-list' && <ProjectList /> 
+                            component === 'pets-list' && <PetsList /> ||
+                            component === 'volunteer-list' && <VolunteerList /> ||
+                            component === 'animal-form' && <AnimalForm />
                         }
                     </div>
                 </div>

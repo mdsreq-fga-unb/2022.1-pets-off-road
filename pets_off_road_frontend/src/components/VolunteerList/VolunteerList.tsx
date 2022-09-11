@@ -47,12 +47,9 @@ export function VolunteerList() {
       
         return (
         <main>
-                <h1>Meus Voluntários</h1>
+                <h1>Voluntários do Projeto</h1>
     
                 <div className={styles.div}>
-                    <header className={styles.pages}>
-                        Aqui vai passar as funcionalidades
-                    </header>
                     <table>
                         <thead>
                             <tr>
