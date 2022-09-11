@@ -13,7 +13,8 @@
 }
 
 body {
-  background: #ffffff;
+  background: #f0f0f0;
+  overflow-x: hidden;
 }
 
 h1{

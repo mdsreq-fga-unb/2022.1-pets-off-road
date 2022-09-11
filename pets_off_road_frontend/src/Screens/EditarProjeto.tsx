@@ -1,7 +1,7 @@
 //Hooks e funcionalidades
 import { useState } from 'react';
 import {Link} from 'react-router-dom'
-import { Header } from '../components/Header';
+import { Header } from '../components/Header/Header';
 
 //Estilos
 import styles from './EditarProjeto.module.css'

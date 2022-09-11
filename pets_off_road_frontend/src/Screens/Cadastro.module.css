@@ -4,6 +4,10 @@
     height: 100vh;
 }
 
+.registrationBox{
+    background-color: white;
+}
+
 .welcomeBox{
    background: var(--red-primary);
    display: flex;
