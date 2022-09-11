@@ -25,8 +25,13 @@ export class ProjectController {
   }
 
   @Get(':id')
-  findOne(@Param('id') id: string) {
+  findByCpf(@Param('id') id: string) {
     return this.projectService.findOne(+id);
+  }
+
+  @Get('search/:cpf')
+  findOne(@Param('cpf') cpf: string) {
+    return this.projectService.findCpf(+cpf);
   }
 
   @Patch(':id')

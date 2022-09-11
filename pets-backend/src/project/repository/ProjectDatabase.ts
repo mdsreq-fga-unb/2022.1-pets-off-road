@@ -14,14 +14,18 @@ export class ProjectDatabase {
     return await connection.select().table(this.table_name);
   }
 
-  public async findProjectById(id: number): Promise<Project> {
-    const projects = await connection
+  public async findProjectByCpf(cpf: number): Promise<Project[]> {
+    return await connection
       .select()
       .table(this.table_name)
-      .where({ id: id });
-    for (let project of projects) {
-      return project;
-    }
+      .where({ cpf: cpf });
+  }
+
+  public async findById(id: number): Promise<Project> {
+    return (await connection
+      .select()
+      .table(this.table_name)
+      .where({ id: id }))[0];
   }
 
   public async update(project: UpdateProjectDto, id: number) {

@@ -5,6 +5,8 @@ import { CreateUserDto } from './dto/create-user.dto';
 import { UserLogin } from './dto/user-login.dto';
 import { User } from './entities/user.entity';
 import { UserDatabase } from './repository/UserDatabase';
+import * as jwt from 'jsonwebtoken';
+import { ResponseLogin } from './dto/responseLogin.dto';
 @Injectable()
 export class UserService {
   constructor(private userRepositorio: UserDatabase) {}
@@ -25,12 +27,15 @@ export class UserService {
     return await this.userRepositorio.createUser(createUser);
   };
 
-  public login = async (loginData: UserLogin): Promise<User> => {
+  public login = async (loginData: UserLogin): Promise<ResponseLogin> => {
     this.validateEmail(loginData.email);
     const user = await this.userRepositorio.findByEmailAndPassword(loginData);
     if (!user)
       throw new BadRequestException('dados incorretos')
-    return user;
+    
+    return {
+      sessionToken: jwt.sign(user, 'secret-key-temporaria', {expiresIn: 60})
+    };
   };
 
   public findAll = async (): Promise<User[]> => {

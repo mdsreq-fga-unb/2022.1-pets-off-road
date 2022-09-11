@@ -14,8 +14,12 @@ export class ProjectService {
     return await this.ProjectRepository.findAllProjects();
   }
 
+  async findCpf(cpf: number) {
+    return await this.ProjectRepository.findProjectByCpf(cpf);
+  }
+
   async findOne(id: number) {
-    return await this.ProjectRepository.findProjectById(id);
+    return await this.ProjectRepository.findById(id);
   }
 
   async update(id: number, updateProjectDto: UpdateProjectDto) {
