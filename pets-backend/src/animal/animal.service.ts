@@ -7,7 +7,7 @@ import { AnimalDatabase } from './repository/AnimalDatabase';
 export class AnimalService {
   constructor(private AnimalRepository: AnimalDatabase) {}
   create(createAnimalDto: CreateAnimalDto) {
-    return this.AnimalRepository.createAnimal(createAnimalDto);
+    return this.AnimalRepository.createAnimal(createAnimalDto.animal);
   }
 
   findAll() {

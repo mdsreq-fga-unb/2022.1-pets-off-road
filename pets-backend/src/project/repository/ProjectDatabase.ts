@@ -36,7 +36,6 @@ export class ProjectDatabase {
         nome: project.nome,
         email: project.email,
         telefone: project.telefone,
-        senha: project.senha,
         uf: project.uf,
         cidade: project.cidade,
         endereco: project.endereco,

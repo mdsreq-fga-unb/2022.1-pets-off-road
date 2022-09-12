@@ -12,18 +12,22 @@ export function ProjectForm(){
         const data = new FormData(e.currentTarget);
 
         const cadastroProjeto = {
-            cpf: "36274185062",
+            cpf: localStorage.getItem('cpf'),
             nome: data.get('nome_projeto'),
             email: data.get('email_projeto'),
             telefone: data.get('telefone_projeto'),
-            senha: "aaa",
             uf: data.get('uf_projeto'),
             cidade: data.get('cidade_projeto'),
+            endereco: data.get('endereco')
         }
         
-        await axios.post('http://localhost:3030/project', cadastroProjeto)
-            .then(() => {return navigate('/profile')})
-            .catch(err=>{alert('dados invalidos')})
+        try {
+            await axios.post('http://localhost:3030/project', cadastroProjeto)
+            return navigate('/profile')
+        } catch (error) {
+            alert('dados invalidos')
+        }
+
       };
 
     return(
@@ -42,6 +46,9 @@ export function ProjectForm(){
 
                 <label>Cidade</label>
                 <input name='cidade_projeto' required type="text" placeholder="Ex: Brasília"/>
+
+                <label>Endereco</label>
+                <input name='endereco' required type="text" placeholder="Ex: Rua x, quadra x, numero x"/>
 
                 <label>Telefone</label>
                 <input name='telefone_projeto' required type="tel" placeholder="(DDD)XXXXX-XXXX"/>

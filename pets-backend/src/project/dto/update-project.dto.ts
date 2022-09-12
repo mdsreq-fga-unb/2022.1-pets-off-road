@@ -7,13 +7,9 @@ export class UpdateProjectDto {
 
   telefone?: number;
 
-  senha?: string;
-
   uf?: string;
 
   cidade?: string;
 
   endereco?: string;
-
-  nivelAcesso?: boolean;
 }

@@ -5,9 +5,6 @@ import { HomeScreen } from "../Screens/HomeScreen";
 import { Login } from "../Screens/Login";
 import { ProfileVonlunteer } from "../Screens/ProfileVonlunteer";
 import { ProfileProject } from "../Screens/ProfileProject";
-// import { Profile } from "../Screens/Profile";
-
-
 
 export function Rts() {
    return(

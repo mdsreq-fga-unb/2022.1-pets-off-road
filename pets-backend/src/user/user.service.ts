@@ -27,14 +27,15 @@ export class UserService {
     return await this.userRepositorio.createUser(createUser);
   };
 
-  public login = async (loginData: UserLogin): Promise<ResponseLogin> => {
+  public login = async (loginData: UserLogin): Promise<ResponseLogin & User> => {
     this.validateEmail(loginData.email);
     const user = await this.userRepositorio.findByEmailAndPassword(loginData);
     if (!user)
       throw new BadRequestException('dados incorretos')
     
     return {
-      sessionToken: jwt.sign(user, 'secret-key-temporaria', {expiresIn: 60})
+      sessionToken: jwt.sign({cpf: user.cpf, acesso:user.nivel_acesso}, 'secret-key-temporaria', {expiresIn: 480}),
+      ...user
     };
   };
 

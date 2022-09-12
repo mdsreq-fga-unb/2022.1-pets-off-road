@@ -1,19 +1,60 @@
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { ArrowCircleLeft } from 'phosphor-react'
 import styles from './AnimalForm.module.css'
-// import Logo from '../assets/logo.svg'
+import axios from 'axios';
 
 export function AnimalForm(){
 
-    return(
-        
-        <form className={styles.formCadastro}>
+    const navigate = useNavigate();
+    const id = window.location.pathname.split('/')[2];
 
-            <label>CPF do Tutor</label>
-            <input type="text" name="cpf-tutor" placeholder="XXX.XXX.XXX-XX"/>
+    const handleSubmitAnimal = async (e: React.FormEvent<HTMLFormElement>) => {
+        const data = new FormData(e.currentTarget);
+
+        const vaccines = {
+            raiva: e.currentTarget.raiva.checked,
+            V8: e.currentTarget.V8.checked,
+            V10: e.currentTarget.V10.checked,
+        }
+
+        const cpf_dono = data.get('cpf_tutor') === ''? null: data.get('cpf_tutor');
+        const raca = data.get('raca') === ''? null: data.get('raca');
+        const cirurgias = data.get('cirurgia') === ''? null: data.get('cirurgia');
+
+        const cadastroAnimal = {
+            animal: {            
+                cpf_dono: cpf_dono,
+                project_id: id,
+                nome: data.get('nome_pet'),
+                especie: data.get('especie'),
+                raca: raca,
+                idade: data.get('idade'),
+                cirurgias: cirurgias,
+                castrado: e.currentTarget.castrado.value,
+                condicao_saude: e.currentTarget.saude.value
+            },
+            vaccines
+        }
+
+        try {
+            await axios.post('http://localhost:3030/animal', cadastroAnimal)
+            return navigate(`project/${id}`)
+        } catch (error) {
+            alert('dados invalidos')
+        }
+      };
+
+    return(
+
+        
+        
+        <form onSubmit={handleSubmitAnimal} className={styles.formCadastro}>
+
+            <label>CPF do Tutor (Opcional)</label>
+            <input type="text" name="cpf_tutor" placeholder="XXXXXXXXXXX"/>
 
             <label>Nome do Cachorro</label>
-            <input type="text" name="nome-cachorro" placeholder="Ex: Floquinho"/>
+            <input type="text" name="nome_pet" placeholder="Ex: Floquinho"/>
 
             <label>Idade</label>
             <input type="number" name="idade" placeholder="Ex: 2"/>
@@ -21,36 +62,50 @@ export function AnimalForm(){
             <label>Espécie</label>
             <input type="text" name='especie' placeholder="Ex: Cachorro"/>
 
-            <label>Condição de Saúde</label>
-            <input type="text" name='saude' placeholder="Ex: Saudável"/>
-
+            <label>Raca (Opcional)</label>
+            <input type="text" name='raca' placeholder="Ex: Bulldog"/>
     
-            <label>Cirurgia</label>
-            <input type="text" name="cirurgia" placeholder="Mínimo 8 caracteres" />
-
+            <label>Cirurgias (Opcional)</label>
+            <input type="text" name="cirurgia" placeholder="Descrever nas cirurgias as quais o animal foi submetido além da castração" />
 
             <div>
                 <label>É Castrado?</label>
                 <div>
                     <label>Sim</label>
-                    <input type="checkbox" name='castrado' />
+                    <input type='radio' name='castrado' id='true' value={1}/>
+
+                    <label>Não</label>
+                    <input type='radio' name='castrado' id='false' value={0}/>
                 </div>
             </div>
+
+
+            
+            <div>
+                <label>Condição de Saúde</label>
+                <div>
+                    <label>Doente</label>
+                    <input type='radio' name='saude' value={0}/>
+
+                    <label>Saudavel</label>
+                    <input type='radio' name='saude' value={1}/>
+                </div>
+            </div>
+            
+  
+
 
             <div>
                 <label>Vacinas:</label>
                 <div>
-                    <label>V8/V10</label>
-                    <input type="checkbox" name='v8-v10'/>
-
                     <label>Raiva</label>
                     <input type="checkbox" name='raiva'/>
 
-                    <label>Gripe</label>
-                    <input type="checkbox" name='gripe'/>
+                    <label>V8</label>
+                    <input type="checkbox" name='V8'/>
 
-                    <label>Giárdia</label>
-                    <input type="checkbox" name='giardia'/>
+                    <label>V10</label>
+                    <input type="checkbox" name='V10'/>
                 </div>
             </div>
 

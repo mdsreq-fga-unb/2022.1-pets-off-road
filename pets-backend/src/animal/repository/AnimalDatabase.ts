@@ -2,7 +2,7 @@ import connection from '../../repositories/DatabaseConnection';
 import { CreateAnimalDto } from '../dto/create-animal.dto';
 import { Animal } from '../entities/animal.entity';
 export class AnimalDatabase {
-  public async createAnimal(animal: CreateAnimalDto) {
+  public async createAnimal(animal: object) {
     return await connection.insert(animal).table('animal');
   }
 

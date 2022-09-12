@@ -10,6 +10,7 @@ import Thor from '../assets/thor.svg'
 import { useNavigate } from 'react-router-dom'
 
 import styles from './Login.module.css'
+import { Barcode } from 'phosphor-react'
 
 export function Login(){
 
@@ -24,10 +25,21 @@ export function Login(){
             senha: data.get('senha')
         }
         
-        await axios.post('http://localhost:3030/user/login', login)
-            .then(() => {return navigate('/profile') })
-            .catch(err=>{alert('dados invalidos')})
-      };
+        try {
+            const responseLogin = await axios.post('http://localhost:3030/user/login', login);
+            localStorage.setItem('sessionToken', responseLogin.data.sessionToken);
+            localStorage.setItem('cpf', responseLogin.data.cpf)
+            localStorage.setItem('nome', responseLogin.data.nome)
+            localStorage.setItem('email', responseLogin.data.email)
+            localStorage.setItem('telefone', responseLogin.data.telefone)
+            localStorage.setItem('uf', responseLogin.data.uf)
+            localStorage.setItem('cidade', responseLogin.data.cidade)
+            localStorage.setItem('nivel_acesso', responseLogin.data.nivel_acesso)
+            return navigate('/profile')
+        } catch (error) {
+            alert('It was not possible to complete the login');
+        }
+    };
 
     return(
         <div className={styles.screen}>

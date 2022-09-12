@@ -4,12 +4,13 @@ import { Link } from 'react-router-dom';
 import styles from './ProjectList.module.css'
 export function ProjectList(){
 
+    const userCpf = localStorage.getItem('cpf');
     let[posts, setPosts] = useState([]);
     
     useEffect(()=>{
-        axios.get('http://localhost:3030/project/search/36274185062')
-        .then(data=>{setPosts(data.data)})
-        .catch(err=>{console.log('Deu ruim')})
+        axios.get(`http://localhost:3030/project/search/${userCpf}`)
+            .then(data=>{setPosts(data.data)})
+            .catch(err=>{console.log('Deu ruim')})
     }, [])
 
     return (

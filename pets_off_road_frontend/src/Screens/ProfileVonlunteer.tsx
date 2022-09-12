@@ -16,6 +16,7 @@ import { ProjectForm } from '../components/ProjetoForm/ProjectForm.module.';
 
 export function ProfileVonlunteer(){
     const [component, setComponent] = useState<string>("feed");
+    const sessionToken = localStorage.getItem('sessionToken');
 
     return(
         <>
@@ -33,13 +34,13 @@ export function ProfileVonlunteer(){
                     
                             <div className={styles.containerInfo}>
                     
-                                <span className={styles.info}>Nome: </span>
+                                <span className={styles.info}>{localStorage.getItem('nome')}</span>
                     
-                                <span className={styles.info}>Email: </span>
+                                <span className={styles.info}>{localStorage.getItem('email')}</span>
                     
-                                <span className={styles.info}>Estado: </span>
+                                <span className={styles.info}>{localStorage.getItem('uf')} </span>
                     
-                                <span className={styles.info}>Cidade</span>
+                                <span className={styles.info}>{localStorage.getItem('cidade')}</span>
                     
                             </div>
                         </div>

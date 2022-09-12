@@ -48,13 +48,13 @@ export function ProfileProject(){
                     
                             <div className={styles.containerInfo}>
                     
-                                <span className={styles.info}>Nome: {posts.nome} </span>
+                                <span className={styles.info}>{posts.nome} </span>
                     
                                 <span className={styles.info}>Quantidade de Membros: {posts.numero_membros} </span>
                     
-                                <span className={styles.info}>Email: {posts.email} </span>
+                                <span className={styles.info}>{posts.email} </span>
 
-                                <span className={styles.info}>Telefone: {posts.telefone} </span>
+                                <span className={styles.info}>{posts.telefone} </span>
                     
                             </div>
                         </div>

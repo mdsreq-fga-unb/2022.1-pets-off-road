@@ -12,7 +12,7 @@ export class AnimalController {
   constructor(private readonly animalService: AnimalService) {}
 
   @Post()
-  create(@Body() createAnimalDto: CreateAnimalDto) {
+  create(@Body() createAnimalDto: CreateAnimalDto) {    
     return this.animalService.create(createAnimalDto);
   }
 

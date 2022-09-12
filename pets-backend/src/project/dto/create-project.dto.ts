@@ -14,11 +14,11 @@ export class CreateProjectDto {
   telefone: number;
 
   @IsDefined()
-  senha: string;
-
-  @IsDefined()
   uf: string;
 
   @IsDefined()
   cidade: string;
+
+  @IsDefined()
+  endereco: string;
 }

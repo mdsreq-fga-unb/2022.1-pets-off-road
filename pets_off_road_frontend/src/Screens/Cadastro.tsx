@@ -31,9 +31,14 @@ export function Cadastro(){
             endereco: data.get('endereco')
         }
         
-        await axios.post('http://localhost:3030/user', cadastro)
-            .then(() => {return navigate('/home') })
-            .catch(err=>{alert('dados invalidos')})
+        try {
+            await axios.post('http://localhost:3030/user', cadastro)
+            alert('Cadastro Concluido com Sucesso')
+            navigate('/')
+        } catch (error) {
+            alert('Não Foi possível concluir o cadastro, dados inválidos');
+        }
+
       };
 
       const handleSubmitProject = async (e: React.FormEvent<HTMLFormElement>) => {

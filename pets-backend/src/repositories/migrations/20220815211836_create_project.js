@@ -12,7 +12,7 @@
             telefone         BIGINT                 NOT NULL,
             uf               ENUM('MG', 'AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MT', 'MS', 'PA', 'PB', 'PR', 'PE', 'PI', 'RJ', 'RN', 'RS', 'RO', 'RR', 'SC', 'SP', 'SE', 'TO')      NOT NULL,
             cidade           VARCHAR(50)            NOT NULL,
-            senha            VARCHAR(250)           NOT NULL,
+            endereco         VARCHAR(200)           NOT NULL,
             criado_em        DATETIME               NOT NULL    DEFAULT   CURRENT_TIMESTAMP,
             numero_membros   INT                    NOT NULL    DEFAULT   0,
             modificado_em    DATETIME               NOT NULL    DEFAULT   CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
