@@ -7,12 +7,12 @@
 
 
 
-#DOCUMENTAÇÃO DOS CASOS DE TESTE
+# DOCUMENTAÇÃO DOS CASOS DE TESTE
 
 
 
 
-##Épico-01: Sessão do Usuário
+## Épico-01: Sessão do Usuário
 
 
 **FT01 - Acesso/Login a Plataforma**
@@ -77,7 +77,7 @@ Após preencher todos os campos obrigatórios, o organizador do projeto deve ser
 
 
 
-##Épico-02: Interatividade com o sistema
+## Épico-02: Interatividade com o sistema
 
 
 **FT04 - Gerenciamento de cadastro de animais**
