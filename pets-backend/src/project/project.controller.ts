@@ -36,9 +36,7 @@ export class ProjectController {
 
   @Get('find/name')
   findByName(@Body() nome: any) {
-    console.log(nome);
-    
-    //return this.projectService.findByName(nome);
+    return this.projectService.findByName(nome);
   }
 
   @Patch(':id')
