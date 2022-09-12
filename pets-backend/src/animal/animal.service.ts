@@ -17,7 +17,11 @@ export class AnimalService {
     return HttpStatus.CREATED
   }
 
-  findAll() {
-    return this.AnimalRepository.listOfAnimals();
+  async findAll() {
+    return await this.AnimalRepository.listOfAnimals();
+  }
+
+  async findByProject(projectId: number){
+    return await this.AnimalRepository.listByProject(projectId);
   }
 }

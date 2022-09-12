@@ -6,11 +6,15 @@ import { AnimalVaccineDatabase } from './repository/AnimalVaccineDatabase';
 @Injectable()
 export class AnimalVaccineService {
   constructor(private animalVaccineRepo: AnimalVaccineDatabase){}
-  create(createAnimalVaccineDto: CreateAnimalVaccineDto) {
-    return this.animalVaccineRepo.createAnimalVaccine(createAnimalVaccineDto);
+  async create(createAnimalVaccineDto: CreateAnimalVaccineDto) {
+    return await this.animalVaccineRepo.createAnimalVaccine(createAnimalVaccineDto);
   }
 
-  findAll() {
-    return this.animalVaccineRepo.getAll();
+  async findAll() {
+    return await this.animalVaccineRepo.getAll();
+  }
+
+  async findByAnimalId(id: number){
+    return await this.animalVaccineRepo.getByAnimalId(id);
   }
 }

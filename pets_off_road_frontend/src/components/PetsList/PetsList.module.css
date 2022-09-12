@@ -65,3 +65,19 @@ td:last-child {
 .capitalize{
     text-transform: capitalize;
 }
+
+.buttonDelete {
+    display: flex;
+    gap: .625rem;
+    align-items: center;
+    padding: .625rem;
+    border: none;
+    border-radius: 8px;
+    background: var(--red-primary);
+    
+    color: #0e0c0c;
+    font-weight: 600;
+    font-size: .875rem;
+    line-height: 120%;
+    letter-spacing: -.03em;
+}

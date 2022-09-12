@@ -9,4 +9,8 @@ export class AnimalDatabase {
   public async listOfAnimals() {
     return await connection.select().table('animal');
   }
+
+  public async listByProject(id: number){
+    return await connection.select().table('animal').where({project_id: id})
+  }
 }

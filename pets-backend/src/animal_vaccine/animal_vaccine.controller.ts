@@ -16,4 +16,9 @@ export class AnimalVaccineController {
   findAll() {
     return this.animalVaccineService.findAll();
   }
+
+  @Get(':id')
+  findByProjectId(@Param('id') animalId: number) {
+    return this.animalVaccineService.findByAnimalId(animalId);
+  }
 }

@@ -3,6 +3,7 @@ import {
   Get,
   Post,
   Body,
+  Param,
 } from '@nestjs/common';
 import { AnimalService } from './animal.service';
 import { CreateAnimalDto } from './dto/create-animal.dto';
@@ -19,5 +20,10 @@ export class AnimalController {
   @Get()
   findAll() {
     return this.animalService.findAll();
+  }
+
+  @Get('project/:id')
+  findByProjectId(@Param('id') id: number) {
+    return this.animalService.findByProject(id);
   }
 }

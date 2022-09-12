@@ -7,9 +7,8 @@ export class AnimalVaccineDatabase {
         return await connection.insert(createAnimalVaccine).table('animal_vaccine');
     }
 
-    public async get_A_V_unique(animal_vaccine: AnimalVaccine): Promise <AnimalVaccine> {
-        const A_V = await connection.select().from('animal_vaccine').where({cod_vacina: animal_vaccine.cod_vacina, matricula_animal: animal_vaccine.matricula_animal});
-        return A_V[0];
+    public async getByAnimalId(animalId: number): Promise <AnimalVaccine[]> {
+        return await connection.select().from('animal_vaccine').where({matricula_animal: animalId})
     }
 
     public async getAll(): Promise <AnimalVaccine[]> {
