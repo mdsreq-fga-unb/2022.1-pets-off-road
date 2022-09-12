@@ -34,6 +34,13 @@ export class ProjectController {
     return this.projectService.findCpf(+cpf);
   }
 
+  @Get('find/name')
+  findByName(@Body() nome: any) {
+    console.log(nome);
+    
+    //return this.projectService.findByName(nome);
+  }
+
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateProjectDto: UpdateProjectDto) {
     return this.projectService.update(+id, updateProjectDto);

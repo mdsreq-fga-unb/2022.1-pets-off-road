@@ -3,7 +3,6 @@ import { ArrowCircleLeft } from 'phosphor-react'
 import styles from './ProjectForm.module.css'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
-//import Logo from '../assets/logo.svg'
 
 export function ProjectForm(){
 

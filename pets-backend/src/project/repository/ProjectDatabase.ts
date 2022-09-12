@@ -21,6 +21,13 @@ export class ProjectDatabase {
       .where({ cpf: cpf });
   }
 
+  public async findProjectByName(nome: string): Promise<Project[]> {
+    return await connection
+      .select()
+      .table(this.table_name)
+      .where({ nome: nome });
+  }
+
   public async findById(id: number): Promise<Project> {
     return (await connection
       .select()

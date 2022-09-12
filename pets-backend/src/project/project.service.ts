@@ -18,6 +18,10 @@ export class ProjectService {
     return await this.ProjectRepository.findProjectByCpf(cpf);
   }
 
+  async findByName(nome: string){
+    return this.ProjectRepository.findProjectByName(nome);
+  }
+
   async findOne(id: number) {
     return await this.ProjectRepository.findById(id);
   }

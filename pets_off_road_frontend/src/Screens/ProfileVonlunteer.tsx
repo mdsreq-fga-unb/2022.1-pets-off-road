@@ -13,11 +13,15 @@ import { Plus, GearSix} from 'phosphor-react'
 import { Feed } from '../components/Feed/Feed';
 import { ProjectList } from '../components/ProjectList/ProjectList';
 import { ProjectForm } from '../components/ProjetoForm/ProjectForm.module.';
+import { Link } from 'react-router-dom';
+import { ProjectEdit } from '../components/ProjectEdit/ProjectEdit.module.';
+import { ProjectSearch } from '../components/ProjectSearch/ProjectSearch';
+
+/*                           */
+
 
 export function ProfileVonlunteer(){
     const [component, setComponent] = useState<string>("feed");
-    const sessionToken = localStorage.getItem('sessionToken');
-
     return(
         <>
             <Header />
@@ -62,17 +66,21 @@ export function ProfileVonlunteer(){
                             <button className={styles.activeButton} onClick={() => setComponent("project-list")}>
                                 <span className={styles.activeButtonText}>Meus Projetos</span>
                             </button>
-                            
-                            <div>
-                                <img className={styles.iconHeader} src={DogIcon} />
-                            </div>
+
+                            <button className={styles.activeButton} onClick={() => setComponent("project-search")}>
+                                <span className={styles.activeButtonText}>Buscar Projetos</span>
+                            </button>
+
+ 
                         </div>
                     </div>
                     <div className={styles.publishContainer}>
                         {
                             component === 'feed' && <Feed /> ||
                             component === 'project-form' && <ProjectForm /> ||
-                            component === 'project-list' && <ProjectList /> 
+                            component === 'project-list' && <ProjectList /> ||
+                            component === 'project-edit' && <ProjectEdit /> ||
+                            component === 'project-search' && <ProjectSearch /> 
                         }
                     </div>
                 </div>
