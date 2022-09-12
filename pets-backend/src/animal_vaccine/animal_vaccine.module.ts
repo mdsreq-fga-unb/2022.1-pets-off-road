@@ -6,5 +6,6 @@ import { AnimalVaccineDatabase } from './repository/AnimalVaccineDatabase';
 @Module({
   controllers: [AnimalVaccineController],
   providers: [AnimalVaccineService, AnimalVaccineDatabase],
+  exports: [AnimalVaccineService]
 })
 export class AnimalVaccineModule {}

@@ -3,9 +3,8 @@ import { CreateAnimalVaccineDto } from '../dto/create-animal_vaccine.dto';
 import { AnimalVaccine } from '../entities/animal_vaccine.entity';
 
 export class AnimalVaccineDatabase {
-    public async createAnimalVaccine(createAnimalVaccine: CreateAnimalVaccineDto): Promise <AnimalVaccine> {
-        const verify = await connection.insert(createAnimalVaccine).table('animal_vaccine');
-        return this.get_A_V_unique(createAnimalVaccine);
+    public async createAnimalVaccine(createAnimalVaccine: CreateAnimalVaccineDto) {
+        return await connection.insert(createAnimalVaccine).table('animal_vaccine');
     }
 
     public async get_A_V_unique(animal_vaccine: AnimalVaccine): Promise <AnimalVaccine> {

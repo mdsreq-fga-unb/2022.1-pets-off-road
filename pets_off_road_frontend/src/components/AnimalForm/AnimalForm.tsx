@@ -10,7 +10,6 @@ export function AnimalForm(){
 
     const handleSubmitAnimal = async (e: React.FormEvent<HTMLFormElement>) => {
         const data = new FormData(e.currentTarget);
-
         const vaccines = {
             raiva: e.currentTarget.raiva.checked,
             V8: e.currentTarget.V8.checked,
@@ -35,19 +34,15 @@ export function AnimalForm(){
             },
             vaccines
         }
-
         try {
             await axios.post('http://localhost:3030/animal', cadastroAnimal)
-            return navigate(`project/${id}`)
+            return
         } catch (error) {
             alert('dados invalidos')
         }
       };
 
     return(
-
-        
-        
         <form onSubmit={handleSubmitAnimal} className={styles.formCadastro}>
 
             <label>CPF do Tutor (Opcional)</label>
@@ -66,7 +61,7 @@ export function AnimalForm(){
             <input type="text" name='raca' placeholder="Ex: Bulldog"/>
     
             <label>Cirurgias (Opcional)</label>
-            <input type="text" name="cirurgia" placeholder="Descrever nas cirurgias as quais o animal foi submetido além da castração" />
+            <input type="text" name="cirurgia" placeholder="Descrever as cirurgias nas quais o animal foi submetido além da castração" />
 
             <div>
                 <label>É Castrado?</label>
