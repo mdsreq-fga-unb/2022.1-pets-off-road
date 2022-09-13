@@ -1,16 +1,13 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { ProjectEdit } from '../ProjectEdit/ProjectEdit';
 import styles from './ProjectList.module.css'
 export function ProjectList(){
-
     const [enableComponent, setEnableComponent] = useState<string>();
     const [component , setComponent] = useState<JSX.Element>()
-
     const userCpf = localStorage.getItem('cpf');
     let[posts, setPosts] = useState([]);
-    
 
     useEffect(()=>{
         axios.get(`http://localhost:3030/project/search/${userCpf}`)
@@ -57,7 +54,20 @@ export function ProjectList(){
                                                     }} 
                                                     to=''
                                                 >
-                                                    <span className={styles.activeButtonText}>Editar</span>
+                                                    <span className={styles.activeButtonText}>Editar |</span>
+                                                </Link >
+
+
+                                                <Link to='/profile' onClick={()=>{
+                                                    confirm('Deseja apagar o projeto? todos os dados relativos a ele serão apagados')? 
+                                                    axios.delete(`http://localhost:3030/project/${project.id}`)
+                                                        .then(()=>{alert('Projeto Apagado')})
+                                                        .catch(()=>{alert('Não foi possível apagar o projeto')})
+                                                        :
+                                                        alert('Operação cancelada')
+                                                }}>
+
+                                                    <span className={styles.activeButtonText}>| Apagar</span>
                                                 </Link>
                                             </td>
                                         </tr>
