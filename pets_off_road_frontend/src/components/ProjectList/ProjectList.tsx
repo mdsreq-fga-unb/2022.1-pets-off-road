@@ -1,11 +1,12 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ProjectEdit } from '../ProjectEdit/ProjectEdit.module.';
+import { ProjectEdit } from '../ProjectEdit/ProjectEdit';
 import styles from './ProjectList.module.css'
 export function ProjectList(){
 
-    const [component, setComponent] = useState<string>();
+    const [enableComponent, setEnableComponent] = useState<string>();
+    const [component , setComponent] = useState<JSX.Element>()
 
     const userCpf = localStorage.getItem('cpf');
     let[posts, setPosts] = useState([]);
@@ -47,7 +48,15 @@ export function ProjectList(){
                                             <td className={styles.capitalize}>{project.uf}</td>
                                             <td className={styles.capitalize}>{project.numero_membros}</td>
                                             <td>
-                                                <Link onClick={() => {localStorage.setItem('currentProjectId', (project.id)); setComponent("project-edit");}} to=''>
+                                                <Link onClick={() => {
+                                                    localStorage.setItem('currentProjectId', (project.id)); 
+                                                    setEnableComponent("project-edit");
+                                                    setComponent(<ProjectEdit 
+                                                                    id={project.id}
+                                                                />)
+                                                    }} 
+                                                    to=''
+                                                >
                                                     <span className={styles.activeButtonText}>Editar</span>
                                                 </Link>
                                             </td>
@@ -60,7 +69,7 @@ export function ProjectList(){
                     </table>
                     <div className={styles.publishContainer}>
                         {
-                            component === 'project-edit' && <ProjectEdit />
+                            enableComponent === 'project-edit' && component
                         }
                     </div>
                 </div>

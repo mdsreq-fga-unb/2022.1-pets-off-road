@@ -4,15 +4,18 @@ import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 
-export function ProjectEdit(){
+interface Props{
+    id:string;
+}
 
+export function ProjectEdit({id}:Props){
     let[posts, setPosts]: any = useState([]);
     
     useEffect(()=>{
         axios.get(`http://localhost:3030/project/${localStorage.getItem('currentProjectId')}`)
             .then(data=>{setPosts(data.data)})
             .catch(err=>{console.log('Deu ruim')})
-    }, [])
+    }, [{id}])
 
     const navigate = useNavigate();
     const handleSubmitProject = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -30,11 +33,11 @@ export function ProjectEdit(){
         
         try {
             await axios.patch(`http://localhost:3030/project/${localStorage.getItem('currentProjectId')}`, cadastroProjeto)
-            return navigate('/profile')
+            return
         } catch (error) {
             alert('dados invalidos')
         }
-
+        
       };
 
     return(

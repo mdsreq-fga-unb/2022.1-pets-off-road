@@ -12,9 +12,9 @@ import DogIcon from '../assets/dogg.png'
 import { Plus, GearSix} from 'phosphor-react'
 import { Feed } from '../components/Feed/Feed';
 import { ProjectList } from '../components/ProjectList/ProjectList';
-import { ProjectForm } from '../components/ProjetoForm/ProjectForm.module.';
+import { ProjectForm } from '../components/ProjetoForm/ProjectForm';
 import { Link } from 'react-router-dom';
-import { ProjectEdit } from '../components/ProjectEdit/ProjectEdit.module.';
+import { ProjectEdit } from '../components/ProjectEdit/ProjectEdit';
 import { ProjectSearch } from '../components/ProjectSearch/ProjectSearch';
 
 /*                           */
@@ -22,6 +22,7 @@ import { ProjectSearch } from '../components/ProjectSearch/ProjectSearch';
 
 export function ProfileVonlunteer(){
     const [component, setComponent] = useState<string>("feed");
+    
     return(
         <>
             <Header />
@@ -79,7 +80,6 @@ export function ProfileVonlunteer(){
                             component === 'feed' && <Feed /> ||
                             component === 'project-form' && <ProjectForm /> ||
                             component === 'project-list' && <ProjectList /> ||
-                            component === 'project-edit' && <ProjectEdit /> ||
                             component === 'project-search' && <ProjectSearch /> 
                         }
                     </div>

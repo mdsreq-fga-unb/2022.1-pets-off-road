@@ -8,6 +8,7 @@ export function ProjectForm(){
 
     const navigate = useNavigate();
     const handleSubmitProject = async (e: React.FormEvent<HTMLFormElement>) => {
+        // e.preventDefault()
         const data = new FormData(e.currentTarget);
 
         const cadastroProjeto = {
@@ -19,9 +20,12 @@ export function ProjectForm(){
             cidade: data.get('cidade_projeto'),
             endereco: data.get('endereco')
         }
+
+        console.log(cadastroProjeto)
         
         try {
             await axios.post('http://localhost:3030/project', cadastroProjeto)
+
             return navigate('/profile')
         } catch (error) {
             alert('dados invalidos')
