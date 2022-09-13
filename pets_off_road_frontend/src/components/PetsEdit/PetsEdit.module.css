@@ -1,0 +1,106 @@
+
+.screen{
+    display: grid;
+    grid-template-columns: .8fr 1fr;
+    height: 100vh;
+} 
+
+.welcomeBox{
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #F54A48;
+}
+.welcomeBox a{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+
+.welcomeBox:first-of-type svg{
+    color: #ffffff;
+    width: 2rem;
+    height: 2rem;
+}
+
+
+.logo{
+    height: 200px;
+    left: 200px;
+    width: 12rem;
+    position: absolute;
+    top: 3rem;
+}
+.WelcomeMessage{
+    position: absolute;
+    width: 425px;
+    height: 66px;
+    left: 837px;
+    top: 29px;
+}
+
+.welcomeMessage h1{
+    position: absolute;
+    right: 24rem;
+    top: 2rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 38.0001px;
+    line-height: 100%;
+    color: #3C3C3C;
+}
+
+.welcomeMessage p{
+    position: absolute;
+    right: 30rem;
+    top: 4.7rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    color: #A2A2A2;
+}
+
+.screenForm{
+    position: absolute;
+    right: -14rem;
+    top: 2rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formCadastro{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+
+}
+
+.formCadastro input{
+    padding: 1px 2px;
+}
+
+.formCadastro div{
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+}
+
+.formCadastro button{
+    border-radius: 8px;
+    border: none;
+    padding: .8rem .8rem;
+    background: var(--red-primary);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}

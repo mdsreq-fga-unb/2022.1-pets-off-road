@@ -13,4 +13,9 @@ export class AnimalDatabase {
   public async listByProject(id: number){
     return await connection.select().table('animal').where({project_id: id})
   }
+
+  public async listByid(id: number){
+    return (await connection.select().table('animal').where({matricula: id}))[0]
+  }
+
 }

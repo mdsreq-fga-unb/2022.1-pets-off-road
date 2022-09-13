@@ -22,6 +22,11 @@ export class AnimalController {
     return this.animalService.findAll();
   }
 
+  @Get(':id')
+  findbyId(@Param('id') id: number) {
+    return this.animalService.findById(id);
+  }
+
   @Get('project/:id')
   findByProjectId(@Param('id') id: number) {
     return this.animalService.findByProject(id);

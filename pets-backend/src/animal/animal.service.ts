@@ -21,6 +21,11 @@ export class AnimalService {
     return await this.AnimalRepository.listOfAnimals();
   }
 
+
+  async findById(id: number) {
+    return await this.AnimalRepository.listByid(id);
+  }
+
   async findByProject(projectId: number){
     return await this.AnimalRepository.listByProject(projectId);
   }
