@@ -1,0 +1,51 @@
+
+.iconHeader{
+    width: 55px;
+    margin-right: 2%;
+    display: flex;
+    align-self: flex-end;
+}
+
+.welcomeBox:first-of-type svg{
+    width: 2rem;
+    height: 2rem;
+
+}
+
+
+.formCadastro{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin: 0 auto;
+    justify-content: center;
+    gap: .8rem;
+}
+
+.formCadastro label{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: -.03em;
+    color: #7c7c7c;
+}
+
+.formCadastro input{
+   background: #f9f9f9;
+   border: 1px solid #e6e6e6;
+   border-radius: 8px;
+   padding: .5rem;
+}
+
+.formCadastro button{
+    padding: .5rem;
+    background: var(--red-primary);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    cursor: pointer;
+}
