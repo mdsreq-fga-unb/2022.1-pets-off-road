@@ -209,4 +209,4 @@ O Diagrama abaixo mostra a estrutura padrão dos pacotes referentes ao BackEnd e
 - Diagrama de Classes 
 
 
-<img width="460" height="300" src="https://github.com/mdsreq-fga-unb/2022.1-pets-off-road/blob/38_arquitetura/docs/imagens/diagrama_de_classes.jpg?raw=true">
+<img width="460" height="300" src="https://github.com/mdsreq-fga-unb/2022.1-pets-off-road/blob/38_arquitetura/docs/imagens/diagrama_de_classe.png?raw=true">
