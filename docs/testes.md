@@ -22,7 +22,7 @@ Estratégias de teste - PetsOffRoad
 - Manual: Serão produzidos casos de teste unitário pelos membros da equipe responsáveis pela fase de testagem ( equipe de requisitos), e cada funcionalidade produzida durante a sprint será testada antes de ser aprovada para o deploy.
 
 - Automático: Além da produção de testes manuais, através destes serão conduzidos testes unitários automatizados para o backend da aplicação por meio do uso da ferramenta JEST.
--
+
 
 ### Plano de Teste
 
