@@ -8,6 +8,7 @@
 | 13/08/2022 | 0.4    | Adição parcial de visão lógica                                                                | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
 | 14/08/2022 | 0.5    | Adição do diagrama do FrontEnd                                                               | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
 | 16/08/2022 | 0.6    | Adição de diagramas                                                              | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
+| 12/09/2022 | 0.7   | Altera diagrama de classes                                                             | [@ShaineOliveira](https://github.com/ShaineOliveira) e [@JoseFilipi](https://github.com/JoseFilipi)
                           
                                                                                                                                                    
 ## Sumário
@@ -198,4 +199,4 @@ O Diagrama abaixo mostra a estrutura padrão dos pacotes referentes ao BackEnd e
 - Diagrama de Classes 
 
 
-<img width="460" height="300" src="https://github.com/mdsreq-fga-unb/2022.1-pets-off-road/blob/38_arquitetura/docs/imagens/diagrama_de_classes.jpg?raw=true">
+<img width="460" height="300" src="https://github.com/mdsreq-fga-unb/2022.1-pets-off-road/blob/38_arquitetura/docs/imagens/diagrama_de_classe.png?raw=true">
