@@ -9,7 +9,7 @@
             matricula_animal    INT NOT NULL,
             CONSTRAINT VACCINE_ANIMAL_PK PRIMARY KEY (cod_vacina, matricula_animal),
             CONSTRAINT VACCINE_ANIMAL_FK FOREIGN KEY (cod_vacina) REFERENCES vaccine (cod_vacina),
-            CONSTRAINT ANIMAL_VACCINE_FK FOREIGN KEY (matricula_animal) REFERENCES animal (matricula))
+            CONSTRAINT ANIMAL_VACCINE_FK FOREIGN KEY (matricula_animal) REFERENCES animal (matricula) ON DELETE CASCADE)
             ENGINE InnoDB;
     `)
 };

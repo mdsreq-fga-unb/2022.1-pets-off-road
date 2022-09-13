@@ -18,7 +18,7 @@
             criado_em        DATETIME                                   NOT NULL    DEFAULT   CURRENT_TIMESTAMP,
             modificado_em    DATETIME                                   NOT NULL    DEFAULT   CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
             CONSTRAINT ANIMAL_PK PRIMARY KEY (matricula),
-            CONSTRAINT PROJECT_ANIMAL_FK FOREIGN KEY(project_id) REFERENCES project(id),
+            CONSTRAINT PROJECT_ANIMAL_FK FOREIGN KEY(project_id) REFERENCES project(id) ON DELETE CASCADE,
             CONSTRAINT USER_ANIMAL_FK FOREIGN KEY(cpf_dono) REFERENCES user(cpf))
             ENGINE InnoDB;
     `)

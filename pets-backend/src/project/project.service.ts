@@ -30,7 +30,7 @@ export class ProjectService {
     return await this.ProjectRepository.update(updateProjectDto, id);
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} project`;
+  async remove(id: number) {
+    return this.ProjectRepository.deleteById(id);
   }
 }

@@ -49,4 +49,11 @@ export class ProjectDatabase {
       })
       .where({ id: id });
   }
+
+  public async deleteById(id: number){
+    return await connection
+      .delete()
+      .table(this.table_name)
+      .where({id: id})
+  }
 }
