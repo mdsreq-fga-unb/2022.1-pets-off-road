@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite --host && vite preview"
   },
   "dependencies": {
     "@unform/core": "^2.1.6",
