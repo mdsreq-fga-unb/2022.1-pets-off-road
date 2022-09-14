@@ -6,9 +6,10 @@ import axios from 'axios'
 
 export function ProjectForm(){
 
-    const navigate = useNavigate();
+    const form: any = document.getElementById('formCadastro');
+
     const handleSubmitProject = async (e: React.FormEvent<HTMLFormElement>) => {
-        // e.preventDefault()
+        e.preventDefault()
         const data = new FormData(e.currentTarget);
 
         const cadastroProjeto = {
@@ -25,19 +26,18 @@ export function ProjectForm(){
         
         try {
             await axios.post('http://159.223.189.251:3030/project', cadastroProjeto)
-
-            return navigate('/profile')
+            alert('Projeto cadastrado com sucesso!')
+            form.reset()
         } catch (error) {
             alert('dados invalidos')
         }
-
       };
 
     return(
         <main>
             <h1>Criar Novo Projeto</h1>
             <br />
-            <form onSubmit={handleSubmitProject} className={styles.formCadastro}>
+            <form id='formCadastro' onSubmit={handleSubmitProject} className={styles.formCadastro}>
                 <label>Nome do Projeto</label>
                 <input name='nome_projeto' required type="text" placeholder="Ex: Nome-do-Projeto"/>
 

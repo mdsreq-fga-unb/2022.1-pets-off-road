@@ -5,10 +5,10 @@ import axios from 'axios';
 
 export function AnimalForm(){
 
-    const navigate = useNavigate();
     const id = window.location.pathname.split('/')[2];
 
     const handleSubmitAnimal = async (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault()
         const data = new FormData(e.currentTarget);
         const vaccines = {
             raiva: e.currentTarget.raiva.checked,
@@ -36,7 +36,7 @@ export function AnimalForm(){
         }
         try {
             await axios.post('http://159.223.189.251:3030/animal', cadastroAnimal)
-            return
+            alert('Animal Cadastrado Com Sucesso!')
         } catch (error) {
             alert('dados invalidos')
         }
