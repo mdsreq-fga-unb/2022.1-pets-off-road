@@ -6,9 +6,8 @@ import axios from 'axios'
 
 export function ProjectForm(){
 
-    const form: any = document.getElementById('formCadastro');
-
     const handleSubmitProject = async (e: React.FormEvent<HTMLFormElement>) => {
+        const form: any = document.getElementById('formCadastro');
         e.preventDefault()
         const data = new FormData(e.currentTarget);
 
@@ -22,7 +21,6 @@ export function ProjectForm(){
             endereco: data.get('endereco')
         }
 
-        console.log(cadastroProjeto)
         
         try {
             await axios.post('http://159.223.189.251:3030/project', cadastroProjeto)

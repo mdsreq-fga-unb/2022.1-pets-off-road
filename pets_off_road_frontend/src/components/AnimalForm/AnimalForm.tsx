@@ -8,6 +8,7 @@ export function AnimalForm(){
     const id = window.location.pathname.split('/')[2];
 
     const handleSubmitAnimal = async (e: React.FormEvent<HTMLFormElement>) => {
+        const form: any = document.getElementById('formAnimal');
         e.preventDefault()
         const data = new FormData(e.currentTarget);
         const vaccines = {
@@ -36,26 +37,27 @@ export function AnimalForm(){
         }
         try {
             await axios.post('http://159.223.189.251:3030/animal', cadastroAnimal)
-            alert('Animal Cadastrado Com Sucesso!')
+            alert('Animal Cadastrado Com Sucesso!');
+            form.reset();
         } catch (error) {
             alert('dados invalidos')
         }
       };
 
     return(
-        <form onSubmit={handleSubmitAnimal} className={styles.formCadastro}>
+        <form id='formAnimal' onSubmit={handleSubmitAnimal} className={styles.formCadastro}>
 
             <label>CPF do Tutor (Opcional)</label>
             <input type="text" name="cpf_tutor" placeholder="XXXXXXXXXXX"/>
 
             <label>Nome do Cachorro</label>
-            <input type="text" name="nome_pet" placeholder="Ex: Floquinho"/>
+            <input required type="text" name="nome_pet" placeholder="Ex: Floquinho"/>
 
             <label>Idade</label>
-            <input type="number" name="idade" placeholder="Ex: 2"/>
+            <input required type="number" name="idade" placeholder="Ex: 2"/>
 
             <label>Espécie</label>
-            <input type="text" name='especie' placeholder="Ex: Cachorro"/>
+            <input required type="text" name='especie' placeholder="Ex: Cachorro"/>
 
             <label>Raca (Opcional)</label>
             <input type="text" name='raca' placeholder="Ex: Bulldog"/>
@@ -70,7 +72,7 @@ export function AnimalForm(){
                     <input type='radio' name='castrado' id='true' value={1}/>
 
                     <label>Não</label>
-                    <input type='radio' name='castrado' id='false' value={0}/>
+                    <input defaultChecked type='radio' name='castrado' id='false' value={0}/>
                 </div>
             </div>
 
@@ -83,7 +85,7 @@ export function AnimalForm(){
                     <input type='radio' name='saude' value={0}/>
 
                     <label>Saudavel</label>
-                    <input type='radio' name='saude' value={1}/>
+                    <input checked type='radio' name='saude' value={1}/>
                 </div>
             </div>
             

@@ -4,7 +4,6 @@ import { Link, useNavigate } from 'react-router-dom';
 import { ProjectEdit } from '../ProjectEdit/ProjectEdit';
 import styles from './ProjectList.module.css'
 export function ProjectList(){
-    const [loading, setLoading] = useState<any>(false)
     const [enableComponent, setEnableComponent] = useState<string>();
     const [component , setComponent] = useState<JSX.Element>()
     const userCpf = localStorage.getItem('cpf');
@@ -46,34 +45,36 @@ export function ProjectList(){
                                             <td className={styles.capitalize}>{project.uf}</td>
                                             <td className={styles.capitalize}>{project.numero_membros}</td>
                                             <td>
-                                                <Link onClick={() => {
-                                                    localStorage.setItem('currentProjectId', (project.id)); 
-                                                    setEnableComponent("project-edit");
-                                                    setComponent(<ProjectEdit 
-                                                                    id={project.id}
-                                                                />)
-                                                    }} 
-                                                    to=''
-                                                >
-                                                    <span className={styles.activeButtonText}>Editar |</span>
-                                                </Link >
-
+                                                <span>
+                                                    <Link onClick={() => {
+                                                        localStorage.setItem('currentProjectId', (project.id)); 
+                                                        setEnableComponent("project-edit");
+                                                        setComponent(<ProjectEdit 
+                                                                        id={project.id}
+                                                                    />)
+                                                        }} 
+                                                        to=''
+                                                    >
+                                                        <span className={styles.activeButtonText}>Editar |</span>
+                                                    </Link >
+                                                </span>
                                                 
-                                                <Link to='/profile' onClick={()=>{
-                                                    setLoading(true)
-                                                    confirm('Deseja apagar o projeto? todos os dados relativos a ele serão apagados')? 
-                                                    axios.delete(`http://159.223.189.251:3030/project/${project.id}`)
-                                                        .then(()=>{
-                                                            alert('Projeto Apagado')
-                                                            posts.filter((e: any)=> e.id != project.id)
-                                                        })
-                                                        .catch(()=>{alert('Não foi possível apagar o projeto')})
-                                                        :
-                                                        alert('Operação cancelada')
-                                                }}>
+                                                <span>
+                                                    <Link to='/profile' onClick={()=>{
+                                                        confirm('Deseja apagar o projeto? todos os dados relativos a ele serão apagados')? 
+                                                        axios.delete(`http://159.223.189.251:3030/project/${project.id}`)
+                                                            .then(()=>{
+                                                                alert('Projeto Apagado')
+                                                                posts.filter((e: any)=> e.id != project.id)
+                                                            })
+                                                            .catch(()=>{alert('Não foi possível apagar o projeto')})
+                                                            :
+                                                            alert('Operação cancelada')
+                                                    }}>
 
-                                                    <span className={styles.activeButtonText}>| Apagar</span>
-                                                </Link>
+                                                        <span className={styles.activeButtonText}>| Apagar</span>
+                                                    </Link>
+                                                </span>
                                             </td>
                                         </tr>
                                     )
