@@ -26,7 +26,7 @@ export function Login(){
         }
         
         try {
-            const responseLogin = await axios.post('http://localhost:3030/user/login', login);
+            const responseLogin = await axios.post('http://159.223.189.251:3030/user/login', login);
             localStorage.setItem('sessionToken', responseLogin.data.sessionToken);
             localStorage.setItem('cpf', responseLogin.data.cpf)
             localStorage.setItem('nome', responseLogin.data.nome)

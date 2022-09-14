@@ -24,7 +24,7 @@ export function ProjectForm(){
         console.log(cadastroProjeto)
         
         try {
-            await axios.post('http://localhost:3030/project', cadastroProjeto)
+            await axios.post('http://159.223.189.251:3030/project', cadastroProjeto)
 
             return navigate('/profile')
         } catch (error) {
