@@ -8,7 +8,7 @@ export function Header(){
 
     return(
         <header className={styles.header}>
-                <h1>PetsHub</h1>
+                <Link to="/profile"><h1>Petshub</h1></Link>
                 <Link onClick={()=> localStorage.clear()} to="/"><button className={styles.buttonExit}> Sair <SignOut /></button></Link>
         </header>
     )

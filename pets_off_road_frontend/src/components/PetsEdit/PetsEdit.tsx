@@ -18,7 +18,7 @@ export function PetsEdit({matricula}:Props){
     }, [{matricula}])
 
     const navigate = useNavigate();
-    const handleSubmitProject = async (e: React.FormEvent<HTMLFormElement>) => {
+    const handleSubmitAnimal = async (e: React.FormEvent<HTMLFormElement>) => {
         const data = new FormData(e.currentTarget);
 
         const cadastroProjeto = {
@@ -42,28 +42,69 @@ export function PetsEdit({matricula}:Props){
 
     return(
         <main>
-            <h1>Atualizar Projeto: {posts.nome}</h1>
+            <h1>Atualizar Animal: {posts.nome}</h1>
             <br />
-            <form onSubmit={handleSubmitProject} className={styles.formCadastro}>
-                <label>Nome do Projeto</label>
-                <input name='nome_projeto' required type="text" placeholder="Ex: Nome-do-Projeto" defaultValue={posts.nome}/>
+            <form onSubmit={handleSubmitAnimal} className={styles.formCadastro}>
+            <label>CPF do Tutor (Opcional)</label>
+            <input type="text" name="cpf_tutor" placeholder="XXXXXXXXXXX"/>
 
-                <label>Endereço de email</label>
-                <input name='email_projeto' required type="email" placeholder="@mail.com.br" defaultValue={posts.email}/>
+            <label>Nome do Cachorro</label>
+            <input type="text" name="nome_pet" placeholder="Ex: Floquinho"/>
 
-                <label>UF</label>
-                <input name='uf_projeto' required type="text" placeholder="Ex: DF" defaultValue={posts.uf}/>
+            <label>Idade</label>
+            <input type="number" name="idade" placeholder="Ex: 2"/>
 
-                <label>Cidade</label>
-                <input name='cidade_projeto' required type="text" placeholder="Ex: Brasília" defaultValue={posts.cidade}/>
+            <label>Espécie</label>
+            <input type="text" name='especie' placeholder="Ex: Cachorro"/>
 
-                <label>Endereco</label>
-                <input name='endereco' required type="text" placeholder="Ex: Rua x, quadra x, numero x" defaultValue={posts.endereco}/>
+            <label>Raca (Opcional)</label>
+            <input type="text" name='raca' placeholder="Ex: Bulldog"/>
+    
+            <label>Cirurgias (Opcional)</label>
+            <input type="text" name="cirurgia" placeholder="Descrever as cirurgias nas quais o animal foi submetido além da castração" />
 
-                <label>Telefone</label>
-                <input name='telefone_projeto' required type="tel" placeholder="(DDD)XXXXX-XXXX" defaultValue={posts.telefone}/>
+            <div>
+                <label>É Castrado?</label>
+                <div>
+                    <label>Sim</label>
+                    <input type='radio' name='castrado' id='true' value={1}/>
 
-                <button type="submit">Atualizar</button>
+                    <label>Não</label>
+                    <input type='radio' name='castrado' id='false' value={0}/>
+                </div>
+            </div>
+
+
+            
+            <div>
+                <label>Condição de Saúde</label>
+                <div>
+                    <label>Doente</label>
+                    <input type='radio' name='saude' value={0}/>
+
+                    <label>Saudavel</label>
+                    <input type='radio' name='saude' value={1}/>
+                </div>
+            </div>
+            
+  
+
+
+            <div>
+                <label>Vacinas:</label>
+                <div>
+                    <label>Raiva</label>
+                    <input type="checkbox" name='raiva'/>
+
+                    <label>V8</label>
+                    <input type="checkbox" name='V8'/>
+
+                    <label>V10</label>
+                    <input type="checkbox" name='V10'/>
+                </div>
+            </div>
+
+            <button type="submit">Cadastrar</button>
             </form>  
         </main>
     )

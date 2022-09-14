@@ -4,6 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { ProjectEdit } from '../ProjectEdit/ProjectEdit';
 import styles from './ProjectList.module.css'
 export function ProjectList(){
+    const [loading, setLoading] = useState<any>(false)
     const [enableComponent, setEnableComponent] = useState<string>();
     const [component , setComponent] = useState<JSX.Element>()
     const userCpf = localStorage.getItem('cpf');
@@ -13,7 +14,7 @@ export function ProjectList(){
         axios.get(`http://159.223.189.251:3030/project/search/${userCpf}`)
             .then(data=>{setPosts(data.data)})
             .catch(err=>{console.log('Deu ruim')})
-    }, [])
+    }, [posts])
 
     return (
         <main>
@@ -57,11 +58,15 @@ export function ProjectList(){
                                                     <span className={styles.activeButtonText}>Editar |</span>
                                                 </Link >
 
-
+                                                
                                                 <Link to='/profile' onClick={()=>{
+                                                    setLoading(true)
                                                     confirm('Deseja apagar o projeto? todos os dados relativos a ele serão apagados')? 
                                                     axios.delete(`http://159.223.189.251:3030/project/${project.id}`)
-                                                        .then(()=>{alert('Projeto Apagado')})
+                                                        .then(()=>{
+                                                            alert('Projeto Apagado')
+                                                            posts.filter((e: any)=> e.id != project.id)
+                                                        })
                                                         .catch(()=>{alert('Não foi possível apagar o projeto')})
                                                         :
                                                         alert('Operação cancelada')
@@ -73,8 +78,8 @@ export function ProjectList(){
                                         </tr>
                                     )
                                 })
-                            }
-    
+                            
+                        }
                         </tbody>
                     </table>
                     <div className={styles.publishContainer}>
