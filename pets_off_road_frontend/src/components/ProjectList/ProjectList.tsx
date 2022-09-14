@@ -10,7 +10,7 @@ export function ProjectList(){
     let[posts, setPosts] = useState([]);
 
     useEffect(()=>{
-        axios.get(`http://localhost:3030/project/search/${userCpf}`)
+        axios.get(`http://159.223.189.251:3030/project/search/${userCpf}`)
             .then(data=>{setPosts(data.data)})
             .catch(err=>{console.log('Deu ruim')})
     }, [])
@@ -60,7 +60,7 @@ export function ProjectList(){
 
                                                 <Link to='/profile' onClick={()=>{
                                                     confirm('Deseja apagar o projeto? todos os dados relativos a ele serão apagados')? 
-                                                    axios.delete(`http://localhost:3030/project/${project.id}`)
+                                                    axios.delete(`http://159.223.189.251:3030/project/${project.id}`)
                                                         .then(()=>{alert('Projeto Apagado')})
                                                         .catch(()=>{alert('Não foi possível apagar o projeto')})
                                                         :

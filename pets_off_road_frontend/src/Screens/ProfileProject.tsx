@@ -25,7 +25,7 @@ export function ProfileProject(){
     let[posts, setPosts]: any = useState({});
     
     useEffect(()=>{
-        axios.get('http://localhost:3030'+window.location.pathname)
+        axios.get('http://159.223.189.251:3030'+window.location.pathname)
             .then((data)=>{setPosts(data.data)})
             .catch(err=>{console.log(err)})
     }, [])

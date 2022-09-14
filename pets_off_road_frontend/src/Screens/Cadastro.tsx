@@ -32,7 +32,7 @@ export function Cadastro(){
         }
         
         try {
-            await axios.post('http://localhost:3030/user', cadastro)
+            await axios.post('http://159.223.189.251:3030/user', cadastro)
             alert('Cadastro Concluido com Sucesso')
             navigate('/')
         } catch (error) {
@@ -55,7 +55,7 @@ export function Cadastro(){
             cidade: data.get('cidade_projeto'),
         }
         
-        await axios.post('http://localhost:3030/project', cadastroProjeto)
+        await axios.post('http://159.223.189.251:3030/project', cadastroProjeto)
             .then(() => {return navigate('/') })
             .catch(err=>{alert('dados invalidos')})
       };

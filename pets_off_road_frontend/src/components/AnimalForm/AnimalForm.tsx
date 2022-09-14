@@ -35,7 +35,7 @@ export function AnimalForm(){
             vaccines
         }
         try {
-            await axios.post('http://localhost:3030/animal', cadastroAnimal)
+            await axios.post('http://159.223.189.251:3030/animal', cadastroAnimal)
             return
         } catch (error) {
             alert('dados invalidos')
