@@ -10,6 +10,8 @@
 | 13/08/2022 |  0.3   |                     Organizando backlog                     | Pedro Helias e Gabriel Marcolino |
 | 15/08/2022 |  0.4   |           Adicionando US's e organizando backlog            |        Gabriel Marcolino         |
 | 16/08/2022 |  0.5   | Removendo algumas US's e adicionando critérios de aceitação |        Gabriel Marcolino         |
+| 13/09/2022 |  0.6   | Alteração nos critérios de aceitação |        Pedro Helias e Gabriel Marcolino         |
+
 
 
 ## Backlog do Produto
@@ -85,7 +87,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :----------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** excluir projeto **para** adequar ao estado atualdo projeto |
 |                 **Pontos** | -                                                                                                |
-| **Critérios de aceitação** | -                                                                                                |
+| **Critérios de aceitação** | - O ID relacionado ao projeto deve ser excluido do banco de dados na exclusão de um projeto                                                                                                |
 
 #### US08
 
@@ -101,8 +103,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :------------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** dono do projeto **quero** realizar o cadastro de um projeto para ter mais controle de gerenciamento e recursos |
 |                 **Pontos** | -                                                                                                                          |
-| **Critérios de aceitação** | - Só será realizado o cadastro caso o usuário possua 18 anos ou mais.                                     
-- Campos obrigatórios devem estar preenchidos(nome, email, telefone, uf, cidade, senha, numero_membros)                              |
+| **Critérios de aceitação** | - Só será realizado o cadastro caso o usuário possua 18 anos ou mais.                                     - Campos obrigatórios devem estar preenchidos(nome, email, telefone, uf, cidade, senha, numero_membros)                              |
 
 #### US10
 
@@ -121,7 +122,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :---------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** categorizar as publicações **para** associar a uma métrica de minha preferência |
 |                 **Pontos** | -                                                                                                           |
-| **Critérios de aceitação** | -                                                                                                           |
+| **Critérios de aceitação** | -                                                                               |
 
 
 #### US12
@@ -131,6 +132,8 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 |              **Descrição** | **Eu como** voluntário **quero** categorizar as publicações **para** associar a uma métrica de minha preferência |
 |                 **Pontos** | -                                                                                                                |
 | **Critérios de aceitação** | -                                                                                                                |
+
+
 
 ## **Épico-02: Interatividade com o sistema**
 
@@ -160,7 +163,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :----------------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** quero ver quais animais estão disponíveis para adoção **para** ter mais liberdade de escolha |
 |                 **Pontos** | -                                                                                                                        |
-| **Critérios de aceitação** | -                                                                                                                        |
+| **Critérios de aceitação** | - O status para adoção deve estar como _true_, partindo do ponto que não há associação entre o CPF de um dono cadastrado.                                                                                                                         | 
 
 #### US16
 
@@ -176,7 +179,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :--------------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** ver quais animais foram adotados **para** ter entendimento sobre o histórico adotado |
 |                 **Pontos** | -                                                                                                                |
-| **Critérios de aceitação** | -                                                                                                                |
+| **Critérios de aceitação** | - O status de adoção deve estar alterado para "disponível" e visível para o usuário.                                                                                                               |
 
 #### US18
 
@@ -184,8 +187,9 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------ |
 |              **Descrição** | **Eu como** dono do projeto **quero** realizar edição de informações do animal **para** ter maior controle sobre os animais vinculados ao projeto |
 |                 **Pontos** | -                                                                                                                                                 |
-| **Critérios de aceitação** | -                                                                                                                                                 |
-  
+| **Critérios de aceitação** | - Campos obrigatórios(nome, especie, raca, idade, condicao_saude). O campo de "cirurgia" não é obrigatório, bem como o campo CPF(específico para quando o animal for adotado, e o status de "disponível para adoção" mudar para false).                                                                                                                                                 |
+
+
 ### **FT05 - Interação entre usuário**
 
 #### US19
@@ -243,7 +247,7 @@ A partir do levantamento do requisitos, foi construída uma estrutura com a orga
 | -------------------------: | :-------------------------------------------------------------------------------------------------------- |
 |              **Descrição** | **Eu como** tutor **quero** pesquisar por outros projetos **para** buscar o mesmo serviço ou oportunidade |
 |                 **Pontos** | -                                                                                                         |
-| **Critérios de aceitação** | -                                                                                                         |
+| **Critérios de aceitação** | - O campo de busca deve estar preenchido para executar a query no sistema.                                                                                                          |
 
 #### US26
 
