@@ -12,7 +12,7 @@ export function PetsEdit({matricula}:Props){
     let[posts, setPosts]: any = useState([]);
     
     useEffect(()=>{
-        axios.get(`http://localhost:3030/animal/${localStorage.getItem('currentAnimalId')}`)
+        axios.get(`http://159.223.189.251:3030/animal/${localStorage.getItem('currentAnimalId')}`)
             .then(data=>{setPosts(data.data)})
             .catch(err=>{console.log('Deu ruim')})
     }, [{matricula}])
@@ -32,7 +32,7 @@ export function PetsEdit({matricula}:Props){
         }
         
         try {
-            await axios.patch(`http://localhost:3030/project/${localStorage.getItem('currentProjectId')}`, cadastroProjeto)
+            await axios.patch(`http://159.223.189.251:3030/project/${localStorage.getItem('currentProjectId')}`, cadastroProjeto)
             return
         } catch (error) {
             alert('dados invalidos')
