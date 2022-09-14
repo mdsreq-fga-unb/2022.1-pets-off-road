@@ -59,8 +59,10 @@ nav:
                       - Planning: sprints/sprint12/planning/planning.md
                       - Review: sprints/sprint12/review/review.md
                       - Retrospective: sprints/sprint12/retrospective/retrospective.md
-              # - Sprint 13:
-
+              - Sprint 13:
+                      - Planning: sprints/sprint13/planning/planning.md       
+                      - Review: sprints/sprint13/review/review.md
+                      - Retrospective: sprints/sprint13/retrospective/retrospective.md
 theme:
       name: material
 
