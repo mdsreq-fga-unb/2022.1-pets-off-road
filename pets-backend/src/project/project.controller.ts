@@ -36,7 +36,7 @@ export class ProjectController {
   }
 
   @Get('find/name')
-  findByName(@Body() nome: any) {
+  findByName(@Body('nome') nome: any) {
     return this.projectService.findByName(nome);
   }
 
