@@ -63,7 +63,7 @@ export  function PetsList() {
                                                     }} 
                                                     to=''
                                                 >
-                                                    <span className={styles.activeButtonText}>Editar |</span>
+                                                    <span className={styles.activeButtonText}>Editar</span>
                                                 </Link >
                                         </td>
                                     </tr>

@@ -17,53 +17,102 @@ export function PetsEdit({matricula}:Props){
             .catch(err=>{console.log('Deu ruim')})
     }, [{matricula}])
 
-    const navigate = useNavigate();
-    const handleSubmitProject = async (e: React.FormEvent<HTMLFormElement>) => {
+    const handleSubmitAnimal = async (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault()
         const data = new FormData(e.currentTarget);
+        const id = window.location.pathname.split('/')[2];
+        const cpf_dono = data.get('cpf_tutor') === ''? null: data.get('cpf_tutor');
+        const raca = data.get('raca') === ''? null: data.get('raca');
+        const cirurgias = data.get('cirurgia') === ''? null: data.get('cirurgia');
 
-        const cadastroProjeto = {
-            cpf: localStorage.getItem('cpf'),
-            nome: data.get('nome_projeto'),
-            email: data.get('email_projeto'),
-            telefone: data.get('telefone_projeto'),
-            uf: data.get('uf_projeto'),
-            cidade: data.get('cidade_projeto'),
-            endereco: data.get('endereco')
+        const atualizarAnimal = {
+            animal: {            
+                cpf_dono: cpf_dono,
+                project_id: id,
+                nome: data.get('nome_pet'),
+                especie: data.get('especie'),
+                raca: raca,
+                idade: data.get('idade'),
+                cirurgias: cirurgias,
+                castrado: e.currentTarget.castrado.value,
+                condicao_saude: e.currentTarget.saude.value
+            }
         }
         
         try {
-            await axios.patch(`http://159.223.189.251:3030/project/${localStorage.getItem('currentProjectId')}`, cadastroProjeto)
-            return
+            await axios.patch(`http://159.223.189.251:3030/animal/${localStorage.getItem('currentAnimalId')}`, atualizarAnimal)
+            alert('Dados atualizados');
+
         } catch (error) {
             alert('dados invalidos')
         }
-        
       };
 
     return(
         <main>
-            <h1>Atualizar Projeto: {posts.nome}</h1>
+            <h1>Atualizar Animal: {posts.nome}</h1>
             <br />
-            <form onSubmit={handleSubmitProject} className={styles.formCadastro}>
-                <label>Nome do Projeto</label>
-                <input name='nome_projeto' required type="text" placeholder="Ex: Nome-do-Projeto" defaultValue={posts.nome}/>
+            <form onSubmit={handleSubmitAnimal} className={styles.formCadastro}>
+            <label>CPF do Tutor (Opcional)</label>
+            <input defaultValue={posts.cpf_dono} type="text" name="cpf_tutor" placeholder="XXXXXXXXXXX"/>
 
-                <label>Endereço de email</label>
-                <input name='email_projeto' required type="email" placeholder="@mail.com.br" defaultValue={posts.email}/>
+            <label>Nome do Cachorro</label>
+            <input defaultValue={posts.nome} type="text" name="nome_pet" placeholder="Ex: Floquinho"/>
 
-                <label>UF</label>
-                <input name='uf_projeto' required type="text" placeholder="Ex: DF" defaultValue={posts.uf}/>
+            <label>Idade</label>
+            <input defaultValue={posts.idade} type="number" name="idade" placeholder="Ex: 2"/>
 
-                <label>Cidade</label>
-                <input name='cidade_projeto' required type="text" placeholder="Ex: Brasília" defaultValue={posts.cidade}/>
+            <label>Espécie</label>
+            <input defaultValue={posts.especie} type="text" name='especie' placeholder="Ex: Cachorro"/>
 
-                <label>Endereco</label>
-                <input name='endereco' required type="text" placeholder="Ex: Rua x, quadra x, numero x" defaultValue={posts.endereco}/>
+            <label>Raca (Opcional)</label>
+            <input defaultValue={posts.raca} type="text" name='raca' placeholder="Ex: Bulldog"/>
+    
+            <label>Cirurgias (Opcional)</label>
+            <input defaultValue={posts.cirurgias} type="text" name="cirurgia" placeholder="Descrever as cirurgias nas quais o animal foi submetido além da castração" />
 
-                <label>Telefone</label>
-                <input name='telefone_projeto' required type="tel" placeholder="(DDD)XXXXX-XXXX" defaultValue={posts.telefone}/>
+            <div>
+                <label>É Castrado?</label>
+                <div>
+                    <label>Sim</label>
+                    <input defaultChecked type='radio' name='castrado' id='true' value={1}/>
 
-                <button type="submit">Atualizar</button>
+                    <label>Não</label>
+                    <input type='radio' name='castrado' id='false' value={0}/>
+                </div>
+            </div>
+
+
+            
+            <div>
+                <label>Condição de Saúde</label>
+                <div>
+                    <label>Doente</label>
+                    <input type='radio' name='saude' value={0}/>
+
+                    <label>Saudavel</label>
+                    <input type='radio' name='saude' value={1}/>
+                </div>
+            </div>
+            
+  
+
+
+            <div>
+                <label>Vacinas:</label>
+                <div>
+                    <label>Raiva</label>
+                    <input type="checkbox" name='raiva'/>
+
+                    <label>V8</label>
+                    <input type="checkbox" name='V8'/>
+
+                    <label>V10</label>
+                    <input type="checkbox" name='V10'/>
+                </div>
+            </div>
+
+            <button type="submit">Atualizar</button>
             </form>  
         </main>
     )

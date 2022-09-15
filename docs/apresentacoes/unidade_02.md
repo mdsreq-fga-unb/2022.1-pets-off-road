@@ -8,6 +8,6 @@
 
 ## Requisitos
 
-[Link para vídeo de apresentação - Requisitos](https://youtu.be/DvD9ubDZ768)
+[Link para vídeo de apresentação da unidade 2 - Requisitos](https://youtu.be/DvD9ubDZ768)
 
 ## MDS

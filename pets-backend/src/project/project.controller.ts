@@ -35,7 +35,7 @@ export class ProjectController {
     return this.projectService.findCpf(+cpf);
   }
 
-  @Get('find/name')
+  @Post('find/name')
   findByName(@Body('nome') nome: any) {
     return this.projectService.findByName(nome);
   }

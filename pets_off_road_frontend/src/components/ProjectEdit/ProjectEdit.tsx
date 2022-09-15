@@ -17,10 +17,9 @@ export function ProjectEdit({id}:Props){
             .catch(err=>{console.log('Deu ruim')})
     }, [{id}])
 
-    const navigate = useNavigate();
     const handleSubmitProject = async (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault()
         const data = new FormData(e.currentTarget);
-
         const cadastroProjeto = {
             cpf: localStorage.getItem('cpf'),
             nome: data.get('nome_projeto'),
@@ -33,7 +32,7 @@ export function ProjectEdit({id}:Props){
         
         try {
             await axios.patch(`http://159.223.189.251:3030/project/${localStorage.getItem('currentProjectId')}`, cadastroProjeto)
-            return
+            alert('Projeto Atualizado Com Sucesso!')
         } catch (error) {
             alert('dados invalidos')
         }

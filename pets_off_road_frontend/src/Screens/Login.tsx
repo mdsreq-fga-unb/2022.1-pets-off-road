@@ -10,7 +10,6 @@ import Thor from '../assets/thor.svg'
 import { useNavigate } from 'react-router-dom'
 
 import styles from './Login.module.css'
-import { Barcode } from 'phosphor-react'
 
 export function Login(){
 
