@@ -19,6 +19,7 @@
 | 13/08/2022 |  1.6   |                            Correções no documento                            |                   Pedro Helias                   |
 | 08/09/2022 |  1.7   |                          Alteração no planejamento                           |              Pedro Helias e Gabriel              |
 | 14/09/2022 |  1.8   |                          Correções e últimas adições                           |              Pedro Helias e Gabriel              |
+| 14/09/2022 |  1.9   |                          Lições aprendidas MDS                          |              Jose, Matheus, Renan e Shaíne              |
 
 
 
@@ -308,6 +309,8 @@ Ocorrência de Ajuste de metodologia ágil. Todos os membros do time entendem a 
 
 ### 5.4. Unidade 4
 #### 5.4.1. MDS 
+
+Os conceitos e estratégias de testes, aperfeiçoamento de soft skills e gerenciamento de tempo.
 #### 5.4.2. Requisitos
 
 O Aprendizado de Casos de Uso foi bastante proveitoso, visto a maior projeção das atividades do usuário internamente no projeto. O modelo diagramado trás uma maior noção de relaciomentos e interações. Com isso, foi possível identificar mais fatores em comum do projeto com outras atividades propostas no semestre. 
