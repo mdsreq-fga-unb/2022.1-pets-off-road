@@ -1,6 +1,4 @@
-import { Link } from 'react-router-dom'
 import styles from './PetsEdit.module.css'
-import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 
@@ -26,17 +24,15 @@ export function PetsEdit({matricula}:Props){
         const cirurgias = data.get('cirurgia') === ''? null: data.get('cirurgia');
 
         const atualizarAnimal = {
-            animal: {            
-                cpf_dono: cpf_dono,
-                project_id: id,
-                nome: data.get('nome_pet'),
-                especie: data.get('especie'),
-                raca: raca,
-                idade: data.get('idade'),
-                cirurgias: cirurgias,
-                castrado: e.currentTarget.castrado.value,
-                condicao_saude: e.currentTarget.saude.value
-            }
+            cpf_dono: cpf_dono,
+            project_id: id,
+            nome: data.get('nome_pet'),
+            especie: data.get('especie'),
+            raca: raca,
+            idade: data.get('idade'),
+            cirurgias: cirurgias,
+            castrado: e.currentTarget.castrado.value,
+            condicao_saude: e.currentTarget.saude.value
         }
         
         try {
@@ -91,7 +87,7 @@ export function PetsEdit({matricula}:Props){
                     <input type='radio' name='saude' value={0}/>
 
                     <label>Saudavel</label>
-                    <input type='radio' name='saude' value={1}/>
+                    <input defaultChecked type='radio' name='saude' value={1}/>
                 </div>
             </div>
             

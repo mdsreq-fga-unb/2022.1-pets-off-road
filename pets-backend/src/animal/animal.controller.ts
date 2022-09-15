@@ -4,6 +4,7 @@ import {
   Post,
   Body,
   Param,
+  Patch,
 } from '@nestjs/common';
 import { AnimalService } from './animal.service';
 import { CreateAnimalDto } from './dto/create-animal.dto';
@@ -31,4 +32,9 @@ export class AnimalController {
   findByProjectId(@Param('id') id: number) {
     return this.animalService.findByProject(id);
   }
+  @Patch(':id')
+  update(@Param('id') id: number, @Body() animal: any) {
+    return this.animalService.updateAnimal(animal, id)
+  }
+
 }

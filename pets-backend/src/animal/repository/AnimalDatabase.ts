@@ -18,4 +18,8 @@ export class AnimalDatabase {
     return (await connection.select().table('animal').where({matricula: id}))[0]
   }
 
+  public async update(animal: any, matricula: number){
+    return await connection.table('animal').update({...animal}).where({matricula:matricula})
+  }
+
 }

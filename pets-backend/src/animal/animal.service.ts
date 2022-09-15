@@ -29,4 +29,8 @@ export class AnimalService {
   async findByProject(projectId: number){
     return await this.AnimalRepository.listByProject(projectId);
   }
+
+  async updateAnimal(animal: any, matricula: number){
+    return await this.AnimalRepository.update(animal, matricula);
+  }
 }
