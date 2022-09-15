@@ -56,4 +56,10 @@ export class ProjectDatabase {
       .table(this.table_name)
       .where({id: id})
   }
+
+  public async createUserProject(userProject: any){
+    return await connection
+      .insert(userProject)
+      .table('user_project')
+  }
 }

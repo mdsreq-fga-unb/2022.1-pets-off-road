@@ -20,6 +20,11 @@ export class ProjectController {
     return this.projectService.create(createProjectDto);
   }
 
+  @Post('user')
+  createUserProject(@Body() userProject: any) {
+    return this.projectService.createUserProject(userProject);
+  }
+
   @Get()
   findAll() {
     return this.projectService.findAll();

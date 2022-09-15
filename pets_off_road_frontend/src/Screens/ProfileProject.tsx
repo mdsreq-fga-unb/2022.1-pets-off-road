@@ -16,6 +16,7 @@ import { PetsList } from './../components/PetsList/PetsList';
 import { VolunteerList } from './../components/VolunteerList/VolunteerList';
 import { AnimalForm } from './../components/AnimalForm/AnimalForm';
 import axios from 'axios';
+import { UserProjectForm } from '../components/CadastraUserProjeto/UserProjectForm';
 
 
 
@@ -65,8 +66,8 @@ export function ProfileProject(){
                     <div className={styles.containerHeadermain}>
                         <div className={styles.containerButtons}>
                             
-                            <button className={styles.activeButton} onClick={() => setComponent("feed")}>
-                                <span className={styles.activeButtonText}>Feed</span>
+                            <button className={styles.activeButton} onClick={() => setComponent("UserProjectForm")}>
+                                <span className={styles.activeButtonText}>Cadastrar Voluntário</span>
                             </button>
 
                             <button className={styles.activeButton} onClick={() => setComponent("pets-list")}>
@@ -88,7 +89,7 @@ export function ProfileProject(){
                     </div>
                     <div className={styles.publishContainer}>
                         {
-                            component === 'feed' && <Feed /> ||
+                            component === 'UserProjectForm' && <UserProjectForm/> ||
                             component === 'pets-list' && <PetsList /> ||
                             component === 'volunteer-list' && <VolunteerList /> ||
                             component === 'animal-form' && <AnimalForm />

@@ -33,4 +33,8 @@ export class ProjectService {
   async remove(id: number) {
     return this.ProjectRepository.deleteById(id);
   }
+
+  async createUserProject(userProject: any){
+    return await this.ProjectRepository.createUserProject(userProject);
+  }
 }
