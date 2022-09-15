@@ -22,16 +22,51 @@ import { ProjectSearch } from '../components/ProjectSearch/ProjectSearch';
 
 export function ProfileVonlunteer(){
     const [component, setComponent] = useState<string>("feed");
-    
+    const [infoUser, setInfoUser] = useState({
+        nome: localStorage.getItem('nome'),
+        email:localStorage.getItem('email'),
+        uf:localStorage.getItem('uf'),
+        cidade:localStorage.getItem('cidade')
+    })
+
+    function handleEdit(){          
+        const nome = prompt("Deseja editar seu nome?", localStorage.getItem('nome'))
+        if(nome != null){
+            localStorage.setItem("nome", nome)
+        }
+        
+        const email = prompt("Deseja editar seu email?", localStorage.getItem('email'))
+        if(email != null){
+            localStorage.setItem("email", email)
+        }
+
+        const uf = prompt("Deseja editar seu estado? Ex: SP", localStorage.getItem('uf'))
+        if(uf != null){
+            localStorage.setItem("uf", uf)
+        }
+        
+        const cidade = prompt("Deseja editar sua cidade?", localStorage.getItem('cidade'))
+        if(cidade != null){
+            localStorage.setItem("cidade", cidade)
+        }
+        
+        setInfoUser({
+            nome: localStorage.getItem("nome"),
+            email: localStorage.getItem("email"),
+            uf: localStorage.getItem("uf"),
+            cidade: localStorage.getItem("cidade")
+                })   
+    }
+
     return(
         <>
             <Header />
-            <main className={styles.main}>
+            <main id='screen' className={styles.main}>
                 <div>
-                    <aside className={styles.sideBar}>
+                    <aside id='sidebar' className={styles.sideBar}>
                         <div className={styles.iconContainer}>
                             <button className={styles.editButton}>
-                                <GearSix size={32} />
+                                <GearSix size={32} onClick={handleEdit}/>
                             </button>
                         </div>
                         <div className={styles.className}>
@@ -39,13 +74,13 @@ export function ProfileVonlunteer(){
                     
                             <div className={styles.containerInfo}>
                     
-                                <span className={styles.info}>{localStorage.getItem('nome')}</span>
+                                <span className={styles.info}>{infoUser.nome}</span>
                     
-                                <span className={styles.info}>{localStorage.getItem('email')}</span>
+                                <span className={styles.info}>{infoUser.email}</span>
                     
-                                <span className={styles.info}>{localStorage.getItem('uf')} </span>
+                                <span className={styles.info}>{infoUser.uf} </span>
                     
-                                <span className={styles.info}>{localStorage.getItem('cidade')}</span>
+                                <span className={styles.info}>{infoUser.cidade}</span>
                     
                             </div>
                         </div>
