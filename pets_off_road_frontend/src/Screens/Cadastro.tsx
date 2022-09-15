@@ -12,7 +12,6 @@ import {ArrowCircleLeft, HouseLine, Users} from 'phosphor-react'
 import axios from 'axios';
 
 export function Cadastro(){
-    const [profileType, setProfileType] = useState<string | null>(null);
 
     const navigate = useNavigate()
 
@@ -74,54 +73,8 @@ export function Cadastro(){
                     <p>Cadastra-se na nossa plataforma</p>
                 </div>
 
-                {profileType === null && 
-
-                <div className={styles.chooseProfile} >
-                    <button className={styles.profileProject} onClick={() => setProfileType('projeto')}><HouseLine size={28}/> Sou Projeto</button>
-
-                    <button className={styles.profileVolunteer} onClick={() => setProfileType('voluntario')}>
-                        <div>
-                            <Users size={28}/> Voluntário 
-                        </div>
-                        <span>Caso não possua cadastro na plataforma</span>
-                    </button>
-                </div>
+                <form onSubmit={handleSubmit} className={styles.formCadastro}>
                 
-                ||
-                
-                profileType === "projeto" && <form onSubmit={handleSubmitProject} className={styles.formCadastro}>
-                
-                <ArrowCircleLeft onClick={() => setProfileType(null)}/>
-
-                    <label>Nome do Projeto</label>
-                    <input name='nome_projeto' required type="text" placeholder="Ex: Nome-do-Projeto"/>
-
-                    <label>Endereço de email</label>
-                    <input name='email_projeto' required type="email" placeholder="@mail.com.br"/>
-
-                    <label>UF</label>
-                    <input name='uf_projeto' required type="text" placeholder="Ex: DF"/>
-
-                    <label>Cidade</label>
-                    <input name='cidade_projeto' required type="text" placeholder="Ex: Brasília"/>
-
-                    <label>CPF/CNPJ</label>
-                    <input name='cpf_projeto' required type="text" placeholder="Somente-Digitos"/>
-
-                    <label>Telefone</label>
-                    <input name='telefone_projeto' required type="tel" placeholder="(DDD)XXXXX-XXXX"/>
-
-                    <label>Senha</label>
-                    <input name='senha_projeto' required type="password" placeholder="Mínimo 8 caracteres" />
-
-                    <button type="submit">Cadastrar</button>
-                </form>  
-                
-                || 
-                
-                profileType === "voluntario" && <form onSubmit={handleSubmit} className={styles.formCadastro}>
-                
-                <ArrowCircleLeft onClick={() => setProfileType(null)}/>
 
                 <label>Nome</label>
                 <input name='nome' required type="text" placeholder="Ex: João Da Silva"/>
@@ -139,17 +92,17 @@ export function Cadastro(){
                 <input name='endereco' required type="text" placeholder="Ex: Quadra 2"/>
 
                 <label>CPF</label>
-                <input name='cpf' required type="text" placeholder="XXX.XXX.XXX-XX"/>
+                <input name='cpf' required type="text" placeholder="XXX.XXX.XXX-XX" maxLength={11}/>
 
                 <label>Telefone</label>
-                <input name='telefone' required type="tel" placeholder="(DDD) XXXXX-XXXX"/>
+                <input name='telefone' required type="tel" placeholder="(DDD) XXXXX-XXXX" maxLength={11}/>
 
                 <label>Senha</label>
-                <input name='senha' required type="password" placeholder="Mínimo 8 caracteres" />
+                <input name='senha' required type="password" placeholder="Máximo 8 caracteres" maxLength={8}/>
 
                 <button type="submit">Cadastrar</button>
             </form>
-            }
+            
             </div>
         </div>
     )
