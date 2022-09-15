@@ -18,6 +18,7 @@
 | 10/08/2022 |  1.5   |                    Alteração processo de desenvolvimento                     |                   Pedro Helias                   |
 | 13/08/2022 |  1.6   |                            Correções no documento                            |                   Pedro Helias                   |
 | 08/09/2022 |  1.7   |                          Alteração no planejamento                           |              Pedro Helias e Gabriel              |
+| 14/09/2022 |  1.8   |                          Correções e últimas adições                           |              Pedro Helias e Gabriel              |
 
 
 
@@ -99,7 +100,7 @@ Os desenvolvedores da Pets Off Road decidiram usar algumas tecnologias que já e
 | Sprint 10 |                               US25, US18, US07, Débitos Front End - MVP1, Atividade ExtraClasse(REQ e MDS)                               | 21/08/2022  | 27/08/2022 |
 | Sprint 11 |                                  US25, US18, US07, Débitos Front End - MVP1 + Testes de funcionalidades                                  | 28/08/2022  | 03/09/2022 |
 | Sprint 12 |   US14, US04, Revisar Documentação - MDS e REQ, Especificação de casos de usuário e Revisão da Diagramação dos casos de usuário   | 04/09/2022  | 10/09/2022 |
-| Sprint 13 |                                                               MVP2                                                                | 11/09/2022  | 17/09/2022 |
+| Sprint 13 |                                                               Integração de FrontEnd com BackEnd, Correção de documentação, Deploy em plataforma virtual.                                                                | 11/09/2022  | 17/09/2022 |
 
 
 
@@ -308,8 +309,14 @@ Ocorrência de Ajuste de metodologia ágil. Todos os membros do time entendem a 
 ### 5.4. Unidade 4
 #### 5.4.1. MDS 
 #### 5.4.2. Requisitos
+
+O Aprendizado de Casos de Uso foi bastante proveitoso, visto a maior projeção das atividades do usuário internamente no projeto. O modelo diagramado trás uma maior noção de relaciomentos e interações. Com isso, foi possível identificar mais fatores em comum do projeto com outras atividades propostas no semestre. 
+Por fim, apesar de não ocorrer tantas aulas teóricas sobre o assunto, tão quanto as unidades passadas, houve bastante entendimento sobre os Casos de Uso a partir das correções das atividades propostas. 
 #### 5.4.3. MDS-Requisitos
 
+Ao fim da Unidade 4, a equipe como um todo enxerga um bom trabalho fruto de esforço e dedicação individual, ou em grupo, apesar de muitas adversidades durante o semestre. Há de se relatar que não ocorreram situações conflituosas, problemas de convívio, entre outros. Alguns membros ausentes justificaram o período de inatividade. Talvez o único problema foi a delegação das atividades neste período de ausência de alguns membros, da forma como foi feita não foi mitigado o esforço, gerando assim sobrecarga. 
+Há de se relatar também a maturidade, ainda não completa, por parte de alguns membros, relacionado ao impacto e importância do projeto, em participar ou colaborar com as atividades. 
+Por fim, o salfo final foi positivo, e a experiência bastante válida. 
 ##  6. Referências Bibliográficas
 
 1. Sommerville, I., Engenharia de software. 9th ed., Pearson Addison Wesley, 2011

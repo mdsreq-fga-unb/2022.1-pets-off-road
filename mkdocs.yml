@@ -24,7 +24,7 @@ nav:
       - Protótipo: interface.md
       - Casos de Uso:
               - Diagrama de Casos de Uso: diagramaCasosdeUso.md
-              - Especificação de Casos de Uso: atividadeExtra.md
+              - Especificação de Casos de Uso: especificacoes.md
       - Sprints:
               # - Sprint 1:
               # - Sprint 2:
@@ -59,8 +59,10 @@ nav:
                       - Planning: sprints/sprint12/planning/planning.md
                       - Review: sprints/sprint12/review/review.md
                       - Retrospective: sprints/sprint12/retrospective/retrospective.md
-              # - Sprint 13:
-
+              - Sprint 13:
+                      - Planning: sprints/sprint13/planning/planning.md       
+                      - Review: sprints/sprint13/review/review.md
+                      - Retrospective: sprints/sprint13/retrospective/retrospective.md
 theme:
       name: material
 
