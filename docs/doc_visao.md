@@ -17,6 +17,7 @@
 | 01/08/2022 |  1.4   |      Atualização do processo de desenvolvimento e planejamento de fases      | Gabriel Marcolino, Pedro Helias, Matheus, Shaíne |
 | 10/08/2022 |  1.5   |                    Alteração processo de desenvolvimento                     |                   Pedro Helias                   |
 | 13/08/2022 |  1.6   |                            Correções no documento                            |                   Pedro Helias                   |
+| 14/09/2022 |  1.7   |                            Lições aprendidas de MDS                            |                   José, Matheus, Renan e Shaíne                   |
 
 
 
@@ -306,6 +307,7 @@ Ocorrência de Ajuste de metodologia ágil. Todos os membros do time entendem a 
 
 ### 5.4. Unidade 4
 #### 5.4.1. MDS 
+Os conceitos e estratégias de testes, aperfeiçoamento de soft skills e gerenciamento de tempo.
 #### 5.4.2. Requisitos
 #### 5.4.3. MDS-Requisitos
 
