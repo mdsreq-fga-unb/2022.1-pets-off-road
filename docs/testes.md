@@ -2,6 +2,8 @@
 |--------|-----------|---------------|---------|
 | 25/08/2022 | 0.1 | Criação do documento de testes | Shaíne, José|
 | 12/09/2022 | 0.2 | Correção das estratégias de testes | Shaíne, José|
+| 14/09/2022 | 0.3 | Exemplos de testes | Shaíne, José|
+
 
 
 Estratégias de teste - PetsOffRoad
@@ -38,3 +40,14 @@ Estratégias de teste - PetsOffRoad
 - **Tipo** : Usabilidade.
 - **Nível** : Funcional (Critérios de aceitação das histórias de usuário).
 - **Técnica** : Manual (Caixa Preta).
+
+
+**Alguns exemplos de testes**
+
+<img width="460" height="300" src="https://github.com/mdsreq-fga-unb/2022.1-pets-off-road/blob/documentacao/docs/imagens/Animal_controller.png?raw=true">
+
+
+<img width="460" height="300" src="https://github.com/mdsreq-fga-unb/2022.1-pets-off-road/blob/documentacao/docs/imagens/Animal.vacine_controller.jpeg?raw=true">
+
+
+<img width="460" height="300" src="https://github.com/mdsreq-fga-unb/2022.1-pets-off-road/blob/documentacao/docs/imagens/Vacine_controller.jpeg?raw=true">
