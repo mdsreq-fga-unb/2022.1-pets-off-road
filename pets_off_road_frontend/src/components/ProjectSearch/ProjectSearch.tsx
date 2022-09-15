@@ -13,10 +13,10 @@ export function ProjectSearch(){
         e.preventDefault()
         const nome: any = {nome: e.currentTarget.buscarProjeto.value}
         console.log(nome)
-        await axios.get(`http://159.223.189.251:3030/project/find/name`, nome)
+        await axios.post(`http://159.223.189.251:3030/project/find/name`, nome)
                 .then(data=>{setPosts(data.data)})
                 .catch(err=>{console.log('Deu ruim')})
-        //setComponent('search')
+        setComponent('search')
     }
 
     return (
