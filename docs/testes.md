@@ -37,8 +37,8 @@ Estratégias de teste - PetsOffRoad
 
 **Cliente**
 - **Tipo** : Usabilidade.
-- **Nível** : Funcional (Critérios de aceitação das histórias de usuário).
-- **Técnica** : Manual (Caixa Preta).
+- **Nível** : Aceitação. (Critérios de aceitação das histórias de usuário).
+- **Técnica** : Manual. (Caixa Preta).
 
 
 **Alguns exemplos de testes automatizados**
