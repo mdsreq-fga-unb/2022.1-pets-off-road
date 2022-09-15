@@ -10,6 +10,7 @@
 | 07/09/2022 |  0.3   | Alteração e Correçaõ dos Casos de uso | Gabriel Marcolino e Pedro Helias |
 | 13/09/2022 |  0.4   | Adicionando mais casos de uso | Jefferson França |
 | 14/09/2022 |  0.5   | Correções finais nos casos de uso | Pedro Helias e Gabriel |
+| 15/09/2022 |  0.6   | Adicionando mais casos de uso | Rhuan Marques |
 
 Neste documento serão apresentadas especificações singulares sobre os casos de uso levantados pelo time.
 
@@ -152,5 +153,47 @@ RN01 - É necessário preencher os campos com os dados corretamente para poder c
 O sistema retornará para a página do projeto, assim que um animal for cadastrado.
 
 ### 3.8. Ponto de Extensão
+
+O caso de uso se aplica apenas ao Dono do projeto, que herda diretamente de Tutor.
+
+## 4. CRUD Projeto - **Rhuan Marques**
+
+### 4.1. Breve Descrcição
+
+Se trata de um conjunto de 4 funcionalidades respectivas a interação entre as informações do projeto (Criar, Deletar, Ler e Editar).
+### 4.2. Atores 
+
+#### 4.2.1. Dono do projeto
+
+A quem se destina boa parte das funcionalidades de gestão dentro do sistema. Possui acesso quase irrestrito as funcionalidades do sistema
+
+### 4.3. Condições Prévias
+
+O usuário tenha realizado acesso na plataforma e selecionado as opção de criação do animal
+
+### 4.4. Fluxo Básico de Eventos
+
+- 7.4.1. Este caso se inicia quando o usuário acessa a plataforma
+- 7.4.2. O usuário insere o login e senha.
+- 7.4.3. Em seguida, o usuário busca a opção de cadastrar um novo projeto
+- 7.4.4. Preenchendo todos os campos obrigatórios corretamente (nome do prjeto, endereço, cpf, telefone), o cadastro será realizado.
+
+### 4.5. Fluxo Exceção
+
+FE01 - O usuário não obtém acesso a esse ponto do sistema caso não tenha passado pela autenticação de acesso a plataforma.
+
+FE02 - O usuário não obtem acesso a esse ponto do sistema caso o usuário não seja dono do projeto.
+
+FE03 - O usuário pode sair do site a qualquer momento, encerrando o caso de uso.
+
+### 4.6. Regras de Negócio
+
+RN01 - É necessário preencher os campos com os dados corretamente para poder cadastrar um novo animal (nome do prjeto, endereço, cpf, telefone).
+
+### 4.7. Pós condição
+
+O sistema retornará para a página de lesta de projetos.
+
+### 4.8. Ponto de Extensão
 
 O caso de uso se aplica apenas ao Dono do projeto, que herda diretamente de Tutor. 
