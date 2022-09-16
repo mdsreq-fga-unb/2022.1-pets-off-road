@@ -92,10 +92,10 @@ export function Cadastro(){
                 <input name='endereco' required type="text" placeholder="Ex: Quadra 2"/>
 
                 <label>CPF</label>
-                <input name='cpf' required type="text" placeholder="XXX.XXX.XXX-XX" maxLength={11}/>
+                <input name='cpf' required type="text" placeholder="Somente Números" maxLength={11}/>
 
                 <label>Telefone</label>
-                <input name='telefone' required type="tel" placeholder="(DDD) XXXXX-XXXX" maxLength={11}/>
+                <input name='telefone' required type="tel" placeholder="Somente Números" maxLength={11}/>
 
                 <label>Senha</label>
                 <input name='senha' required type="password" placeholder="Máximo 8 caracteres" maxLength={8}/>
